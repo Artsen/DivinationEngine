@@ -37,6 +37,122 @@ def test_draw_too_many_returns_validation_error(
     assert "cannot exceed" in response.json()["detail"]
 
 
+def test_fresh_and_continued_deck_sessions(
+    client: TestClient, collection: dict, reading: dict
+) -> None:
+    path = f"/api/v1/readings/{reading['id']}/casts/draw"
+    first = client.post(path, json={"collection_id": collection["id"], "count": 1}).json()
+    independent = client.post(path, json={"collection_id": collection["id"], "count": 1}).json()
+    assert first["deck_session_id"] != independent["deck_session_id"]
+    assert first["draw_results"][0]["item"]["id"] == independent["draw_results"][0]["item"]["id"]
+
+    continued = client.post(
+        path,
+        json={
+            "collection_id": collection["id"],
+            "count": 2,
+            "deck_session_id": first["deck_session_id"],
+        },
+    )
+    assert continued.status_code == 201
+    continued_data = continued.json()
+    session_items = {
+        first["draw_results"][0]["item"]["id"],
+        *(row["item"]["id"] for row in continued_data["draw_results"]),
+    }
+    assert len(session_items) == 3
+    assert continued_data["deck_session_id"] == first["deck_session_id"]
+    assert continued_data["configuration"]["deck_session_mode"] == "continue"
+
+    exhausted = client.post(
+        path,
+        json={
+            "collection_id": collection["id"],
+            "count": 1,
+            "deck_session_id": first["deck_session_id"],
+        },
+    )
+    assert exhausted.status_code == 422
+    reloaded = client.get(f"/api/v1/readings/{reading['id']}").json()
+    assert [cast["deck_session_id"] for cast in reloaded["casts"][:3]] == [
+        first["deck_session_id"],
+        independent["deck_session_id"],
+        first["deck_session_id"],
+    ]
+
+
+def test_deck_session_rejects_wrong_reading_and_collection(
+    client: TestClient, collection: dict, reading: dict
+) -> None:
+    first = client.post(
+        f"/api/v1/readings/{reading['id']}/casts/draw",
+        json={"collection_id": collection["id"], "count": 1},
+    ).json()
+    other_reading = client.post("/api/v1/readings", json={"title": "Other"}).json()
+    wrong_reading = client.post(
+        f"/api/v1/readings/{other_reading['id']}/casts/draw",
+        json={
+            "collection_id": collection["id"],
+            "count": 1,
+            "deck_session_id": first["deck_session_id"],
+        },
+    )
+    assert wrong_reading.status_code == 422
+    assert "different reading" in wrong_reading.json()["detail"]
+
+    other_collection = client.post(
+        "/api/v1/collections",
+        json={"slug": "other-deck", "name": "Other", "system_type": "playing-cards"},
+    ).json()
+    client.post(
+        f"/api/v1/collections/{other_collection['id']}/items",
+        json={"slug": "joker", "name": "Joker"},
+    )
+    wrong_collection = client.post(
+        f"/api/v1/readings/{reading['id']}/casts/draw",
+        json={
+            "collection_id": other_collection["id"],
+            "count": 1,
+            "deck_session_id": first["deck_session_id"],
+        },
+    )
+    assert wrong_collection.status_code == 422
+    assert "different collection" in wrong_collection.json()["detail"]
+
+
+def test_open_taxonomies_accept_slug_like_future_values(client: TestClient, reading: dict) -> None:
+    collection = client.post(
+        "/api/v1/collections",
+        json={"slug": "future", "name": "Future", "system_type": "playing-cards"},
+    )
+    assert collection.status_code == 201
+    item = client.post(
+        f"/api/v1/collections/{collection.json()['id']}/items",
+        json={"slug": "marker", "name": "Marker"},
+    ).json()
+    source = client.post(
+        "/api/v1/sources", json={"key": "future-source", "title": "Future Source"}
+    ).json()
+    interpretation = client.post(
+        "/api/v1/interpretations",
+        json={
+            "key": "future-historical-note",
+            "item_id": item["id"],
+            "source_id": source["id"],
+            "interpretation_type": "historical-note",
+            "exact_text": "Fictional fixture only.",
+        },
+    )
+    assert interpretation.status_code == 201
+    assert (
+        client.post(
+            "/api/v1/collections",
+            json={"slug": "invalid", "name": "Invalid", "system_type": "Not Valid"},
+        ).status_code
+        == 422
+    )
+
+
 def test_collection_without_reversals_is_never_reversed(client: TestClient, reading: dict) -> None:
     collection = client.post(
         "/api/v1/collections",

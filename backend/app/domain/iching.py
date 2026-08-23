@@ -28,8 +28,18 @@ def cast_iching(randomness: RandomSource) -> IChingResult:
 
 
 def derive_iching(throws: tuple[CoinThrow, ...]) -> IChingResult:
-    if len(throws) != 6 or any(t.value not in {6, 7, 8, 9} for t in throws):
-        raise ValueError("an I Ching cast requires six valid line values")
+    if len(throws) != 6:
+        raise ValueError("an I Ching cast requires exactly six throws")
+    if [throw.line_number for throw in throws] != list(range(1, 7)):
+        raise ValueError("I Ching lines must be ordered bottom-to-top from 1 through 6")
+    if any(
+        len(throw.coins) != 3
+        or any(coin not in {2, 3} for coin in throw.coins)
+        or throw.value != sum(throw.coins)
+        or throw.value not in {6, 7, 8, 9}
+        for throw in throws
+    ):
+        raise ValueError("each throw requires three valid coins and their summed line value")
     # Pattern strings are bottom-line first, matching persisted line ordering.
     primary = "".join("1" if t.value in {7, 9} else "0" for t in throws)
     relating = "".join("1" if t.value in {6, 7} else "0" for t in throws)

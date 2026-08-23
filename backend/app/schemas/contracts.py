@@ -12,7 +12,7 @@ class CollectionCreate(BaseModel):
     slug: str = Field(min_length=1, max_length=120, pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
     name: str = Field(min_length=1, max_length=200)
     description: str | None = None
-    system_type: Literal["tarot", "oracle", "runes"]
+    system_type: str = Field(min_length=1, max_length=32, pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
     supports_reversals: bool = False
     metadata: dict[str, Any] = Field(default_factory=dict)
 
@@ -48,6 +48,7 @@ class ItemOut(ItemCreate):
 
 
 class SourceCreate(BaseModel):
+    key: str = Field(min_length=1, max_length=160, pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
     title: str = Field(min_length=1, max_length=300)
     author: str | None = None
     edition: str | None = None
@@ -78,16 +79,17 @@ class TraditionOut(TraditionCreate):
     updated_at: datetime
 
 
-InterpretationType = Literal[
-    "upright", "reversed", "divinatory", "symbolism", "description", "commentary"
-]
+InterpretationType = str
 
 
 class InterpretationCreate(BaseModel):
+    key: str = Field(min_length=1, max_length=200, pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
     item_id: str
     source_id: str
     tradition_id: str | None = None
-    interpretation_type: InterpretationType
+    interpretation_type: str = Field(
+        min_length=1, max_length=40, pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    )
     exact_text: str = Field(min_length=1)
     locator: str | None = None
     sequence: int | None = None
@@ -106,6 +108,7 @@ CorrespondenceStatus = Literal[
 
 
 class CorrespondenceCreate(BaseModel):
+    key: str = Field(min_length=1, max_length=200, pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
     item_id: str
     type: str = Field(min_length=1)
     value: str | None = None
@@ -192,6 +195,7 @@ class DrawRequest(BaseModel):
     collection_id: str
     count: int = Field(ge=1)
     reversals_enabled: bool = False
+    deck_session_id: str | None = None
 
 
 class PlacementCreate(BaseModel):
@@ -204,10 +208,10 @@ class PlacementCreate(BaseModel):
 
     @model_validator(mode="after")
     def has_location(self) -> "PlacementCreate":
+        if (self.spread_id is None) != (self.spread_position_id is None):
+            raise ValueError("spread_id and spread_position_id must be provided together")
         if self.spread_position_id is None and (self.x is None or self.y is None):
             raise ValueError("provide a spread position or both custom x and y")
-        if self.spread_position_id is not None and self.spread_id is None:
-            raise ValueError("spread_id is required with spread_position_id")
         return self
 
 
