@@ -47,11 +47,22 @@ test('I Ching casts display six persisted lines and both backend methods', async
 
 test('reading history remains usable at a mobile viewport', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
-  await page.goto('/readings')
+  await createReading(page, 'Mobile reading')
+  await page.getByRole('link', { name: 'All readings' }).click()
   await expect(page.getByRole('link', { name: 'New reading' }).first()).toBeVisible()
   await expect(page.locator('.reading-card').first()).toBeVisible()
-  const hasHorizontalOverflow = await page.evaluate(
-    () => document.documentElement.scrollWidth > document.documentElement.clientWidth,
-  )
-  expect(hasHorizontalOverflow).toBe(false)
+  const overflow = await page.evaluate(() => ({
+    documentWidth: document.documentElement.scrollWidth,
+    viewportWidth: document.documentElement.clientWidth,
+    elements: Array.from(document.querySelectorAll('body *'))
+      .filter((element) => element.getBoundingClientRect().right > document.documentElement.clientWidth + 1)
+      .slice(0, 8)
+      .map((element) => ({
+        tag: element.tagName,
+        className: element.className,
+        right: element.getBoundingClientRect().right,
+        text: element.textContent?.slice(0, 80),
+      })),
+  }))
+  expect(overflow, JSON.stringify(overflow)).toEqual({ documentWidth: 390, viewportWidth: 390, elements: [] })
 })

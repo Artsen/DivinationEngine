@@ -162,7 +162,7 @@ summary { cursor: pointer; color: #ddd5ca; font-weight: 500; }
 
 @media (max-width: 680px) {
   .site-header { height: auto; padding-block: .75rem; }
-  .brand small, .site-header nav > a:first-child { display: none; }
+  .brand > span:last-child, .site-header nav > a:first-of-type, .system-ready { display: none; }
   .page { padding-top: 2rem; }
   .hero, .reading-header { grid-template-columns: 1fr; display: grid; align-items: start; }
   .reading-grid, .workspace-sidebar { grid-template-columns: 1fr; }
