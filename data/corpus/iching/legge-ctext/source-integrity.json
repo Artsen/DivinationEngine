@@ -1,0 +1,3984 @@
+{
+  "exact_text_semantics": "Source-faithful textual content with extraction-platform links, HTML, images, anchors, and Markdown removed; whitespace and typography may be normalized, so this is not a byte-for-byte diplomatic transcription.",
+  "legge_gua_ci_boundary_audit": [
+    {
+      "hexagram": "hexagram-01",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 1; scan-backed transcription p. 57, hexagram statement",
+      "sha256": "0d3cf5d6e5dd228963615ec4717c08fceb275925d0756a51c9b2bd8c90ca5445",
+      "characters": 94
+    },
+    {
+      "hexagram": "hexagram-02",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 2; scan-backed transcription p. 59, hexagram statement",
+      "sha256": "de315ee84c76618fbc5c5f0a313f157ad08304ba652b69ac7379d3a5d61edb80",
+      "characters": 457
+    },
+    {
+      "hexagram": "hexagram-03",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 3; scan-backed transcription p. 62, hexagram statement",
+      "sha256": "6859440584e8d089d01334f6cc4c814274301aadcd7321954cfb1272af12642a",
+      "characters": 272
+    },
+    {
+      "hexagram": "hexagram-04",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 4; scan-backed transcription p. 64, hexagram statement",
+      "sha256": "c3020d028ccd2346979fe5522ca0ff88c56d01a07a2784bb0fb0bbea25f34ca2",
+      "characters": 411
+    },
+    {
+      "hexagram": "hexagram-05",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 5; scan-backed transcription p. 67, hexagram statement",
+      "sha256": "ccbe5993a33dbdf89f85a53c79701c5427194ebb5ef498cb0d10cd3c971ffd54",
+      "characters": 193
+    },
+    {
+      "hexagram": "hexagram-06",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 6; scan-backed transcription p. 69, hexagram statement",
+      "sha256": "4e1c8c6aa00455264b882fcc656a506e2c05f7080672a628671c2e73f533fb47",
+      "characters": 372
+    },
+    {
+      "hexagram": "hexagram-07",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 7; scan-backed transcription p. 71, hexagram statement",
+      "sha256": "6c47afedadc821d489ae02570d3e09407449c55a0ffa59a76af1ae0d3940d1f9",
+      "characters": 159
+    },
+    {
+      "hexagram": "hexagram-08",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 8; scan-backed transcription p. 73, hexagram statement",
+      "sha256": "bb59086ee7345dfdc7e19085fafe26b4e10a18bf47f1649ca61747f4fb7ead68",
+      "characters": 368
+    },
+    {
+      "hexagram": "hexagram-09",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 9; scan-backed transcription p. 76, hexagram statement",
+      "sha256": "ece972704a2eb7af69dd4fe1cce1d97918335757e84f4c85caec1d257c05f92c",
+      "characters": 155
+    },
+    {
+      "hexagram": "hexagram-10",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 10; scan-backed transcription p. 78, hexagram statement",
+      "sha256": "4dc10bcae57f7ec9cae2a0b455314cc99d22ed4792857e52079b7d3fe3810f4e",
+      "characters": 121
+    },
+    {
+      "hexagram": "hexagram-11",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 11; scan-backed transcription p. 81, hexagram statement",
+      "sha256": "c5b9ae4b29d67fdb14a7b0cded6858fc34ccda1a0355eb3b854a0f1d38e4aa51",
+      "characters": 127
+    },
+    {
+      "hexagram": "hexagram-12",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 12; scan-backed transcription p. 83, hexagram statement",
+      "sha256": "7ecba0aeb4672d0256d4710e8cda4b9ce47e2c4cad20071254ea97a4b4fa269d",
+      "characters": 222
+    },
+    {
+      "hexagram": "hexagram-13",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 13; scan-backed transcription p. 86, hexagram statement",
+      "sha256": "3e5450c7e01bfa09eaf953f670c7d349ca882af62f3b0f5abf399c575a95e171",
+      "characters": 260
+    },
+    {
+      "hexagram": "hexagram-14",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 14; scan-backed transcription p. 88, hexagram statement",
+      "sha256": "9b4a1f3162e6490f9eba97f5cbe1d24f66900ccbb62f2c943232bfd17ae60f7c",
+      "characters": 107
+    },
+    {
+      "hexagram": "hexagram-15",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 15; scan-backed transcription p. 89, hexagram statement",
+      "sha256": "dcdab12f13d0721b7352d0b45b3718ec419fa9097724d5a189d6c2be9955e190",
+      "characters": 133
+    },
+    {
+      "hexagram": "hexagram-16",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 16; scan-backed transcription p. 91, hexagram statement",
+      "sha256": "9e622bf1058161bcfc1386ff106311b908af24b714a9e7f77e550082bd8bcf7a",
+      "characters": 126
+    },
+    {
+      "hexagram": "hexagram-17",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 17; scan-backed transcription p. 93, hexagram statement",
+      "sha256": "a134cc33d1398da5e97aa6e0f8752320a933bb00d6744fcf33ddabefe4caf272",
+      "characters": 166
+    },
+    {
+      "hexagram": "hexagram-18",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 18; scan-backed transcription p. 95, hexagram statement",
+      "sha256": "6483e7b7c91a069dcc0cfb990d30856eda9df006ae57b47acf2fa2a786e8d644",
+      "characters": 310
+    },
+    {
+      "hexagram": "hexagram-19",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 19; scan-backed transcription p. 97, hexagram statement",
+      "sha256": "2205df6436590df16d97390a4d0100f31e3cf43f410469cedf974cd8a2c59309",
+      "characters": 190
+    },
+    {
+      "hexagram": "hexagram-20",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 20; scan-backed transcription p. 99, hexagram statement",
+      "sha256": "5a4f9f06e85ca4a3d556e5c2be5a6e0008eeca356c810f5e9c67cf1a8e4fd967",
+      "characters": 210
+    },
+    {
+      "hexagram": "hexagram-21",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 21; scan-backed transcription p. 102, hexagram statement",
+      "sha256": "13bfc3e111c424e1050b596977a58c0d6fe7e85e7b3a85a02a303c0ca34cd404",
+      "characters": 135
+    },
+    {
+      "hexagram": "hexagram-22",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 22; scan-backed transcription p. 103, hexagram statement",
+      "sha256": "08c8fdff0bf1b5feb0bfdccc04df47d671f87436373e21df6c7dd1c06309b4b1",
+      "characters": 157
+    },
+    {
+      "hexagram": "hexagram-23",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 23; scan-backed transcription p. 105, hexagram statement",
+      "sha256": "69cc42c4f44e167ceaff654a10ac8e5ad535d93bcfe8c3f2f17ef95795526af5",
+      "characters": 126
+    },
+    {
+      "hexagram": "hexagram-24",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 24; scan-backed transcription p. 107, hexagram statement",
+      "sha256": "094bfc3040c58422b52569d3f46c9010165bf34c1f902f46d537953d90f7f9c4",
+      "characters": 347
+    },
+    {
+      "hexagram": "hexagram-25",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 25; scan-backed transcription p. 109, hexagram statement",
+      "sha256": "d296dc167605e001cad0be2a6726711e7ec70f32c044fea2b841cbf371995949",
+      "characters": 242
+    },
+    {
+      "hexagram": "hexagram-26",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 26; scan-backed transcription p. 112, hexagram statement",
+      "sha256": "d52188498a4000aadca6ddda720595902e96168e6e4f4d243560a9cc52d15144",
+      "characters": 269
+    },
+    {
+      "hexagram": "hexagram-27",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 27; scan-backed transcription p. 114, hexagram statement",
+      "sha256": "87d27aa116f4c6a99dc3e98e696fec490a20582cfece9970f83f170a6d825333",
+      "characters": 206
+    },
+    {
+      "hexagram": "hexagram-28",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 28; scan-backed transcription p. 116, hexagram statement",
+      "sha256": "ee97a0b92f203be4233ee12ae7b802a892c8c4b13a078faf2157971d8d7a26ff",
+      "characters": 149
+    },
+    {
+      "hexagram": "hexagram-29",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 29; scan-backed transcription p. 118, hexagram statement",
+      "sha256": "9dfd02a2b31010bcc48d03608ad4e2d328dd6f0fe2ce64a825f6ecaca937536e",
+      "characters": 150
+    },
+    {
+      "hexagram": "hexagram-30",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 30; scan-backed transcription p. 120, hexagram statement",
+      "sha256": "b41f8c798d2d3e393371cf68e2851816d8d578bdf3453ad2e756897a67d227bc",
+      "characters": 249
+    },
+    {
+      "hexagram": "hexagram-31",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 31; scan-backed transcription p. 123, hexagram statement",
+      "sha256": "774213dccec1c89edd3924131251880bdc0cd282701102557e0b3071cf82041e",
+      "characters": 236
+    },
+    {
+      "hexagram": "hexagram-32",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 32; scan-backed transcription p. 125, hexagram statement",
+      "sha256": "dfe3fa6a6fe7e4dbc05c629ee6910ded02aa3b5086a16dce3998794ddea0728a",
+      "characters": 187
+    },
+    {
+      "hexagram": "hexagram-33",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 33; scan-backed transcription p. 127, hexagram statement",
+      "sha256": "438a1dcc9d448e191910957908842dce317339fe449cf93c4ba0151a2018bf14",
+      "characters": 132
+    },
+    {
+      "hexagram": "hexagram-34",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 34; scan-backed transcription p. 129, hexagram statement",
+      "sha256": "72473f9823becddc148d76b3dd8f65928f42855fdcd1abb042e71cc8a94a89ae",
+      "characters": 114
+    },
+    {
+      "hexagram": "hexagram-35",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 35; scan-backed transcription p. 131, hexagram statement",
+      "sha256": "9825177111e2bb253165375858273e61900ec3bd5fd68977631b6968a5598c51",
+      "characters": 178
+    },
+    {
+      "hexagram": "hexagram-36",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 36; scan-backed transcription p. 134, hexagram statement",
+      "sha256": "209ceab5373719d915bdbfa4cbd6121a9c2bc8c2f029acdcb628a0e30f3d8d9d",
+      "characters": 161
+    },
+    {
+      "hexagram": "hexagram-37",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 37; scan-backed transcription p. 136, hexagram statement",
+      "sha256": "1514de6bc24f1da2a53654a877cab88544595c4038434f1373359b9402999037",
+      "characters": 155
+    },
+    {
+      "hexagram": "hexagram-38",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 38; scan-backed transcription p. 139, hexagram statement",
+      "sha256": "fa18b4ea2023ee7d3e292e0e5cd181c643f7c3b8c1d10e5a801c7d35a7db1a50",
+      "characters": 134
+    },
+    {
+      "hexagram": "hexagram-39",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 39; scan-backed transcription p. 141, hexagram statement",
+      "sha256": "d14be1b46629f29345137b9e2b3b30213a4653e012e015e11e5e70ba507932b5",
+      "characters": 255
+    },
+    {
+      "hexagram": "hexagram-40",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 40; scan-backed transcription p. 144, hexagram statement",
+      "sha256": "8abe0837c55e68308b6005f1e500b11e838d35fb961cc07e9a7bdc12e3fdfda9",
+      "characters": 278
+    },
+    {
+      "hexagram": "hexagram-41",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 41; scan-backed transcription p. 146, hexagram statement",
+      "sha256": "1008bc278718e54c71c5b7c61d1444b4b1cea0dd030a6bd2f16e097cbf1413d0",
+      "characters": 392
+    },
+    {
+      "hexagram": "hexagram-42",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 42; scan-backed transcription p. 149, hexagram statement",
+      "sha256": "ae2974d15337303beb5946b69bee30db24be0cabc210abade4b8d80df4768d48",
+      "characters": 181
+    },
+    {
+      "hexagram": "hexagram-43",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 43; scan-backed transcription p. 151, hexagram statement",
+      "sha256": "ab6e4a74d9afb212a7430c6832d1ec1341799e661f12c552405840831e8eba54",
+      "characters": 440
+    },
+    {
+      "hexagram": "hexagram-44",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 44; scan-backed transcription p. 154, hexagram statement",
+      "sha256": "9c2898d08ebacd23b9ae906631c73d49e6254c69bb3424c2d5a2a16cf53be794",
+      "characters": 88
+    },
+    {
+      "hexagram": "hexagram-45",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 45; scan-backed transcription p. 156, hexagram statement",
+      "sha256": "aaca611aa8f0a770d9f3ac1a652ead2779bbd759a0ec012706ab81eacc632139",
+      "characters": 362
+    },
+    {
+      "hexagram": "hexagram-46",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 46; scan-backed transcription p. 159, hexagram statement",
+      "sha256": "469282e2bbfac10977b891f82f28a0895fd8e8900fb87422a63e039a7ea20b3c",
+      "characters": 228
+    },
+    {
+      "hexagram": "hexagram-47",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 47; scan-backed transcription p. 161, hexagram statement",
+      "sha256": "ad0ef6c10eab394bca3190389da166e66cd9ec8ad6f05cde02e74dba37543f55",
+      "characters": 234
+    },
+    {
+      "hexagram": "hexagram-48",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 48; scan-backed transcription p. 164, hexagram statement",
+      "sha256": "9e5bf3defe9c47136e693b3b84b17785f05edaffe18246489b8dbfec3b79d64d",
+      "characters": 409
+    },
+    {
+      "hexagram": "hexagram-49",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 49; scan-backed transcription p. 167, hexagram statement",
+      "sha256": "223e8712bb751cc7ad6aa2b9daa39bbfd93c901660fa24c0b8eaa9e2076fb845",
+      "characters": 235
+    },
+    {
+      "hexagram": "hexagram-50",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 50; scan-backed transcription p. 169, hexagram statement",
+      "sha256": "35d8674630ce5521ed8cf2571bb2896983c857d53d1e30c85e28b788f44de464",
+      "characters": 56
+    },
+    {
+      "hexagram": "hexagram-51",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 51; scan-backed transcription p. 172, hexagram statement",
+      "sha256": "3222e7e1351c213aceb89906b32c39d94f8ef333e8c36d310397c213418a9230",
+      "characters": 422
+    },
+    {
+      "hexagram": "hexagram-52",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 52; scan-backed transcription p. 175, hexagram statement",
+      "sha256": "d4af4b8d271432d411e8152e585e7dbbc4a7fe6e12e9b12b392c172ef5d90935",
+      "characters": 188
+    },
+    {
+      "hexagram": "hexagram-53",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 53; scan-backed transcription p. 178, hexagram statement",
+      "sha256": "2df34aab304d6c9951543726bc5515aed45229a94c514cc0a3a4a4677e9abd02",
+      "characters": 137
+    },
+    {
+      "hexagram": "hexagram-54",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 54; scan-backed transcription p. 180, hexagram statement",
+      "sha256": "827dc90a35aff62a38fa7ff8b98e41a313231ed94639608ed5dd4f21156316b8",
+      "characters": 113
+    },
+    {
+      "hexagram": "hexagram-55",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 55; scan-backed transcription p. 183, hexagram statement",
+      "sha256": "cc61c02ba5f09a5aff9615c607f0456d6cd0f6791f721564dac102befaa29f18",
+      "characters": 193
+    },
+    {
+      "hexagram": "hexagram-56",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 56; scan-backed transcription p. 187, hexagram statement",
+      "sha256": "5f72371e859ba419b91045c8356d099d004a9c9a8632dec005be7096ae1b3b50",
+      "characters": 199
+    },
+    {
+      "hexagram": "hexagram-57",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 57; scan-backed transcription p. 189, hexagram statement",
+      "sha256": "d4866eabf6e0521f4786206cd37a1df26abb3fb567e29b5b9a639617ddf7dc0c",
+      "characters": 228
+    },
+    {
+      "hexagram": "hexagram-58",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 58; scan-backed transcription p. 192, hexagram statement",
+      "sha256": "9503106c479a704eccf5e47b47197e3469b73dd19f8880e9dcbb9b2cded13146",
+      "characters": 134
+    },
+    {
+      "hexagram": "hexagram-59",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 59; scan-backed transcription p. 194, hexagram statement",
+      "sha256": "9619b2116a4d7443efa6483f483ca6768cb5e97d3da1edebe9305b5655c58bb7",
+      "characters": 220
+    },
+    {
+      "hexagram": "hexagram-60",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 60; scan-backed transcription p. 197, hexagram statement",
+      "sha256": "807e06eab63877c29c6cea8d70871ac013a200b2c3b10ca91b56e8fabd01f071",
+      "characters": 179
+    },
+    {
+      "hexagram": "hexagram-61",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 61; scan-backed transcription p. 199, hexagram statement",
+      "sha256": "3bcbbe19fd031029b03ffc90a169642f293f1acb24180bd8d69b4df5a8f3b7dc",
+      "characters": 167
+    },
+    {
+      "hexagram": "hexagram-62",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 62; scan-backed transcription p. 201, hexagram statement",
+      "sha256": "bd2a1261df11b5852b4f481526671ace0b76ae2fe204b4868e831827285c627d",
+      "characters": 386
+    },
+    {
+      "hexagram": "hexagram-63",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 63; scan-backed transcription p. 204, hexagram statement",
+      "sha256": "f51da08464641a1e9502b6d6b2b9b3db67c0da1408bddfdf42cfec150ae1ed55",
+      "characters": 185
+    },
+    {
+      "hexagram": "hexagram-64",
+      "boundary": "after hexagram heading through immediately before line 1",
+      "locator": "SBE XVI, Hexagram 64; scan-backed transcription p. 207, hexagram statement",
+      "sha256": "829e84ded0055bc9e32e77e5d38205430b027a29af124b7b3f0c643be13f3569",
+      "characters": 205
+    }
+  ],
+  "traditional_name_audit": [
+    {
+      "hexagram": "hexagram-01",
+      "chinese_name": "乾",
+      "witness": "Chinese Wikisource 周易/乾, identity heading 乾"
+    },
+    {
+      "hexagram": "hexagram-02",
+      "chinese_name": "坤",
+      "witness": "Chinese Wikisource 周易/坤, identity heading 坤"
+    },
+    {
+      "hexagram": "hexagram-03",
+      "chinese_name": "屯",
+      "witness": "Chinese Wikisource 周易/屯, identity heading 屯"
+    },
+    {
+      "hexagram": "hexagram-04",
+      "chinese_name": "蒙",
+      "witness": "Chinese Wikisource 周易/蒙, identity heading 蒙"
+    },
+    {
+      "hexagram": "hexagram-05",
+      "chinese_name": "需",
+      "witness": "Chinese Wikisource 周易/需, identity heading 需"
+    },
+    {
+      "hexagram": "hexagram-06",
+      "chinese_name": "訟",
+      "witness": "Chinese Wikisource 周易/訟, identity heading 訟"
+    },
+    {
+      "hexagram": "hexagram-07",
+      "chinese_name": "師",
+      "witness": "Chinese Wikisource 周易/師, identity heading 師"
+    },
+    {
+      "hexagram": "hexagram-08",
+      "chinese_name": "比",
+      "witness": "Chinese Wikisource 周易/比, identity heading 比"
+    },
+    {
+      "hexagram": "hexagram-09",
+      "chinese_name": "小畜",
+      "witness": "Chinese Wikisource 周易/小畜, identity heading 小畜"
+    },
+    {
+      "hexagram": "hexagram-10",
+      "chinese_name": "履",
+      "witness": "Chinese Wikisource 周易/履, identity heading 履"
+    },
+    {
+      "hexagram": "hexagram-11",
+      "chinese_name": "泰",
+      "witness": "Chinese Wikisource 周易/泰, identity heading 泰"
+    },
+    {
+      "hexagram": "hexagram-12",
+      "chinese_name": "否",
+      "witness": "Chinese Wikisource 周易/否, identity heading 否"
+    },
+    {
+      "hexagram": "hexagram-13",
+      "chinese_name": "同人",
+      "witness": "Chinese Wikisource 周易/同人, identity heading 同人"
+    },
+    {
+      "hexagram": "hexagram-14",
+      "chinese_name": "大有",
+      "witness": "Chinese Wikisource 周易/大有, identity heading 大有"
+    },
+    {
+      "hexagram": "hexagram-15",
+      "chinese_name": "謙",
+      "witness": "Chinese Wikisource 周易/謙, identity heading 謙"
+    },
+    {
+      "hexagram": "hexagram-16",
+      "chinese_name": "豫",
+      "witness": "Chinese Wikisource 周易/豫, identity heading 豫"
+    },
+    {
+      "hexagram": "hexagram-17",
+      "chinese_name": "隨",
+      "witness": "Chinese Wikisource 周易/隨, identity heading 隨"
+    },
+    {
+      "hexagram": "hexagram-18",
+      "chinese_name": "蠱",
+      "witness": "Chinese Wikisource 周易/蠱, identity heading 蠱"
+    },
+    {
+      "hexagram": "hexagram-19",
+      "chinese_name": "臨",
+      "witness": "Chinese Wikisource 周易/臨, identity heading 臨"
+    },
+    {
+      "hexagram": "hexagram-20",
+      "chinese_name": "觀",
+      "witness": "Chinese Wikisource 周易/觀, identity heading 觀"
+    },
+    {
+      "hexagram": "hexagram-21",
+      "chinese_name": "噬嗑",
+      "witness": "Chinese Wikisource 周易/噬嗑, identity heading 噬嗑"
+    },
+    {
+      "hexagram": "hexagram-22",
+      "chinese_name": "賁",
+      "witness": "Chinese Wikisource 周易/賁, identity heading 賁"
+    },
+    {
+      "hexagram": "hexagram-23",
+      "chinese_name": "剝",
+      "witness": "Chinese Wikisource 周易/剝, identity heading 剝"
+    },
+    {
+      "hexagram": "hexagram-24",
+      "chinese_name": "復",
+      "witness": "Chinese Wikisource 周易/復, identity heading 復"
+    },
+    {
+      "hexagram": "hexagram-25",
+      "chinese_name": "无妄",
+      "witness": "Chinese Wikisource 周易/无妄, identity heading 无妄"
+    },
+    {
+      "hexagram": "hexagram-26",
+      "chinese_name": "大畜",
+      "witness": "Chinese Wikisource 周易/大畜, identity heading 大畜"
+    },
+    {
+      "hexagram": "hexagram-27",
+      "chinese_name": "頤",
+      "witness": "Chinese Wikisource 周易/頤, identity heading 頤"
+    },
+    {
+      "hexagram": "hexagram-28",
+      "chinese_name": "大過",
+      "witness": "Chinese Wikisource 周易/大過, identity heading 大過"
+    },
+    {
+      "hexagram": "hexagram-29",
+      "chinese_name": "坎",
+      "witness": "Chinese Wikisource 周易/坎, identity heading 坎"
+    },
+    {
+      "hexagram": "hexagram-30",
+      "chinese_name": "離",
+      "witness": "Chinese Wikisource 周易/離, identity heading 離"
+    },
+    {
+      "hexagram": "hexagram-31",
+      "chinese_name": "咸",
+      "witness": "Chinese Wikisource 周易/咸, identity heading 咸"
+    },
+    {
+      "hexagram": "hexagram-32",
+      "chinese_name": "恆",
+      "witness": "Chinese Wikisource 周易/恒, identity heading 恆"
+    },
+    {
+      "hexagram": "hexagram-33",
+      "chinese_name": "遯",
+      "witness": "Chinese Wikisource 周易/遯, identity heading 遯"
+    },
+    {
+      "hexagram": "hexagram-34",
+      "chinese_name": "大壯",
+      "witness": "Chinese Wikisource 周易/大壯, identity heading 大壯"
+    },
+    {
+      "hexagram": "hexagram-35",
+      "chinese_name": "晉",
+      "witness": "Chinese Wikisource 周易/晉, identity heading 晉"
+    },
+    {
+      "hexagram": "hexagram-36",
+      "chinese_name": "明夷",
+      "witness": "Chinese Wikisource 周易/明夷, identity heading 明夷"
+    },
+    {
+      "hexagram": "hexagram-37",
+      "chinese_name": "家人",
+      "witness": "Chinese Wikisource 周易/家人, identity heading 家人"
+    },
+    {
+      "hexagram": "hexagram-38",
+      "chinese_name": "睽",
+      "witness": "Chinese Wikisource 周易/睽, identity heading 睽"
+    },
+    {
+      "hexagram": "hexagram-39",
+      "chinese_name": "蹇",
+      "witness": "Chinese Wikisource 周易/蹇, identity heading 蹇"
+    },
+    {
+      "hexagram": "hexagram-40",
+      "chinese_name": "解",
+      "witness": "Chinese Wikisource 周易/解, identity heading 解"
+    },
+    {
+      "hexagram": "hexagram-41",
+      "chinese_name": "損",
+      "witness": "Chinese Wikisource 周易/損, identity heading 損"
+    },
+    {
+      "hexagram": "hexagram-42",
+      "chinese_name": "益",
+      "witness": "Chinese Wikisource 周易/益, identity heading 益"
+    },
+    {
+      "hexagram": "hexagram-43",
+      "chinese_name": "夬",
+      "witness": "Chinese Wikisource 周易/夬, identity heading 夬"
+    },
+    {
+      "hexagram": "hexagram-44",
+      "chinese_name": "姤",
+      "witness": "Chinese Wikisource 周易/姤, identity heading 姤"
+    },
+    {
+      "hexagram": "hexagram-45",
+      "chinese_name": "萃",
+      "witness": "Chinese Wikisource 周易/萃, identity heading 萃"
+    },
+    {
+      "hexagram": "hexagram-46",
+      "chinese_name": "升",
+      "witness": "Chinese Wikisource 周易/升, identity heading 升"
+    },
+    {
+      "hexagram": "hexagram-47",
+      "chinese_name": "困",
+      "witness": "Chinese Wikisource 周易/困, identity heading 困"
+    },
+    {
+      "hexagram": "hexagram-48",
+      "chinese_name": "井",
+      "witness": "Chinese Wikisource 周易/井, identity heading 井"
+    },
+    {
+      "hexagram": "hexagram-49",
+      "chinese_name": "革",
+      "witness": "Chinese Wikisource 周易/革, identity heading 革"
+    },
+    {
+      "hexagram": "hexagram-50",
+      "chinese_name": "鼎",
+      "witness": "Chinese Wikisource 周易/鼎, identity heading 鼎"
+    },
+    {
+      "hexagram": "hexagram-51",
+      "chinese_name": "震",
+      "witness": "Chinese Wikisource 周易/震, identity heading 震"
+    },
+    {
+      "hexagram": "hexagram-52",
+      "chinese_name": "艮",
+      "witness": "Chinese Wikisource 周易/艮, identity heading 艮"
+    },
+    {
+      "hexagram": "hexagram-53",
+      "chinese_name": "漸",
+      "witness": "Chinese Wikisource 周易/漸, identity heading 漸"
+    },
+    {
+      "hexagram": "hexagram-54",
+      "chinese_name": "歸妹",
+      "witness": "Chinese Wikisource 周易/歸妹, identity heading 歸妹"
+    },
+    {
+      "hexagram": "hexagram-55",
+      "chinese_name": "豐",
+      "witness": "Chinese Wikisource 周易/豐, identity heading 豐"
+    },
+    {
+      "hexagram": "hexagram-56",
+      "chinese_name": "旅",
+      "witness": "Chinese Wikisource 周易/旅, identity heading 旅"
+    },
+    {
+      "hexagram": "hexagram-57",
+      "chinese_name": "巽",
+      "witness": "Chinese Wikisource 周易/巽, identity heading 巽"
+    },
+    {
+      "hexagram": "hexagram-58",
+      "chinese_name": "兌",
+      "witness": "Chinese Wikisource 周易/兌, identity heading 兌"
+    },
+    {
+      "hexagram": "hexagram-59",
+      "chinese_name": "渙",
+      "witness": "Chinese Wikisource 周易/渙, identity heading 渙"
+    },
+    {
+      "hexagram": "hexagram-60",
+      "chinese_name": "節",
+      "witness": "Chinese Wikisource 周易/節, identity heading 節"
+    },
+    {
+      "hexagram": "hexagram-61",
+      "chinese_name": "中孚",
+      "witness": "Chinese Wikisource 周易/中孚, identity heading 中孚"
+    },
+    {
+      "hexagram": "hexagram-62",
+      "chinese_name": "小過",
+      "witness": "Chinese Wikisource 周易/小過, identity heading 小過"
+    },
+    {
+      "hexagram": "hexagram-63",
+      "chinese_name": "既濟",
+      "witness": "Chinese Wikisource 周易/既濟, identity heading 既濟"
+    },
+    {
+      "hexagram": "hexagram-64",
+      "chinese_name": "未濟",
+      "witness": "Chinese Wikisource 周易/未濟, identity heading 未濟"
+    }
+  ],
+  "legge_line_boundary_audit": [
+    {
+      "key": "hexagram-01-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 1; scan-backed transcription p. 57, line 1",
+      "sha256": "71cfe685503d5244ba8a8473d2af7a7f5c3cb7530f962cac1cb484551e021b1d",
+      "characters": 138
+    },
+    {
+      "key": "hexagram-01-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 1; scan-backed transcription p. 57, line 2",
+      "sha256": "0d5f804027f6a2ee3efd1f28209be9b4eac1beec68cb207bbfcd74590fa2935b",
+      "characters": 141
+    },
+    {
+      "key": "hexagram-01-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 1; scan-backed transcription p. 57, line 3",
+      "sha256": "232a9b793e1871577a52351867401d8c5c66f670b4a4ce977e619e454c63e95f",
+      "characters": 213
+    },
+    {
+      "key": "hexagram-01-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 1; scan-backed transcription p. 57, line 4",
+      "sha256": "ba1791cea559bf637a6650d9c22b5c6a618c863d0248063d39fcccdc041aadf6",
+      "characters": 148
+    },
+    {
+      "key": "hexagram-01-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 1; scan-backed transcription p. 57, line 5",
+      "sha256": "6a45f19aef3e38b00ec5be19b19a4e278940384f3f9f7d5a0f6ed30672821209",
+      "characters": 140
+    },
+    {
+      "key": "hexagram-01-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 1; scan-backed transcription p. 57, line 6",
+      "sha256": "6405e312e569f5eecf46591ae4e8a3d5312ae01db8245c4c4b7cf1eb4612e7f7",
+      "characters": 145
+    },
+    {
+      "key": "hexagram-02-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 2; scan-backed transcription p. 59, line 1",
+      "sha256": "56e9b7b9d8b9aafa66ac88b11114a5f34198326d38f1ff1f1c514c32375c8769",
+      "characters": 108
+    },
+    {
+      "key": "hexagram-02-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 2; scan-backed transcription p. 59, line 2",
+      "sha256": "8773a026c0b9d6c18fd9120638633360f8693cd6755f332995fb27d7968f6c43",
+      "characters": 166
+    },
+    {
+      "key": "hexagram-02-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 2; scan-backed transcription p. 59, line 3",
+      "sha256": "566ca32ac03b495ab6073c65c84b64d5782949a94abc27eedd721148297059bb",
+      "characters": 261
+    },
+    {
+      "key": "hexagram-02-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 2; scan-backed transcription p. 59, line 4",
+      "sha256": "0d84f95032f05a4527de6c99979f250b3fda8612d53deb60408f61ae56ab0575",
+      "characters": 111
+    },
+    {
+      "key": "hexagram-02-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 2; scan-backed transcription p. 59, line 5",
+      "sha256": "3c2f7e6e7f24541e58092c76770f57c4a5bf388aae8e50311d826c4f2b112aab",
+      "characters": 91
+    },
+    {
+      "key": "hexagram-02-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 2; scan-backed transcription p. 59, line 6",
+      "sha256": "20c1dee8cabe37ca5f97cd6374dba09890bf9fa64968ed76428a27ef6cfd6fce",
+      "characters": 94
+    },
+    {
+      "key": "hexagram-03-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 3; scan-backed transcription p. 62, line 1",
+      "sha256": "54a2e91e39ad4937fc297068b9f9fd39f0fe6aa7932ce413ea5c4fe3b469cfc3",
+      "characters": 185
+    },
+    {
+      "key": "hexagram-03-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 3; scan-backed transcription p. 62, line 2",
+      "sha256": "4c632af93e188430433437be3b258ef994add94a756e1d1f1a11df4e21321c5a",
+      "characters": 348
+    },
+    {
+      "key": "hexagram-03-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 3; scan-backed transcription p. 62, line 3",
+      "sha256": "f554348243a41d82f9362af3f210a42a8f276ea82e48f05ab5213ee8318caed4",
+      "characters": 276
+    },
+    {
+      "key": "hexagram-03-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 3; scan-backed transcription p. 62, line 4",
+      "sha256": "04afa093f5d71870ac137ec94cde022ebd9d24769cde41cd240bd2a272509f4c",
+      "characters": 231
+    },
+    {
+      "key": "hexagram-03-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 3; scan-backed transcription p. 62, line 5",
+      "sha256": "6e1e3dd92fc08d6e26fef825eb5239c512d7bab700d5a5fcd377c1f2034fa48b",
+      "characters": 267
+    },
+    {
+      "key": "hexagram-03-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 3; scan-backed transcription p. 62, line 6",
+      "sha256": "e8759f997814182c039890d71d39627a763fbc12b2fd21392186639e7ad0d7db",
+      "characters": 135
+    },
+    {
+      "key": "hexagram-04-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 4; scan-backed transcription p. 64, line 1",
+      "sha256": "2e6b26e6d2fe8cf5f1cee9a228b1ae3c74fe3030b244ccefdcd5041c19554596",
+      "characters": 247
+    },
+    {
+      "key": "hexagram-04-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 4; scan-backed transcription p. 64, line 2",
+      "sha256": "9ddb81b297e95d68d4e7e9746a05faddf05cacecd5ddd7c0e24702e9b701e58c",
+      "characters": 279
+    },
+    {
+      "key": "hexagram-04-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 4; scan-backed transcription p. 64, line 3",
+      "sha256": "c1b9238e53904eb3af0fc482eb42b1d81bd8c8ea1cfe29f99a405707f4c774d3",
+      "characters": 223
+    },
+    {
+      "key": "hexagram-04-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 4; scan-backed transcription p. 64, line 4",
+      "sha256": "9a3ff5bf57fc67ff6acde732b96d389f393cc69d6dccd8052fdce0a9bb5764ae",
+      "characters": 115
+    },
+    {
+      "key": "hexagram-04-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 4; scan-backed transcription p. 64, line 5",
+      "sha256": "f93d9c5fae6df967010c6764eb853aa09cca408d03a7b6b552fc359129c42c7c",
+      "characters": 105
+    },
+    {
+      "key": "hexagram-04-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 4; scan-backed transcription p. 64, line 6",
+      "sha256": "b26199db277ab8aa3386aa22a3086535472607315f96e6edf14aa70ccbf98469",
+      "characters": 180
+    },
+    {
+      "key": "hexagram-05-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 5; scan-backed transcription p. 67, line 1",
+      "sha256": "b831dfd3f0078b4326c6e911ffc38d53925691280f63ed8b4808fe295f60259e",
+      "characters": 186
+    },
+    {
+      "key": "hexagram-05-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 5; scan-backed transcription p. 67, line 2",
+      "sha256": "9384efe38b8df5dfec1a3672487b21d6ea7164e1aeb5d008b0ae991da5053165",
+      "characters": 197
+    },
+    {
+      "key": "hexagram-05-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 5; scan-backed transcription p. 67, line 3",
+      "sha256": "8f239e093d3beb8ea1f72e31658b3c0620beef8c971e997b4d414f8eecded8ef",
+      "characters": 121
+    },
+    {
+      "key": "hexagram-05-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 5; scan-backed transcription p. 67, line 4",
+      "sha256": "0eecf051e0eb50cd28d6c30984024db3bcaecf66ee4dd7a902a4fd7f2081b2f9",
+      "characters": 110
+    },
+    {
+      "key": "hexagram-05-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 5; scan-backed transcription p. 67, line 5",
+      "sha256": "c103f4871df698eac5d1fa8b4f04b35cb40c63a4760387408306bf774f9aa0e5",
+      "characters": 151
+    },
+    {
+      "key": "hexagram-05-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 5; scan-backed transcription p. 67, line 6",
+      "sha256": "2b7e9b654fcfbe1551e9403e50777a1cba121ed53e0fd5c37924e60f6b8cc382",
+      "characters": 213
+    },
+    {
+      "key": "hexagram-06-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 6; scan-backed transcription p. 69, line 1",
+      "sha256": "f0b4ce847ab433f1ffd70728ab8cf8c5e822b847cf0a6538e506389c7f82066a",
+      "characters": 192
+    },
+    {
+      "key": "hexagram-06-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 6; scan-backed transcription p. 69, line 2",
+      "sha256": "df606b475cd1db7955a79cc2ce744a412057bb898205dc50a881ad2905e85e2c",
+      "characters": 205
+    },
+    {
+      "key": "hexagram-06-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 6; scan-backed transcription p. 69, line 3",
+      "sha256": "1c9526106ed804e9627d6afd2e2bccd6214e7ecfeb26bd8e726b2acde6c86825",
+      "characters": 277
+    },
+    {
+      "key": "hexagram-06-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 6; scan-backed transcription p. 69, line 4",
+      "sha256": "34a5b343321e37e0299e985292bc937f66097a0830c64845e8d80353a65c2607",
+      "characters": 218
+    },
+    {
+      "key": "hexagram-06-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 6; scan-backed transcription p. 69, line 5",
+      "sha256": "ccad80d3b21c947be422123a88fb1500310ecf97c8aaa6f0854f6b5cbc668a3b",
+      "characters": 88
+    },
+    {
+      "key": "hexagram-06-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 6; scan-backed transcription p. 69, line 6",
+      "sha256": "a2c8d2ddd566552f959cafbac03644481bb2a8f4238052086d2c2126e58d96e7",
+      "characters": 166
+    },
+    {
+      "key": "hexagram-07-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 7; scan-backed transcription p. 71, line 1",
+      "sha256": "f2e259e57c82bbbda9644f17a5b4f2147b07e7a88bb053122397c96f500ad8f3",
+      "characters": 138
+    },
+    {
+      "key": "hexagram-07-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 7; scan-backed transcription p. 71, line 2",
+      "sha256": "c4253da56d56a8a5c8352732d9bb719916ce1938f87d5af349f35848d72603ca",
+      "characters": 177
+    },
+    {
+      "key": "hexagram-07-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 7; scan-backed transcription p. 71, line 3",
+      "sha256": "e166c96fa8e72c0c243dda0eec43544b9a9d5f502c5ad803d9ddeb3b70424149",
+      "characters": 108
+    },
+    {
+      "key": "hexagram-07-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 7; scan-backed transcription p. 71, line 4",
+      "sha256": "6a1cfc95627bfa68b69a3ef649dc207d07ad7a70612d8a6005dff510328f3a26",
+      "characters": 70
+    },
+    {
+      "key": "hexagram-07-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 7; scan-backed transcription p. 71, line 5",
+      "sha256": "e632522d96aa1c33d6e3ba5293f9867842350a320763122d7af1588d1a5c24cf",
+      "characters": 287
+    },
+    {
+      "key": "hexagram-07-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 7; scan-backed transcription p. 71, line 6",
+      "sha256": "c67cdf67c4d8583c8793795e422808e4a309c45ca523ace333e31e5347645a28",
+      "characters": 218
+    },
+    {
+      "key": "hexagram-08-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 8; scan-backed transcription p. 73, line 1",
+      "sha256": "c7a9c040d70c00c81addd1cc255a3c66d2770444dcbf2344083bbefdfc486723",
+      "characters": 257
+    },
+    {
+      "key": "hexagram-08-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 8; scan-backed transcription p. 73, line 2",
+      "sha256": "c4d5a562d4bd21fb630e2b61a28e87bf2aaa818fe150b39b1a76832e76d0273e",
+      "characters": 161
+    },
+    {
+      "key": "hexagram-08-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 8; scan-backed transcription p. 73, line 3",
+      "sha256": "98363800e03b2cf77c7483e335ba6d70c6389cdb1ce3b6dc8bf3dbf2b7358626",
+      "characters": 109
+    },
+    {
+      "key": "hexagram-08-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 8; scan-backed transcription p. 73, line 4",
+      "sha256": "89382fee1c615178327a86d107152b63a332f8050b4c60999c3050450ddc3b96",
+      "characters": 143
+    },
+    {
+      "key": "hexagram-08-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 8; scan-backed transcription p. 73, line 5",
+      "sha256": "8e599384de8e933399cdc7de53be2da8424dd87c3fe793df0d46c556e7652116",
+      "characters": 342
+    },
+    {
+      "key": "hexagram-08-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 8; scan-backed transcription p. 73, line 6",
+      "sha256": "115bca881be761e3bd713c4243be0b97c552a192bc232d6467607eee9463ddb5",
+      "characters": 142
+    },
+    {
+      "key": "hexagram-09-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 9; scan-backed transcription p. 76, line 1",
+      "sha256": "9d5b7b096d386eee19d288ce401f80a00e514abb7edec2e9448ff7400c1004bc",
+      "characters": 145
+    },
+    {
+      "key": "hexagram-09-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 9; scan-backed transcription p. 76, line 2",
+      "sha256": "8b05604869735fb96bb4c9dd212f86809cbeb98330c42b78bbc84efe5fbb5a28",
+      "characters": 148
+    },
+    {
+      "key": "hexagram-09-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 9; scan-backed transcription p. 76, line 3",
+      "sha256": "ed699177090cab911c2d77ceed7ed771565fd9036686fc85f4931ca4428bd4ac",
+      "characters": 167
+    },
+    {
+      "key": "hexagram-09-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 9; scan-backed transcription p. 76, line 4",
+      "sha256": "6bc5eda10a49b20b077db9809c53b2dc7b44f6a6ba14048e76a494529ee68f21",
+      "characters": 181
+    },
+    {
+      "key": "hexagram-09-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 9; scan-backed transcription p. 76, line 5",
+      "sha256": "080a5c8b0c9baf62fb83a324c545e40d96d82b992be3e646b07601075be24b5f",
+      "characters": 185
+    },
+    {
+      "key": "hexagram-09-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 9; scan-backed transcription p. 76, line 6",
+      "sha256": "95a4d0489e884d9fd4d7c1c2fd03c63b8763bf4c62de908502da036e6ab7d513",
+      "characters": 422
+    },
+    {
+      "key": "hexagram-10-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 10; scan-backed transcription p. 78, line 1",
+      "sha256": "8c5875f8c1d22328ae069dc11b35d51d0a9f5cb0cf48ca85923308d149e9b1b4",
+      "characters": 116
+    },
+    {
+      "key": "hexagram-10-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 10; scan-backed transcription p. 78, line 2",
+      "sha256": "96bc1aefd147b5ae741c108eaed1b3559afc916ad05ceac6221f0e828755111b",
+      "characters": 180
+    },
+    {
+      "key": "hexagram-10-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 10; scan-backed transcription p. 78, line 3",
+      "sha256": "bb09f5879c8c3a9cc4aeea2d1896765e7bbaada07619e4aad36c768475c99bcd",
+      "characters": 255
+    },
+    {
+      "key": "hexagram-10-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 10; scan-backed transcription p. 78, line 4",
+      "sha256": "ee6217c14c05258889008a1ff2a8df605da433cc13d711c87d7ee951c9cd93a9",
+      "characters": 162
+    },
+    {
+      "key": "hexagram-10-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 10; scan-backed transcription p. 78, line 5",
+      "sha256": "783f49dbc140aef6926b1b33fcbc4b6a62dc29cf83ca86c2dfbe43a3989ccd73",
+      "characters": 119
+    },
+    {
+      "key": "hexagram-10-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 10; scan-backed transcription p. 78, line 6",
+      "sha256": "900b522d382de804f06bb89930c9f5dab9115a70ea5ea0b848e4ad8ede6bc538",
+      "characters": 197
+    },
+    {
+      "key": "hexagram-11-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 11; scan-backed transcription p. 81, line 1",
+      "sha256": "2ba0fd06a7bfaeb2edc7860a2ca260e3afbd47342ef511cd5118a8fb29d081bf",
+      "characters": 188
+    },
+    {
+      "key": "hexagram-11-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 11; scan-backed transcription p. 81, line 2",
+      "sha256": "2cda243b9aa4386c226a453af56d9084b27c5e6467f5e32648b54904fb7c01d9",
+      "characters": 255
+    },
+    {
+      "key": "hexagram-11-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 11; scan-backed transcription p. 81, line 3",
+      "sha256": "e70d085d37c83e9b5551b467db3b27b5da0d41cdf405a78bda7d184eef7c30ba",
+      "characters": 424
+    },
+    {
+      "key": "hexagram-11-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 11; scan-backed transcription p. 81, line 4",
+      "sha256": "4c4be5c0ab38bddec7689a2a86b67f620d1e43a49569e1a6816fa12b8e33d037",
+      "characters": 222
+    },
+    {
+      "key": "hexagram-11-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 11; scan-backed transcription p. 81, line 5",
+      "sha256": "cae18a887fa1f6b15e750491dce8730cf64fa986aedcfc0c8d89fb6a00182c85",
+      "characters": 175
+    },
+    {
+      "key": "hexagram-11-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 11; scan-backed transcription p. 81, line 6",
+      "sha256": "51c96645235190f329bb68754709d46899c69471c21aed4f7f260acdc13e6416",
+      "characters": 267
+    },
+    {
+      "key": "hexagram-12-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 12; scan-backed transcription p. 83, line 1",
+      "sha256": "4e9e1905c1a43e6b6706bc9406be1cb9bfab4b196b6a1d8f186f8e5179fd55cf",
+      "characters": 222
+    },
+    {
+      "key": "hexagram-12-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 12; scan-backed transcription p. 83, line 2",
+      "sha256": "95525d8d7e8d9edeacdf03696f8ea6869f03f6b9b20a9f480924dbae026d9e45",
+      "characters": 231
+    },
+    {
+      "key": "hexagram-12-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 12; scan-backed transcription p. 83, line 3",
+      "sha256": "54890a1cd5bb05fb72b35732d35638e36b7ca7a7708a01fa536b20df19ac6ab8",
+      "characters": 88
+    },
+    {
+      "key": "hexagram-12-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 12; scan-backed transcription p. 83, line 4",
+      "sha256": "801fc7629827c585e4622bb1af800e5302fa84074c16fc003d3042feec57038c",
+      "characters": 177
+    },
+    {
+      "key": "hexagram-12-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 12; scan-backed transcription p. 83, line 5",
+      "sha256": "d2834aeeb6c1a5919b50aa786d5281ab7328524ee5d8cdb0e63636f3cc96c934",
+      "characters": 267
+    },
+    {
+      "key": "hexagram-12-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 12; scan-backed transcription p. 83, line 6",
+      "sha256": "582aeefa668b41ee5bf8f74e6ba24b4ffc3ab97b8a3cb2373f1364f0b317cca6",
+      "characters": 173
+    },
+    {
+      "key": "hexagram-13-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 13; scan-backed transcription p. 86, line 1",
+      "sha256": "13014c616f98579c7ad4d6830e98fff87b67d6c675dbdd531684844f1a4e7239",
+      "characters": 125
+    },
+    {
+      "key": "hexagram-13-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 13; scan-backed transcription p. 86, line 2",
+      "sha256": "ece8eca72a6cc502d3187b4f3a64b2cbba99ba108ce931c60e8341aa7a2d224a",
+      "characters": 136
+    },
+    {
+      "key": "hexagram-13-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 13; scan-backed transcription p. 86, line 3",
+      "sha256": "a7ef354fb078dbc08e6af868cee29ed9e4c8e182a09f5cb06483ce31d8ac26a8",
+      "characters": 168
+    },
+    {
+      "key": "hexagram-13-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 13; scan-backed transcription p. 86, line 4",
+      "sha256": "0a85b915a83a0ad0ca065c1fcccf83588c028675825812f3a83b84176363ff2b",
+      "characters": 163
+    },
+    {
+      "key": "hexagram-13-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 13; scan-backed transcription p. 86, line 5",
+      "sha256": "c6a57286c44d6d12b3dce8797735cfe34654c9b9bb032918727cec4cba15145e",
+      "characters": 198
+    },
+    {
+      "key": "hexagram-13-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 13; scan-backed transcription p. 86, line 6",
+      "sha256": "a444f297bcdc9a5c6fe2d97a601b36a083853cd9e819ae1b233d786dc9b0a9fc",
+      "characters": 133
+    },
+    {
+      "key": "hexagram-14-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 14; scan-backed transcription p. 88, line 1",
+      "sha256": "3e1296cc0ca4d8dced8a76b5d08dda1e6ef399489e752d3a3d3869a6fe14cf45",
+      "characters": 211
+    },
+    {
+      "key": "hexagram-14-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 14; scan-backed transcription p. 88, line 2",
+      "sha256": "358808ef61eef36d547e15641cc099986de95f4749deed23ad3f316a02755a05",
+      "characters": 131
+    },
+    {
+      "key": "hexagram-14-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 14; scan-backed transcription p. 88, line 3",
+      "sha256": "a95bd7b9aaf26ffd079f379c30986a470bd01814f48ebaadf244a240ab664062",
+      "characters": 145
+    },
+    {
+      "key": "hexagram-14-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 14; scan-backed transcription p. 88, line 4",
+      "sha256": "e7fc70c625e677d80b36be84edd8c3801441a5d07be1851001cbf52e1b11e29a",
+      "characters": 114
+    },
+    {
+      "key": "hexagram-14-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 14; scan-backed transcription p. 88, line 5",
+      "sha256": "149755f9fd1d7947c9c225fa199960b8885cd538963de53fad53f762724743ae",
+      "characters": 194
+    },
+    {
+      "key": "hexagram-14-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 14; scan-backed transcription p. 88, line 6",
+      "sha256": "9cedac533f75eeea1d5fe21b60a190c2225d0904bcaef11c3cb3448828dd2411",
+      "characters": 141
+    },
+    {
+      "key": "hexagram-15-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 15; scan-backed transcription p. 89, line 1",
+      "sha256": "3f9441b2e7ed3c7738aa9e152256a5833f34604680fb61cb7fff17ef3ccb9daa",
+      "characters": 162
+    },
+    {
+      "key": "hexagram-15-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 15; scan-backed transcription p. 89, line 2",
+      "sha256": "db2f620fcaaee1b10e8400b94efdfc89b3d3ef07cb4e7dfecb1d9314cdfffb39",
+      "characters": 125
+    },
+    {
+      "key": "hexagram-15-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 15; scan-backed transcription p. 89, line 3",
+      "sha256": "64b2e27b7f8907e1b89eb76dca0c59164469a966d1f590bb66ccaddf308db3f6",
+      "characters": 138
+    },
+    {
+      "key": "hexagram-15-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 15; scan-backed transcription p. 89, line 4",
+      "sha256": "62f9aa475da8477eb4516af136cd3548cbabcc79fcff2117f3b12edfdc724852",
+      "characters": 121
+    },
+    {
+      "key": "hexagram-15-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 15; scan-backed transcription p. 89, line 5",
+      "sha256": "475871fc28fa8f2e7b0d81b08b8cadf7d2bcb695bb0df1e61aff65072194c6a4",
+      "characters": 177
+    },
+    {
+      "key": "hexagram-15-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 15; scan-backed transcription p. 89, line 6",
+      "sha256": "6b5f049def79acc60b9c8720deae4597108021a9a0d7ef4159fd607e57600c17",
+      "characters": 188
+    },
+    {
+      "key": "hexagram-16-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 16; scan-backed transcription p. 91, line 1",
+      "sha256": "23fdde5782b111ecc14dd64b1f674d71581e6c0a17961c72bd50e55b9fbfde9f",
+      "characters": 104
+    },
+    {
+      "key": "hexagram-16-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 16; scan-backed transcription p. 91, line 2",
+      "sha256": "f6461878de80ad424414a1adaee0c1438b3d9b7c6dd23cf593df9df4a7d84ed1",
+      "characters": 171
+    },
+    {
+      "key": "hexagram-16-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 16; scan-backed transcription p. 91, line 3",
+      "sha256": "93994e702e4d8bcbb19d82e7787965460c4e3a94891eb1e581f6ebbabbb21825",
+      "characters": 219
+    },
+    {
+      "key": "hexagram-16-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 16; scan-backed transcription p. 91, line 4",
+      "sha256": "d99fe802d9d905bcf4550d572bc1d37473b8eb6636f9fa517e3e56508e40b5cc",
+      "characters": 210
+    },
+    {
+      "key": "hexagram-16-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 16; scan-backed transcription p. 91, line 5",
+      "sha256": "caecc305e4bb490fcf97aafc69849dd24e383ff95f76dbf8df6ef34d5d7221c4",
+      "characters": 91
+    },
+    {
+      "key": "hexagram-16-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 16; scan-backed transcription p. 91, line 6",
+      "sha256": "4b0b0928bf15a0cf7cb652673efd5ab0855cd7cfcfee999be8306e4a42ab5d49",
+      "characters": 217
+    },
+    {
+      "key": "hexagram-17-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 17; scan-backed transcription p. 93, line 1",
+      "sha256": "baa6d6eb818c76a5d531c585fe0fbb8de21b04455d9369fd622ece766a09bb79",
+      "characters": 205
+    },
+    {
+      "key": "hexagram-17-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 17; scan-backed transcription p. 93, line 2",
+      "sha256": "276d0077575682cf19a50c7a92098fe720ad57c383a09fdff491e2c47d532cb7",
+      "characters": 111
+    },
+    {
+      "key": "hexagram-17-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 17; scan-backed transcription p. 93, line 3",
+      "sha256": "24cc274d42fbe954a8bb31ef4cb6ddfd9e7d5994d9d904fe44db24730c64fb30",
+      "characters": 217
+    },
+    {
+      "key": "hexagram-17-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 17; scan-backed transcription p. 93, line 4",
+      "sha256": "2c9c9ede6b31fc0b4079f8f3164c9f0bc6aebd41b9852d396bcb970ea32ec40a",
+      "characters": 222
+    },
+    {
+      "key": "hexagram-17-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 17; scan-backed transcription p. 93, line 5",
+      "sha256": "9066d9c51f1a05470abde43e5a8184128f37cc4bd9a4473ec8379624f8b60e4c",
+      "characters": 121
+    },
+    {
+      "key": "hexagram-17-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 17; scan-backed transcription p. 93, line 6",
+      "sha256": "3f8f54ebf0931d1d27c01a1d9c243a4631510539c99b97eca1d6d90a7bcc7fa9",
+      "characters": 174
+    },
+    {
+      "key": "hexagram-18-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 18; scan-backed transcription p. 95, line 1",
+      "sha256": "545e28fd3b4280670222d4442030be649fc4660eaee9bc228a135c8b8ef17c58",
+      "characters": 228
+    },
+    {
+      "key": "hexagram-18-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 18; scan-backed transcription p. 95, line 2",
+      "sha256": "380ab7806e438d0c0432a89d87db871ad9884856092c5b55df042bfd741524b8",
+      "characters": 149
+    },
+    {
+      "key": "hexagram-18-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 18; scan-backed transcription p. 95, line 3",
+      "sha256": "a006b651600c7a552152b02103dbcc5106c6d761b84ddb65c9abf34bc73e1368",
+      "characters": 176
+    },
+    {
+      "key": "hexagram-18-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 18; scan-backed transcription p. 95, line 4",
+      "sha256": "2fa45ce740b798d8322b6288b2ac324468a1ba211c29ffb91e2fcab7f22b05dc",
+      "characters": 144
+    },
+    {
+      "key": "hexagram-18-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 18; scan-backed transcription p. 95, line 5",
+      "sha256": "a9b79933e9913f708201bb956ce5b2f1a4127ecbf237d84a9f804e73a337de58",
+      "characters": 151
+    },
+    {
+      "key": "hexagram-18-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 18; scan-backed transcription p. 95, line 6",
+      "sha256": "718a9a507f913bb534650186698ae56d0ee717040cb1c70e462c83f8a7e716f7",
+      "characters": 148
+    },
+    {
+      "key": "hexagram-19-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 19; scan-backed transcription p. 97, line 1",
+      "sha256": "86b507ca9b4f78634c1ed09fe3a1ac57ce2d47a591b710ba9d5344fdcd8f088e",
+      "characters": 161
+    },
+    {
+      "key": "hexagram-19-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 19; scan-backed transcription p. 97, line 2",
+      "sha256": "8f397e9879df5cd72f46450688316a3bf9fedcc2b0a37d5ec34ccf22715f4fae",
+      "characters": 179
+    },
+    {
+      "key": "hexagram-19-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 19; scan-backed transcription p. 97, line 3",
+      "sha256": "d682460d840fea5f673a22804af49fc4fc5b84aeecb38a7aad38e2259d3f6a00",
+      "characters": 183
+    },
+    {
+      "key": "hexagram-19-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 19; scan-backed transcription p. 97, line 4",
+      "sha256": "43d84e1a5121ce7136bc903665487b997407cdfe96c21090b967ccd1d033d3ca",
+      "characters": 89
+    },
+    {
+      "key": "hexagram-19-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 19; scan-backed transcription p. 97, line 5",
+      "sha256": "1566915f200bfb0adb6750a04e7e785ed298c1ecf25809d1e10f6c66207dc239",
+      "characters": 112
+    },
+    {
+      "key": "hexagram-19-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 19; scan-backed transcription p. 97, line 6",
+      "sha256": "5570d4ea347a7bdd62803b7ec02f0dd248b23b99b10a036ff32eff0de0d21017",
+      "characters": 110
+    },
+    {
+      "key": "hexagram-20-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 20; scan-backed transcription p. 99, line 1",
+      "sha256": "3351414dfd93af24c212a695554dca290fad7192f5e5e983ad0a94c7f66b6f1d",
+      "characters": 131
+    },
+    {
+      "key": "hexagram-20-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 20; scan-backed transcription p. 99, line 2",
+      "sha256": "d9dd5873f60202c8b22fd1b684b38be6e4042e0697c81b9b9cb0171dfd4096c6",
+      "characters": 138
+    },
+    {
+      "key": "hexagram-20-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 20; scan-backed transcription p. 99, line 3",
+      "sha256": "e6d0a8558f3556f557399a98a24129aaac335c7c888d8e40398ea90879afbf98",
+      "characters": 110
+    },
+    {
+      "key": "hexagram-20-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 20; scan-backed transcription p. 99, line 4",
+      "sha256": "8d415b5f5faf151a8429d21b0a5f57158eb7a1aaf153b768de7987653cf2969d",
+      "characters": 165
+    },
+    {
+      "key": "hexagram-20-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 20; scan-backed transcription p. 99, line 5",
+      "sha256": "524f57e630b9c9e15cf636e749c14ac274257e7f3ab8455c02d617bedf9bea91",
+      "characters": 132
+    },
+    {
+      "key": "hexagram-20-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 20; scan-backed transcription p. 99, line 6",
+      "sha256": "5d497d74fff8e507441f340c00596823bdccbf4db6f8940ab1b906525ec35650",
+      "characters": 148
+    },
+    {
+      "key": "hexagram-21-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 21; scan-backed transcription p. 102, line 1",
+      "sha256": "1b83372a5c5c9f6e41ca258a007c2962b1b1aad837ac26ce8caba34ca2f56b40",
+      "characters": 114
+    },
+    {
+      "key": "hexagram-21-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 21; scan-backed transcription p. 102, line 2",
+      "sha256": "74bd73cadca78986ce04bc5e38909b6a6739cd796515d9818d1b90df9a7da9b4",
+      "characters": 126
+    },
+    {
+      "key": "hexagram-21-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 21; scan-backed transcription p. 102, line 3",
+      "sha256": "c8e62a001122e8ba2aa58bd6d7a716f8f7ee5e2cb6a63793a1255b7ac15e7618",
+      "characters": 161
+    },
+    {
+      "key": "hexagram-21-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 21; scan-backed transcription p. 102, line 4",
+      "sha256": "b50c79afe954ba1e97bb5d9b13ee4983cc842e706fdbe6a08b0e3d8570b8ce70",
+      "characters": 246
+    },
+    {
+      "key": "hexagram-21-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 21; scan-backed transcription p. 102, line 5",
+      "sha256": "010cda21c0342eb1eaeaac1c8808496b10412eddc7ba5482aead317363702cd6",
+      "characters": 178
+    },
+    {
+      "key": "hexagram-21-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 21; scan-backed transcription p. 102, line 6",
+      "sha256": "b86de25e3fc36d9fecb45dfc6ac900263502c678dad52f128ed5b6ab13e2239b",
+      "characters": 102
+    },
+    {
+      "key": "hexagram-22-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 22; scan-backed transcription p. 103, line 1",
+      "sha256": "e680fb054f8af29ec3e197bb5eb9fed4d3ccfe5c02d812cc3d4364401161fb8c",
+      "characters": 112
+    },
+    {
+      "key": "hexagram-22-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 22; scan-backed transcription p. 103, line 2",
+      "sha256": "250d1a710ef16fb1e61d0698007fd7a2ca3da0f9fffdcfc29cbcd237ceb1bf2c",
+      "characters": 54
+    },
+    {
+      "key": "hexagram-22-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 22; scan-backed transcription p. 103, line 3",
+      "sha256": "1666ad97fb96e5bf11d4271b2718a33e1e310cea4151d5324b72b509daeb1069",
+      "characters": 194
+    },
+    {
+      "key": "hexagram-22-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 22; scan-backed transcription p. 103, line 4",
+      "sha256": "9f5fc1b32a2972ef1a6d9165506a6ad5ce43923ef3d872014821bde4e1f698dc",
+      "characters": 283
+    },
+    {
+      "key": "hexagram-22-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 22; scan-backed transcription p. 103, line 5",
+      "sha256": "b864d786ecb116a97f266ec5e70b5c76e59882006f066fd116dd482b2a747130",
+      "characters": 206
+    },
+    {
+      "key": "hexagram-22-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 22; scan-backed transcription p. 103, line 6",
+      "sha256": "c236b2a441bdf51cca7348618befa6078cf6dba4a5c7d02c88697d3b76db4518",
+      "characters": 95
+    },
+    {
+      "key": "hexagram-23-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 23; scan-backed transcription p. 105, line 1",
+      "sha256": "3801e1bfa651fb56e97e9060a8c54b24a46fa21af81c4a18f2550034142c2585",
+      "characters": 171
+    },
+    {
+      "key": "hexagram-23-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 23; scan-backed transcription p. 105, line 2",
+      "sha256": "265d3cb130d55eca120b463b71e002229d47762221ac37a1108f3c942a1af21f",
+      "characters": 174
+    },
+    {
+      "key": "hexagram-23-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 23; scan-backed transcription p. 105, line 3",
+      "sha256": "ef361543e418a594761245199cfc196747758f599f144760354fd831f61c9d95",
+      "characters": 93
+    },
+    {
+      "key": "hexagram-23-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 23; scan-backed transcription p. 105, line 4",
+      "sha256": "97fe498f8aa2f7baa988ceceebf88bb0121095a6d8019747aaf3eb02edc67b9d",
+      "characters": 147
+    },
+    {
+      "key": "hexagram-23-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 23; scan-backed transcription p. 105, line 5",
+      "sha256": "dd1785249645aea9bec579f644ab134e6dd28583a3411d753186ba106d99c235",
+      "characters": 206
+    },
+    {
+      "key": "hexagram-23-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 23; scan-backed transcription p. 105, line 6",
+      "sha256": "744a0de73fefac4a542a07e883439e71ff61f78fb9caa7869d3cf602e56c3eb0",
+      "characters": 223
+    },
+    {
+      "key": "hexagram-24-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 24; scan-backed transcription p. 107, line 1",
+      "sha256": "cafbe639385d2c85339c320ed1ac16c4b802be0e0d1ce236350c36c52eb16f13",
+      "characters": 182
+    },
+    {
+      "key": "hexagram-24-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 24; scan-backed transcription p. 107, line 2",
+      "sha256": "000746df08cfcbd47993afd7e6aa7fa44c867c80afdbf3654a3c39920eaa1ef7",
+      "characters": 97
+    },
+    {
+      "key": "hexagram-24-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 24; scan-backed transcription p. 107, line 3",
+      "sha256": "170fdee6fd426aa2b8916b42599e6ff765caadd64b5c4c1e029d76d1857fd587",
+      "characters": 118
+    },
+    {
+      "key": "hexagram-24-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 24; scan-backed transcription p. 107, line 4",
+      "sha256": "14ef91a812a9f5144728fcdbb5db9218d829400ac3b13405373434e0b4750da0",
+      "characters": 169
+    },
+    {
+      "key": "hexagram-24-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 24; scan-backed transcription p. 107, line 5",
+      "sha256": "fead44225843b4e742882fe7a100370235d7147263fe3d66814af8b7db21fae1",
+      "characters": 102
+    },
+    {
+      "key": "hexagram-24-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 24; scan-backed transcription p. 107, line 6",
+      "sha256": "648730bb0f29a9b5a71e934068cbe024a583fbf063d4a696b048ca5c87bdd02f",
+      "characters": 332
+    },
+    {
+      "key": "hexagram-25-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 25; scan-backed transcription p. 109, line 1",
+      "sha256": "f4929daa2606ec74ae34cf008d4e7a73049db78c5cd69e52f12af0b20497d7f6",
+      "characters": 122
+    },
+    {
+      "key": "hexagram-25-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 25; scan-backed transcription p. 109, line 2",
+      "sha256": "c6a3fa4fdae59225fa896c33c29fd07c7521ebb24a11f088dd311ef9a1180cbf",
+      "characters": 274
+    },
+    {
+      "key": "hexagram-25-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 25; scan-backed transcription p. 109, line 3",
+      "sha256": "523835990c0fd1b479ff193fc4bafdb85b8315702f72f6144d0a9eaef2e94876",
+      "characters": 271
+    },
+    {
+      "key": "hexagram-25-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 25; scan-backed transcription p. 109, line 4",
+      "sha256": "9511276b5f5bdeba454757ffb79cae05f54c30ac8ddf9f42dc380384d9c0c4f6",
+      "characters": 120
+    },
+    {
+      "key": "hexagram-25-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 25; scan-backed transcription p. 109, line 5",
+      "sha256": "5324256ed5ec8982063624a1657227088ba10a2a5594fb990329c0e548012fa9",
+      "characters": 169
+    },
+    {
+      "key": "hexagram-25-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 25; scan-backed transcription p. 109, line 6",
+      "sha256": "1eb3425f3047a873bf27324a880ec3bd31e45d7b7e80ca0c39a686689196b995",
+      "characters": 167
+    },
+    {
+      "key": "hexagram-26-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 26; scan-backed transcription p. 112, line 1",
+      "sha256": "bb123f74052be3f263711def47c5e0ab086cca06912fd5fa0862e3fa249ca0e1",
+      "characters": 121
+    },
+    {
+      "key": "hexagram-26-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 26; scan-backed transcription p. 112, line 2",
+      "sha256": "ed10c0adb51f31da2ac009ca1eeefc54761ccb97765e3d146cdc50138aae4a98",
+      "characters": 77
+    },
+    {
+      "key": "hexagram-26-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 26; scan-backed transcription p. 112, line 3",
+      "sha256": "3deca61d3aee3b83b34a22ee302c1b896d6f62a7e0654af24a9a19efe356da7d",
+      "characters": 317
+    },
+    {
+      "key": "hexagram-26-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 26; scan-backed transcription p. 112, line 4",
+      "sha256": "fb4302690323039cf222aa32aa3dcf88ef903e1e732fdb04206f04ce72d046e7",
+      "characters": 131
+    },
+    {
+      "key": "hexagram-26-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 26; scan-backed transcription p. 112, line 5",
+      "sha256": "8f8e0a30e4725527d7c19b8e36e8996ae2ed1d6de9d1aa50072088aaf62f6c7d",
+      "characters": 87
+    },
+    {
+      "key": "hexagram-26-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 26; scan-backed transcription p. 112, line 6",
+      "sha256": "ac29b45d867c0afa6c1ebd8aacb5a404d2758ca6fe92f2dbfc4d989acb67dba5",
+      "characters": 112
+    },
+    {
+      "key": "hexagram-27-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 27; scan-backed transcription p. 114, line 1",
+      "sha256": "7b98fdb1fe1d928853ae1e4adebb60f3da62c78273891af95dc446bfed4bf901",
+      "characters": 162
+    },
+    {
+      "key": "hexagram-27-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 27; scan-backed transcription p. 114, line 2",
+      "sha256": "220a951b3f5e2b66a53defbd35b0ac2192896b2bb481ee93a44233eb4e96c2d9",
+      "characters": 186
+    },
+    {
+      "key": "hexagram-27-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 27; scan-backed transcription p. 114, line 3",
+      "sha256": "30f18cb7be0868fcaff37aac920431974482784e645411a45fe6df41d1b79a3e",
+      "characters": 211
+    },
+    {
+      "key": "hexagram-27-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 27; scan-backed transcription p. 114, line 4",
+      "sha256": "661f3d772be3b278ff547258e91648328ee1fefc300a7598a2285c81544fb2f1",
+      "characters": 246
+    },
+    {
+      "key": "hexagram-27-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 27; scan-backed transcription p. 114, line 5",
+      "sha256": "f293354de0c8867a7d93eb2313c601b1f1a1ffa8de9a841c3b0cb02c8855da32",
+      "characters": 194
+    },
+    {
+      "key": "hexagram-27-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 27; scan-backed transcription p. 114, line 6",
+      "sha256": "faf2bed139b7c98ccf2917aee9e0b8717a56b35ea622304368788334519fb9b2",
+      "characters": 177
+    },
+    {
+      "key": "hexagram-28-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 28; scan-backed transcription p. 116, line 1",
+      "sha256": "8f16c65f509d20655a02922c03b2dba68a6f2dbc7a7c47c18f6e03602ba9b79b",
+      "characters": 125
+    },
+    {
+      "key": "hexagram-28-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 28; scan-backed transcription p. 116, line 2",
+      "sha256": "2e2c3c23ded93a92aea173ffb6048d2298608b2e5075c3399cc17bd38b528275",
+      "characters": 157
+    },
+    {
+      "key": "hexagram-28-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 28; scan-backed transcription p. 116, line 3",
+      "sha256": "d61baf37e51ca3b7270eba76b68eb05924766c4697fa62a1c473cc4ed46e11a8",
+      "characters": 73
+    },
+    {
+      "key": "hexagram-28-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 28; scan-backed transcription p. 116, line 4",
+      "sha256": "b02573b94890f1e9465f527ddd6be2836c114a1cf4a3da841d54a61f76ab1795",
+      "characters": 185
+    },
+    {
+      "key": "hexagram-28-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 28; scan-backed transcription p. 116, line 5",
+      "sha256": "8ef4e7e04dbead218858296019f9446921873326d0cdcf36fb5b7feaffdaf956",
+      "characters": 176
+    },
+    {
+      "key": "hexagram-28-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 28; scan-backed transcription p. 116, line 6",
+      "sha256": "302663ebd3d1b9d76b3b6923c9cf7c98e10881e3be083dc726b59961d7e98c08",
+      "characters": 187
+    },
+    {
+      "key": "hexagram-29-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 29; scan-backed transcription p. 118, line 1",
+      "sha256": "64753e260e3893996104e6dea240679ec55e2ab0703522c9c7e30d11097e2968",
+      "characters": 122
+    },
+    {
+      "key": "hexagram-29-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 29; scan-backed transcription p. 118, line 2",
+      "sha256": "157dc42307ace870dc2af5ac5e9422d80a9e4db8e43d828a9254d6093a394392",
+      "characters": 144
+    },
+    {
+      "key": "hexagram-29-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 29; scan-backed transcription p. 118, line 3",
+      "sha256": "3bbc4bd9cd3368bb33cf2825d13b90ac53cf6e8e6652d89d568c362348c6f298",
+      "characters": 251
+    },
+    {
+      "key": "hexagram-29-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 29; scan-backed transcription p. 118, line 4",
+      "sha256": "2439f4c75bd3ea4ef7b63bc38d8b62076dfb097ee0708d7e3137e212b9ac3ab0",
+      "characters": 287
+    },
+    {
+      "key": "hexagram-29-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 29; scan-backed transcription p. 118, line 5",
+      "sha256": "985d2113e883cd5dc17481542706ce50233d0f722fccbd46abe596ade4a7acf3",
+      "characters": 164
+    },
+    {
+      "key": "hexagram-29-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 29; scan-backed transcription p. 118, line 6",
+      "sha256": "3039af0ad62559c24c8a0449badd8ac8e85a32f5db3064f2519d13b6da7256bb",
+      "characters": 217
+    },
+    {
+      "key": "hexagram-30-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 30; scan-backed transcription p. 120, line 1",
+      "sha256": "e46e443bc97aff3956b3cf4a8fffef2f441f2234947032bedbbb0fa0c61101fd",
+      "characters": 144
+    },
+    {
+      "key": "hexagram-30-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 30; scan-backed transcription p. 120, line 2",
+      "sha256": "8a4af306ec91747f6fab1e7fa8276fd746638891e963b23c1847f657a9c02cb5",
+      "characters": 100
+    },
+    {
+      "key": "hexagram-30-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 30; scan-backed transcription p. 120, line 3",
+      "sha256": "b5e8ecc06bca5979e77efdf2e1b194d949b35f9f875679b9b61f02d61a8d13ec",
+      "characters": 228
+    },
+    {
+      "key": "hexagram-30-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 30; scan-backed transcription p. 120, line 4",
+      "sha256": "3cde812af1f9947b9c37b7e23d4e6276b08992ca449483f5f6b7702d12ba3cf8",
+      "characters": 138
+    },
+    {
+      "key": "hexagram-30-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 30; scan-backed transcription p. 120, line 5",
+      "sha256": "3698c825922723fc8c54894f40515198765337050cbd89ca35e6c2ff9fef8f44",
+      "characters": 132
+    },
+    {
+      "key": "hexagram-30-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 30; scan-backed transcription p. 120, line 6",
+      "sha256": "502503b2bc9fb5049c2b1d9a8877afbba4a3dd2b490e63a7cbde19c4d8cf9da4",
+      "characters": 259
+    },
+    {
+      "key": "hexagram-31-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 31; scan-backed transcription p. 123, line 1",
+      "sha256": "26f70d2e44645901aca790d2325b335b59afda22975126852ce3def1208c61ee",
+      "characters": 56
+    },
+    {
+      "key": "hexagram-31-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 31; scan-backed transcription p. 123, line 2",
+      "sha256": "29182057c5e4b920581d1894116c6c83016dcc480971e2ca35c136919cbfbd12",
+      "characters": 146
+    },
+    {
+      "key": "hexagram-31-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 31; scan-backed transcription p. 123, line 3",
+      "sha256": "e8a16f2aced472cc285d1a99035a03eaa4ec146c03438707276f0d38df920c0a",
+      "characters": 151
+    },
+    {
+      "key": "hexagram-31-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 31; scan-backed transcription p. 123, line 4",
+      "sha256": "7fe55bed1da3a6efb2d6f1e841efeaa1c3620335d8a28b73d34de88fa35c80c3",
+      "characters": 219
+    },
+    {
+      "key": "hexagram-31-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 31; scan-backed transcription p. 123, line 5",
+      "sha256": "6f3712ed9bf53f4a79188371aa2b55c48e7a16e01b6245017ba648a2475f17d1",
+      "characters": 128
+    },
+    {
+      "key": "hexagram-31-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 31; scan-backed transcription p. 123, line 6",
+      "sha256": "0ef8f48295283c6b2765e1a4b48c879c314f1d74f55f0c77f7b5b1255df2fc6e",
+      "characters": 61
+    },
+    {
+      "key": "hexagram-32-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 32; scan-backed transcription p. 125, line 1",
+      "sha256": "9796001318321667d9da38dc73edd1ae10384dde936ed00a83940670488226bb",
+      "characters": 166
+    },
+    {
+      "key": "hexagram-32-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 32; scan-backed transcription p. 125, line 2",
+      "sha256": "0240e708b99736ad0c89b089aed340e383d8d48616997b03953a68f3811caab3",
+      "characters": 75
+    },
+    {
+      "key": "hexagram-32-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 32; scan-backed transcription p. 125, line 3",
+      "sha256": "1cedd1dc3aa8a1111e3765e9e5c996a5a40f1606f22848e5800cfeb71b725d95",
+      "characters": 199
+    },
+    {
+      "key": "hexagram-32-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 32; scan-backed transcription p. 125, line 4",
+      "sha256": "a4b87862b0327f619334013c95e1b616e2d1354f11010f2f36658fae24970d8b",
+      "characters": 65
+    },
+    {
+      "key": "hexagram-32-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 32; scan-backed transcription p. 125, line 5",
+      "sha256": "178f824af7f739fa89d9a04fbf213a34e0b6098864d41f8ce6c43c95239929c2",
+      "characters": 148
+    },
+    {
+      "key": "hexagram-32-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 32; scan-backed transcription p. 125, line 6",
+      "sha256": "b1c28b7d9d390fede2a770433660f0a49271af6c17e9d31468cb4ff03159f04f",
+      "characters": 101
+    },
+    {
+      "key": "hexagram-33-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 33; scan-backed transcription p. 127, line 1",
+      "sha256": "0db4ea0e145d8ba51fe04f85122e89adce5d2e204f9b9519d0d9e510c01cbf2f",
+      "characters": 117
+    },
+    {
+      "key": "hexagram-33-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 33; scan-backed transcription p. 127, line 2",
+      "sha256": "19bba836bdc21d92619ad049bd4010042085bf3f122a1e4ba0da0ab58e9aca46",
+      "characters": 147
+    },
+    {
+      "key": "hexagram-33-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 33; scan-backed transcription p. 127, line 3",
+      "sha256": "23cebfa832b949e40486f4b53d96cde7ecd2e487beaa6556711c85e6ea7cf48a",
+      "characters": 196
+    },
+    {
+      "key": "hexagram-33-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 33; scan-backed transcription p. 127, line 4",
+      "sha256": "27c39b578bcae397c8dae5d00660648dcc079f471387411575a9e0e6cd13fc6d",
+      "characters": 168
+    },
+    {
+      "key": "hexagram-33-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 33; scan-backed transcription p. 127, line 5",
+      "sha256": "f5319d864b508a2de376b7968810d9247aa0672110acec980753bee65f348040",
+      "characters": 124
+    },
+    {
+      "key": "hexagram-33-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 33; scan-backed transcription p. 127, line 6",
+      "sha256": "fc8dce065d18caeb9579e6f17d7ffdcf4cd5a26f304a9e0ea52b18f65c590806",
+      "characters": 111
+    },
+    {
+      "key": "hexagram-34-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 34; scan-backed transcription p. 129, line 1",
+      "sha256": "2b73cd4653e4dc6168361e6776231e3542555aa4c3cd2ea1f6ab3dc8819f05e4",
+      "characters": 132
+    },
+    {
+      "key": "hexagram-34-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 34; scan-backed transcription p. 129, line 2",
+      "sha256": "85455205464b424cbbd74865f93778b89c23c98d37618c5a9c4bd070fa782b94",
+      "characters": 88
+    },
+    {
+      "key": "hexagram-34-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 34; scan-backed transcription p. 129, line 3",
+      "sha256": "dd61aba74538e6995c6b41c3fcf7955ea647e437d25a941044afe9b7c2dde597",
+      "characters": 345
+    },
+    {
+      "key": "hexagram-34-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 34; scan-backed transcription p. 129, line 4",
+      "sha256": "95e9121b55826359e716f395cd1562076f26954f9bb18e7bcc8a59b158ef24ba",
+      "characters": 257
+    },
+    {
+      "key": "hexagram-34-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 34; scan-backed transcription p. 129, line 5",
+      "sha256": "9ae6267722e1d4f8b46cc6cc061194431a87de8c0355af2825eeba2ed8aebe07",
+      "characters": 144
+    },
+    {
+      "key": "hexagram-34-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 34; scan-backed transcription p. 129, line 6",
+      "sha256": "4171ddef49c4ccc5acf17e903f0d14f05f4dd695d2f4edb2150cde8c96cc1523",
+      "characters": 282
+    },
+    {
+      "key": "hexagram-35-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 35; scan-backed transcription p. 131, line 1",
+      "sha256": "7119092d4b6137fa932dbd87e5c3ab531754fcdda412dbae332df27bbd90c163",
+      "characters": 252
+    },
+    {
+      "key": "hexagram-35-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 35; scan-backed transcription p. 131, line 2",
+      "sha256": "40a240a5f545235a6ff25f314fc5f3253abbaac28173268ef6fc22b0ec20c0a3",
+      "characters": 217
+    },
+    {
+      "key": "hexagram-35-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 35; scan-backed transcription p. 131, line 3",
+      "sha256": "db93c9fbde69cb425b62316a4aef4ecc4252525b69203967887c3ec06e5cb8e2",
+      "characters": 114
+    },
+    {
+      "key": "hexagram-35-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 35; scan-backed transcription p. 131, line 4",
+      "sha256": "10e580b962da60710fbe15698022fad5c3fb82753be6ecac72bcaa670562b1dd",
+      "characters": 164
+    },
+    {
+      "key": "hexagram-35-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 35; scan-backed transcription p. 131, line 5",
+      "sha256": "119fccad57e8963b9aea3278c7ae34d8b6d9779b9c5cc0d7a23c1a8611e02177",
+      "characters": 227
+    },
+    {
+      "key": "hexagram-35-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 35; scan-backed transcription p. 131, line 6",
+      "sha256": "0a0e4a06a8f24724884589a43b69921b09c1d21395c55cb4882b6557ac97c6ef",
+      "characters": 267
+    },
+    {
+      "key": "hexagram-36-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 36; scan-backed transcription p. 134, line 1",
+      "sha256": "5db575601e7cd9620ae66298bdf2a797131fdf071c8bef90a81c62d7f562bdd6",
+      "characters": 279
+    },
+    {
+      "key": "hexagram-36-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 36; scan-backed transcription p. 134, line 2",
+      "sha256": "ca145bbdb7be4d5cc7120e584cb0457cabde74c0db70853299421c9b468fa3ad",
+      "characters": 182
+    },
+    {
+      "key": "hexagram-36-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 36; scan-backed transcription p. 134, line 3",
+      "sha256": "b3a3395823a174619db8e31cbd36ef4dc944def394f2776c78bcc98f3ce06c1c",
+      "characters": 210
+    },
+    {
+      "key": "hexagram-36-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 36; scan-backed transcription p. 134, line 4",
+      "sha256": "40cb52acdba5a272b524489c48b89a7d1292d1a45cd6f7b433521ef05c7c97ef",
+      "characters": 260
+    },
+    {
+      "key": "hexagram-36-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 36; scan-backed transcription p. 134, line 5",
+      "sha256": "9cca49336aa14a6f45591ed6a89136044a8ab695d96623ee9d9c61e68209fb5a",
+      "characters": 146
+    },
+    {
+      "key": "hexagram-36-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 36; scan-backed transcription p. 134, line 6",
+      "sha256": "077a1c28ccec3f996e88d4ab897d89d037b55e9fa7c04938d1a5d552e7f46ee8",
+      "characters": 188
+    },
+    {
+      "key": "hexagram-37-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 37; scan-backed transcription p. 136, line 1",
+      "sha256": "8237b1115dbf6f1d7e94ef08a8ed9aa12d39aa132f3a45c3c87739c831da84a3",
+      "characters": 138
+    },
+    {
+      "key": "hexagram-37-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 37; scan-backed transcription p. 136, line 2",
+      "sha256": "33cb20e483eeaecafe93a4a3f1d5c176da6a855d02015164ee8e1dad04538294",
+      "characters": 193
+    },
+    {
+      "key": "hexagram-37-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 37; scan-backed transcription p. 136, line 3",
+      "sha256": "428a6bbaa606b18705bb861c4882094b8f97bb0b9f03a775369cb985871b736f",
+      "characters": 314
+    },
+    {
+      "key": "hexagram-37-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 37; scan-backed transcription p. 136, line 4",
+      "sha256": "2c60dc23c04bd33b7cc754e69351000c94a88490f4318ff45ca6f9258cf83d9e",
+      "characters": 98
+    },
+    {
+      "key": "hexagram-37-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 37; scan-backed transcription p. 136, line 5",
+      "sha256": "67b2c4ccd25c875eabaf10ad1444e54e7b32ddcbfd79aa562868050ca72df9a0",
+      "characters": 137
+    },
+    {
+      "key": "hexagram-37-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 37; scan-backed transcription p. 136, line 6",
+      "sha256": "b74da9b2e101f57e03216ece66968259eafceb03a78a6fca2bec2b527d96cdd2",
+      "characters": 132
+    },
+    {
+      "key": "hexagram-38-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 38; scan-backed transcription p. 139, line 1",
+      "sha256": "3ddba212a96d72e3873a4f20dc3d470a81f2d56e908b25ae15fc2dcfde790762",
+      "characters": 259
+    },
+    {
+      "key": "hexagram-38-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 38; scan-backed transcription p. 139, line 2",
+      "sha256": "31f4602c316fb93083a6ed0726b3c08fd9a39242ace952c43a8603bc682697c9",
+      "characters": 119
+    },
+    {
+      "key": "hexagram-38-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 38; scan-backed transcription p. 139, line 3",
+      "sha256": "1f4648b993da3e0c928969aede3f86f0a6b2054591e25ebe7c1d64f155543143",
+      "characters": 253
+    },
+    {
+      "key": "hexagram-38-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 38; scan-backed transcription p. 139, line 4",
+      "sha256": "969178a05d60180900c5d5f7038a2aca03fe7e26e53b9ccfe4c06b63baf92414",
+      "characters": 261
+    },
+    {
+      "key": "hexagram-38-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 38; scan-backed transcription p. 139, line 5",
+      "sha256": "bbdf06ce750657f99dbfbbda265a4ca741254c314889d5fa8692942e9a70c591",
+      "characters": 264
+    },
+    {
+      "key": "hexagram-38-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 38; scan-backed transcription p. 139, line 6",
+      "sha256": "a8681f9edde57d21fd67d880e39aa7a4594404ec9f92230846b842c4dfa67fbc",
+      "characters": 454
+    },
+    {
+      "key": "hexagram-39-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 39; scan-backed transcription p. 141, line 1",
+      "sha256": "2084505288ee92893da68f9537c969b2ca4e6ef1138c8751f07e32fccdeab30d",
+      "characters": 174
+    },
+    {
+      "key": "hexagram-39-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 39; scan-backed transcription p. 141, line 2",
+      "sha256": "eaebf34dd81083ab0f0c1e88c6dd2f6a3c914d73bfdbde601a0a0f4993a53fe5",
+      "characters": 139
+    },
+    {
+      "key": "hexagram-39-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 39; scan-backed transcription p. 141, line 3",
+      "sha256": "0be0c84235f0b3cb2de7dcbaa81ffc55364390a129268cbf0b9f1afe1dd52743",
+      "characters": 156
+    },
+    {
+      "key": "hexagram-39-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 39; scan-backed transcription p. 141, line 4",
+      "sha256": "0fa2ff2951eb6f283173a8c74287d9e7782815a733be599d8b2a491eca9743c0",
+      "characters": 163
+    },
+    {
+      "key": "hexagram-39-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 39; scan-backed transcription p. 141, line 5",
+      "sha256": "13cfeca79d0314a15065409f921e4a77e93e8bdbc9a71f923a4e2ca6bd21a222",
+      "characters": 125
+    },
+    {
+      "key": "hexagram-39-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 39; scan-backed transcription p. 141, line 6",
+      "sha256": "ef22965a5718a84987b1d9d60798eb3c14886d8eec5b19f1f20dc33f64ffca13",
+      "characters": 249
+    },
+    {
+      "key": "hexagram-40-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 40; scan-backed transcription p. 144, line 1",
+      "sha256": "8a6fdfa39afa5562129e6ceb7a1c502236699c88f67506e403104c6e6ce73ab2",
+      "characters": 68
+    },
+    {
+      "key": "hexagram-40-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 40; scan-backed transcription p. 144, line 2",
+      "sha256": "a8eab98826ed0cadb14bbcba0156c2c6493368465c01f755609a800cd72ab07e",
+      "characters": 168
+    },
+    {
+      "key": "hexagram-40-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 40; scan-backed transcription p. 144, line 3",
+      "sha256": "c31dd44e20731aee2e136045e75b2d2d1220ccb51e4ceee7d41d4eb7fa77a379",
+      "characters": 204
+    },
+    {
+      "key": "hexagram-40-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 40; scan-backed transcription p. 144, line 4",
+      "sha256": "7434469e628d49cd7721610c49f47705ac9072865032a18035f382b8d91fd4f7",
+      "characters": 161
+    },
+    {
+      "key": "hexagram-40-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 40; scan-backed transcription p. 144, line 5",
+      "sha256": "87023e10955e56b600c0b06cc4ba8cc27e3d79ad152583a76c4ea3e9c39f6815",
+      "characters": 265
+    },
+    {
+      "key": "hexagram-40-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 40; scan-backed transcription p. 144, line 6",
+      "sha256": "e4c7455f381414b9806b8cd62b71720836468d5c60b05dbe7e3547fa9033ae5e",
+      "characters": 190
+    },
+    {
+      "key": "hexagram-41-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 41; scan-backed transcription p. 146, line 1",
+      "sha256": "33dae31a4b4bf616351d98721f175dbeb955bda073b31dd1f660ea030d8ae120",
+      "characters": 239
+    },
+    {
+      "key": "hexagram-41-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 41; scan-backed transcription p. 146, line 2",
+      "sha256": "38170916be8bb83d64bbabc29409d0f4c8c9eb21f3196683077efc7bc5661154",
+      "characters": 221
+    },
+    {
+      "key": "hexagram-41-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 41; scan-backed transcription p. 146, line 3",
+      "sha256": "1a61ef6d027ba58d9f8a4a61ae12b4c90507b839db9776c929cebae2ccf91279",
+      "characters": 137
+    },
+    {
+      "key": "hexagram-41-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 41; scan-backed transcription p. 146, line 4",
+      "sha256": "4973e05127994c129469b07ad94aa07c8e67cae752197895f3811bce07270c2e",
+      "characters": 196
+    },
+    {
+      "key": "hexagram-41-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 41; scan-backed transcription p. 146, line 5",
+      "sha256": "86a220bcd5b8d971bc9cf90925b075da2024450de91209bd0a992ba627af4dad",
+      "characters": 165
+    },
+    {
+      "key": "hexagram-41-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 41; scan-backed transcription p. 146, line 6",
+      "sha256": "a6b8c638ae5e3fa6915afbbe4e6e222072fa6592b8e6fdee497a43444f60f2ae",
+      "characters": 301
+    },
+    {
+      "key": "hexagram-42-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 42; scan-backed transcription p. 149, line 1",
+      "sha256": "700e6162649aa81800786faaca9ad68581abcb677c9f3d881cc5d6f4f2c13200",
+      "characters": 180
+    },
+    {
+      "key": "hexagram-42-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 42; scan-backed transcription p. 149, line 2",
+      "sha256": "a11b6028c31a54e3dd344dd433a38c6a99a4487eadf9a476318bffcb4d8624c6",
+      "characters": 348
+    },
+    {
+      "key": "hexagram-42-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 42; scan-backed transcription p. 149, line 3",
+      "sha256": "75477fe81c48fdf369210e2fa9ce1ea6cea278c54b15c995ba408e9be8777791",
+      "characters": 324
+    },
+    {
+      "key": "hexagram-42-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 42; scan-backed transcription p. 149, line 4",
+      "sha256": "5817f5b87750913859c869bc16d87c6a918692920d26181bec59060a1560558b",
+      "characters": 192
+    },
+    {
+      "key": "hexagram-42-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 42; scan-backed transcription p. 149, line 5",
+      "sha256": "8eb1bbdca3234044a80f7e1660e6a795deb205edb5879b847c4564cb0de4ebe8",
+      "characters": 232
+    },
+    {
+      "key": "hexagram-42-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 42; scan-backed transcription p. 149, line 6",
+      "sha256": "ea18257791442a476fc5152408a4233da17b93b2731f1cf799eed0774cf27702",
+      "characters": 194
+    },
+    {
+      "key": "hexagram-43-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 43; scan-backed transcription p. 151, line 1",
+      "sha256": "66b63200f0466639fab608294aaeb5705332f2526c2b563ad29f7a89810a69f4",
+      "characters": 167
+    },
+    {
+      "key": "hexagram-43-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 43; scan-backed transcription p. 151, line 2",
+      "sha256": "f739a73616d3918baa451a246f947a9c0fe651726647a68d44bd4aa8dc6e0263",
+      "characters": 203
+    },
+    {
+      "key": "hexagram-43-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 43; scan-backed transcription p. 151, line 3",
+      "sha256": "5a0b57df8fe2b21e680b24ce1f225bf90e727c75e21e39abae06023cd13c9707",
+      "characters": 356
+    },
+    {
+      "key": "hexagram-43-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 43; scan-backed transcription p. 151, line 4",
+      "sha256": "a2de43812a0b8481db73cd346b1d4ddef0f38d606214c9700db224f1137f60ee",
+      "characters": 286
+    },
+    {
+      "key": "hexagram-43-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 43; scan-backed transcription p. 151, line 5",
+      "sha256": "9b964abee8a04741b0750fb80bd84c3a3e76acea66022068c19d59186c772e00",
+      "characters": 265
+    },
+    {
+      "key": "hexagram-43-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 43; scan-backed transcription p. 151, line 6",
+      "sha256": "c7929ef654e02beb58b465061b6db4409a87b6bdb5922d9e3a40aede21928a90",
+      "characters": 102
+    },
+    {
+      "key": "hexagram-44-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 44; scan-backed transcription p. 154, line 1",
+      "sha256": "b7dbf6dcd56add0367f13745b5cfe218219606344cb7a861e84d574e327a2eb4",
+      "characters": 297
+    },
+    {
+      "key": "hexagram-44-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 44; scan-backed transcription p. 154, line 2",
+      "sha256": "249baffa4beb5a63d01c4462da16226f0d24fa078f2ea073ca746c48e2667cbd",
+      "characters": 181
+    },
+    {
+      "key": "hexagram-44-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 44; scan-backed transcription p. 154, line 3",
+      "sha256": "b3505cff0451c7a995004aaae3f4d2c675a4841def4944e26dea0a8a71ed2b8b",
+      "characters": 177
+    },
+    {
+      "key": "hexagram-44-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 44; scan-backed transcription p. 154, line 4",
+      "sha256": "6186b6268a86290175057945dd32cff2bcd3b2e8d3b97c58a93b7719a3164f77",
+      "characters": 110
+    },
+    {
+      "key": "hexagram-44-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 44; scan-backed transcription p. 154, line 5",
+      "sha256": "46c202f9abf1525e802ebccf0f97ecaacf89c8a1a66a5b98912a69e4b84b27a7",
+      "characters": 193
+    },
+    {
+      "key": "hexagram-44-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 44; scan-backed transcription p. 154, line 6",
+      "sha256": "235cdafecc4f87101754baf0729f60498e433093f6d6703504a94015f6dc3895",
+      "characters": 138
+    },
+    {
+      "key": "hexagram-45-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 45; scan-backed transcription p. 156, line 1",
+      "sha256": "8b37c0a68415faec61f321c7ddd141ad6680b678fa50b7791401ca16d70f6deb",
+      "characters": 352
+    },
+    {
+      "key": "hexagram-45-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 45; scan-backed transcription p. 156, line 2",
+      "sha256": "0c08989c3d8955566503e65f30ac4841da9aed0f7140080bc8e49b5ee311a7e5",
+      "characters": 237
+    },
+    {
+      "key": "hexagram-45-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 45; scan-backed transcription p. 156, line 3",
+      "sha256": "388dcecea8c331e912f78a216d61fb8f0ef5b0cf498754cfce98daaabb9ff6fc",
+      "characters": 202
+    },
+    {
+      "key": "hexagram-45-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 45; scan-backed transcription p. 156, line 4",
+      "sha256": "22ed6d248bb1a081d94424a07c2ed081e59bf323d521fa1be3f3e4c92e07a0b5",
+      "characters": 121
+    },
+    {
+      "key": "hexagram-45-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 45; scan-backed transcription p. 156, line 5",
+      "sha256": "fc963c6ff7b26bd40ccbc129030dd2ba7701ee34c12925b94ce604842a6c9626",
+      "characters": 286
+    },
+    {
+      "key": "hexagram-45-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 45; scan-backed transcription p. 156, line 6",
+      "sha256": "6cc2c83de9b98bcb656f317c7d06954b6d854f44dda2d5485b1de7c88b5591d1",
+      "characters": 92
+    },
+    {
+      "key": "hexagram-46-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 46; scan-backed transcription p. 159, line 1",
+      "sha256": "7eab5d5d9076de2b79415ba1ccb2ba899b4822fd8251e78f38c9ece80557d9a7",
+      "characters": 132
+    },
+    {
+      "key": "hexagram-46-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 46; scan-backed transcription p. 159, line 2",
+      "sha256": "c6a943cdff651f70bda2a6952bfefb382497d3863e1e4a704af32be36e17a8e3",
+      "characters": 168
+    },
+    {
+      "key": "hexagram-46-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 46; scan-backed transcription p. 159, line 3",
+      "sha256": "433ee86d16498b343b6da1edea5caa36fabe041ae72165155bd8dba03a07cda7",
+      "characters": 87
+    },
+    {
+      "key": "hexagram-46-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 46; scan-backed transcription p. 159, line 4",
+      "sha256": "23024c9dd1de3063f277d6101eaf71733cfadb84631fd74aa437eaf07d08280e",
+      "characters": 158
+    },
+    {
+      "key": "hexagram-46-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 46; scan-backed transcription p. 159, line 5",
+      "sha256": "29ad4a72f65f092db5187fedaeb0b0aceb3422091b17f8c21f6a7d0bd2709884",
+      "characters": 141
+    },
+    {
+      "key": "hexagram-46-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 46; scan-backed transcription p. 159, line 6",
+      "sha256": "0abc7032210be73a87b19669beb5d30b60a7accc8ffddc30d24fb39c24b8aa05",
+      "characters": 140
+    },
+    {
+      "key": "hexagram-47-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 47; scan-backed transcription p. 161, line 1",
+      "sha256": "4dfde48e69e79840beb26356433d61ab4c3de7f01ffc9982dbaab0a646670a14",
+      "characters": 177
+    },
+    {
+      "key": "hexagram-47-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 47; scan-backed transcription p. 161, line 2",
+      "sha256": "f3ab381c2d0dafd67869913944b2e8c8562dc429cb39b3b28cb33f1726ba6998",
+      "characters": 297
+    },
+    {
+      "key": "hexagram-47-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 47; scan-backed transcription p. 161, line 3",
+      "sha256": "595d947ea24204f103b9a633790664a98f9dc7d0e481e3e408d24f0fa40264c1",
+      "characters": 171
+    },
+    {
+      "key": "hexagram-47-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 47; scan-backed transcription p. 161, line 4",
+      "sha256": "bd9ef5ae50310917fdf819dafcfb4e331504657cd09fb741429215e1a1b93d5a",
+      "characters": 239
+    },
+    {
+      "key": "hexagram-47-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 47; scan-backed transcription p. 161, line 5",
+      "sha256": "c7b54a9921020f33486f680dc1057b8418d3fe3edb88f4000842b18b0daf5075",
+      "characters": 282
+    },
+    {
+      "key": "hexagram-47-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 47; scan-backed transcription p. 161, line 6",
+      "sha256": "684ce2b740b53cf4b6bc4191e58c049b81ec76ac26ea1599b24574363056d83e",
+      "characters": 256
+    },
+    {
+      "key": "hexagram-48-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 48; scan-backed transcription p. 164, line 1",
+      "sha256": "2d01485b452047483a005a8b79c2f4c820bfda0a2ba8456c82751db2b069dc76",
+      "characters": 144
+    },
+    {
+      "key": "hexagram-48-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 48; scan-backed transcription p. 164, line 2",
+      "sha256": "f94d3b747137db4a9543bc620bb09492e5b7dfadd37187e0d9f0b4f77733aef6",
+      "characters": 212
+    },
+    {
+      "key": "hexagram-48-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 48; scan-backed transcription p. 164, line 3",
+      "sha256": "3c30109fc3372f94f524faf9d3fba030c707b1868a6f054a4dda9cfe9ae221ca",
+      "characters": 244
+    },
+    {
+      "key": "hexagram-48-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 48; scan-backed transcription p. 164, line 4",
+      "sha256": "699d5f21b5e720523821cd8c17bf577cfc88fd17487060dca6b583eb4abad54e",
+      "characters": 96
+    },
+    {
+      "key": "hexagram-48-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 48; scan-backed transcription p. 164, line 5",
+      "sha256": "1d4a5bb9687a73fb974a5a99d9041201b62e23b1272cac96e32fa4da7b815715",
+      "characters": 110
+    },
+    {
+      "key": "hexagram-48-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 48; scan-backed transcription p. 164, line 6",
+      "sha256": "fd280b501df76f380c238269f1304c65a13ecaf711866b696bbb764b57bd43eb",
+      "characters": 184
+    },
+    {
+      "key": "hexagram-49-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 49; scan-backed transcription p. 167, line 1",
+      "sha256": "c2570ce126c5eb4c432c2ecba67923ceda73f3ff83f9a35b7437d85fa97ffa7d",
+      "characters": 96
+    },
+    {
+      "key": "hexagram-49-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 49; scan-backed transcription p. 167, line 2",
+      "sha256": "36f53929ad94ca4bbc9675786f6648dc25e1e62f64b5e092edac8997fbea68cc",
+      "characters": 145
+    },
+    {
+      "key": "hexagram-49-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 49; scan-backed transcription p. 167, line 3",
+      "sha256": "7055dc995eb217dbfc03b7dfd34285820f2796da2057a635834985279940617c",
+      "characters": 231
+    },
+    {
+      "key": "hexagram-49-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 49; scan-backed transcription p. 167, line 4",
+      "sha256": "2c503215bb66f224c6a15c591f27bf9360a0a753909d7bf4891319c845c70dda",
+      "characters": 186
+    },
+    {
+      "key": "hexagram-49-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 49; scan-backed transcription p. 167, line 5",
+      "sha256": "452cd8a91e23b8bdd92fd8b60dbd65c511af72bc471ece8be709a4e523020e96",
+      "characters": 196
+    },
+    {
+      "key": "hexagram-49-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 49; scan-backed transcription p. 167, line 6",
+      "sha256": "74212ffeaee17f70e807e379344b77dcaf20bfd53b3f59b5192b8663d9ba9581",
+      "characters": 282
+    },
+    {
+      "key": "hexagram-50-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 50; scan-backed transcription p. 169, line 1",
+      "sha256": "44ecd82e27b7192d8986b595b168e568dcbf80bf37fd6df17a9c444ec635929b",
+      "characters": 253
+    },
+    {
+      "key": "hexagram-50-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 50; scan-backed transcription p. 169, line 2",
+      "sha256": "2f4d0672bd72d3dac732ffe244c4b7faabae300a8d11bc5970176ba8a730e4f5",
+      "characters": 188
+    },
+    {
+      "key": "hexagram-50-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 50; scan-backed transcription p. 169, line 3",
+      "sha256": "cd2a965aed6f6f0a003f8061dfd7d0017d2a9604e1ccb9a919d1065f9d388e46",
+      "characters": 326
+    },
+    {
+      "key": "hexagram-50-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 50; scan-backed transcription p. 169, line 4",
+      "sha256": "1b40c728b1607bde75463fdc70ac4735b4ea2f477e168df94a24b35ed46da2c4",
+      "characters": 202
+    },
+    {
+      "key": "hexagram-50-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 50; scan-backed transcription p. 169, line 5",
+      "sha256": "bebec03500c9ca01ae48d7ee22eefecc5ede9b7f80e2bedd80eec85f3307c655",
+      "characters": 142
+    },
+    {
+      "key": "hexagram-50-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 50; scan-backed transcription p. 169, line 6",
+      "sha256": "e5a68c4f4cd6b09548a4b172ae0adf409c4134c1f9328e3c056e631eae52675a",
+      "characters": 154
+    },
+    {
+      "key": "hexagram-51-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 51; scan-backed transcription p. 172, line 1",
+      "sha256": "539d09b1a78e1ac1a069bfeb35c86a75f46b2df7692cbfe63cd9b247ae2c76cb",
+      "characters": 192
+    },
+    {
+      "key": "hexagram-51-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 51; scan-backed transcription p. 172, line 2",
+      "sha256": "bafb5e13aa371f046865b828423f64a199244a81392bb37f5f63650e64dbf771",
+      "characters": 302
+    },
+    {
+      "key": "hexagram-51-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 51; scan-backed transcription p. 172, line 3",
+      "sha256": "bde657e3fd1214475b6c1654e6694da0e4d453a5883e40aba77e8d8952f1e2ae",
+      "characters": 166
+    },
+    {
+      "key": "hexagram-51-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 51; scan-backed transcription p. 172, line 4",
+      "sha256": "01c78787608461306d2c4dd3007704ebff2c4af056b3a8a66a3caa8fc0294b22",
+      "characters": 114
+    },
+    {
+      "key": "hexagram-51-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 51; scan-backed transcription p. 172, line 5",
+      "sha256": "3a0e97a5b7113fc36eeaaafe40e9285aa3bb73feaadbfc370be802651b546c85",
+      "characters": 206
+    },
+    {
+      "key": "hexagram-51-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 51; scan-backed transcription p. 172, line 6",
+      "sha256": "f9c6eb93a69e55995f439550cdbfbbf78f674659364f14bea4114b7f6bdf1f44",
+      "characters": 400
+    },
+    {
+      "key": "hexagram-52-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 52; scan-backed transcription p. 175, line 1",
+      "sha256": "f41a5d90c546fef51f3bda257fef068fba773d94226bb22357e0761ff8e4e77f",
+      "characters": 164
+    },
+    {
+      "key": "hexagram-52-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 52; scan-backed transcription p. 175, line 2",
+      "sha256": "d17748b2e2614ca04b95fbc53466c3b60d3cc1b3c4f126403a7a10d825a294d4",
+      "characters": 179
+    },
+    {
+      "key": "hexagram-52-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 52; scan-backed transcription p. 175, line 3",
+      "sha256": "d11c2452c21b5b0c9ce13fe9486f375554c564633182a79e833b12b1c0f04e93",
+      "characters": 193
+    },
+    {
+      "key": "hexagram-52-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 52; scan-backed transcription p. 175, line 4",
+      "sha256": "178915692aa18ae64105430d653fcab8fe9973677b53b32acff4c9f413c86be7",
+      "characters": 93
+    },
+    {
+      "key": "hexagram-52-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 52; scan-backed transcription p. 175, line 5",
+      "sha256": "8c18130991adc21d7e7a6f8a8f73df0ef9c6d3eb341f578154b778650a1ebc33",
+      "characters": 148
+    },
+    {
+      "key": "hexagram-52-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 52; scan-backed transcription p. 175, line 6",
+      "sha256": "01913340460be7cd1c6c2eadc1a0134195c646039206c0af78e7a72f848d05e3",
+      "characters": 111
+    },
+    {
+      "key": "hexagram-53-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 53; scan-backed transcription p. 178, line 1",
+      "sha256": "d13278575c33fc861cfbeb6827ca96725bfc365437148d1d5a3d8e64369ebb90",
+      "characters": 204
+    },
+    {
+      "key": "hexagram-53-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 53; scan-backed transcription p. 178, line 2",
+      "sha256": "3643a2bbaf65e56db03212e1333aa73a11fbdc64def14245e67f9aade68a1f50",
+      "characters": 154
+    },
+    {
+      "key": "hexagram-53-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 53; scan-backed transcription p. 178, line 3",
+      "sha256": "a1508716612a438fa1d0597dd7007e3f02fe44be4800b4ffde8d70a82e7815c6",
+      "characters": 325
+    },
+    {
+      "key": "hexagram-53-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 53; scan-backed transcription p. 178, line 4",
+      "sha256": "db0dfa220812841afea90d327d29068f67ccac9d66d17fdbf471d5b8b4f2103c",
+      "characters": 134
+    },
+    {
+      "key": "hexagram-53-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 53; scan-backed transcription p. 178, line 5",
+      "sha256": "f92d1ebf41cbca9b614a82f560eebac6cc03567918a05da5e9da710dddd7f3a2",
+      "characters": 241
+    },
+    {
+      "key": "hexagram-53-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 53; scan-backed transcription p. 178, line 6",
+      "sha256": "49eb47be5df25395c9d27d036596249ff4979646242581b50d35c3e8648e62a5",
+      "characters": 161
+    },
+    {
+      "key": "hexagram-54-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 54; scan-backed transcription p. 180, line 1",
+      "sha256": "8031b5a6f65082998849f961a2c2dde49de3e29e7b65cea58d487aa5b0ab96e5",
+      "characters": 221
+    },
+    {
+      "key": "hexagram-54-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 54; scan-backed transcription p. 180, line 2",
+      "sha256": "23121449c181c18c53435ffb1d237c90396774b91bd084b15519578753920cee",
+      "characters": 161
+    },
+    {
+      "key": "hexagram-54-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 54; scan-backed transcription p. 180, line 3",
+      "sha256": "fa96a2099e83a15575df5d4b6c9234ba7ed29168d7cb02b2bb25943f843c9c57",
+      "characters": 141
+    },
+    {
+      "key": "hexagram-54-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 54; scan-backed transcription p. 180, line 4",
+      "sha256": "4a951e21615406befe03dad00b84f227d25554e5cd2c1fe7d9c936dc6aa511c7",
+      "characters": 157
+    },
+    {
+      "key": "hexagram-54-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 54; scan-backed transcription p. 180, line 5",
+      "sha256": "7bc516e105d117be90d15af928971078acfd7af1c5529216b36b9a00a0a85f66",
+      "characters": 310
+    },
+    {
+      "key": "hexagram-54-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 54; scan-backed transcription p. 180, line 6",
+      "sha256": "189a40f3583059ec888d806e5446348e3ed9eae91e52ff428cae504f73a8f6d6",
+      "characters": 208
+    },
+    {
+      "key": "hexagram-55-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 55; scan-backed transcription p. 183, line 1",
+      "sha256": "b460f1d181a34236e138da40da8ab3d36daa59acd9df20e4f28ce08269ab9502",
+      "characters": 169
+    },
+    {
+      "key": "hexagram-55-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 55; scan-backed transcription p. 183, line 2",
+      "sha256": "76e4b6d848e65ec35bd3dfa0afe48e4a15741d1ef33950333144c7799ab7e5c5",
+      "characters": 403
+    },
+    {
+      "key": "hexagram-55-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 55; scan-backed transcription p. 183, line 3",
+      "sha256": "0643e81341f2a69e9ac439b64bc09e795d44ea36aef43e92b69208038b2b26bc",
+      "characters": 229
+    },
+    {
+      "key": "hexagram-55-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 55; scan-backed transcription p. 183, line 4",
+      "sha256": "3aff0dba3b95edbabcf0bfd0b6ba0cc0a0dfe4c06d7a93e50e00ec9f67807435",
+      "characters": 244
+    },
+    {
+      "key": "hexagram-55-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 55; scan-backed transcription p. 183, line 5",
+      "sha256": "05ee8a15b06353aa0f4c89e72dc464516958542fbc313e3a62562f5c4e937ca1",
+      "characters": 173
+    },
+    {
+      "key": "hexagram-55-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 55; scan-backed transcription p. 183, line 6",
+      "sha256": "38d865cf42b09ae0236615a78203db98323e614d14acc2b4f4dcb7fe05a62048",
+      "characters": 245
+    },
+    {
+      "key": "hexagram-56-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 56; scan-backed transcription p. 187, line 1",
+      "sha256": "e77a2b6e3cb13d0183122f5e04eb436f873730ca96f83b81bbdac8fb9cbba44a",
+      "characters": 125
+    },
+    {
+      "key": "hexagram-56-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 56; scan-backed transcription p. 187, line 2",
+      "sha256": "10539cb497647f6ef705d25f197f479c269e9ca473a5d46df19a236698a286a4",
+      "characters": 160
+    },
+    {
+      "key": "hexagram-56-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 56; scan-backed transcription p. 187, line 3",
+      "sha256": "4c64a086d6ea3e13c18cb4d5b09e369a0a727b796574c1987ea6dcaa638f85a0",
+      "characters": 165
+    },
+    {
+      "key": "hexagram-56-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 56; scan-backed transcription p. 187, line 4",
+      "sha256": "38da42d7f657bf31d4399f1c48ba590e306d4cd7c1daae55d93eb3c901ea4a45",
+      "characters": 169
+    },
+    {
+      "key": "hexagram-56-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 56; scan-backed transcription p. 187, line 5",
+      "sha256": "fe98261a9974c6a0a4bb17a71810e3bee1a210440a863b6a84ff0d21ebf2a555",
+      "characters": 144
+    },
+    {
+      "key": "hexagram-56-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 56; scan-backed transcription p. 187, line 6",
+      "sha256": "d4aa02f74103bad5679c3015eb0b17d3886c3ac643a18c64e00179831036c0de",
+      "characters": 218
+    },
+    {
+      "key": "hexagram-57-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 57; scan-backed transcription p. 189, line 1",
+      "sha256": "8bc980da1ebaa4d7459e3c724d9c57117bce6bc70272bff42f31b1a29b2fae2e",
+      "characters": 156
+    },
+    {
+      "key": "hexagram-57-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 57; scan-backed transcription p. 189, line 2",
+      "sha256": "139409a2b47469c69e18e1ed01619a57450e2904051f457aed386328d9f9157b",
+      "characters": 187
+    },
+    {
+      "key": "hexagram-57-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 57; scan-backed transcription p. 189, line 3",
+      "sha256": "90d5f5c54b5f6204958cf3608fd6ccaafbc6d75657a97b20c8ff6a6ef12b4d3b",
+      "characters": 131
+    },
+    {
+      "key": "hexagram-57-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 57; scan-backed transcription p. 189, line 4",
+      "sha256": "8be49f954cec31f6101bea9591e5da488ec89c9a146cf824042f16634739741d",
+      "characters": 140
+    },
+    {
+      "key": "hexagram-57-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 57; scan-backed transcription p. 189, line 5",
+      "sha256": "8133ede179af75722f0f5e7aff735df890b0e770b659d2f97563fb50a12e4dec",
+      "characters": 418
+    },
+    {
+      "key": "hexagram-57-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 57; scan-backed transcription p. 189, line 6",
+      "sha256": "0526dcad08776fd283bb76123e8619bc3eb05e515b4cc02a16ae00bc2f524add",
+      "characters": 210
+    },
+    {
+      "key": "hexagram-58-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 58; scan-backed transcription p. 192, line 1",
+      "sha256": "adbf3dee364e6e38837691b9ed091686982cca7c85c9c2f8f556b555173c75be",
+      "characters": 94
+    },
+    {
+      "key": "hexagram-58-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 58; scan-backed transcription p. 192, line 2",
+      "sha256": "4f08912dc415e4680e7f35d2c5c4ceab62adbee8ea67a66a60c4432cbf7ab7e6",
+      "characters": 147
+    },
+    {
+      "key": "hexagram-58-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 58; scan-backed transcription p. 192, line 3",
+      "sha256": "f69075fb4695cc96c52015feec7a794ea90fadd9f18ea739faa02dae43f7e6a4",
+      "characters": 112
+    },
+    {
+      "key": "hexagram-58-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 58; scan-backed transcription p. 192, line 4",
+      "sha256": "5903448795aa1521f8531c880b8411019e7fd37deef3917e8fa2d0cfc4bdf59c",
+      "characters": 183
+    },
+    {
+      "key": "hexagram-58-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 58; scan-backed transcription p. 192, line 5",
+      "sha256": "652f668404ef3a95a9035115182e2f38b49574b21e91c7a1ebe070b09fe9e9be",
+      "characters": 109
+    },
+    {
+      "key": "hexagram-58-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 58; scan-backed transcription p. 192, line 6",
+      "sha256": "aea2a6900de66e0ce72e9403076a9a8ad757985b0bfb72b92b8798091bc3449c",
+      "characters": 93
+    },
+    {
+      "key": "hexagram-59-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 59; scan-backed transcription p. 194, line 1",
+      "sha256": "ffc787cf7206ad6a8aa078b1f38bd6ae434808cabf4af1602b91febc0411c4fb",
+      "characters": 162
+    },
+    {
+      "key": "hexagram-59-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 59; scan-backed transcription p. 194, line 2",
+      "sha256": "5e947486b4960e8359bb81590a5b902c1509bb8efc8835d5268c5b4cb7ce4a9c",
+      "characters": 155
+    },
+    {
+      "key": "hexagram-59-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 59; scan-backed transcription p. 194, line 3",
+      "sha256": "b58359b0ebc3b4eb4a8926e2d391fc70c4e4dbe124b4d86bc83109f1efc7e02a",
+      "characters": 124
+    },
+    {
+      "key": "hexagram-59-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 59; scan-backed transcription p. 194, line 4",
+      "sha256": "da449a2a385f6938d8ce5e700fa1aaaadedc2612124f3563318523570664d968",
+      "characters": 267
+    },
+    {
+      "key": "hexagram-59-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 59; scan-backed transcription p. 194, line 5",
+      "sha256": "c234356b3fc0807f82e71c4e37597269fb0be1cf782bf857ff383ad226fc2551",
+      "characters": 233
+    },
+    {
+      "key": "hexagram-59-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 59; scan-backed transcription p. 194, line 6",
+      "sha256": "fcc45ba99c786a2b739755b37a2546288509a03e747d24e80035f5b57a67545a",
+      "characters": 180
+    },
+    {
+      "key": "hexagram-60-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 60; scan-backed transcription p. 197, line 1",
+      "sha256": "dc895444d9c6cb20ab849306b2f3fd4cd240219d5193ec00c23ed83bb694d322",
+      "characters": 113
+    },
+    {
+      "key": "hexagram-60-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 60; scan-backed transcription p. 197, line 2",
+      "sha256": "489374c3dfba8c824a5c83d263ac6ce4ce2264a7d162a4d3eea810daeadcb6d9",
+      "characters": 109
+    },
+    {
+      "key": "hexagram-60-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 60; scan-backed transcription p. 197, line 3",
+      "sha256": "ddc3a45f55bc9684634df8a71cf6626c958ebfaef46c9ce6963573ee0f99a366",
+      "characters": 190
+    },
+    {
+      "key": "hexagram-60-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 60; scan-backed transcription p. 197, line 4",
+      "sha256": "9a1b9ae36ff6109c65b1ceee0d83ad57474ea88f5994a57fb057920ad43f4d23",
+      "characters": 132
+    },
+    {
+      "key": "hexagram-60-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 60; scan-backed transcription p. 197, line 5",
+      "sha256": "b8863552f445078a446701c3cf32a28d85e5131bb0d2f974ae6d4313a27b50df",
+      "characters": 186
+    },
+    {
+      "key": "hexagram-60-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 60; scan-backed transcription p. 197, line 6",
+      "sha256": "2ad9c5d7866e27f18fff79adef3966562c5c7bc06668dc1a3fb2c4cb471269a1",
+      "characters": 219
+    },
+    {
+      "key": "hexagram-61-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 61; scan-backed transcription p. 199, line 1",
+      "sha256": "5ef79da2f9f25216b4c327402d7ff2788c87e8f37f63564d5091872b3e76c010",
+      "characters": 145
+    },
+    {
+      "key": "hexagram-61-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 61; scan-backed transcription p. 199, line 2",
+      "sha256": "3627894a71dd2f421e76858a1b4808f3991dd5b5173f21542e085ff41ffc10bb",
+      "characters": 255
+    },
+    {
+      "key": "hexagram-61-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 61; scan-backed transcription p. 199, line 3",
+      "sha256": "91d42ca7cb1a6092d85cbb6430bcdb633b22de6c6c9a1ed5f1ae7d9fb273b9d8",
+      "characters": 145
+    },
+    {
+      "key": "hexagram-61-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 61; scan-backed transcription p. 199, line 4",
+      "sha256": "16497796d98cd95d508505876d77de67268f569d91032115aa18842ca7ca6f3e",
+      "characters": 154
+    },
+    {
+      "key": "hexagram-61-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 61; scan-backed transcription p. 199, line 5",
+      "sha256": "fb80257d3457339efa3b68365344f1979336160e2a879cb11922bf2e0055cd2c",
+      "characters": 133
+    },
+    {
+      "key": "hexagram-61-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 61; scan-backed transcription p. 199, line 6",
+      "sha256": "372b8888cbff233d390828094cfa6484ac8d3dd6aaaaaf567b53299a6a7e4660",
+      "characters": 137
+    },
+    {
+      "key": "hexagram-62-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 62; scan-backed transcription p. 201, line 1",
+      "sha256": "0a57b511ac06f5f7528260435cae2fbc34613c07b3198525b903f4b3b6afe65f",
+      "characters": 101
+    },
+    {
+      "key": "hexagram-62-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 62; scan-backed transcription p. 201, line 2",
+      "sha256": "19ab985ea9c4a9237625455760810beb26a47c30957cdee85bef804f461822bf",
+      "characters": 204
+    },
+    {
+      "key": "hexagram-62-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 62; scan-backed transcription p. 201, line 3",
+      "sha256": "bc2481f1383dd4d7c5d946eaba0aec657b0f50ddffb482835971c381a961e524",
+      "characters": 186
+    },
+    {
+      "key": "hexagram-62-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 62; scan-backed transcription p. 201, line 4",
+      "sha256": "6b0c9b70fcf81cab22af0084dbbeb34b37fc4930e7356ae4f40eb80b8e0a766e",
+      "characters": 276
+    },
+    {
+      "key": "hexagram-62-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 62; scan-backed transcription p. 201, line 5",
+      "sha256": "77b72a17ddef0941b69d46d7ff3afa5b81ce52d7a71c363404fc0111ad6c5dd0",
+      "characters": 188
+    },
+    {
+      "key": "hexagram-62-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 62; scan-backed transcription p. 201, line 6",
+      "sha256": "10cde938cdfddba8873b99fdcdc24fd023298b3e39b20ce68d3a25648819604e",
+      "characters": 262
+    },
+    {
+      "key": "hexagram-63-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 63; scan-backed transcription p. 204, line 1",
+      "sha256": "8c4722e18e930896f5cdb7e8daf8801055452487397934dcc5ae34d1ea13a10d",
+      "characters": 146
+    },
+    {
+      "key": "hexagram-63-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 63; scan-backed transcription p. 204, line 2",
+      "sha256": "23e0dfdf01ae7e4acef49761be9b79bd2ed454a59c03d88e5776c8be6b3976fc",
+      "characters": 167
+    },
+    {
+      "key": "hexagram-63-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 63; scan-backed transcription p. 204, line 3",
+      "sha256": "55c960361c1ca7ccc3eab7aa861de8afd8263ef6cfa1bb791eb98d3b3fe1fa26",
+      "characters": 182
+    },
+    {
+      "key": "hexagram-63-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 63; scan-backed transcription p. 204, line 4",
+      "sha256": "9ac26ab26475bc904a15452bb667ebac13a1e1f909e0c9cfc045f47cc36bf54b",
+      "characters": 124
+    },
+    {
+      "key": "hexagram-63-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 63; scan-backed transcription p. 204, line 5",
+      "sha256": "3a438bce1880de2f5441285c1fc8be9652cd46ef11e82acc138ea20c0c5d80cb",
+      "characters": 240
+    },
+    {
+      "key": "hexagram-63-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 63; scan-backed transcription p. 204, line 6",
+      "sha256": "9038cd5289613a63cbd2566756ae7a821b098e9b5ed20a77f84e8d489d54766c",
+      "characters": 100
+    },
+    {
+      "key": "hexagram-64-line-1-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 64; scan-backed transcription p. 207, line 1",
+      "sha256": "272daca939e24d0462a8e3a8a045ca6383f5e8e0c27ac856ae40d1711fb9312b",
+      "characters": 115
+    },
+    {
+      "key": "hexagram-64-line-2-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 64; scan-backed transcription p. 207, line 2",
+      "sha256": "a4fed93fc2bde07cb03125cba4aca79d2ed9238f9516d873b0bda6e683058bfe",
+      "characters": 140
+    },
+    {
+      "key": "hexagram-64-line-3-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 64; scan-backed transcription p. 207, line 3",
+      "sha256": "b4983594c9612e0e2b1bb7730170cd0e7d81ba6077293414c0a274a9ffdd46aa",
+      "characters": 193
+    },
+    {
+      "key": "hexagram-64-line-4-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 64; scan-backed transcription p. 207, line 4",
+      "sha256": "9b88247376c673eb9c08c9551d3607b709bb2519c3abcda90970030d3c00594f",
+      "characters": 291
+    },
+    {
+      "key": "hexagram-64-line-5-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 64; scan-backed transcription p. 207, line 5",
+      "sha256": "357e0c48086600b8b910e9e256fb8cef266033e8790fab4e87c0f9fd8413a102",
+      "characters": 235
+    },
+    {
+      "key": "hexagram-64-line-6-en-legge",
+      "boundary": "after numbered line marker through navigation block",
+      "locator": "SBE XVI, Hexagram 64; scan-backed transcription p. 207, line 6",
+      "sha256": "e26480ddfa4d307062e6a4bfa2da15d610d100fdd4cd3c6d94320a03e3699ed4",
+      "characters": 241
+    }
+  ],
+  "expanded_spot_check": [
+    {
+      "hexagram": "hexagram-01",
+      "units": [
+        "identity",
+        "pattern",
+        "lower-trigram",
+        "upper-trigram",
+        "chinese-gua-ci",
+        "legge-gua-ci",
+        "line-1",
+        "line-3",
+        "line-6",
+        "tuan",
+        "great-image",
+        "line-xiang-1",
+        "line-xiang-3",
+        "line-xiang-6"
+      ],
+      "structure": {
+        "chinese_name": "乾",
+        "binary_pattern": "111111",
+        "lower_trigram": "qian",
+        "upper_trigram": "qian"
+      },
+      "text_sha256": {
+        "hexagram-01-gua-ci-en-legge": "0d3cf5d6e5dd228963615ec4717c08fceb275925d0756a51c9b2bd8c90ca5445",
+        "hexagram-01-line-1-en-legge": "71cfe685503d5244ba8a8473d2af7a7f5c3cb7530f962cac1cb484551e021b1d",
+        "hexagram-01-line-3-en-legge": "232a9b793e1871577a52351867401d8c5c66f670b4a4ce977e619e454c63e95f",
+        "hexagram-01-line-6-en-legge": "6405e312e569f5eecf46591ae4e8a3d5312ae01db8245c4c4b7cf1eb4612e7f7",
+        "hexagram-01-gua-ci-zh-received": "e93b3544f5722e90a5c5dfcda0d2d7659695ccd4c4b30fb82edcc6af25b49a56",
+        "hexagram-01-tuan-zh-received": "72e74931d8dc36fa0d6cdca48302aa7e4ff4c8128d3dda6d5d72c4e706939fc3",
+        "hexagram-01-great-image-zh-received": "d37fc6b97df2f62c3320b08ebbf96e861c26cf333fde3564fbbe65403a460aa7",
+        "hexagram-01-line-1-zh-received": "ee83db7b881ed07d92fa6292111a10490150b235ed90c0d4e245bbb63b7614ed",
+        "hexagram-01-line-1-image-zh-received": "3e437997278f03bec24516877a129a2f0b7c722a7dec17b43316077e6b5c9fd2",
+        "hexagram-01-line-3-zh-received": "c292e338232ec344c4134362bbe4016ceb928045c4e29092cb926d0e5bf36c4a",
+        "hexagram-01-line-3-image-zh-received": "317299eb5391b42e3a4d9f0b70a72c24242d749eaec87662770890df2f5a826e",
+        "hexagram-01-line-6-zh-received": "4646d3bd42c3682e4e435cb0f6be79fa516aab8e9e3867d423baf8c51cbb3feb",
+        "hexagram-01-line-6-image-zh-received": "a6b1d2856a55ccdb0374f0223759329c827758dd6f3d6a8344ee2ce6a26fea87",
+        "hexagram-01-tuan-en-legge": "efc8d054be9f813d465588bda80ab3fa881cb2fbe037799ab70a724def5cb749",
+        "hexagram-01-great-image-en-legge": "c26fdaa82a8bbb7c4be233620c85692a57c87f21ba4ca11249b73b17aafb1cdd",
+        "hexagram-01-line-1-image-en-legge": "4ce931424fcf7b6c1827b3b1d92323c6eee220215a31180f033ffd9f5365de81",
+        "hexagram-01-line-3-image-en-legge": "311cee4fee5f6d308abf4d61b251a880517401ddcb5951dd893e86aaa6f81dfc",
+        "hexagram-01-line-6-image-en-legge": "1a8ea045a66b3f30e6b64f7b0738734f830f6ef2a85046e226950d7d951e3bbe"
+      },
+      "witnesses": "Legge SBE XVI scan-backed Wikisource; Chinese Wikisource; Chinese Text Project; Sacred Texts Legge transcription",
+      "status": "collated"
+    },
+    {
+      "hexagram": "hexagram-02",
+      "units": [
+        "identity",
+        "pattern",
+        "lower-trigram",
+        "upper-trigram",
+        "chinese-gua-ci",
+        "legge-gua-ci",
+        "line-1",
+        "line-3",
+        "line-6",
+        "tuan",
+        "great-image",
+        "line-xiang-1",
+        "line-xiang-3",
+        "line-xiang-6"
+      ],
+      "structure": {
+        "chinese_name": "坤",
+        "binary_pattern": "000000",
+        "lower_trigram": "kun",
+        "upper_trigram": "kun"
+      },
+      "text_sha256": {
+        "hexagram-02-gua-ci-en-legge": "de315ee84c76618fbc5c5f0a313f157ad08304ba652b69ac7379d3a5d61edb80",
+        "hexagram-02-line-1-en-legge": "56e9b7b9d8b9aafa66ac88b11114a5f34198326d38f1ff1f1c514c32375c8769",
+        "hexagram-02-line-3-en-legge": "566ca32ac03b495ab6073c65c84b64d5782949a94abc27eedd721148297059bb",
+        "hexagram-02-line-6-en-legge": "20c1dee8cabe37ca5f97cd6374dba09890bf9fa64968ed76428a27ef6cfd6fce",
+        "hexagram-02-gua-ci-zh-received": "d7fc8ce2becc287a813394d30ad16ba1f5b5448ea3dc383f564f181097f05b70",
+        "hexagram-02-tuan-zh-received": "7251f3cb37b9783dddf385e84ad03d82655a459d7d414270ddd718188329d3a2",
+        "hexagram-02-great-image-zh-received": "7c7aec0b28bd4e90549d82d787db98f45a61cc08d3c985e5bc801ea9d6d724fc",
+        "hexagram-02-line-1-zh-received": "00211800253572ea9681a19db4c15abaf1bf3d7daa7e35567f498a2544e0ef2d",
+        "hexagram-02-line-1-image-zh-received": "a39f340ba762b2e5e2217e09fc0d1f8b3209051f6b8cc67e65e88277cb551a73",
+        "hexagram-02-line-3-zh-received": "f7151d0015b9193773c3a773b4c482de8d117042d24faff5ea53aa3a92d83af7",
+        "hexagram-02-line-3-image-zh-received": "dee8b425eca17002ad95b30128ec5c4f574b86cf5456b57a0bef74d48b1ca1b8",
+        "hexagram-02-line-6-zh-received": "27ea03c663a6ef7d9ad128ce9b05cf8f8b404514fd6eff75ce5b9c3b7a241666",
+        "hexagram-02-line-6-image-zh-received": "0888593f86535a4ae540d3bcde8adec9052dc54d9a773bd764928b064c4ff627",
+        "hexagram-02-tuan-en-legge": "7a02725ab7c0a9280b5052dea14941cff2b15677890ac5752aef83e89895dc63",
+        "hexagram-02-great-image-en-legge": "98a77a400c96a5aeaebaad8773e35810999ec02ed9318e8ad944b16f3881c54f",
+        "hexagram-02-line-1-image-en-legge": "06b02303f28613bc131d1e174d1f37a76fe4343e651cabd77a0b8620c96aa037",
+        "hexagram-02-line-3-image-en-legge": "48f6dca75d457447d01106680c83435060d6bef8ce04536b87c7dbca8d5229ff",
+        "hexagram-02-line-6-image-en-legge": "cd4d0f483b31293cd6d5c919b86c06baba2a3d932bdd49c0504a2baed62bb391"
+      },
+      "witnesses": "Legge SBE XVI scan-backed Wikisource; Chinese Wikisource; Chinese Text Project; Sacred Texts Legge transcription",
+      "status": "collated"
+    },
+    {
+      "hexagram": "hexagram-08",
+      "units": [
+        "identity",
+        "pattern",
+        "lower-trigram",
+        "upper-trigram",
+        "chinese-gua-ci",
+        "legge-gua-ci",
+        "line-1",
+        "line-3",
+        "line-6",
+        "tuan",
+        "great-image",
+        "line-xiang-1",
+        "line-xiang-3",
+        "line-xiang-6"
+      ],
+      "structure": {
+        "chinese_name": "比",
+        "binary_pattern": "000010",
+        "lower_trigram": "kun",
+        "upper_trigram": "kan"
+      },
+      "text_sha256": {
+        "hexagram-08-gua-ci-en-legge": "bb59086ee7345dfdc7e19085fafe26b4e10a18bf47f1649ca61747f4fb7ead68",
+        "hexagram-08-line-1-en-legge": "c7a9c040d70c00c81addd1cc255a3c66d2770444dcbf2344083bbefdfc486723",
+        "hexagram-08-line-3-en-legge": "98363800e03b2cf77c7483e335ba6d70c6389cdb1ce3b6dc8bf3dbf2b7358626",
+        "hexagram-08-line-6-en-legge": "115bca881be761e3bd713c4243be0b97c552a192bc232d6467607eee9463ddb5",
+        "hexagram-08-gua-ci-zh-received": "9aff0b53ed7ce815b3b8da00aa5380b7b109f0d3091a1c3671e4cd613c2e3f4b",
+        "hexagram-08-tuan-zh-received": "99da0249d135fcb6c24ca22f89f5b6cfdb94de1ab333ec4185255a91cc1c15c6",
+        "hexagram-08-great-image-zh-received": "cba92f68288013b11a0d46d6999866ee84881d0c932cc2007d79d86c2727223d",
+        "hexagram-08-line-1-zh-received": "624241f01ec29336add423b3e93ba4bcf29e01e4f0f341e318a035d00f974db4",
+        "hexagram-08-line-1-image-zh-received": "102b5c676553d18c6ccd7a21f6d55d2ee5528ce8464c3392cc65d86d1a9828bd",
+        "hexagram-08-line-3-zh-received": "362dd67db2efa9ded77c1c5eec155441256fc3ec476d0d600e9574f63af4839f",
+        "hexagram-08-line-3-image-zh-received": "e60d8b92efcb762eb3e52118250454f10ce3c6e045b815bae1fb565fc7bfcd30",
+        "hexagram-08-line-6-zh-received": "3eff8d55049efc02c7b12797c60659340dcbfeaa85b7e037be3ffc97a55636b7",
+        "hexagram-08-line-6-image-zh-received": "937b5f5c2f0d3c00c8fc7c60460f78d40eaed177b7f4079b2b249f744c40c59f",
+        "hexagram-08-tuan-en-legge": "f0b499de9b0c9b24333c59e942e6111cd4405e4524dd6af58ac98fc05a1cf489",
+        "hexagram-08-great-image-en-legge": "5465516bf8fc7e1fe11cf4c8ece3cd1fa1bc039f6b48c73daa3efb5b56164f3c",
+        "hexagram-08-line-1-image-en-legge": "9b97f54dbb671e6b4635d8a590169542e91e0432091fc955d71a68befb49f334",
+        "hexagram-08-line-3-image-en-legge": "90deddff362c57274a4b5512d0ac74c71ce5ae8cfe4058a0af9412833cee1bd9",
+        "hexagram-08-line-6-image-en-legge": "0495fa021ce86fe8a1aeae860aab39f8470d4e38a0929e8d01aaeb59ad8df564"
+      },
+      "witnesses": "Legge SBE XVI scan-backed Wikisource; Chinese Wikisource; Chinese Text Project; Sacred Texts Legge transcription",
+      "status": "collated"
+    },
+    {
+      "hexagram": "hexagram-16",
+      "units": [
+        "identity",
+        "pattern",
+        "lower-trigram",
+        "upper-trigram",
+        "chinese-gua-ci",
+        "legge-gua-ci",
+        "line-1",
+        "line-3",
+        "line-6",
+        "tuan",
+        "great-image",
+        "line-xiang-1",
+        "line-xiang-3",
+        "line-xiang-6"
+      ],
+      "structure": {
+        "chinese_name": "豫",
+        "binary_pattern": "000100",
+        "lower_trigram": "kun",
+        "upper_trigram": "zhen"
+      },
+      "text_sha256": {
+        "hexagram-16-gua-ci-en-legge": "9e622bf1058161bcfc1386ff106311b908af24b714a9e7f77e550082bd8bcf7a",
+        "hexagram-16-line-1-en-legge": "23fdde5782b111ecc14dd64b1f674d71581e6c0a17961c72bd50e55b9fbfde9f",
+        "hexagram-16-line-3-en-legge": "93994e702e4d8bcbb19d82e7787965460c4e3a94891eb1e581f6ebbabbb21825",
+        "hexagram-16-line-6-en-legge": "4b0b0928bf15a0cf7cb652673efd5ab0855cd7cfcfee999be8306e4a42ab5d49",
+        "hexagram-16-gua-ci-zh-received": "23b256b1f2eaa8411bba7baa45bfcd4ab3a94551771cbfe340908edee765a6b7",
+        "hexagram-16-tuan-zh-received": "fb45b86693ba972824141355d3077413cfa5c15d8844c68eb23ae857342c483c",
+        "hexagram-16-great-image-zh-received": "203bed6ea53608029096f35d67424dcfa642eb5ea0387fd253bac3c0aeebf81e",
+        "hexagram-16-line-1-zh-received": "16a439c7ac3fb44a4576eb9cf061b462fe70cf9a07b8533b682954aee7ea9764",
+        "hexagram-16-line-1-image-zh-received": "fbe06cb7eb03a658d9873e69c4addc746ee6087dcc2828a46c1689a31dbb4e5e",
+        "hexagram-16-line-3-zh-received": "fb0061d90a741fd542e70b6650ca8681b31d84265ecdc62cf8c537b432f96f8f",
+        "hexagram-16-line-3-image-zh-received": "9defd7cf2801b10edf94b5d9b50e772ba0e7eb687f500fbccd4ab9acc39a05b7",
+        "hexagram-16-line-6-zh-received": "e91aa7ad53202d24f0b40140085759445b5c178d2ed2a703fc2003946286eb1a",
+        "hexagram-16-line-6-image-zh-received": "3ed43f584c2fa6c20ac55962b0fed65d80e6cd577b6745d3a1e71f402d56cf45",
+        "hexagram-16-tuan-en-legge": "64a8acab7efa0c1dc28205ee376b3fd3af46bd66005b4307581540b65d01bdc3",
+        "hexagram-16-great-image-en-legge": "4eb79c9a34c5201bb04f8247ac95932280ecbfda33f1c60c144e1a0767e1defb",
+        "hexagram-16-line-1-image-en-legge": "8da9abc65047fabecce1ffde6daf5563d2ea48eaf8028a560df0dddadf11ab63",
+        "hexagram-16-line-3-image-en-legge": "612e35cf4fc5bae73182dc58587749124c46f285905ecb7e33bebd5169fae5fd",
+        "hexagram-16-line-6-image-en-legge": "42e71415f5d8941cb8c9df5b530c822760cd71274327c3b0db853580d52b27cb"
+      },
+      "witnesses": "Legge SBE XVI scan-backed Wikisource; Chinese Wikisource; Chinese Text Project; Sacred Texts Legge transcription",
+      "status": "collated"
+    },
+    {
+      "hexagram": "hexagram-24",
+      "units": [
+        "identity",
+        "pattern",
+        "lower-trigram",
+        "upper-trigram",
+        "chinese-gua-ci",
+        "legge-gua-ci",
+        "line-1",
+        "line-3",
+        "line-6",
+        "tuan",
+        "great-image",
+        "line-xiang-1",
+        "line-xiang-3",
+        "line-xiang-6"
+      ],
+      "structure": {
+        "chinese_name": "復",
+        "binary_pattern": "100000",
+        "lower_trigram": "zhen",
+        "upper_trigram": "kun"
+      },
+      "text_sha256": {
+        "hexagram-24-gua-ci-en-legge": "094bfc3040c58422b52569d3f46c9010165bf34c1f902f46d537953d90f7f9c4",
+        "hexagram-24-line-1-en-legge": "cafbe639385d2c85339c320ed1ac16c4b802be0e0d1ce236350c36c52eb16f13",
+        "hexagram-24-line-3-en-legge": "170fdee6fd426aa2b8916b42599e6ff765caadd64b5c4c1e029d76d1857fd587",
+        "hexagram-24-line-6-en-legge": "648730bb0f29a9b5a71e934068cbe024a583fbf063d4a696b048ca5c87bdd02f",
+        "hexagram-24-gua-ci-zh-received": "894d7132fc7faaefaf0186b63169b49b0520fb2128cb7396fbb969d46a3ddb08",
+        "hexagram-24-tuan-zh-received": "4f2a3c9e529a80269cb640c69064357b2ea821a2a1803821c238182392da4bb0",
+        "hexagram-24-great-image-zh-received": "f8b4df66c5e73d1476e870ea2850b58556a47ae01bc8b8cf15485a1f80e23175",
+        "hexagram-24-line-1-zh-received": "b8bc1c25eecfce65198d5e3680e04d681493334a7045ea0f3814041228d4ac96",
+        "hexagram-24-line-1-image-zh-received": "fa23dfa77803bcfdf3ee02030bfaa934812e3d943cb65c9d6deb181d456af8c5",
+        "hexagram-24-line-3-zh-received": "631f48bbcefed09eaf26830738e881dcf8f0ad39a3f3e4d1d73c9a8c6b8eb2a2",
+        "hexagram-24-line-3-image-zh-received": "c5a1fbc70a9856de1ae144448ef9ce0089076bf912d594b8cbb59a9b6547a2fb",
+        "hexagram-24-line-6-zh-received": "48bc6403876f06ad2541aa6cb202acd0da87a051f13f66eac87395e1082a8597",
+        "hexagram-24-line-6-image-zh-received": "8107e66dab6c0bb7b2ac4b87266b0fe7b505a97c16b826398b934da7f0a72947",
+        "hexagram-24-tuan-en-legge": "e2582a4f4126d9d9e5070f64639f0419c5f96083b09ad707f85a9be4627ea839",
+        "hexagram-24-great-image-en-legge": "53a3dcee8bb10b864e8d7f95e5db94b12a452337cfc327520cf0afd1130a164b",
+        "hexagram-24-line-1-image-en-legge": "0479f96ba1023458f4e8d034d9c793ae99f5bf0e11e1c369814e74cfcc7be612",
+        "hexagram-24-line-3-image-en-legge": "47aca3a3d785f4d5b87592bf995b29b329c6db5d84f86311bacdb2e57e5dcb34",
+        "hexagram-24-line-6-image-en-legge": "9b0ba96198b5a5dd454cfe8dd0b8393cdfcc711e8fdeb45d89613ec3c7bc34f2"
+      },
+      "witnesses": "Legge SBE XVI scan-backed Wikisource; Chinese Wikisource; Chinese Text Project; Sacred Texts Legge transcription",
+      "status": "collated"
+    },
+    {
+      "hexagram": "hexagram-32",
+      "units": [
+        "identity",
+        "pattern",
+        "lower-trigram",
+        "upper-trigram",
+        "chinese-gua-ci",
+        "legge-gua-ci",
+        "line-1",
+        "line-3",
+        "line-6",
+        "tuan",
+        "great-image",
+        "line-xiang-1",
+        "line-xiang-3",
+        "line-xiang-6"
+      ],
+      "structure": {
+        "chinese_name": "恆",
+        "binary_pattern": "011100",
+        "lower_trigram": "xun",
+        "upper_trigram": "zhen"
+      },
+      "text_sha256": {
+        "hexagram-32-gua-ci-en-legge": "dfe3fa6a6fe7e4dbc05c629ee6910ded02aa3b5086a16dce3998794ddea0728a",
+        "hexagram-32-line-1-en-legge": "9796001318321667d9da38dc73edd1ae10384dde936ed00a83940670488226bb",
+        "hexagram-32-line-3-en-legge": "1cedd1dc3aa8a1111e3765e9e5c996a5a40f1606f22848e5800cfeb71b725d95",
+        "hexagram-32-line-6-en-legge": "b1c28b7d9d390fede2a770433660f0a49271af6c17e9d31468cb4ff03159f04f",
+        "hexagram-32-gua-ci-zh-received": "9d62f0cded5554180ced3cf59b07570bb4277e15914043cab3ac39c02066d6a9",
+        "hexagram-32-tuan-zh-received": "523dfc12d04573f55e8f9ee4effdf9fe2ce9b3bd3f8081c4ddaa45b2c119d358",
+        "hexagram-32-great-image-zh-received": "1a623d3ab7ddb80de937e8dc2c1a6a571b310c3a4a13f731b786a50e073a5e79",
+        "hexagram-32-line-1-zh-received": "202cee0f957d4571d2b6b5e9c3a6b0cfa015fcecca04adb8eef30ba4c95bd236",
+        "hexagram-32-line-1-image-zh-received": "1a3ceffec34b99514c41459f9eb300b72375b7947708d250a0f198dc3c5a16fc",
+        "hexagram-32-line-3-zh-received": "b882587e40be697cbd86a1432e797670e7b8385ab18e3ae0a1698e5f0ee0bb7a",
+        "hexagram-32-line-3-image-zh-received": "171b8ac1a910ca4f26091a790b264111588b8dec7bb73124f42f06030b150556",
+        "hexagram-32-line-6-zh-received": "0c5fcc4265bd0f5ff7e9e5dffa792272b747ccf4fafe6a6568d7f7870739e808",
+        "hexagram-32-line-6-image-zh-received": "de6fdd95054f5524a99b89c9a4f123a79dc899186ccd9668feb96520cc2b8ee8",
+        "hexagram-32-tuan-en-legge": "796fa4d6e92e41216f0da3b713bba6b718995cb1840ab6245b52cf38fa1dab81",
+        "hexagram-32-great-image-en-legge": "b743b6384562bbe61277d7c65d9050a4c93c4e827c7de7e2dd3f856d576e287d",
+        "hexagram-32-line-1-image-en-legge": "b5822edefa29d9a4d971fb2d9cddd48db448c3683e5d3b36e1ab05b877b36c60",
+        "hexagram-32-line-3-image-en-legge": "5f43be4f56873296510536f386fb171b9b7fd3c92ed2851b126bdfa56d53aac8",
+        "hexagram-32-line-6-image-en-legge": "adf7a381fa504f1982010ba5887ddfd1742bab8931cf4cd2202b6a5436e78f21"
+      },
+      "witnesses": "Legge SBE XVI scan-backed Wikisource; Chinese Wikisource; Chinese Text Project; Sacred Texts Legge transcription",
+      "status": "collated"
+    },
+    {
+      "hexagram": "hexagram-40",
+      "units": [
+        "identity",
+        "pattern",
+        "lower-trigram",
+        "upper-trigram",
+        "chinese-gua-ci",
+        "legge-gua-ci",
+        "line-1",
+        "line-3",
+        "line-6",
+        "tuan",
+        "great-image",
+        "line-xiang-1",
+        "line-xiang-3",
+        "line-xiang-6"
+      ],
+      "structure": {
+        "chinese_name": "解",
+        "binary_pattern": "010100",
+        "lower_trigram": "kan",
+        "upper_trigram": "zhen"
+      },
+      "text_sha256": {
+        "hexagram-40-gua-ci-en-legge": "8abe0837c55e68308b6005f1e500b11e838d35fb961cc07e9a7bdc12e3fdfda9",
+        "hexagram-40-line-1-en-legge": "8a6fdfa39afa5562129e6ceb7a1c502236699c88f67506e403104c6e6ce73ab2",
+        "hexagram-40-line-3-en-legge": "c31dd44e20731aee2e136045e75b2d2d1220ccb51e4ceee7d41d4eb7fa77a379",
+        "hexagram-40-line-6-en-legge": "e4c7455f381414b9806b8cd62b71720836468d5c60b05dbe7e3547fa9033ae5e",
+        "hexagram-40-gua-ci-zh-received": "907a33fca1e04b86c7d68b8ba1573498c937640798808f1e442c60588b48f55d",
+        "hexagram-40-tuan-zh-received": "f756fb42497db13c16686aad59843089c19888474aa547b946c13123455f6fb4",
+        "hexagram-40-great-image-zh-received": "e0337c9cfaad93d9ccc8ca65cf91271e70005bfd4c4fa6788574fc74658a78c2",
+        "hexagram-40-line-1-zh-received": "80ea977131212cc26fc1e11218a147302ef34326909bcb429fb2d8964094c381",
+        "hexagram-40-line-1-image-zh-received": "d974687674e5544cfc265326ae0e50ca626ba0e6557e3103c314ed4aa5ced3fd",
+        "hexagram-40-line-3-zh-received": "f8c75843ea5da532540a65622c3ba57fc58b4d35855bb8355973fd7eb164cbe0",
+        "hexagram-40-line-3-image-zh-received": "5a3bc4b6fedfa03a52137a75d770208a4446fbe21604b7cc48bc65e8af3ba5c3",
+        "hexagram-40-line-6-zh-received": "8ce8b4050d0e111cc2f479cd26d6c2818440331625ba266ff1b9152e5ba6623b",
+        "hexagram-40-line-6-image-zh-received": "128cb4dc5d68905dadbf25b45320c951779ca3d89111048f79327a045d1e2842",
+        "hexagram-40-tuan-en-legge": "5c9db5928f632dc818f60941502f4b45296a1d98b64ee518b55e964cc3698a97",
+        "hexagram-40-great-image-en-legge": "c2d7b4086ee7573078861b851025cdc4a1ef7353e33268db43438925e485e678",
+        "hexagram-40-line-1-image-en-legge": "137696578e178beabbde80852913b44389fe9cd4452991cbf539fad08f447eb9",
+        "hexagram-40-line-3-image-en-legge": "fc8b81e9f9c757b88ed04aaa12d41000ffb213c8ef29885881ba8563918be470",
+        "hexagram-40-line-6-image-en-legge": "c46d462c5059b65ca6fc4559e9dc85d97f80b4579d3da0b7c0b13ef87a40e708"
+      },
+      "witnesses": "Legge SBE XVI scan-backed Wikisource; Chinese Wikisource; Chinese Text Project; Sacred Texts Legge transcription",
+      "status": "collated"
+    },
+    {
+      "hexagram": "hexagram-48",
+      "units": [
+        "identity",
+        "pattern",
+        "lower-trigram",
+        "upper-trigram",
+        "chinese-gua-ci",
+        "legge-gua-ci",
+        "line-1",
+        "line-3",
+        "line-6",
+        "tuan",
+        "great-image",
+        "line-xiang-1",
+        "line-xiang-3",
+        "line-xiang-6"
+      ],
+      "structure": {
+        "chinese_name": "井",
+        "binary_pattern": "011010",
+        "lower_trigram": "xun",
+        "upper_trigram": "kan"
+      },
+      "text_sha256": {
+        "hexagram-48-gua-ci-en-legge": "9e5bf3defe9c47136e693b3b84b17785f05edaffe18246489b8dbfec3b79d64d",
+        "hexagram-48-line-1-en-legge": "2d01485b452047483a005a8b79c2f4c820bfda0a2ba8456c82751db2b069dc76",
+        "hexagram-48-line-3-en-legge": "3c30109fc3372f94f524faf9d3fba030c707b1868a6f054a4dda9cfe9ae221ca",
+        "hexagram-48-line-6-en-legge": "fd280b501df76f380c238269f1304c65a13ecaf711866b696bbb764b57bd43eb",
+        "hexagram-48-gua-ci-zh-received": "e9bb5df14c3f5bd3030daa73bc545bccb75e52f3d70e770cab492015e530fdca",
+        "hexagram-48-tuan-zh-received": "f3277f0a329fadf65f7db131509d8ec163511b8cf763e34aa68eb8c539cea2a6",
+        "hexagram-48-great-image-zh-received": "18703b8164b6af7f11267479fb8951564987de22362db76285e6b697e0be65e1",
+        "hexagram-48-line-1-zh-received": "7e4e3a9071d0e25d992775c73e56322dfef6df52b1b4dec8a42b5fc9d2c40d29",
+        "hexagram-48-line-1-image-zh-received": "2c8bc8ef9e44016e5086558cf94035fe2f865e2c86e6db625d1d2dc1c7e381c8",
+        "hexagram-48-line-3-zh-received": "977040f5076c5c2c26b325216317104022484b33c3b88fc42ad41377b474f23c",
+        "hexagram-48-line-3-image-zh-received": "d7e7400c44d7eb2595822a84d5553c0ec78ca38362ae75eb7ddcab9aa3db1036",
+        "hexagram-48-line-6-zh-received": "7fbf870d1c89e6480b3ddeb4c0363b9be769d3f1c69e99a159a2eef196190292",
+        "hexagram-48-line-6-image-zh-received": "a9439d814bb9bdd9ee6b0806e1030415cb7fcfdad7dece80d47302a949433110",
+        "hexagram-48-tuan-en-legge": "7fbdf9db5d4ced6aa21e2226b724b5ecb802e4c8ea3d42a93acbea463330bd41",
+        "hexagram-48-great-image-en-legge": "0ac60882c2b28cd3435afe8f0ab7294d53debd62b6313abd4476ca0b6fb16b7a",
+        "hexagram-48-line-1-image-en-legge": "6007fd2ad4d9c2b167ca9b13359aed195dfe71e167ea75b3dc2c8b81c8d07065",
+        "hexagram-48-line-3-image-en-legge": "0a0ad3e4717330976d6ba36e14a2490f114e4f884331bde0075879723c5f1d4d",
+        "hexagram-48-line-6-image-en-legge": "ecf0e2a7ae6ab4300438c415151247d59c597f8941fc81ccc3130deec042b33b"
+      },
+      "witnesses": "Legge SBE XVI scan-backed Wikisource; Chinese Wikisource; Chinese Text Project; Sacred Texts Legge transcription",
+      "status": "collated"
+    },
+    {
+      "hexagram": "hexagram-56",
+      "units": [
+        "identity",
+        "pattern",
+        "lower-trigram",
+        "upper-trigram",
+        "chinese-gua-ci",
+        "legge-gua-ci",
+        "line-1",
+        "line-3",
+        "line-6",
+        "tuan",
+        "great-image",
+        "line-xiang-1",
+        "line-xiang-3",
+        "line-xiang-6"
+      ],
+      "structure": {
+        "chinese_name": "旅",
+        "binary_pattern": "001101",
+        "lower_trigram": "gen",
+        "upper_trigram": "li"
+      },
+      "text_sha256": {
+        "hexagram-56-gua-ci-en-legge": "5f72371e859ba419b91045c8356d099d004a9c9a8632dec005be7096ae1b3b50",
+        "hexagram-56-line-1-en-legge": "e77a2b6e3cb13d0183122f5e04eb436f873730ca96f83b81bbdac8fb9cbba44a",
+        "hexagram-56-line-3-en-legge": "4c64a086d6ea3e13c18cb4d5b09e369a0a727b796574c1987ea6dcaa638f85a0",
+        "hexagram-56-line-6-en-legge": "d4aa02f74103bad5679c3015eb0b17d3886c3ac643a18c64e00179831036c0de",
+        "hexagram-56-gua-ci-zh-received": "1b1b1429db7652cc18b91a4afa33cc175f76897b61423a985e176efc63fa62e4",
+        "hexagram-56-tuan-zh-received": "7022ec97c833fbb4924f13566dbc03a972b8d32c1fd21291606ae6d24c0becd3",
+        "hexagram-56-great-image-zh-received": "4ec06c426e5545bbc238173ab1aefb3c206f64b1372352b4589e8a57699ff217",
+        "hexagram-56-line-1-zh-received": "b016a46d67d2d76dfdc15cdc2b81dc9d2653d264997f86b16dcd429337cd087d",
+        "hexagram-56-line-1-image-zh-received": "c706e602e761777d4a359ca2621caa4c8103298a3a6b51e99b3d382ce6ef15e2",
+        "hexagram-56-line-3-zh-received": "208621ddd6fd31234e28b726d63662872ef8b9c1cfade3d96862ba4be50aca23",
+        "hexagram-56-line-3-image-zh-received": "f5f42aaa3c52b9e89150b5d2befc28663f7a76b5a4931ba7a8119553cf13478b",
+        "hexagram-56-line-6-zh-received": "4d26e87b3a81f0113d6c9e0e645016ebe6277ff97869bd37f15fe41b9d37fe4c",
+        "hexagram-56-line-6-image-zh-received": "066e0c169bf28983f4e301c9198a465218c124a726f371731761b0136e8c4b02",
+        "hexagram-56-tuan-en-legge": "67a587056c68f057b32e3631ff256b4a667d6427c45557e27f186e71c5557af8",
+        "hexagram-56-great-image-en-legge": "9b1a9f6088db6eb101f0eaf5e326dc3457809c579c1f6cc32352c45fb7188ae5",
+        "hexagram-56-line-1-image-en-legge": "defc86cca3103f2c06f25b4fca70b8b9ebe75823217cc8b7928f94753b482470",
+        "hexagram-56-line-3-image-en-legge": "e23ee722b32add7420aed31c07538bd56112bcdc1a73834f696d06602ee67894",
+        "hexagram-56-line-6-image-en-legge": "7b773f58406c91a34c4fa9eabc89e195d37376ff720acb97a15db4e20faad1de"
+      },
+      "witnesses": "Legge SBE XVI scan-backed Wikisource; Chinese Wikisource; Chinese Text Project; Sacred Texts Legge transcription",
+      "status": "collated"
+    },
+    {
+      "hexagram": "hexagram-63",
+      "units": [
+        "identity",
+        "pattern",
+        "lower-trigram",
+        "upper-trigram",
+        "chinese-gua-ci",
+        "legge-gua-ci",
+        "line-1",
+        "line-3",
+        "line-6",
+        "tuan",
+        "great-image",
+        "line-xiang-1",
+        "line-xiang-3",
+        "line-xiang-6"
+      ],
+      "structure": {
+        "chinese_name": "既濟",
+        "binary_pattern": "101010",
+        "lower_trigram": "li",
+        "upper_trigram": "kan"
+      },
+      "text_sha256": {
+        "hexagram-63-gua-ci-en-legge": "f51da08464641a1e9502b6d6b2b9b3db67c0da1408bddfdf42cfec150ae1ed55",
+        "hexagram-63-line-1-en-legge": "8c4722e18e930896f5cdb7e8daf8801055452487397934dcc5ae34d1ea13a10d",
+        "hexagram-63-line-3-en-legge": "55c960361c1ca7ccc3eab7aa861de8afd8263ef6cfa1bb791eb98d3b3fe1fa26",
+        "hexagram-63-line-6-en-legge": "9038cd5289613a63cbd2566756ae7a821b098e9b5ed20a77f84e8d489d54766c",
+        "hexagram-63-gua-ci-zh-received": "83dae461a591d107e6383d0e6c2f7c4a2ebc449f07ef0cc52f39b5f3b222ffe9",
+        "hexagram-63-tuan-zh-received": "46698bb49f746f92c641f892ca5d3d89a13bf1e10c8cd2e66b0d613501f29eb7",
+        "hexagram-63-great-image-zh-received": "4f107110f01a1fe15cdf72e3c0aa7aa34f6138f10920e38b3c8edd668f40ab18",
+        "hexagram-63-line-1-zh-received": "9b1ef2bd7504aa378e2570ccd72f7d2937e91c661fd61cd942e1b9bad5caa52f",
+        "hexagram-63-line-1-image-zh-received": "f4fe28c7d79b3271ba024430490e4ea99e50cfff595759d2f5efb7ae4f10d0f0",
+        "hexagram-63-line-3-zh-received": "4821cb6d07ed7e795422b337d6d1c1af9778805dd7089bd7c9e8913d2e825477",
+        "hexagram-63-line-3-image-zh-received": "0a8edc7386318664d9f521f3ef01cdb6d581263e0ea6b0fa306481677adbc546",
+        "hexagram-63-line-6-zh-received": "464095bbe993de81a334a2e638f5537a22f8bd8f81d2a19cb2fea8c300263269",
+        "hexagram-63-line-6-image-zh-received": "ab0be0bf38592092b27fb235a1e2ce58438908eb1fc02d896cfbc13e54629138",
+        "hexagram-63-tuan-en-legge": "437a176511e608ddbd8a49c3b5aca45a7268e6ca14252203b858a1db1ade7171",
+        "hexagram-63-great-image-en-legge": "1ef4b0cf6848d4bff7cb7fb765e24ad466f43f80463bcbef885177447758bab9",
+        "hexagram-63-line-1-image-en-legge": "e2679e2d37c057526616d9306c2e5d4c6d296069ccc4daac55ca5309ba81adbe",
+        "hexagram-63-line-3-image-en-legge": "d8618172c81043582f58df2c76cc9ee5ddcc3a7601849489b4a8ddbd38ea2b01",
+        "hexagram-63-line-6-image-en-legge": "a1f56e5f8883742536f5e83362af51cbb876c09b1067827aac50c1af8fc10279"
+      },
+      "witnesses": "Legge SBE XVI scan-backed Wikisource; Chinese Wikisource; Chinese Text Project; Sacred Texts Legge transcription",
+      "status": "collated"
+    },
+    {
+      "hexagram": "hexagram-64",
+      "units": [
+        "identity",
+        "pattern",
+        "lower-trigram",
+        "upper-trigram",
+        "chinese-gua-ci",
+        "legge-gua-ci",
+        "line-1",
+        "line-3",
+        "line-6",
+        "tuan",
+        "great-image",
+        "line-xiang-1",
+        "line-xiang-3",
+        "line-xiang-6"
+      ],
+      "structure": {
+        "chinese_name": "未濟",
+        "binary_pattern": "010101",
+        "lower_trigram": "kan",
+        "upper_trigram": "li"
+      },
+      "text_sha256": {
+        "hexagram-64-gua-ci-en-legge": "829e84ded0055bc9e32e77e5d38205430b027a29af124b7b3f0c643be13f3569",
+        "hexagram-64-line-1-en-legge": "272daca939e24d0462a8e3a8a045ca6383f5e8e0c27ac856ae40d1711fb9312b",
+        "hexagram-64-line-3-en-legge": "b4983594c9612e0e2b1bb7730170cd0e7d81ba6077293414c0a274a9ffdd46aa",
+        "hexagram-64-line-6-en-legge": "e26480ddfa4d307062e6a4bfa2da15d610d100fdd4cd3c6d94320a03e3699ed4",
+        "hexagram-64-gua-ci-zh-received": "4680da834a243013c98d24963c1c27f73a3b68889a147681c6f286feda84894a",
+        "hexagram-64-tuan-zh-received": "5c024836fd86ac26f2b660d7514919c1c6d546061f0e34a003a1496158e91b81",
+        "hexagram-64-great-image-zh-received": "2ab2daed9e150a4fe9717f0cd329899114e9434aa55de0e5a3dd7433cd44d0c9",
+        "hexagram-64-line-1-zh-received": "f0886eb0159e35e2c8e1ee307bd7e11941cf5f47065694f148ace9b4c05941bf",
+        "hexagram-64-line-1-image-zh-received": "6cde94616badbeaecb08f90f1bc15a75c691062129321879e7462c3c35467a97",
+        "hexagram-64-line-3-zh-received": "ed874ad9128932f6d5a21cb4927ef650064aba84bae037691ecd40fb2168abed",
+        "hexagram-64-line-3-image-zh-received": "a423de77b7d1c6867fe633617ebe2df7b8506170d474f88554cf4695c4f8d2ec",
+        "hexagram-64-line-6-zh-received": "d5537e05e01e96ec497521a54d9676a14c49c9f5bd84eef3f2d3cc413a929bb5",
+        "hexagram-64-line-6-image-zh-received": "02b7fbcc76eccd33621c47e6b1bd08b8f8b936f9ef1183f5fc1345f121c4a346",
+        "hexagram-64-tuan-en-legge": "351bb84487e27c74ebdf6b73e2aec2df2b7baeb696e55aeeab59bf8bf355191f",
+        "hexagram-64-great-image-en-legge": "42dc47bda4cd75f39f4f4e697aa6320cc9c46a68d6c869fde4b75f75b37636a3",
+        "hexagram-64-line-1-image-en-legge": "752ce550b7e64cad7b8d6123baff077a6e0c89d8b77cfaa6fbee2a7401a13f72",
+        "hexagram-64-line-3-image-en-legge": "e7cfbcf9556ab6850f65edc958e60e46c03f2a007ac2afa306a0cdc01430112a",
+        "hexagram-64-line-6-image-en-legge": "c45d7568371b21aefc72fd947cd706a89f26d4a59774b3bccff3fcdedb36fd4f"
+      },
+      "witnesses": "Legge SBE XVI scan-backed Wikisource; Chinese Wikisource; Chinese Text Project; Sacred Texts Legge transcription",
+      "status": "collated"
+    }
+  ]
+}

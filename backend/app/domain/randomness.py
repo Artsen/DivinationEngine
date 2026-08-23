@@ -10,6 +10,8 @@ class RandomSource(Protocol):
 
     def bit(self) -> int: ...
 
+    def randbelow(self, upper_bound: int) -> int: ...
+
 
 class SecureRandomSource:
     """Operating-system backed randomness for real casts."""
@@ -23,3 +25,6 @@ class SecureRandomSource:
 
     def bit(self) -> int:
         return secrets.randbits(1)
+
+    def randbelow(self, upper_bound: int) -> int:
+        return secrets.randbelow(upper_bound)

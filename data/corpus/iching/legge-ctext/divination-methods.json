@@ -1,0 +1,28 @@
+[
+  {
+    "key": "three-coin",
+    "name": "Three-coin method",
+    "probabilities": {
+      "6": "1/8",
+      "7": "3/8",
+      "8": "3/8",
+      "9": "1/8"
+    },
+    "source": "three-coin-computational-convention",
+    "locator": "Heads=3, tails=2; TTT=6, TTH=7, THH=8, HHH=9",
+    "notes": "Probabilities are computed from three independent fair coins; historical origin is not asserted."
+  },
+  {
+    "key": "yarrow-stalk",
+    "name": "Yarrow-stalk method (49 working stalks)",
+    "probabilities": {
+      "6": "1/16",
+      "7": "5/16",
+      "8": "7/16",
+      "9": "3/16"
+    },
+    "source": "legge-yi-king-1882",
+    "locator": "SBE XVI, Appendix III, Great Appendix I.IX, paragraphs 51-58, pp. 367-370",
+    "notes": "The distribution is a computational consequence of the implemented equiprobable-remainder-class reconstruction, not a quotation from Legge."
+  }
+]

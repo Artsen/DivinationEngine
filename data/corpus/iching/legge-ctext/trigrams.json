@@ -1,0 +1,58 @@
+[
+  {
+    "key": "qian",
+    "chinese_name": "乾",
+    "pinyin": "Qián",
+    "glyph": "☰",
+    "binary_pattern": "111"
+  },
+  {
+    "key": "dui",
+    "chinese_name": "兌",
+    "pinyin": "Duì",
+    "glyph": "☱",
+    "binary_pattern": "110"
+  },
+  {
+    "key": "li",
+    "chinese_name": "離",
+    "pinyin": "Lí",
+    "glyph": "☲",
+    "binary_pattern": "101"
+  },
+  {
+    "key": "zhen",
+    "chinese_name": "震",
+    "pinyin": "Zhèn",
+    "glyph": "☳",
+    "binary_pattern": "100"
+  },
+  {
+    "key": "xun",
+    "chinese_name": "巽",
+    "pinyin": "Xùn",
+    "glyph": "☴",
+    "binary_pattern": "011"
+  },
+  {
+    "key": "kan",
+    "chinese_name": "坎",
+    "pinyin": "Kǎn",
+    "glyph": "☵",
+    "binary_pattern": "010"
+  },
+  {
+    "key": "gen",
+    "chinese_name": "艮",
+    "pinyin": "Gèn",
+    "glyph": "☶",
+    "binary_pattern": "001"
+  },
+  {
+    "key": "kun",
+    "chinese_name": "坤",
+    "pinyin": "Kūn",
+    "glyph": "☷",
+    "binary_pattern": "000"
+  }
+]

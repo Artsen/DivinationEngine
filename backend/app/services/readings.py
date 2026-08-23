@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session, selectinload
 
 from app.db import models
 from app.domain.casting import draw_items
-from app.domain.iching import cast_iching
+from app.domain.iching import CoinThrow, cast_by_method
 from app.domain.knowledge import interpretation_is_applicable
 from app.domain.randomness import RandomSource
 
@@ -78,14 +78,20 @@ def create_draw_cast(
 
 
 def create_iching_cast(
-    session: Session, reading: models.Reading, randomness: RandomSource
+    session: Session,
+    reading: models.Reading,
+    randomness: RandomSource,
+    method: str = "three-coin",
 ) -> models.ReadingCast:
-    result = cast_iching(randomness)
+    canonical_method = "three-coin" if method == "three_coin" else method
+    if canonical_method not in {"three-coin", "yarrow-stalk"}:
+        raise ValueError("unsupported I Ching casting method")
+    result = cast_by_method(randomness, canonical_method)  # type: ignore[arg-type]
     cast = models.ReadingCast(
         reading_id=reading.id,
         cast_type="iching",
         cast_order=next_cast_order(session, reading.id),
-        configuration={"method": "three_coin"},
+        configuration={"method": canonical_method},
         primary_pattern=result.primary_pattern,
         relating_pattern=result.relating_pattern,
         changing_lines=list(result.changing_lines),
@@ -94,10 +100,15 @@ def create_iching_cast(
         cast.throws.append(
             models.IChingThrow(
                 line_number=throw.line_number,
-                coin_1=throw.coins[0],
-                coin_2=throw.coins[1],
-                coin_3=throw.coins[2],
+                coin_1=throw.coins[0] if isinstance(throw, CoinThrow) else None,
+                coin_2=throw.coins[1] if isinstance(throw, CoinThrow) else None,
+                coin_3=throw.coins[2] if isinstance(throw, CoinThrow) else None,
                 line_value=throw.value,
+                procedure=(
+                    None
+                    if isinstance(throw, CoinThrow)
+                    else {"manipulations": [row.__dict__ for row in throw.manipulations]}
+                ),
             )
         )
     session.add(cast)
@@ -153,7 +164,7 @@ def cast_dict(cast: models.ReadingCast) -> dict:
         ],
         "iching": (
             {
-                "method": "three_coin",
+                "method": cast.configuration.get("method", "three-coin"),
                 "pattern_order": "bottom_to_top",
                 "primary_pattern": cast.primary_pattern,
                 "changing_lines": cast.changing_lines,
@@ -161,8 +172,13 @@ def cast_dict(cast: models.ReadingCast) -> dict:
                 "throws": [
                     {
                         "line_number": throw.line_number,
-                        "coins": [throw.coin_1, throw.coin_2, throw.coin_3],
+                        "coins": (
+                            [throw.coin_1, throw.coin_2, throw.coin_3]
+                            if throw.coin_1 is not None
+                            else None
+                        ),
                         "line_value": throw.line_value,
+                        "procedure": throw.procedure,
                     }
                     for throw in cast.throws
                 ],
@@ -243,6 +259,40 @@ def context_dict(session: Session, reading: models.Reading) -> dict:
     for correspondence in correspondences:
         correspondences_by_item.setdefault(correspondence.item_id, []).append(correspondence)
 
+    iching_patterns = {
+        pattern
+        for cast in reading.casts
+        if cast.cast_type == "iching"
+        for pattern in (cast.primary_pattern, cast.relating_pattern)
+        if pattern is not None
+    }
+    hexagrams = (
+        session.scalars(
+            select(models.Hexagram).where(models.Hexagram.binary_pattern.in_(iching_patterns))
+        ).all()
+        if iching_patterns
+        else []
+    )
+    hexagrams_by_pattern = {row.binary_pattern: row for row in hexagrams}
+    hexagram_ids = [row.id for row in hexagrams]
+    iching_texts = (
+        session.scalars(
+            select(models.IChingText)
+            .where(models.IChingText.hexagram_id.in_(hexagram_ids))
+            .options(
+                selectinload(models.IChingText.source),
+                selectinload(models.IChingText.tradition),
+            )
+            .order_by(models.IChingText.sequence)
+        ).all()
+        if hexagram_ids
+        else []
+    )
+    iching_texts_by_hexagram: dict[str, list[models.IChingText]] = {}
+    for text_row in iching_texts:
+        if text_row.hexagram_id:
+            iching_texts_by_hexagram.setdefault(text_row.hexagram_id, []).append(text_row)
+
     for cast_data, cast in zip(data["casts"], reading.casts, strict=True):
         for result_data, result in zip(cast_data["draw_results"], cast.results, strict=True):
             item_interpretations = interpretations_by_item.get(result.item_id, [])
@@ -264,6 +314,51 @@ def context_dict(session: Session, reading: models.Reading) -> dict:
                     for row in correspondences_by_item.get(result.item_id, [])
                 ],
             }
+        if cast.cast_type == "iching" and cast_data["iching"] is not None:
+            changing = set(cast.changing_lines)
+
+            def hexagram_context(
+                pattern: str | None, *, primary: bool, changing_lines: set[int] = changing
+            ) -> dict | None:
+                row = hexagrams_by_pattern.get(pattern or "")
+                if row is None:
+                    return None
+                selected = []
+                for text_row in iching_texts_by_hexagram.get(row.id, []):
+                    include = text_row.unit_type in {"gua-ci", "great-image"}
+                    include = include or (
+                        primary
+                        and text_row.line_position in changing_lines
+                        and text_row.unit_type in {"yao-ci", "line-image"}
+                    )
+                    include = include or (
+                        primary
+                        and len(changing_lines) == 6
+                        and text_row.unit_type in {"special-use", "special-image"}
+                    )
+                    if include:
+                        selected.append(iching_text_dict(text_row))
+                return {
+                    "key": row.key,
+                    "canonical_number": row.canonical_number,
+                    "binary_pattern": row.binary_pattern,
+                    "chinese_name": row.chinese_name,
+                    "pinyin": row.pinyin,
+                    "legge_title": row.legge_title,
+                    "glyph": row.glyph,
+                    "texts": selected,
+                }
+
+            cast_data["iching"]["knowledge"] = {
+                "primary": hexagram_context(cast.primary_pattern, primary=True),
+                "relating": hexagram_context(cast.relating_pattern, primary=False),
+                "changing_lines": sorted(changing),
+                "selection_notice": (
+                    "Judgment and Great Image are returned for both figures; only ordinary "
+                    "changing-line texts are selected. No multi-line interpretive-school rule "
+                    "is applied."
+                ),
+            }
 
     sources: dict[str, models.Source] = {}
     traditions: dict[str, models.Tradition] = {}
@@ -275,6 +370,10 @@ def context_dict(session: Session, reading: models.Reading) -> dict:
         sources[correspondence.source.id] = correspondence.source
         if correspondence.tradition is not None:
             traditions[correspondence.tradition.id] = correspondence.tradition
+    for text_row in iching_texts:
+        sources[text_row.source.id] = text_row.source
+        if text_row.tradition is not None:
+            traditions[text_row.tradition.id] = text_row.tradition
     data["sources"] = {
         source_id: {
             "id": source.id,
@@ -331,5 +430,22 @@ def correspondence_dict(row: models.Correspondence) -> dict:
         "value": row.value,
         "status": row.status,
         "locator": row.locator,
+        "notes": row.notes,
+    }
+
+
+def iching_text_dict(row: models.IChingText) -> dict:
+    return {
+        "key": row.key,
+        "layer": row.layer,
+        "unit_type": row.unit_type,
+        "line_position": row.line_position,
+        "section": row.section,
+        "language": row.language,
+        "source_id": row.source_id,
+        "tradition_id": row.tradition_id,
+        "exact_text": row.exact_text,
+        "locator": row.locator,
+        "sequence": row.sequence,
         "notes": row.notes,
     }

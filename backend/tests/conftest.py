@@ -12,14 +12,18 @@ from app.main import create_app
 
 
 class FakeRandom:
-    def __init__(self, bits: list[int] | None = None) -> None:
+    def __init__(self, bits: list[int] | None = None, numbers: list[int] | None = None) -> None:
         self.bits = iter(bits or [0] * 100)
+        self.numbers = iter(numbers or [0] * 100)
 
     def sample(self, population: Sequence, count: int) -> list:
         return list(population)[:count]
 
     def bit(self) -> int:
         return next(self.bits)
+
+    def randbelow(self, upper_bound: int) -> int:
+        return next(self.numbers) % upper_bound
 
 
 @pytest.fixture

@@ -1,0 +1,4034 @@
+[
+  {
+    "key": "hexagram-01-complement",
+    "source_hexagram": "hexagram-01",
+    "target_hexagram": "hexagram-02",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-01-inversion",
+    "source_hexagram": "hexagram-01",
+    "target_hexagram": "hexagram-01",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-01-nuclear",
+    "source_hexagram": "hexagram-01",
+    "target_hexagram": "hexagram-01",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-01-line-1-change",
+    "source_hexagram": "hexagram-01",
+    "target_hexagram": "hexagram-44",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-01-line-2-change",
+    "source_hexagram": "hexagram-01",
+    "target_hexagram": "hexagram-13",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-01-line-3-change",
+    "source_hexagram": "hexagram-01",
+    "target_hexagram": "hexagram-10",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-01-line-4-change",
+    "source_hexagram": "hexagram-01",
+    "target_hexagram": "hexagram-09",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-01-line-5-change",
+    "source_hexagram": "hexagram-01",
+    "target_hexagram": "hexagram-14",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-01-line-6-change",
+    "source_hexagram": "hexagram-01",
+    "target_hexagram": "hexagram-43",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-02-complement",
+    "source_hexagram": "hexagram-02",
+    "target_hexagram": "hexagram-01",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-02-inversion",
+    "source_hexagram": "hexagram-02",
+    "target_hexagram": "hexagram-02",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-02-nuclear",
+    "source_hexagram": "hexagram-02",
+    "target_hexagram": "hexagram-02",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-02-line-1-change",
+    "source_hexagram": "hexagram-02",
+    "target_hexagram": "hexagram-24",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-02-line-2-change",
+    "source_hexagram": "hexagram-02",
+    "target_hexagram": "hexagram-07",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-02-line-3-change",
+    "source_hexagram": "hexagram-02",
+    "target_hexagram": "hexagram-15",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-02-line-4-change",
+    "source_hexagram": "hexagram-02",
+    "target_hexagram": "hexagram-16",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-02-line-5-change",
+    "source_hexagram": "hexagram-02",
+    "target_hexagram": "hexagram-08",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-02-line-6-change",
+    "source_hexagram": "hexagram-02",
+    "target_hexagram": "hexagram-23",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-03-complement",
+    "source_hexagram": "hexagram-03",
+    "target_hexagram": "hexagram-50",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-03-inversion",
+    "source_hexagram": "hexagram-03",
+    "target_hexagram": "hexagram-04",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-03-nuclear",
+    "source_hexagram": "hexagram-03",
+    "target_hexagram": "hexagram-23",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-03-line-1-change",
+    "source_hexagram": "hexagram-03",
+    "target_hexagram": "hexagram-08",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-03-line-2-change",
+    "source_hexagram": "hexagram-03",
+    "target_hexagram": "hexagram-60",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-03-line-3-change",
+    "source_hexagram": "hexagram-03",
+    "target_hexagram": "hexagram-63",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-03-line-4-change",
+    "source_hexagram": "hexagram-03",
+    "target_hexagram": "hexagram-17",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-03-line-5-change",
+    "source_hexagram": "hexagram-03",
+    "target_hexagram": "hexagram-24",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-03-line-6-change",
+    "source_hexagram": "hexagram-03",
+    "target_hexagram": "hexagram-42",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-04-complement",
+    "source_hexagram": "hexagram-04",
+    "target_hexagram": "hexagram-49",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-04-inversion",
+    "source_hexagram": "hexagram-04",
+    "target_hexagram": "hexagram-03",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-04-nuclear",
+    "source_hexagram": "hexagram-04",
+    "target_hexagram": "hexagram-24",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-04-line-1-change",
+    "source_hexagram": "hexagram-04",
+    "target_hexagram": "hexagram-41",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-04-line-2-change",
+    "source_hexagram": "hexagram-04",
+    "target_hexagram": "hexagram-23",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-04-line-3-change",
+    "source_hexagram": "hexagram-04",
+    "target_hexagram": "hexagram-18",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-04-line-4-change",
+    "source_hexagram": "hexagram-04",
+    "target_hexagram": "hexagram-64",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-04-line-5-change",
+    "source_hexagram": "hexagram-04",
+    "target_hexagram": "hexagram-59",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-04-line-6-change",
+    "source_hexagram": "hexagram-04",
+    "target_hexagram": "hexagram-07",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-05-complement",
+    "source_hexagram": "hexagram-05",
+    "target_hexagram": "hexagram-35",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-05-inversion",
+    "source_hexagram": "hexagram-05",
+    "target_hexagram": "hexagram-06",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-05-nuclear",
+    "source_hexagram": "hexagram-05",
+    "target_hexagram": "hexagram-38",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-05-line-1-change",
+    "source_hexagram": "hexagram-05",
+    "target_hexagram": "hexagram-48",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-05-line-2-change",
+    "source_hexagram": "hexagram-05",
+    "target_hexagram": "hexagram-63",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-05-line-3-change",
+    "source_hexagram": "hexagram-05",
+    "target_hexagram": "hexagram-60",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-05-line-4-change",
+    "source_hexagram": "hexagram-05",
+    "target_hexagram": "hexagram-43",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-05-line-5-change",
+    "source_hexagram": "hexagram-05",
+    "target_hexagram": "hexagram-11",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-05-line-6-change",
+    "source_hexagram": "hexagram-05",
+    "target_hexagram": "hexagram-09",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-06-complement",
+    "source_hexagram": "hexagram-06",
+    "target_hexagram": "hexagram-36",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-06-inversion",
+    "source_hexagram": "hexagram-06",
+    "target_hexagram": "hexagram-05",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-06-nuclear",
+    "source_hexagram": "hexagram-06",
+    "target_hexagram": "hexagram-37",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-06-line-1-change",
+    "source_hexagram": "hexagram-06",
+    "target_hexagram": "hexagram-10",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-06-line-2-change",
+    "source_hexagram": "hexagram-06",
+    "target_hexagram": "hexagram-12",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-06-line-3-change",
+    "source_hexagram": "hexagram-06",
+    "target_hexagram": "hexagram-44",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-06-line-4-change",
+    "source_hexagram": "hexagram-06",
+    "target_hexagram": "hexagram-59",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-06-line-5-change",
+    "source_hexagram": "hexagram-06",
+    "target_hexagram": "hexagram-64",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-06-line-6-change",
+    "source_hexagram": "hexagram-06",
+    "target_hexagram": "hexagram-47",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-07-complement",
+    "source_hexagram": "hexagram-07",
+    "target_hexagram": "hexagram-13",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-07-inversion",
+    "source_hexagram": "hexagram-07",
+    "target_hexagram": "hexagram-08",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-07-nuclear",
+    "source_hexagram": "hexagram-07",
+    "target_hexagram": "hexagram-24",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-07-line-1-change",
+    "source_hexagram": "hexagram-07",
+    "target_hexagram": "hexagram-19",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-07-line-2-change",
+    "source_hexagram": "hexagram-07",
+    "target_hexagram": "hexagram-02",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-07-line-3-change",
+    "source_hexagram": "hexagram-07",
+    "target_hexagram": "hexagram-46",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-07-line-4-change",
+    "source_hexagram": "hexagram-07",
+    "target_hexagram": "hexagram-40",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-07-line-5-change",
+    "source_hexagram": "hexagram-07",
+    "target_hexagram": "hexagram-29",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-07-line-6-change",
+    "source_hexagram": "hexagram-07",
+    "target_hexagram": "hexagram-04",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-08-complement",
+    "source_hexagram": "hexagram-08",
+    "target_hexagram": "hexagram-14",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-08-inversion",
+    "source_hexagram": "hexagram-08",
+    "target_hexagram": "hexagram-07",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-08-nuclear",
+    "source_hexagram": "hexagram-08",
+    "target_hexagram": "hexagram-23",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-08-line-1-change",
+    "source_hexagram": "hexagram-08",
+    "target_hexagram": "hexagram-03",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-08-line-2-change",
+    "source_hexagram": "hexagram-08",
+    "target_hexagram": "hexagram-29",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-08-line-3-change",
+    "source_hexagram": "hexagram-08",
+    "target_hexagram": "hexagram-39",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-08-line-4-change",
+    "source_hexagram": "hexagram-08",
+    "target_hexagram": "hexagram-45",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-08-line-5-change",
+    "source_hexagram": "hexagram-08",
+    "target_hexagram": "hexagram-02",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-08-line-6-change",
+    "source_hexagram": "hexagram-08",
+    "target_hexagram": "hexagram-20",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-09-complement",
+    "source_hexagram": "hexagram-09",
+    "target_hexagram": "hexagram-16",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-09-inversion",
+    "source_hexagram": "hexagram-09",
+    "target_hexagram": "hexagram-10",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-09-nuclear",
+    "source_hexagram": "hexagram-09",
+    "target_hexagram": "hexagram-38",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-09-line-1-change",
+    "source_hexagram": "hexagram-09",
+    "target_hexagram": "hexagram-57",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-09-line-2-change",
+    "source_hexagram": "hexagram-09",
+    "target_hexagram": "hexagram-37",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-09-line-3-change",
+    "source_hexagram": "hexagram-09",
+    "target_hexagram": "hexagram-61",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-09-line-4-change",
+    "source_hexagram": "hexagram-09",
+    "target_hexagram": "hexagram-01",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-09-line-5-change",
+    "source_hexagram": "hexagram-09",
+    "target_hexagram": "hexagram-26",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-09-line-6-change",
+    "source_hexagram": "hexagram-09",
+    "target_hexagram": "hexagram-05",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-10-complement",
+    "source_hexagram": "hexagram-10",
+    "target_hexagram": "hexagram-15",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-10-inversion",
+    "source_hexagram": "hexagram-10",
+    "target_hexagram": "hexagram-09",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-10-nuclear",
+    "source_hexagram": "hexagram-10",
+    "target_hexagram": "hexagram-37",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-10-line-1-change",
+    "source_hexagram": "hexagram-10",
+    "target_hexagram": "hexagram-06",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-10-line-2-change",
+    "source_hexagram": "hexagram-10",
+    "target_hexagram": "hexagram-25",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-10-line-3-change",
+    "source_hexagram": "hexagram-10",
+    "target_hexagram": "hexagram-01",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-10-line-4-change",
+    "source_hexagram": "hexagram-10",
+    "target_hexagram": "hexagram-61",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-10-line-5-change",
+    "source_hexagram": "hexagram-10",
+    "target_hexagram": "hexagram-38",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-10-line-6-change",
+    "source_hexagram": "hexagram-10",
+    "target_hexagram": "hexagram-58",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-11-complement",
+    "source_hexagram": "hexagram-11",
+    "target_hexagram": "hexagram-12",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-11-inversion",
+    "source_hexagram": "hexagram-11",
+    "target_hexagram": "hexagram-12",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-11-nuclear",
+    "source_hexagram": "hexagram-11",
+    "target_hexagram": "hexagram-54",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-11-line-1-change",
+    "source_hexagram": "hexagram-11",
+    "target_hexagram": "hexagram-46",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-11-line-2-change",
+    "source_hexagram": "hexagram-11",
+    "target_hexagram": "hexagram-36",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-11-line-3-change",
+    "source_hexagram": "hexagram-11",
+    "target_hexagram": "hexagram-19",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-11-line-4-change",
+    "source_hexagram": "hexagram-11",
+    "target_hexagram": "hexagram-34",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-11-line-5-change",
+    "source_hexagram": "hexagram-11",
+    "target_hexagram": "hexagram-05",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-11-line-6-change",
+    "source_hexagram": "hexagram-11",
+    "target_hexagram": "hexagram-26",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-12-complement",
+    "source_hexagram": "hexagram-12",
+    "target_hexagram": "hexagram-11",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-12-inversion",
+    "source_hexagram": "hexagram-12",
+    "target_hexagram": "hexagram-11",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-12-nuclear",
+    "source_hexagram": "hexagram-12",
+    "target_hexagram": "hexagram-53",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-12-line-1-change",
+    "source_hexagram": "hexagram-12",
+    "target_hexagram": "hexagram-25",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-12-line-2-change",
+    "source_hexagram": "hexagram-12",
+    "target_hexagram": "hexagram-06",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-12-line-3-change",
+    "source_hexagram": "hexagram-12",
+    "target_hexagram": "hexagram-33",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-12-line-4-change",
+    "source_hexagram": "hexagram-12",
+    "target_hexagram": "hexagram-20",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-12-line-5-change",
+    "source_hexagram": "hexagram-12",
+    "target_hexagram": "hexagram-35",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-12-line-6-change",
+    "source_hexagram": "hexagram-12",
+    "target_hexagram": "hexagram-45",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-13-complement",
+    "source_hexagram": "hexagram-13",
+    "target_hexagram": "hexagram-07",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-13-inversion",
+    "source_hexagram": "hexagram-13",
+    "target_hexagram": "hexagram-14",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-13-nuclear",
+    "source_hexagram": "hexagram-13",
+    "target_hexagram": "hexagram-44",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-13-line-1-change",
+    "source_hexagram": "hexagram-13",
+    "target_hexagram": "hexagram-33",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-13-line-2-change",
+    "source_hexagram": "hexagram-13",
+    "target_hexagram": "hexagram-01",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-13-line-3-change",
+    "source_hexagram": "hexagram-13",
+    "target_hexagram": "hexagram-25",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-13-line-4-change",
+    "source_hexagram": "hexagram-13",
+    "target_hexagram": "hexagram-37",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-13-line-5-change",
+    "source_hexagram": "hexagram-13",
+    "target_hexagram": "hexagram-30",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-13-line-6-change",
+    "source_hexagram": "hexagram-13",
+    "target_hexagram": "hexagram-49",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-14-complement",
+    "source_hexagram": "hexagram-14",
+    "target_hexagram": "hexagram-08",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-14-inversion",
+    "source_hexagram": "hexagram-14",
+    "target_hexagram": "hexagram-13",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-14-nuclear",
+    "source_hexagram": "hexagram-14",
+    "target_hexagram": "hexagram-43",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-14-line-1-change",
+    "source_hexagram": "hexagram-14",
+    "target_hexagram": "hexagram-50",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-14-line-2-change",
+    "source_hexagram": "hexagram-14",
+    "target_hexagram": "hexagram-30",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-14-line-3-change",
+    "source_hexagram": "hexagram-14",
+    "target_hexagram": "hexagram-38",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-14-line-4-change",
+    "source_hexagram": "hexagram-14",
+    "target_hexagram": "hexagram-26",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-14-line-5-change",
+    "source_hexagram": "hexagram-14",
+    "target_hexagram": "hexagram-01",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-14-line-6-change",
+    "source_hexagram": "hexagram-14",
+    "target_hexagram": "hexagram-34",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-15-complement",
+    "source_hexagram": "hexagram-15",
+    "target_hexagram": "hexagram-10",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-15-inversion",
+    "source_hexagram": "hexagram-15",
+    "target_hexagram": "hexagram-16",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-15-nuclear",
+    "source_hexagram": "hexagram-15",
+    "target_hexagram": "hexagram-40",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-15-line-1-change",
+    "source_hexagram": "hexagram-15",
+    "target_hexagram": "hexagram-36",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-15-line-2-change",
+    "source_hexagram": "hexagram-15",
+    "target_hexagram": "hexagram-46",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-15-line-3-change",
+    "source_hexagram": "hexagram-15",
+    "target_hexagram": "hexagram-02",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-15-line-4-change",
+    "source_hexagram": "hexagram-15",
+    "target_hexagram": "hexagram-62",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-15-line-5-change",
+    "source_hexagram": "hexagram-15",
+    "target_hexagram": "hexagram-39",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-15-line-6-change",
+    "source_hexagram": "hexagram-15",
+    "target_hexagram": "hexagram-52",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-16-complement",
+    "source_hexagram": "hexagram-16",
+    "target_hexagram": "hexagram-09",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-16-inversion",
+    "source_hexagram": "hexagram-16",
+    "target_hexagram": "hexagram-15",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-16-nuclear",
+    "source_hexagram": "hexagram-16",
+    "target_hexagram": "hexagram-39",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-16-line-1-change",
+    "source_hexagram": "hexagram-16",
+    "target_hexagram": "hexagram-51",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-16-line-2-change",
+    "source_hexagram": "hexagram-16",
+    "target_hexagram": "hexagram-40",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-16-line-3-change",
+    "source_hexagram": "hexagram-16",
+    "target_hexagram": "hexagram-62",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-16-line-4-change",
+    "source_hexagram": "hexagram-16",
+    "target_hexagram": "hexagram-02",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-16-line-5-change",
+    "source_hexagram": "hexagram-16",
+    "target_hexagram": "hexagram-45",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-16-line-6-change",
+    "source_hexagram": "hexagram-16",
+    "target_hexagram": "hexagram-35",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-17-complement",
+    "source_hexagram": "hexagram-17",
+    "target_hexagram": "hexagram-18",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-17-inversion",
+    "source_hexagram": "hexagram-17",
+    "target_hexagram": "hexagram-18",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-17-nuclear",
+    "source_hexagram": "hexagram-17",
+    "target_hexagram": "hexagram-53",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-17-line-1-change",
+    "source_hexagram": "hexagram-17",
+    "target_hexagram": "hexagram-45",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-17-line-2-change",
+    "source_hexagram": "hexagram-17",
+    "target_hexagram": "hexagram-58",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-17-line-3-change",
+    "source_hexagram": "hexagram-17",
+    "target_hexagram": "hexagram-49",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-17-line-4-change",
+    "source_hexagram": "hexagram-17",
+    "target_hexagram": "hexagram-03",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-17-line-5-change",
+    "source_hexagram": "hexagram-17",
+    "target_hexagram": "hexagram-51",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-17-line-6-change",
+    "source_hexagram": "hexagram-17",
+    "target_hexagram": "hexagram-25",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-18-complement",
+    "source_hexagram": "hexagram-18",
+    "target_hexagram": "hexagram-17",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-18-inversion",
+    "source_hexagram": "hexagram-18",
+    "target_hexagram": "hexagram-17",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-18-nuclear",
+    "source_hexagram": "hexagram-18",
+    "target_hexagram": "hexagram-54",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-18-line-1-change",
+    "source_hexagram": "hexagram-18",
+    "target_hexagram": "hexagram-26",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-18-line-2-change",
+    "source_hexagram": "hexagram-18",
+    "target_hexagram": "hexagram-52",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-18-line-3-change",
+    "source_hexagram": "hexagram-18",
+    "target_hexagram": "hexagram-04",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-18-line-4-change",
+    "source_hexagram": "hexagram-18",
+    "target_hexagram": "hexagram-50",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-18-line-5-change",
+    "source_hexagram": "hexagram-18",
+    "target_hexagram": "hexagram-57",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-18-line-6-change",
+    "source_hexagram": "hexagram-18",
+    "target_hexagram": "hexagram-46",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-19-complement",
+    "source_hexagram": "hexagram-19",
+    "target_hexagram": "hexagram-33",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-19-inversion",
+    "source_hexagram": "hexagram-19",
+    "target_hexagram": "hexagram-20",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-19-nuclear",
+    "source_hexagram": "hexagram-19",
+    "target_hexagram": "hexagram-24",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-19-line-1-change",
+    "source_hexagram": "hexagram-19",
+    "target_hexagram": "hexagram-07",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-19-line-2-change",
+    "source_hexagram": "hexagram-19",
+    "target_hexagram": "hexagram-24",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-19-line-3-change",
+    "source_hexagram": "hexagram-19",
+    "target_hexagram": "hexagram-11",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-19-line-4-change",
+    "source_hexagram": "hexagram-19",
+    "target_hexagram": "hexagram-54",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-19-line-5-change",
+    "source_hexagram": "hexagram-19",
+    "target_hexagram": "hexagram-60",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-19-line-6-change",
+    "source_hexagram": "hexagram-19",
+    "target_hexagram": "hexagram-41",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-20-complement",
+    "source_hexagram": "hexagram-20",
+    "target_hexagram": "hexagram-34",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-20-inversion",
+    "source_hexagram": "hexagram-20",
+    "target_hexagram": "hexagram-19",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-20-nuclear",
+    "source_hexagram": "hexagram-20",
+    "target_hexagram": "hexagram-23",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-20-line-1-change",
+    "source_hexagram": "hexagram-20",
+    "target_hexagram": "hexagram-42",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-20-line-2-change",
+    "source_hexagram": "hexagram-20",
+    "target_hexagram": "hexagram-59",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-20-line-3-change",
+    "source_hexagram": "hexagram-20",
+    "target_hexagram": "hexagram-53",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-20-line-4-change",
+    "source_hexagram": "hexagram-20",
+    "target_hexagram": "hexagram-12",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-20-line-5-change",
+    "source_hexagram": "hexagram-20",
+    "target_hexagram": "hexagram-23",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-20-line-6-change",
+    "source_hexagram": "hexagram-20",
+    "target_hexagram": "hexagram-08",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-21-complement",
+    "source_hexagram": "hexagram-21",
+    "target_hexagram": "hexagram-48",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-21-inversion",
+    "source_hexagram": "hexagram-21",
+    "target_hexagram": "hexagram-22",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-21-nuclear",
+    "source_hexagram": "hexagram-21",
+    "target_hexagram": "hexagram-39",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-21-line-1-change",
+    "source_hexagram": "hexagram-21",
+    "target_hexagram": "hexagram-35",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-21-line-2-change",
+    "source_hexagram": "hexagram-21",
+    "target_hexagram": "hexagram-38",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-21-line-3-change",
+    "source_hexagram": "hexagram-21",
+    "target_hexagram": "hexagram-30",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-21-line-4-change",
+    "source_hexagram": "hexagram-21",
+    "target_hexagram": "hexagram-27",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-21-line-5-change",
+    "source_hexagram": "hexagram-21",
+    "target_hexagram": "hexagram-25",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-21-line-6-change",
+    "source_hexagram": "hexagram-21",
+    "target_hexagram": "hexagram-51",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-22-complement",
+    "source_hexagram": "hexagram-22",
+    "target_hexagram": "hexagram-47",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-22-inversion",
+    "source_hexagram": "hexagram-22",
+    "target_hexagram": "hexagram-21",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-22-nuclear",
+    "source_hexagram": "hexagram-22",
+    "target_hexagram": "hexagram-40",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-22-line-1-change",
+    "source_hexagram": "hexagram-22",
+    "target_hexagram": "hexagram-52",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-22-line-2-change",
+    "source_hexagram": "hexagram-22",
+    "target_hexagram": "hexagram-26",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-22-line-3-change",
+    "source_hexagram": "hexagram-22",
+    "target_hexagram": "hexagram-27",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-22-line-4-change",
+    "source_hexagram": "hexagram-22",
+    "target_hexagram": "hexagram-30",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-22-line-5-change",
+    "source_hexagram": "hexagram-22",
+    "target_hexagram": "hexagram-37",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-22-line-6-change",
+    "source_hexagram": "hexagram-22",
+    "target_hexagram": "hexagram-36",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-23-complement",
+    "source_hexagram": "hexagram-23",
+    "target_hexagram": "hexagram-43",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-23-inversion",
+    "source_hexagram": "hexagram-23",
+    "target_hexagram": "hexagram-24",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-23-nuclear",
+    "source_hexagram": "hexagram-23",
+    "target_hexagram": "hexagram-02",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-23-line-1-change",
+    "source_hexagram": "hexagram-23",
+    "target_hexagram": "hexagram-27",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-23-line-2-change",
+    "source_hexagram": "hexagram-23",
+    "target_hexagram": "hexagram-04",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-23-line-3-change",
+    "source_hexagram": "hexagram-23",
+    "target_hexagram": "hexagram-52",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-23-line-4-change",
+    "source_hexagram": "hexagram-23",
+    "target_hexagram": "hexagram-35",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-23-line-5-change",
+    "source_hexagram": "hexagram-23",
+    "target_hexagram": "hexagram-20",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-23-line-6-change",
+    "source_hexagram": "hexagram-23",
+    "target_hexagram": "hexagram-02",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-24-complement",
+    "source_hexagram": "hexagram-24",
+    "target_hexagram": "hexagram-44",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-24-inversion",
+    "source_hexagram": "hexagram-24",
+    "target_hexagram": "hexagram-23",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-24-nuclear",
+    "source_hexagram": "hexagram-24",
+    "target_hexagram": "hexagram-02",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-24-line-1-change",
+    "source_hexagram": "hexagram-24",
+    "target_hexagram": "hexagram-02",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-24-line-2-change",
+    "source_hexagram": "hexagram-24",
+    "target_hexagram": "hexagram-19",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-24-line-3-change",
+    "source_hexagram": "hexagram-24",
+    "target_hexagram": "hexagram-36",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-24-line-4-change",
+    "source_hexagram": "hexagram-24",
+    "target_hexagram": "hexagram-51",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-24-line-5-change",
+    "source_hexagram": "hexagram-24",
+    "target_hexagram": "hexagram-03",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-24-line-6-change",
+    "source_hexagram": "hexagram-24",
+    "target_hexagram": "hexagram-27",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-25-complement",
+    "source_hexagram": "hexagram-25",
+    "target_hexagram": "hexagram-46",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-25-inversion",
+    "source_hexagram": "hexagram-25",
+    "target_hexagram": "hexagram-26",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-25-nuclear",
+    "source_hexagram": "hexagram-25",
+    "target_hexagram": "hexagram-53",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-25-line-1-change",
+    "source_hexagram": "hexagram-25",
+    "target_hexagram": "hexagram-12",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-25-line-2-change",
+    "source_hexagram": "hexagram-25",
+    "target_hexagram": "hexagram-10",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-25-line-3-change",
+    "source_hexagram": "hexagram-25",
+    "target_hexagram": "hexagram-13",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-25-line-4-change",
+    "source_hexagram": "hexagram-25",
+    "target_hexagram": "hexagram-42",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-25-line-5-change",
+    "source_hexagram": "hexagram-25",
+    "target_hexagram": "hexagram-21",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-25-line-6-change",
+    "source_hexagram": "hexagram-25",
+    "target_hexagram": "hexagram-17",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-26-complement",
+    "source_hexagram": "hexagram-26",
+    "target_hexagram": "hexagram-45",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-26-inversion",
+    "source_hexagram": "hexagram-26",
+    "target_hexagram": "hexagram-25",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-26-nuclear",
+    "source_hexagram": "hexagram-26",
+    "target_hexagram": "hexagram-54",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-26-line-1-change",
+    "source_hexagram": "hexagram-26",
+    "target_hexagram": "hexagram-18",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-26-line-2-change",
+    "source_hexagram": "hexagram-26",
+    "target_hexagram": "hexagram-22",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-26-line-3-change",
+    "source_hexagram": "hexagram-26",
+    "target_hexagram": "hexagram-41",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-26-line-4-change",
+    "source_hexagram": "hexagram-26",
+    "target_hexagram": "hexagram-14",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-26-line-5-change",
+    "source_hexagram": "hexagram-26",
+    "target_hexagram": "hexagram-09",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-26-line-6-change",
+    "source_hexagram": "hexagram-26",
+    "target_hexagram": "hexagram-11",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-27-complement",
+    "source_hexagram": "hexagram-27",
+    "target_hexagram": "hexagram-28",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-27-inversion",
+    "source_hexagram": "hexagram-27",
+    "target_hexagram": "hexagram-27",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-27-nuclear",
+    "source_hexagram": "hexagram-27",
+    "target_hexagram": "hexagram-02",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-27-line-1-change",
+    "source_hexagram": "hexagram-27",
+    "target_hexagram": "hexagram-23",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-27-line-2-change",
+    "source_hexagram": "hexagram-27",
+    "target_hexagram": "hexagram-41",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-27-line-3-change",
+    "source_hexagram": "hexagram-27",
+    "target_hexagram": "hexagram-22",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-27-line-4-change",
+    "source_hexagram": "hexagram-27",
+    "target_hexagram": "hexagram-21",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-27-line-5-change",
+    "source_hexagram": "hexagram-27",
+    "target_hexagram": "hexagram-42",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-27-line-6-change",
+    "source_hexagram": "hexagram-27",
+    "target_hexagram": "hexagram-24",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-28-complement",
+    "source_hexagram": "hexagram-28",
+    "target_hexagram": "hexagram-27",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-28-inversion",
+    "source_hexagram": "hexagram-28",
+    "target_hexagram": "hexagram-28",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-28-nuclear",
+    "source_hexagram": "hexagram-28",
+    "target_hexagram": "hexagram-01",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-28-line-1-change",
+    "source_hexagram": "hexagram-28",
+    "target_hexagram": "hexagram-43",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-28-line-2-change",
+    "source_hexagram": "hexagram-28",
+    "target_hexagram": "hexagram-31",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-28-line-3-change",
+    "source_hexagram": "hexagram-28",
+    "target_hexagram": "hexagram-47",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-28-line-4-change",
+    "source_hexagram": "hexagram-28",
+    "target_hexagram": "hexagram-48",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-28-line-5-change",
+    "source_hexagram": "hexagram-28",
+    "target_hexagram": "hexagram-32",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-28-line-6-change",
+    "source_hexagram": "hexagram-28",
+    "target_hexagram": "hexagram-44",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-29-complement",
+    "source_hexagram": "hexagram-29",
+    "target_hexagram": "hexagram-30",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-29-inversion",
+    "source_hexagram": "hexagram-29",
+    "target_hexagram": "hexagram-29",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-29-nuclear",
+    "source_hexagram": "hexagram-29",
+    "target_hexagram": "hexagram-27",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-29-line-1-change",
+    "source_hexagram": "hexagram-29",
+    "target_hexagram": "hexagram-60",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-29-line-2-change",
+    "source_hexagram": "hexagram-29",
+    "target_hexagram": "hexagram-08",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-29-line-3-change",
+    "source_hexagram": "hexagram-29",
+    "target_hexagram": "hexagram-48",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-29-line-4-change",
+    "source_hexagram": "hexagram-29",
+    "target_hexagram": "hexagram-47",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-29-line-5-change",
+    "source_hexagram": "hexagram-29",
+    "target_hexagram": "hexagram-07",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-29-line-6-change",
+    "source_hexagram": "hexagram-29",
+    "target_hexagram": "hexagram-59",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-30-complement",
+    "source_hexagram": "hexagram-30",
+    "target_hexagram": "hexagram-29",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-30-inversion",
+    "source_hexagram": "hexagram-30",
+    "target_hexagram": "hexagram-30",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-30-nuclear",
+    "source_hexagram": "hexagram-30",
+    "target_hexagram": "hexagram-28",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-30-line-1-change",
+    "source_hexagram": "hexagram-30",
+    "target_hexagram": "hexagram-56",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-30-line-2-change",
+    "source_hexagram": "hexagram-30",
+    "target_hexagram": "hexagram-14",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-30-line-3-change",
+    "source_hexagram": "hexagram-30",
+    "target_hexagram": "hexagram-21",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-30-line-4-change",
+    "source_hexagram": "hexagram-30",
+    "target_hexagram": "hexagram-22",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-30-line-5-change",
+    "source_hexagram": "hexagram-30",
+    "target_hexagram": "hexagram-13",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-30-line-6-change",
+    "source_hexagram": "hexagram-30",
+    "target_hexagram": "hexagram-55",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-31-complement",
+    "source_hexagram": "hexagram-31",
+    "target_hexagram": "hexagram-41",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-31-inversion",
+    "source_hexagram": "hexagram-31",
+    "target_hexagram": "hexagram-32",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-31-nuclear",
+    "source_hexagram": "hexagram-31",
+    "target_hexagram": "hexagram-44",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-31-line-1-change",
+    "source_hexagram": "hexagram-31",
+    "target_hexagram": "hexagram-49",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-31-line-2-change",
+    "source_hexagram": "hexagram-31",
+    "target_hexagram": "hexagram-28",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-31-line-3-change",
+    "source_hexagram": "hexagram-31",
+    "target_hexagram": "hexagram-45",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-31-line-4-change",
+    "source_hexagram": "hexagram-31",
+    "target_hexagram": "hexagram-39",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-31-line-5-change",
+    "source_hexagram": "hexagram-31",
+    "target_hexagram": "hexagram-62",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-31-line-6-change",
+    "source_hexagram": "hexagram-31",
+    "target_hexagram": "hexagram-33",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-32-complement",
+    "source_hexagram": "hexagram-32",
+    "target_hexagram": "hexagram-42",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-32-inversion",
+    "source_hexagram": "hexagram-32",
+    "target_hexagram": "hexagram-31",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-32-nuclear",
+    "source_hexagram": "hexagram-32",
+    "target_hexagram": "hexagram-43",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-32-line-1-change",
+    "source_hexagram": "hexagram-32",
+    "target_hexagram": "hexagram-34",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-32-line-2-change",
+    "source_hexagram": "hexagram-32",
+    "target_hexagram": "hexagram-62",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-32-line-3-change",
+    "source_hexagram": "hexagram-32",
+    "target_hexagram": "hexagram-40",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-32-line-4-change",
+    "source_hexagram": "hexagram-32",
+    "target_hexagram": "hexagram-46",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-32-line-5-change",
+    "source_hexagram": "hexagram-32",
+    "target_hexagram": "hexagram-28",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-32-line-6-change",
+    "source_hexagram": "hexagram-32",
+    "target_hexagram": "hexagram-50",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-33-complement",
+    "source_hexagram": "hexagram-33",
+    "target_hexagram": "hexagram-19",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-33-inversion",
+    "source_hexagram": "hexagram-33",
+    "target_hexagram": "hexagram-34",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-33-nuclear",
+    "source_hexagram": "hexagram-33",
+    "target_hexagram": "hexagram-44",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-33-line-1-change",
+    "source_hexagram": "hexagram-33",
+    "target_hexagram": "hexagram-13",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-33-line-2-change",
+    "source_hexagram": "hexagram-33",
+    "target_hexagram": "hexagram-44",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-33-line-3-change",
+    "source_hexagram": "hexagram-33",
+    "target_hexagram": "hexagram-12",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-33-line-4-change",
+    "source_hexagram": "hexagram-33",
+    "target_hexagram": "hexagram-53",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-33-line-5-change",
+    "source_hexagram": "hexagram-33",
+    "target_hexagram": "hexagram-56",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-33-line-6-change",
+    "source_hexagram": "hexagram-33",
+    "target_hexagram": "hexagram-31",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-34-complement",
+    "source_hexagram": "hexagram-34",
+    "target_hexagram": "hexagram-20",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-34-inversion",
+    "source_hexagram": "hexagram-34",
+    "target_hexagram": "hexagram-33",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-34-nuclear",
+    "source_hexagram": "hexagram-34",
+    "target_hexagram": "hexagram-43",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-34-line-1-change",
+    "source_hexagram": "hexagram-34",
+    "target_hexagram": "hexagram-32",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-34-line-2-change",
+    "source_hexagram": "hexagram-34",
+    "target_hexagram": "hexagram-55",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-34-line-3-change",
+    "source_hexagram": "hexagram-34",
+    "target_hexagram": "hexagram-54",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-34-line-4-change",
+    "source_hexagram": "hexagram-34",
+    "target_hexagram": "hexagram-11",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-34-line-5-change",
+    "source_hexagram": "hexagram-34",
+    "target_hexagram": "hexagram-43",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-34-line-6-change",
+    "source_hexagram": "hexagram-34",
+    "target_hexagram": "hexagram-14",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-35-complement",
+    "source_hexagram": "hexagram-35",
+    "target_hexagram": "hexagram-05",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-35-inversion",
+    "source_hexagram": "hexagram-35",
+    "target_hexagram": "hexagram-36",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-35-nuclear",
+    "source_hexagram": "hexagram-35",
+    "target_hexagram": "hexagram-39",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-35-line-1-change",
+    "source_hexagram": "hexagram-35",
+    "target_hexagram": "hexagram-21",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-35-line-2-change",
+    "source_hexagram": "hexagram-35",
+    "target_hexagram": "hexagram-64",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-35-line-3-change",
+    "source_hexagram": "hexagram-35",
+    "target_hexagram": "hexagram-56",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-35-line-4-change",
+    "source_hexagram": "hexagram-35",
+    "target_hexagram": "hexagram-23",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-35-line-5-change",
+    "source_hexagram": "hexagram-35",
+    "target_hexagram": "hexagram-12",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-35-line-6-change",
+    "source_hexagram": "hexagram-35",
+    "target_hexagram": "hexagram-16",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-36-complement",
+    "source_hexagram": "hexagram-36",
+    "target_hexagram": "hexagram-06",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-36-inversion",
+    "source_hexagram": "hexagram-36",
+    "target_hexagram": "hexagram-35",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-36-nuclear",
+    "source_hexagram": "hexagram-36",
+    "target_hexagram": "hexagram-40",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-36-line-1-change",
+    "source_hexagram": "hexagram-36",
+    "target_hexagram": "hexagram-15",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-36-line-2-change",
+    "source_hexagram": "hexagram-36",
+    "target_hexagram": "hexagram-11",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-36-line-3-change",
+    "source_hexagram": "hexagram-36",
+    "target_hexagram": "hexagram-24",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-36-line-4-change",
+    "source_hexagram": "hexagram-36",
+    "target_hexagram": "hexagram-55",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-36-line-5-change",
+    "source_hexagram": "hexagram-36",
+    "target_hexagram": "hexagram-63",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-36-line-6-change",
+    "source_hexagram": "hexagram-36",
+    "target_hexagram": "hexagram-22",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-37-complement",
+    "source_hexagram": "hexagram-37",
+    "target_hexagram": "hexagram-40",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-37-inversion",
+    "source_hexagram": "hexagram-37",
+    "target_hexagram": "hexagram-38",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-37-nuclear",
+    "source_hexagram": "hexagram-37",
+    "target_hexagram": "hexagram-64",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-37-line-1-change",
+    "source_hexagram": "hexagram-37",
+    "target_hexagram": "hexagram-53",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-37-line-2-change",
+    "source_hexagram": "hexagram-37",
+    "target_hexagram": "hexagram-09",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-37-line-3-change",
+    "source_hexagram": "hexagram-37",
+    "target_hexagram": "hexagram-42",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-37-line-4-change",
+    "source_hexagram": "hexagram-37",
+    "target_hexagram": "hexagram-13",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-37-line-5-change",
+    "source_hexagram": "hexagram-37",
+    "target_hexagram": "hexagram-22",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-37-line-6-change",
+    "source_hexagram": "hexagram-37",
+    "target_hexagram": "hexagram-63",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-38-complement",
+    "source_hexagram": "hexagram-38",
+    "target_hexagram": "hexagram-39",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-38-inversion",
+    "source_hexagram": "hexagram-38",
+    "target_hexagram": "hexagram-37",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-38-nuclear",
+    "source_hexagram": "hexagram-38",
+    "target_hexagram": "hexagram-63",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-38-line-1-change",
+    "source_hexagram": "hexagram-38",
+    "target_hexagram": "hexagram-64",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-38-line-2-change",
+    "source_hexagram": "hexagram-38",
+    "target_hexagram": "hexagram-21",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-38-line-3-change",
+    "source_hexagram": "hexagram-38",
+    "target_hexagram": "hexagram-14",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-38-line-4-change",
+    "source_hexagram": "hexagram-38",
+    "target_hexagram": "hexagram-41",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-38-line-5-change",
+    "source_hexagram": "hexagram-38",
+    "target_hexagram": "hexagram-10",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-38-line-6-change",
+    "source_hexagram": "hexagram-38",
+    "target_hexagram": "hexagram-54",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-39-complement",
+    "source_hexagram": "hexagram-39",
+    "target_hexagram": "hexagram-38",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-39-inversion",
+    "source_hexagram": "hexagram-39",
+    "target_hexagram": "hexagram-40",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-39-nuclear",
+    "source_hexagram": "hexagram-39",
+    "target_hexagram": "hexagram-64",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-39-line-1-change",
+    "source_hexagram": "hexagram-39",
+    "target_hexagram": "hexagram-63",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-39-line-2-change",
+    "source_hexagram": "hexagram-39",
+    "target_hexagram": "hexagram-48",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-39-line-3-change",
+    "source_hexagram": "hexagram-39",
+    "target_hexagram": "hexagram-08",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-39-line-4-change",
+    "source_hexagram": "hexagram-39",
+    "target_hexagram": "hexagram-31",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-39-line-5-change",
+    "source_hexagram": "hexagram-39",
+    "target_hexagram": "hexagram-15",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-39-line-6-change",
+    "source_hexagram": "hexagram-39",
+    "target_hexagram": "hexagram-53",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-40-complement",
+    "source_hexagram": "hexagram-40",
+    "target_hexagram": "hexagram-37",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-40-inversion",
+    "source_hexagram": "hexagram-40",
+    "target_hexagram": "hexagram-39",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-40-nuclear",
+    "source_hexagram": "hexagram-40",
+    "target_hexagram": "hexagram-63",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-40-line-1-change",
+    "source_hexagram": "hexagram-40",
+    "target_hexagram": "hexagram-54",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-40-line-2-change",
+    "source_hexagram": "hexagram-40",
+    "target_hexagram": "hexagram-16",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-40-line-3-change",
+    "source_hexagram": "hexagram-40",
+    "target_hexagram": "hexagram-32",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-40-line-4-change",
+    "source_hexagram": "hexagram-40",
+    "target_hexagram": "hexagram-07",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-40-line-5-change",
+    "source_hexagram": "hexagram-40",
+    "target_hexagram": "hexagram-47",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-40-line-6-change",
+    "source_hexagram": "hexagram-40",
+    "target_hexagram": "hexagram-64",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-41-complement",
+    "source_hexagram": "hexagram-41",
+    "target_hexagram": "hexagram-31",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-41-inversion",
+    "source_hexagram": "hexagram-41",
+    "target_hexagram": "hexagram-42",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-41-nuclear",
+    "source_hexagram": "hexagram-41",
+    "target_hexagram": "hexagram-24",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-41-line-1-change",
+    "source_hexagram": "hexagram-41",
+    "target_hexagram": "hexagram-04",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-41-line-2-change",
+    "source_hexagram": "hexagram-41",
+    "target_hexagram": "hexagram-27",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-41-line-3-change",
+    "source_hexagram": "hexagram-41",
+    "target_hexagram": "hexagram-26",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-41-line-4-change",
+    "source_hexagram": "hexagram-41",
+    "target_hexagram": "hexagram-38",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-41-line-5-change",
+    "source_hexagram": "hexagram-41",
+    "target_hexagram": "hexagram-61",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-41-line-6-change",
+    "source_hexagram": "hexagram-41",
+    "target_hexagram": "hexagram-19",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-42-complement",
+    "source_hexagram": "hexagram-42",
+    "target_hexagram": "hexagram-32",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-42-inversion",
+    "source_hexagram": "hexagram-42",
+    "target_hexagram": "hexagram-41",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-42-nuclear",
+    "source_hexagram": "hexagram-42",
+    "target_hexagram": "hexagram-23",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-42-line-1-change",
+    "source_hexagram": "hexagram-42",
+    "target_hexagram": "hexagram-20",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-42-line-2-change",
+    "source_hexagram": "hexagram-42",
+    "target_hexagram": "hexagram-61",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-42-line-3-change",
+    "source_hexagram": "hexagram-42",
+    "target_hexagram": "hexagram-37",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-42-line-4-change",
+    "source_hexagram": "hexagram-42",
+    "target_hexagram": "hexagram-25",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-42-line-5-change",
+    "source_hexagram": "hexagram-42",
+    "target_hexagram": "hexagram-27",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-42-line-6-change",
+    "source_hexagram": "hexagram-42",
+    "target_hexagram": "hexagram-03",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-43-complement",
+    "source_hexagram": "hexagram-43",
+    "target_hexagram": "hexagram-23",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-43-inversion",
+    "source_hexagram": "hexagram-43",
+    "target_hexagram": "hexagram-44",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-43-nuclear",
+    "source_hexagram": "hexagram-43",
+    "target_hexagram": "hexagram-01",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-43-line-1-change",
+    "source_hexagram": "hexagram-43",
+    "target_hexagram": "hexagram-28",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-43-line-2-change",
+    "source_hexagram": "hexagram-43",
+    "target_hexagram": "hexagram-49",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-43-line-3-change",
+    "source_hexagram": "hexagram-43",
+    "target_hexagram": "hexagram-58",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-43-line-4-change",
+    "source_hexagram": "hexagram-43",
+    "target_hexagram": "hexagram-05",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-43-line-5-change",
+    "source_hexagram": "hexagram-43",
+    "target_hexagram": "hexagram-34",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-43-line-6-change",
+    "source_hexagram": "hexagram-43",
+    "target_hexagram": "hexagram-01",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-44-complement",
+    "source_hexagram": "hexagram-44",
+    "target_hexagram": "hexagram-24",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-44-inversion",
+    "source_hexagram": "hexagram-44",
+    "target_hexagram": "hexagram-43",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-44-nuclear",
+    "source_hexagram": "hexagram-44",
+    "target_hexagram": "hexagram-01",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-44-line-1-change",
+    "source_hexagram": "hexagram-44",
+    "target_hexagram": "hexagram-01",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-44-line-2-change",
+    "source_hexagram": "hexagram-44",
+    "target_hexagram": "hexagram-33",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-44-line-3-change",
+    "source_hexagram": "hexagram-44",
+    "target_hexagram": "hexagram-06",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-44-line-4-change",
+    "source_hexagram": "hexagram-44",
+    "target_hexagram": "hexagram-57",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-44-line-5-change",
+    "source_hexagram": "hexagram-44",
+    "target_hexagram": "hexagram-50",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-44-line-6-change",
+    "source_hexagram": "hexagram-44",
+    "target_hexagram": "hexagram-28",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-45-complement",
+    "source_hexagram": "hexagram-45",
+    "target_hexagram": "hexagram-26",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-45-inversion",
+    "source_hexagram": "hexagram-45",
+    "target_hexagram": "hexagram-46",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-45-nuclear",
+    "source_hexagram": "hexagram-45",
+    "target_hexagram": "hexagram-53",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-45-line-1-change",
+    "source_hexagram": "hexagram-45",
+    "target_hexagram": "hexagram-17",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-45-line-2-change",
+    "source_hexagram": "hexagram-45",
+    "target_hexagram": "hexagram-47",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-45-line-3-change",
+    "source_hexagram": "hexagram-45",
+    "target_hexagram": "hexagram-31",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-45-line-4-change",
+    "source_hexagram": "hexagram-45",
+    "target_hexagram": "hexagram-08",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-45-line-5-change",
+    "source_hexagram": "hexagram-45",
+    "target_hexagram": "hexagram-16",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-45-line-6-change",
+    "source_hexagram": "hexagram-45",
+    "target_hexagram": "hexagram-12",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-46-complement",
+    "source_hexagram": "hexagram-46",
+    "target_hexagram": "hexagram-25",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-46-inversion",
+    "source_hexagram": "hexagram-46",
+    "target_hexagram": "hexagram-45",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-46-nuclear",
+    "source_hexagram": "hexagram-46",
+    "target_hexagram": "hexagram-54",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-46-line-1-change",
+    "source_hexagram": "hexagram-46",
+    "target_hexagram": "hexagram-11",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-46-line-2-change",
+    "source_hexagram": "hexagram-46",
+    "target_hexagram": "hexagram-15",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-46-line-3-change",
+    "source_hexagram": "hexagram-46",
+    "target_hexagram": "hexagram-07",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-46-line-4-change",
+    "source_hexagram": "hexagram-46",
+    "target_hexagram": "hexagram-32",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-46-line-5-change",
+    "source_hexagram": "hexagram-46",
+    "target_hexagram": "hexagram-48",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-46-line-6-change",
+    "source_hexagram": "hexagram-46",
+    "target_hexagram": "hexagram-18",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-47-complement",
+    "source_hexagram": "hexagram-47",
+    "target_hexagram": "hexagram-22",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-47-inversion",
+    "source_hexagram": "hexagram-47",
+    "target_hexagram": "hexagram-48",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-47-nuclear",
+    "source_hexagram": "hexagram-47",
+    "target_hexagram": "hexagram-37",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-47-line-1-change",
+    "source_hexagram": "hexagram-47",
+    "target_hexagram": "hexagram-58",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-47-line-2-change",
+    "source_hexagram": "hexagram-47",
+    "target_hexagram": "hexagram-45",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-47-line-3-change",
+    "source_hexagram": "hexagram-47",
+    "target_hexagram": "hexagram-28",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-47-line-4-change",
+    "source_hexagram": "hexagram-47",
+    "target_hexagram": "hexagram-29",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-47-line-5-change",
+    "source_hexagram": "hexagram-47",
+    "target_hexagram": "hexagram-40",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-47-line-6-change",
+    "source_hexagram": "hexagram-47",
+    "target_hexagram": "hexagram-06",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-48-complement",
+    "source_hexagram": "hexagram-48",
+    "target_hexagram": "hexagram-21",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-48-inversion",
+    "source_hexagram": "hexagram-48",
+    "target_hexagram": "hexagram-47",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-48-nuclear",
+    "source_hexagram": "hexagram-48",
+    "target_hexagram": "hexagram-38",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-48-line-1-change",
+    "source_hexagram": "hexagram-48",
+    "target_hexagram": "hexagram-05",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-48-line-2-change",
+    "source_hexagram": "hexagram-48",
+    "target_hexagram": "hexagram-39",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-48-line-3-change",
+    "source_hexagram": "hexagram-48",
+    "target_hexagram": "hexagram-29",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-48-line-4-change",
+    "source_hexagram": "hexagram-48",
+    "target_hexagram": "hexagram-28",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-48-line-5-change",
+    "source_hexagram": "hexagram-48",
+    "target_hexagram": "hexagram-46",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-48-line-6-change",
+    "source_hexagram": "hexagram-48",
+    "target_hexagram": "hexagram-57",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-49-complement",
+    "source_hexagram": "hexagram-49",
+    "target_hexagram": "hexagram-04",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-49-inversion",
+    "source_hexagram": "hexagram-49",
+    "target_hexagram": "hexagram-50",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-49-nuclear",
+    "source_hexagram": "hexagram-49",
+    "target_hexagram": "hexagram-44",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-49-line-1-change",
+    "source_hexagram": "hexagram-49",
+    "target_hexagram": "hexagram-31",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-49-line-2-change",
+    "source_hexagram": "hexagram-49",
+    "target_hexagram": "hexagram-43",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-49-line-3-change",
+    "source_hexagram": "hexagram-49",
+    "target_hexagram": "hexagram-17",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-49-line-4-change",
+    "source_hexagram": "hexagram-49",
+    "target_hexagram": "hexagram-63",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-49-line-5-change",
+    "source_hexagram": "hexagram-49",
+    "target_hexagram": "hexagram-55",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-49-line-6-change",
+    "source_hexagram": "hexagram-49",
+    "target_hexagram": "hexagram-13",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-50-complement",
+    "source_hexagram": "hexagram-50",
+    "target_hexagram": "hexagram-03",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-50-inversion",
+    "source_hexagram": "hexagram-50",
+    "target_hexagram": "hexagram-49",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-50-nuclear",
+    "source_hexagram": "hexagram-50",
+    "target_hexagram": "hexagram-43",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-50-line-1-change",
+    "source_hexagram": "hexagram-50",
+    "target_hexagram": "hexagram-14",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-50-line-2-change",
+    "source_hexagram": "hexagram-50",
+    "target_hexagram": "hexagram-56",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-50-line-3-change",
+    "source_hexagram": "hexagram-50",
+    "target_hexagram": "hexagram-64",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-50-line-4-change",
+    "source_hexagram": "hexagram-50",
+    "target_hexagram": "hexagram-18",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-50-line-5-change",
+    "source_hexagram": "hexagram-50",
+    "target_hexagram": "hexagram-44",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-50-line-6-change",
+    "source_hexagram": "hexagram-50",
+    "target_hexagram": "hexagram-32",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-51-complement",
+    "source_hexagram": "hexagram-51",
+    "target_hexagram": "hexagram-57",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-51-inversion",
+    "source_hexagram": "hexagram-51",
+    "target_hexagram": "hexagram-52",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-51-nuclear",
+    "source_hexagram": "hexagram-51",
+    "target_hexagram": "hexagram-39",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-51-line-1-change",
+    "source_hexagram": "hexagram-51",
+    "target_hexagram": "hexagram-16",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-51-line-2-change",
+    "source_hexagram": "hexagram-51",
+    "target_hexagram": "hexagram-54",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-51-line-3-change",
+    "source_hexagram": "hexagram-51",
+    "target_hexagram": "hexagram-55",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-51-line-4-change",
+    "source_hexagram": "hexagram-51",
+    "target_hexagram": "hexagram-24",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-51-line-5-change",
+    "source_hexagram": "hexagram-51",
+    "target_hexagram": "hexagram-17",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-51-line-6-change",
+    "source_hexagram": "hexagram-51",
+    "target_hexagram": "hexagram-21",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-52-complement",
+    "source_hexagram": "hexagram-52",
+    "target_hexagram": "hexagram-58",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-52-inversion",
+    "source_hexagram": "hexagram-52",
+    "target_hexagram": "hexagram-51",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-52-nuclear",
+    "source_hexagram": "hexagram-52",
+    "target_hexagram": "hexagram-40",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-52-line-1-change",
+    "source_hexagram": "hexagram-52",
+    "target_hexagram": "hexagram-22",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-52-line-2-change",
+    "source_hexagram": "hexagram-52",
+    "target_hexagram": "hexagram-18",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-52-line-3-change",
+    "source_hexagram": "hexagram-52",
+    "target_hexagram": "hexagram-23",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-52-line-4-change",
+    "source_hexagram": "hexagram-52",
+    "target_hexagram": "hexagram-56",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-52-line-5-change",
+    "source_hexagram": "hexagram-52",
+    "target_hexagram": "hexagram-53",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-52-line-6-change",
+    "source_hexagram": "hexagram-52",
+    "target_hexagram": "hexagram-15",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-53-complement",
+    "source_hexagram": "hexagram-53",
+    "target_hexagram": "hexagram-54",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-53-inversion",
+    "source_hexagram": "hexagram-53",
+    "target_hexagram": "hexagram-54",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-53-nuclear",
+    "source_hexagram": "hexagram-53",
+    "target_hexagram": "hexagram-64",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-53-line-1-change",
+    "source_hexagram": "hexagram-53",
+    "target_hexagram": "hexagram-37",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-53-line-2-change",
+    "source_hexagram": "hexagram-53",
+    "target_hexagram": "hexagram-57",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-53-line-3-change",
+    "source_hexagram": "hexagram-53",
+    "target_hexagram": "hexagram-20",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-53-line-4-change",
+    "source_hexagram": "hexagram-53",
+    "target_hexagram": "hexagram-33",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-53-line-5-change",
+    "source_hexagram": "hexagram-53",
+    "target_hexagram": "hexagram-52",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-53-line-6-change",
+    "source_hexagram": "hexagram-53",
+    "target_hexagram": "hexagram-39",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-54-complement",
+    "source_hexagram": "hexagram-54",
+    "target_hexagram": "hexagram-53",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-54-inversion",
+    "source_hexagram": "hexagram-54",
+    "target_hexagram": "hexagram-53",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-54-nuclear",
+    "source_hexagram": "hexagram-54",
+    "target_hexagram": "hexagram-63",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-54-line-1-change",
+    "source_hexagram": "hexagram-54",
+    "target_hexagram": "hexagram-40",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-54-line-2-change",
+    "source_hexagram": "hexagram-54",
+    "target_hexagram": "hexagram-51",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-54-line-3-change",
+    "source_hexagram": "hexagram-54",
+    "target_hexagram": "hexagram-34",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-54-line-4-change",
+    "source_hexagram": "hexagram-54",
+    "target_hexagram": "hexagram-19",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-54-line-5-change",
+    "source_hexagram": "hexagram-54",
+    "target_hexagram": "hexagram-58",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-54-line-6-change",
+    "source_hexagram": "hexagram-54",
+    "target_hexagram": "hexagram-38",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-55-complement",
+    "source_hexagram": "hexagram-55",
+    "target_hexagram": "hexagram-59",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-55-inversion",
+    "source_hexagram": "hexagram-55",
+    "target_hexagram": "hexagram-56",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-55-nuclear",
+    "source_hexagram": "hexagram-55",
+    "target_hexagram": "hexagram-28",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-55-line-1-change",
+    "source_hexagram": "hexagram-55",
+    "target_hexagram": "hexagram-62",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-55-line-2-change",
+    "source_hexagram": "hexagram-55",
+    "target_hexagram": "hexagram-34",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-55-line-3-change",
+    "source_hexagram": "hexagram-55",
+    "target_hexagram": "hexagram-51",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-55-line-4-change",
+    "source_hexagram": "hexagram-55",
+    "target_hexagram": "hexagram-36",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-55-line-5-change",
+    "source_hexagram": "hexagram-55",
+    "target_hexagram": "hexagram-49",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-55-line-6-change",
+    "source_hexagram": "hexagram-55",
+    "target_hexagram": "hexagram-30",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-56-complement",
+    "source_hexagram": "hexagram-56",
+    "target_hexagram": "hexagram-60",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-56-inversion",
+    "source_hexagram": "hexagram-56",
+    "target_hexagram": "hexagram-55",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-56-nuclear",
+    "source_hexagram": "hexagram-56",
+    "target_hexagram": "hexagram-28",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-56-line-1-change",
+    "source_hexagram": "hexagram-56",
+    "target_hexagram": "hexagram-30",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-56-line-2-change",
+    "source_hexagram": "hexagram-56",
+    "target_hexagram": "hexagram-50",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-56-line-3-change",
+    "source_hexagram": "hexagram-56",
+    "target_hexagram": "hexagram-35",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-56-line-4-change",
+    "source_hexagram": "hexagram-56",
+    "target_hexagram": "hexagram-52",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-56-line-5-change",
+    "source_hexagram": "hexagram-56",
+    "target_hexagram": "hexagram-33",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-56-line-6-change",
+    "source_hexagram": "hexagram-56",
+    "target_hexagram": "hexagram-62",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-57-complement",
+    "source_hexagram": "hexagram-57",
+    "target_hexagram": "hexagram-51",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-57-inversion",
+    "source_hexagram": "hexagram-57",
+    "target_hexagram": "hexagram-58",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-57-nuclear",
+    "source_hexagram": "hexagram-57",
+    "target_hexagram": "hexagram-38",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-57-line-1-change",
+    "source_hexagram": "hexagram-57",
+    "target_hexagram": "hexagram-09",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-57-line-2-change",
+    "source_hexagram": "hexagram-57",
+    "target_hexagram": "hexagram-53",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-57-line-3-change",
+    "source_hexagram": "hexagram-57",
+    "target_hexagram": "hexagram-59",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-57-line-4-change",
+    "source_hexagram": "hexagram-57",
+    "target_hexagram": "hexagram-44",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-57-line-5-change",
+    "source_hexagram": "hexagram-57",
+    "target_hexagram": "hexagram-18",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-57-line-6-change",
+    "source_hexagram": "hexagram-57",
+    "target_hexagram": "hexagram-48",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-58-complement",
+    "source_hexagram": "hexagram-58",
+    "target_hexagram": "hexagram-52",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-58-inversion",
+    "source_hexagram": "hexagram-58",
+    "target_hexagram": "hexagram-57",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-58-nuclear",
+    "source_hexagram": "hexagram-58",
+    "target_hexagram": "hexagram-37",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-58-line-1-change",
+    "source_hexagram": "hexagram-58",
+    "target_hexagram": "hexagram-47",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-58-line-2-change",
+    "source_hexagram": "hexagram-58",
+    "target_hexagram": "hexagram-17",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-58-line-3-change",
+    "source_hexagram": "hexagram-58",
+    "target_hexagram": "hexagram-43",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-58-line-4-change",
+    "source_hexagram": "hexagram-58",
+    "target_hexagram": "hexagram-60",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-58-line-5-change",
+    "source_hexagram": "hexagram-58",
+    "target_hexagram": "hexagram-54",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-58-line-6-change",
+    "source_hexagram": "hexagram-58",
+    "target_hexagram": "hexagram-10",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-59-complement",
+    "source_hexagram": "hexagram-59",
+    "target_hexagram": "hexagram-55",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-59-inversion",
+    "source_hexagram": "hexagram-59",
+    "target_hexagram": "hexagram-60",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-59-nuclear",
+    "source_hexagram": "hexagram-59",
+    "target_hexagram": "hexagram-27",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-59-line-1-change",
+    "source_hexagram": "hexagram-59",
+    "target_hexagram": "hexagram-61",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-59-line-2-change",
+    "source_hexagram": "hexagram-59",
+    "target_hexagram": "hexagram-20",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-59-line-3-change",
+    "source_hexagram": "hexagram-59",
+    "target_hexagram": "hexagram-57",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-59-line-4-change",
+    "source_hexagram": "hexagram-59",
+    "target_hexagram": "hexagram-06",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-59-line-5-change",
+    "source_hexagram": "hexagram-59",
+    "target_hexagram": "hexagram-04",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-59-line-6-change",
+    "source_hexagram": "hexagram-59",
+    "target_hexagram": "hexagram-29",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-60-complement",
+    "source_hexagram": "hexagram-60",
+    "target_hexagram": "hexagram-56",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-60-inversion",
+    "source_hexagram": "hexagram-60",
+    "target_hexagram": "hexagram-59",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-60-nuclear",
+    "source_hexagram": "hexagram-60",
+    "target_hexagram": "hexagram-27",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-60-line-1-change",
+    "source_hexagram": "hexagram-60",
+    "target_hexagram": "hexagram-29",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-60-line-2-change",
+    "source_hexagram": "hexagram-60",
+    "target_hexagram": "hexagram-03",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-60-line-3-change",
+    "source_hexagram": "hexagram-60",
+    "target_hexagram": "hexagram-05",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-60-line-4-change",
+    "source_hexagram": "hexagram-60",
+    "target_hexagram": "hexagram-58",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-60-line-5-change",
+    "source_hexagram": "hexagram-60",
+    "target_hexagram": "hexagram-19",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-60-line-6-change",
+    "source_hexagram": "hexagram-60",
+    "target_hexagram": "hexagram-61",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-61-complement",
+    "source_hexagram": "hexagram-61",
+    "target_hexagram": "hexagram-62",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-61-inversion",
+    "source_hexagram": "hexagram-61",
+    "target_hexagram": "hexagram-61",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-61-nuclear",
+    "source_hexagram": "hexagram-61",
+    "target_hexagram": "hexagram-27",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-61-line-1-change",
+    "source_hexagram": "hexagram-61",
+    "target_hexagram": "hexagram-59",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-61-line-2-change",
+    "source_hexagram": "hexagram-61",
+    "target_hexagram": "hexagram-42",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-61-line-3-change",
+    "source_hexagram": "hexagram-61",
+    "target_hexagram": "hexagram-09",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-61-line-4-change",
+    "source_hexagram": "hexagram-61",
+    "target_hexagram": "hexagram-10",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-61-line-5-change",
+    "source_hexagram": "hexagram-61",
+    "target_hexagram": "hexagram-41",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-61-line-6-change",
+    "source_hexagram": "hexagram-61",
+    "target_hexagram": "hexagram-60",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-62-complement",
+    "source_hexagram": "hexagram-62",
+    "target_hexagram": "hexagram-61",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-62-inversion",
+    "source_hexagram": "hexagram-62",
+    "target_hexagram": "hexagram-62",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-62-nuclear",
+    "source_hexagram": "hexagram-62",
+    "target_hexagram": "hexagram-28",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-62-line-1-change",
+    "source_hexagram": "hexagram-62",
+    "target_hexagram": "hexagram-55",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-62-line-2-change",
+    "source_hexagram": "hexagram-62",
+    "target_hexagram": "hexagram-32",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-62-line-3-change",
+    "source_hexagram": "hexagram-62",
+    "target_hexagram": "hexagram-16",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-62-line-4-change",
+    "source_hexagram": "hexagram-62",
+    "target_hexagram": "hexagram-15",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-62-line-5-change",
+    "source_hexagram": "hexagram-62",
+    "target_hexagram": "hexagram-31",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-62-line-6-change",
+    "source_hexagram": "hexagram-62",
+    "target_hexagram": "hexagram-56",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-63-complement",
+    "source_hexagram": "hexagram-63",
+    "target_hexagram": "hexagram-64",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-63-inversion",
+    "source_hexagram": "hexagram-63",
+    "target_hexagram": "hexagram-64",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-63-nuclear",
+    "source_hexagram": "hexagram-63",
+    "target_hexagram": "hexagram-64",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-63-line-1-change",
+    "source_hexagram": "hexagram-63",
+    "target_hexagram": "hexagram-39",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-63-line-2-change",
+    "source_hexagram": "hexagram-63",
+    "target_hexagram": "hexagram-05",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-63-line-3-change",
+    "source_hexagram": "hexagram-63",
+    "target_hexagram": "hexagram-03",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-63-line-4-change",
+    "source_hexagram": "hexagram-63",
+    "target_hexagram": "hexagram-49",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-63-line-5-change",
+    "source_hexagram": "hexagram-63",
+    "target_hexagram": "hexagram-36",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-63-line-6-change",
+    "source_hexagram": "hexagram-63",
+    "target_hexagram": "hexagram-37",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  },
+  {
+    "key": "hexagram-64-complement",
+    "source_hexagram": "hexagram-64",
+    "target_hexagram": "hexagram-63",
+    "relationship_type": "complement",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-64-inversion",
+    "source_hexagram": "hexagram-64",
+    "target_hexagram": "hexagram-63",
+    "relationship_type": "inversion",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-64-nuclear",
+    "source_hexagram": "hexagram-64",
+    "target_hexagram": "hexagram-63",
+    "relationship_type": "nuclear",
+    "line_position": null
+  },
+  {
+    "key": "hexagram-64-line-1-change",
+    "source_hexagram": "hexagram-64",
+    "target_hexagram": "hexagram-38",
+    "relationship_type": "single-line-change",
+    "line_position": 1
+  },
+  {
+    "key": "hexagram-64-line-2-change",
+    "source_hexagram": "hexagram-64",
+    "target_hexagram": "hexagram-35",
+    "relationship_type": "single-line-change",
+    "line_position": 2
+  },
+  {
+    "key": "hexagram-64-line-3-change",
+    "source_hexagram": "hexagram-64",
+    "target_hexagram": "hexagram-50",
+    "relationship_type": "single-line-change",
+    "line_position": 3
+  },
+  {
+    "key": "hexagram-64-line-4-change",
+    "source_hexagram": "hexagram-64",
+    "target_hexagram": "hexagram-04",
+    "relationship_type": "single-line-change",
+    "line_position": 4
+  },
+  {
+    "key": "hexagram-64-line-5-change",
+    "source_hexagram": "hexagram-64",
+    "target_hexagram": "hexagram-06",
+    "relationship_type": "single-line-change",
+    "line_position": 5
+  },
+  {
+    "key": "hexagram-64-line-6-change",
+    "source_hexagram": "hexagram-64",
+    "target_hexagram": "hexagram-40",
+    "relationship_type": "single-line-change",
+    "line_position": 6
+  }
+]
