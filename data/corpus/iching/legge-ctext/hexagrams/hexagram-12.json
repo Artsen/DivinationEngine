@@ -60,10 +60,10 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "In ䷋ Pǐ there is the want of good understanding between the (different classes of) men, and its indication is unfavourable to the firm and correct course of the superior man. We see in it the great gone and the little come.",
+      "exact_text": "In Phî there is the want of good understanding between the (different classes of) men, and its indication is unfavourable to the firm and correct course of the superior man. We see in it the great gone and the little come.",
       "locator": "SBE XVI, Hexagram 12; scan-backed transcription p. 83, hexagram statement",
       "sequence": 1200,
-      "notes": null
+      "notes": "Legge's title restored from the source statement."
     },
     {
       "key": "hexagram-12-line-1-en-legge",
@@ -172,7 +172,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "The form of **䷋ Pǐ**, it will be seen, is exactly the opposite of that of [**䷊ Tài**](e6b3b0tai.md). Much of what has been said on the interpretation of that will apply to this, or at least assist the student in making out the meaning of its symbolism. **䷋ Pǐ** is the hexagram of the seventh month. Genial influences have done their work, the processes of growth are at an end. Henceforth increasing decay must be looked for.\n\nNaturally we should expect the advance of the subject of the first of the three weak lines to lead to evil; but if he set himself to be firm and correct, he will bring about a different issue.\n\nPatience and obedience are proper for the small man in all circumstances. If the great man in difficulty yet cherish these attributes, he will soon have a happy issue out of the distress.\n\nThe third line is weak. Its place is odd, and therefore for it incorrect. Its subject would vent his evil purpose, but has not strength to do so. He is left therefore to the shame which he ought to feel without a word of warning. Does the ming of the fourth line mean `the ordination of Heaven`, as [Zhū Xī](https://en.wikipedia.org/wiki/Zhu_Xi) thinks; or the orders of the ruler, as [Guǎn Zǐ](https://en.wikipedia.org/wiki/Guanzi_(text)) says? Whichever interpretation be taken (and some critics unite the two), the action of the subject of the line, whose strength is tempered by the even position, will be good and correct, and issue in success and happiness.\n\nThe strong line in the fifth, (its correct), place, brings the distress and obstruction to a close. Yet its subject -- the ruler in the hexagram - is warned to continue to be cautious in two lines of rhyme: --\n\n```\n'And let him say, \"I die! I die I\" So to a bushy clump his fortune he shall tie.'\n```\n\nThere is an end of the condition of distress. It was necessary, that condition should give place to its opposite; and the strong line in the topmost place fitly represents the consequent joy.\n\n# [否 ䷋](e590a6pi_cn.md)",
+      "exact_text": "The form of Phî, it will be seen, is exactly the opposite of that of Thâi. Much of what has been said on the interpretation of that will apply to this, or at least assist the student in making out the meaning of its symbolism. Phî is the hexagram of the seventh month. Genial influences have done their work, the processes of growth are at an end. Henceforth increasing decay must be looked for.\n\nNaturally we should expect the advance of the subject of the first of the three weak lines to lead to evil; but if he set himself to be firm and correct, he will bring about a different issue.\n\nPatience and obedience are proper for the small man in all circumstances. If the great man in difficulty yet cherish these attributes, he will soon have a happy issue out of the distress.\n\nThe third line is weak. Its place is odd, and therefore for it incorrect. Its subject would vent his evil purpose, but has not strength to do so. He is left therefore to the shame which he ought to feel without a word of warning. Does the ming of the fourth line mean the ordination of Heaven, as Zhū Xī thinks; or the orders of the ruler, as Guǎn Zǐ) says? Whichever interpretation be taken (and some critics unite the two), the action of the subject of the line, whose strength is tempered by the even position, will be good and correct, and issue in success and happiness.\n\nThe strong line in the fifth, (its correct), place, brings the distress and obstruction to a close. Yet its subject -- the ruler in the hexagram - is warned to continue to be cautious in two lines of rhyme: --\n\n'And let him say, \"I die! I die I\" So to a bushy clump his fortune he shall tie.'\n\nThere is an end of the condition of distress. It was necessary, that condition should give place to its opposite; and the strong line in the topmost place fitly represents the consequent joy. 否 ䷋",
       "locator": "SBE XVI, Hexagram 12; scan-backed transcription p. 83, notes",
       "sequence": 12,
       "notes": "Markdown transcription retained to preserve Legge's notes and links."
@@ -204,7 +204,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "否之匪人，不利君子貞，大往小來，則是天地不交而萬物不通也，上下不交而天下无邦也。內陰而外陽，內柔而外剛，內小人而外君子，小人道長，君子道消也。",
+      "exact_text": "否之匪人，不利君子貞，大往小來。則是天地不交而萬物不通也，上下不交而天下无邦也。內陰而外陽，內柔而外剛，內小人而外君子，小人道長，君子道消也。",
       "locator": "Chinese Wikisource 周易/否; cross-checked against CTP Book of Changes, hexagram 12, 彖",
       "sequence": 12,
       "notes": null
@@ -220,7 +220,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "天地不交，否。",
+      "exact_text": "天地不交，否；君子以儉德辟難，不可榮以祿。",
       "locator": "Chinese Wikisource 周易/否; cross-checked against CTP Book of Changes, hexagram 12, 大象",
       "sequence": 12,
       "notes": null
@@ -236,7 +236,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "初六，拔茅茹，以其彙。貞吉，亨。",
+      "exact_text": "初六，拔茅茹以其彙，貞吉。亨。",
       "locator": "Chinese Wikisource 周易/否; cross-checked against CTP Book of Changes, hexagram 12, 爻 1",
       "sequence": 1201,
       "notes": null
@@ -268,7 +268,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六二，包承，小人吉，大人否亨。",
+      "exact_text": "六二，包承，小人吉，大人否。亨。",
       "locator": "Chinese Wikisource 周易/否; cross-checked against CTP Book of Changes, hexagram 12, 爻 2",
       "sequence": 1202,
       "notes": null
@@ -284,7 +284,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "大人否亨，不亂群也。",
+      "exact_text": "大人否，亨。不亂羣也。",
       "locator": "Chinese Wikisource 周易/否; cross-checked against CTP Book of Changes, hexagram 12, 小象 2",
       "sequence": 1202,
       "notes": null
@@ -332,7 +332,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九四，有命无咎，疇離祉。",
+      "exact_text": "九四，有命，无咎，疇離祉。",
       "locator": "Chinese Wikisource 周易/否; cross-checked against CTP Book of Changes, hexagram 12, 爻 4",
       "sequence": 1204,
       "notes": null
@@ -428,7 +428,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "'The want of good understanding between the (different classes of) men in ䷋ Pǐ, and its indication as unfavourable to the firm and correct course of the superior man; with the intimation that the great are gone and the little come:' -- all this springs from the fact that in it heaven and earth are not in communication with each other, and all things in consequence do not have free course; and that the high and the low (superiors and inferiors) are not in communication with one another, and there are no (well-regulated) states under the sky. The inner (trigram ☷) is made up of the weak and divided lines, and the outer of the strong and undivided (trigram ☰): the inner is (the symbol of) weakness, and the outer of strength; the inner (represents) the small man, and the outer the superior man. Thus the way of the small man appears increasing, and that of the superior man decreasing.",
+      "exact_text": "'The want of good understanding between the (different classes of) men in Phî, and its indication as unfavourable to the firm and correct course of the superior man; with the intimation that the great are gone and the little come:' -- all this springs from the fact that in it heaven and earth are not in communication with each other, and all things in consequence do not have free course; and that the high and the low (superiors and inferiors) are not in communication with one another, and there are no (well-regulated) states under the sky. The inner (trigram ☷) is made up of the weak and divided lines, and the outer of the strong and undivided (trigram ☰): the inner is (the symbol of) weakness, and the outer of strength; the inner (represents) the small man, and the outer the superior man. Thus the way of the small man appears increasing, and that of the superior man decreasing.",
       "locator": "SBE XVI, Appendix I, Hexagram 12, p. 225",
       "sequence": 12,
       "notes": null
@@ -444,7 +444,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(The trigrams ☰ ☷ of) heaven and earth, not in intercommunication, form ䷋ Pǐ. The superior man, in accordance with this, restrains (the manifestation) of) his virtue, and avoids the calamities (that threaten him). There is no opportunity of conferring on him the glory of emolument.",
+      "exact_text": "(The trigrams ☰ ☷ of) heaven and earth, not in intercommunication, form Phî. The superior man, in accordance with this, restrains (the manifestation) of) his virtue, and avoids the calamities (that threaten him). There is no opportunity of conferring on him the glory of emolument.",
       "locator": "SBE XVI, Appendix II, Hexagram 12, p. 283",
       "sequence": 12,
       "notes": null

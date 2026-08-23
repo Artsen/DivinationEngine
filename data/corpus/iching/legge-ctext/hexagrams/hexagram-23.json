@@ -3,7 +3,7 @@
     "key": "hexagram-23",
     "canonical_number": 23,
     "binary_pattern": "000001",
-    "chinese_name": "剥",
+    "chinese_name": "剝",
     "pinyin": "Bō",
     "legge_title": "Po",
     "glyph": "䷖",
@@ -60,10 +60,10 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "indicates that (in the state which it symbolises) it will not be advantageous to make a movement in any direction whatever.",
+      "exact_text": "Po indicates that (in the state which it symbolises) it will not be advantageous to make a movement in any direction whatever.",
       "locator": "SBE XVI, Hexagram 23; scan-backed transcription p. 105, hexagram statement",
       "sequence": 2300,
-      "notes": null
+      "notes": "Legge's title restored from the source statement."
     },
     {
       "key": "hexagram-23-line-1-en-legge",
@@ -172,8 +172,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "剝，不利有攸往。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 易經卦辭",
+      "exact_text": "剝：不利。有攸往。",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 易經卦辭",
       "sequence": 2300,
       "notes": null
     },
@@ -189,7 +189,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "剝，剝也，柔變剛也。不利有攸往，小人長也。順而止之，觀象也。君子尚消息盈虛，天行也。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 彖",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 彖",
       "sequence": 23,
       "notes": null
     },
@@ -204,8 +204,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "山附于地，剝，上以厚下安宅。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 大象",
+      "exact_text": "山附地上，剝；上以厚下，安宅。",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 大象",
       "sequence": 23,
       "notes": null
     },
@@ -220,8 +220,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "初六，剝牀以足，蔑貞，凶。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 爻 1",
+      "exact_text": "初六：剝牀以足，蔑貞凶。",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 爻 1",
       "sequence": 2301,
       "notes": null
     },
@@ -236,8 +236,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "剝床以足，以滅下也。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 小象 1",
+      "exact_text": "剝牀以足，以滅下也。",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 小象 1",
       "sequence": 2301,
       "notes": null
     },
@@ -252,8 +252,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六二，剝牀以辨，蔑貞，凶。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 爻 2",
+      "exact_text": "六二：剝牀以辨，蔑貞凶。",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 爻 2",
       "sequence": 2302,
       "notes": null
     },
@@ -268,8 +268,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "剝床以辨，未有與也。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 小象 2",
+      "exact_text": "剝牀以辨，未有與也。",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 小象 2",
       "sequence": 2302,
       "notes": null
     },
@@ -284,8 +284,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六三，剝之无咎。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 爻 3",
+      "exact_text": "六三：剝之，无咎。",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 爻 3",
       "sequence": 2303,
       "notes": null
     },
@@ -301,7 +301,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "剝之无咎，失上下也。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 小象 3",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 小象 3",
       "sequence": 2303,
       "notes": null
     },
@@ -316,8 +316,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六四，剝牀以膚，凶。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 爻 4",
+      "exact_text": "六四：剝牀以膚，凶。",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 爻 4",
       "sequence": 2304,
       "notes": null
     },
@@ -332,8 +332,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "剝床以膚，切近災也。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 小象 4",
+      "exact_text": "剝牀以膚，切近災也。",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 小象 4",
       "sequence": 2304,
       "notes": null
     },
@@ -348,8 +348,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六五，貫魚，以宮人寵，无不利。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 爻 5",
+      "exact_text": "六五：貫魚，以宮人寵，无不利。",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 爻 5",
       "sequence": 2305,
       "notes": null
     },
@@ -365,7 +365,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "以宮人寵，終无尤也。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 小象 5",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 小象 5",
       "sequence": 2305,
       "notes": null
     },
@@ -380,8 +380,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "上九，碩果不食，君子得輿。小人剝廬。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 爻 6",
+      "exact_text": "上九：碩果不食，君子得輿，小人剝廬。",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 爻 6",
       "sequence": 2306,
       "notes": null
     },
@@ -396,8 +396,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "君子得輿，民所載也，小人剝廬，終不可用也。",
-      "locator": "Chinese Wikisource 周易/剥; cross-checked against CTP Book of Changes, hexagram 23, 小象 6",
+      "exact_text": "君子得輿，民所載也。小人剝廬，終不可用也。",
+      "locator": "Chinese Wikisource 周易/剝; cross-checked against CTP Book of Changes, hexagram 23, 小象 6",
       "sequence": 2306,
       "notes": null
     },
@@ -412,7 +412,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "䷖ Bō denotes overthrowing or being overthrown. We see (in the figure) the weak lines (threatening to) change the (last) strong line (into one of themselves).\n\nThat 'it will not be advantageous to make a movement in any direction whatever' appears from the fact that the small men are (now) growing and increasing. The superior man acts according to (the exigency of the time), and stops all forward movement, looking at the (significance of the) symbolic figures (in the hexagram). He values the processes of decrease and increase, of fulness and decadence, (as seen) in the movements of the heavenly bodies.",
+      "exact_text": "Po denotes overthrowing or being overthrown. We see (in the figure) the weak lines (threatening to) change the (last) strong line (into one of themselves).\n\nThat 'it will not be advantageous to make a movement in any direction whatever' appears from the fact that the small men are (now) growing and increasing. The superior man acts according to (the exigency of the time), and stops all forward movement, looking at the (significance of the) symbolic figures (in the hexagram). He values the processes of decrease and increase, of fulness and decadence, (as seen) in the movements of the heavenly bodies.",
       "locator": "SBE XVI, Appendix I, Hexagram 23, p. 233",
       "sequence": 23,
       "notes": null
@@ -428,7 +428,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(The trigram ☷ representing) the earth, and (above it) ☶ that for a mountain, which adheres to the earth, form ䷖ Bō. Superiors, in accordance with this, seek to strengthen those below them, to secure the peace and stability of their own position.",
+      "exact_text": "(The trigram ☷ representing) the earth, and (above it) ☶ that for a mountain, which adheres to the earth, form Po. Superiors, in accordance with this, seek to strengthen those below them, to secure the peace and stability of their own position.",
       "locator": "SBE XVI, Appendix II, Hexagram 23, p. 297",
       "sequence": 23,
       "notes": null

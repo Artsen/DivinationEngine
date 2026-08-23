@@ -60,10 +60,10 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "indicates that, (in the state which it implies), feudal princes may be set up, and the hosts put in motion, with advantage.",
+      "exact_text": "Yü indicates that, (in the state which it implies), feudal princes may be set up, and the hosts put in motion, with advantage.",
       "locator": "SBE XVI, Hexagram 16; scan-backed transcription p. 91, hexagram statement",
       "sequence": 1600,
-      "notes": null
+      "notes": "Legge's title restored from the source statement."
     },
     {
       "key": "hexagram-16-line-1-en-legge",
@@ -172,7 +172,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "The hexagram **䷏ Yǜ** denoted to king [Wén](https://en.wikipedia.org/wiki/King_Wen_of_Zhou) a condition of harmony and happy contentment throughout the kingdom, when the people rejoiced in and readily obeyed their sovereign.\nAt such a time his appointments and any military undertakings would be hailed and supported.\nThe fourth line, undivided, is the lord of the figure, and being close to the fifth or place of dignity, is to be looked on as the minister or chief officer of the ruler. The ruler gives to him his confidence; and all represented by the other lines yield their obedience.\n\nLine 1 is weak, and has for its correlate the strong 4. Its subject may well enjoy the happiness of the time. But he cannot contain himself, and proclaims, or boasts of, his satisfaction; -- which is evil.\n\nLine 2, though weak, is in its correct position, the centre, moreover, of the lower trigram. Quietly and firmly its subject is able to abide in his place, and exercise a far-seeing discrimination. All is indicative of good fortune.\n\nLine 3 is weak, and in an odd place. Immediately below line 4, its subject keeps looking up to the lord of the figure, and depends on him, thinking of doing nothing, but how to enjoy himself. The consequence will be as described, unless he speedily change.\n\nThe strong subject of line 4 is the agent to whom the happy condition is owing; and it is only necessary to caution him to maintain his confidence in himself and his purpose, and his adherents and success will continue.\n\nLine 5 is in the ruler's place; but it is weak, and he is in danger of being carried away by the lust of pleasure. Moreover, proximity to the powerful minister represented by 4 is a source of danger. Hence he is represented as [suffering from a chronic complaint](e99a8fsui.md#p-93), but nevertheless he does not die. See [Appendix II](appendix02s1.md#p-287) on the line.\n\nLine 6, at the very top or end of the hexagram, is weak, and its subject is all but lost. Still even for him there is a chance of safety, if he will but change.\n\n# [豫 ䷏](e8b1abyu_cn.md)",
+      "exact_text": "The hexagram Yü denoted to king Wén a condition of harmony and happy contentment throughout the kingdom, when the people rejoiced in and readily obeyed their sovereign. At such a time his appointments and any military undertakings would be hailed and supported. The fourth line, undivided, is the lord of the figure, and being close to the fifth or place of dignity, is to be looked on as the minister or chief officer of the ruler. The ruler gives to him his confidence; and all represented by the other lines yield their obedience.\n\nLine 1 is weak, and has for its correlate the strong 4. Its subject may well enjoy the happiness of the time. But he cannot contain himself, and proclaims, or boasts of, his satisfaction; -- which is evil.\n\nLine 2, though weak, is in its correct position, the centre, moreover, of the lower trigram. Quietly and firmly its subject is able to abide in his place, and exercise a far-seeing discrimination. All is indicative of good fortune.\n\nLine 3 is weak, and in an odd place. Immediately below line 4, its subject keeps looking up to the lord of the figure, and depends on him, thinking of doing nothing, but how to enjoy himself. The consequence will be as described, unless he speedily change.\n\nThe strong subject of line 4 is the agent to whom the happy condition is owing; and it is only necessary to caution him to maintain his confidence in himself and his purpose, and his adherents and success will continue.\n\nLine 5 is in the ruler's place; but it is weak, and he is in danger of being carried away by the lust of pleasure. Moreover, proximity to the powerful minister represented by 4 is a source of danger. Hence he is represented as suffering from a chronic complaint, but nevertheless he does not die. See Appendix II on the line.\n\nLine 6, at the very top or end of the hexagram, is weak, and its subject is all but lost. Still even for him there is a chance of safety, if he will but change. 豫 ䷏",
       "locator": "SBE XVI, Hexagram 16; scan-backed transcription p. 91, notes",
       "sequence": 16,
       "notes": "Markdown transcription retained to preserve Legge's notes and links."
@@ -188,7 +188,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "豫，利建侯、行師。",
+      "exact_text": "豫：利建侯行師。",
       "locator": "Chinese Wikisource 周易/豫; cross-checked against CTP Book of Changes, hexagram 16, 易經卦辭",
       "sequence": 1600,
       "notes": null
@@ -204,7 +204,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "豫，剛應而志行，順以動，豫。豫順以動，故天地如之，而況建侯行師乎？天地以順動，故日月不過，而四時不忒。聖人以順動，則刑罰清而民服。豫之時義大矣哉。",
+      "exact_text": "豫，剛應而志行，順以動，豫。豫，順以動，故天地如之，而況建侯行師乎？天地以順動，故日月不過，而四時不忒；聖人以順動，則刑罰清而民服。豫之時義大矣哉！",
       "locator": "Chinese Wikisource 周易/豫; cross-checked against CTP Book of Changes, hexagram 16, 彖",
       "sequence": 16,
       "notes": null
@@ -220,7 +220,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "雷出地奮，豫。",
+      "exact_text": "雷出地奮，豫。先王以作樂崇德，殷薦之上帝，以配祖考。",
       "locator": "Chinese Wikisource 周易/豫; cross-checked against CTP Book of Changes, hexagram 16, 大象",
       "sequence": 16,
       "notes": null
@@ -236,7 +236,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "初六，鳴豫，凶。",
+      "exact_text": "初六：鳴豫，凶。",
       "locator": "Chinese Wikisource 周易/豫; cross-checked against CTP Book of Changes, hexagram 16, 爻 1",
       "sequence": 1601,
       "notes": null
@@ -268,7 +268,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六二，介于石，不終日，貞吉。",
+      "exact_text": "六二：介于石，不終日，貞吉。",
       "locator": "Chinese Wikisource 周易/豫; cross-checked against CTP Book of Changes, hexagram 16, 爻 2",
       "sequence": 1602,
       "notes": null
@@ -284,7 +284,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "不終日，貞吉，以中正也。",
+      "exact_text": "不終日，貞吉；以中正也。",
       "locator": "Chinese Wikisource 周易/豫; cross-checked against CTP Book of Changes, hexagram 16, 小象 2",
       "sequence": 1602,
       "notes": null
@@ -300,7 +300,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六三，盱豫，悔遲有悔。",
+      "exact_text": "六三：盱豫，悔。遲有悔。",
       "locator": "Chinese Wikisource 周易/豫; cross-checked against CTP Book of Changes, hexagram 16, 爻 3",
       "sequence": 1603,
       "notes": null
@@ -332,7 +332,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九四，由豫，大有得，勿疑，朋盍簪。",
+      "exact_text": "九四：由豫，大有得。勿疑。朋盍簪。",
       "locator": "Chinese Wikisource 周易/豫; cross-checked against CTP Book of Changes, hexagram 16, 爻 4",
       "sequence": 1604,
       "notes": null
@@ -348,7 +348,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "由豫，大有得，志大行也。",
+      "exact_text": "由豫，大有得；志大行也。",
       "locator": "Chinese Wikisource 周易/豫; cross-checked against CTP Book of Changes, hexagram 16, 小象 4",
       "sequence": 1604,
       "notes": null
@@ -364,7 +364,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六五，貞疾，恒不死。",
+      "exact_text": "六五：貞疾，恆不死。",
       "locator": "Chinese Wikisource 周易/豫; cross-checked against CTP Book of Changes, hexagram 16, 爻 5",
       "sequence": 1605,
       "notes": null
@@ -380,7 +380,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六五，貞疾，乘剛也。恒不死，中未亡也。",
+      "exact_text": "六五貞疾，乘剛也。恆不死，中未亡也。",
       "locator": "Chinese Wikisource 周易/豫; cross-checked against CTP Book of Changes, hexagram 16, 小象 5",
       "sequence": 1605,
       "notes": null
@@ -396,7 +396,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "上六，冥豫，成有渝，无咎。",
+      "exact_text": "上六：冥豫，成有渝，无咎。",
       "locator": "Chinese Wikisource 周易/豫; cross-checked against CTP Book of Changes, hexagram 16, 爻 6",
       "sequence": 1606,
       "notes": null
@@ -428,7 +428,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "In ䷏ Yǜ we see the strong (line) responded to by all the others, and the will (of him whom it represents) being carried out; and (also) docile obedience employing movement (for its purposes). (From these things comes) ䷏ Yǜ (the Condition of harmony and satisfaction).\n\nIn this condition we have docile obedience employing movement (for its purposes), and therefore it is so as between heaven and earth; -- how much more will it be so (among men) in 'the setting up of feudal princes and putting the hosts in motion!'\n\nHeaven and earth show that docile obedience in connexion with movement, and hence the sun and moon make no error (in time), and the four seasons do not deviate (from their order). The sages show such docile obedience in connexion with their movements, and hence their punishments and penalties are entirely just, and the people acknowledge it by their submission. Great indeed are the time and significance indicated in ䷏ Yǜ!",
+      "exact_text": "In Yü we see the strong (line) responded to by all the others, and the will (of him whom it represents) being carried out; and (also) docile obedience employing movement (for its purposes). (From these things comes) Yü (the Condition of harmony and satisfaction).\n\nIn this condition we have docile obedience employing movement (for its purposes), and therefore it is so as between heaven and earth; -- how much more will it be so (among men) in 'the setting up of feudal princes and putting the hosts in motion!'\n\nHeaven and earth show that docile obedience in connexion with movement, and hence the sun and moon make no error (in time), and the four seasons do not deviate (from their order). The sages show such docile obedience in connexion with their movements, and hence their punishments and penalties are entirely just, and the people acknowledge it by their submission. Great indeed are the time and significance indicated in Yü!",
       "locator": "SBE XVI, Appendix I, Hexagram 16, p. 228",
       "sequence": 16,
       "notes": null
@@ -444,7 +444,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(The trigrams ☷ ☳ for) the earth and thunder issuing from it with its crashing noise form ䷏ Yǜ. The ancient kings, in accordance with this, composed their music and did honour to virtue, presenting it especially and most grandly to God, when they associated with Him (at the service) their highest ancestor and their father.",
+      "exact_text": "(The trigrams ☷ ☳ for) the earth and thunder issuing from it with its crashing noise form Yü. The ancient kings, in accordance with this, composed their music and did honour to virtue, presenting it especially and most grandly to God, when they associated with Him (at the service) their highest ancestor and their father.",
       "locator": "SBE XVI, Appendix II, Hexagram 16, p. 288",
       "sequence": 16,
       "notes": null

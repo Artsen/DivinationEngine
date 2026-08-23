@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import time
@@ -89,6 +90,72 @@ PATTERNS = [
     "101010",
     "010101",
 ]
+TRADITIONAL_HEXAGRAM_NAMES = (
+    "乾",
+    "坤",
+    "屯",
+    "蒙",
+    "需",
+    "訟",
+    "師",
+    "比",
+    "小畜",
+    "履",
+    "泰",
+    "否",
+    "同人",
+    "大有",
+    "謙",
+    "豫",
+    "隨",
+    "蠱",
+    "臨",
+    "觀",
+    "噬嗑",
+    "賁",
+    "剝",
+    "復",
+    "无妄",
+    "大畜",
+    "頤",
+    "大過",
+    "坎",
+    "離",
+    "咸",
+    "恆",
+    "遯",
+    "大壯",
+    "晉",
+    "明夷",
+    "家人",
+    "睽",
+    "蹇",
+    "解",
+    "損",
+    "益",
+    "夬",
+    "姤",
+    "萃",
+    "升",
+    "困",
+    "井",
+    "革",
+    "鼎",
+    "震",
+    "艮",
+    "漸",
+    "歸妹",
+    "豐",
+    "旅",
+    "巽",
+    "兌",
+    "渙",
+    "節",
+    "中孚",
+    "小過",
+    "既濟",
+    "未濟",
+)
 TRIGRAMS = (
     ("qian", "乾", "Qián", "☰", "111"),
     ("dui", "兌", "Duì", "☱", "110"),
@@ -133,9 +200,39 @@ def _strip_markdown(value: str) -> str:
     value = re.sub(r"<[^>]+>", "", value)
     value = re.sub(r"!\[[^]]*]\([^)]+\)", "", value)
     value = re.sub(r"\[([^]]+)]\([^)]+\)", r"\1", value)
+    value = re.sub(r"https?://[^\s)]+", "", value)
     value = re.sub(r"\[<sub>.*?</sub>]", "", value)
     value = value.replace("**", "").replace("*", "").replace("`", "")
     return " ".join(value.split()).strip(" -")
+
+
+def _source_text(value: str) -> str:
+    """Remove extraction-platform markup while preserving source textual content."""
+    value = re.sub(r"<a [^>]+/>", "", value)
+    value = re.sub(r"<[^>]+>", "", value)
+    value = re.sub(r"!\[[^]]*]\([^)]+\)", "", value)
+    value = re.sub(r"\[([^]]+)]\([^)]+\)", r"\1", value)
+    value = re.sub(r"https?://[^\s)]+", "", value)
+    value = re.sub(r"(?m)^\s*#{1,6}\s*", "", value)
+    value = re.sub(r"(?m)^\s*>\s?", "", value)
+    value = value.replace("**", "").replace("*", "").replace("`", "")
+    paragraphs = [" ".join(part.split()) for part in re.split(r"\n\s*\n", value)]
+    return "\n\n".join(part for part in paragraphs if part).strip()
+
+
+def _restore_legge_labels(value: str, titles: dict[int, str]) -> str:
+    """Replace extraction-aid glyph/pinyin links with Legge's printed names."""
+
+    def replacement(match: re.Match[str]) -> str:
+        number = ord(match.group(1)) - 0x4DC0 + 1
+        return titles[number]
+
+    value = re.sub(
+        r"\[\*\*([䷀-䷿])\s+[^*]+\*\*]\([^)]+\)",
+        replacement,
+        value,
+    )
+    return re.sub(r"\*\*([䷀-䷿])\s+[^*]+\*\*", replacement, value)
 
 
 def _page_anchor(value: str) -> str:
@@ -177,20 +274,38 @@ def _text(
     }
 
 
-def _english_hexagram(markdown: str, number: int, key: str) -> tuple[dict[str, Any], list[dict]]:
+def _english_hexagram(
+    markdown: str,
+    number: int,
+    key: str,
+    legge_title: str,
+    all_legge_titles: dict[int, str],
+) -> tuple[dict[str, Any], list[dict]]:
     title = re.search(r"^#\s+(䷀|䷁|[䷂-䷿])\s+(.+)$", markdown, re.MULTILINE)
     chinese = re.search(r">?\s*Chinese:.*?\s+([\u3400-\u9fff]+)\s+[䷀-䷿]", markdown)
     if not title or not chinese:
         raise ValueError(f"cannot parse English identity for hexagram {number}")
     glyph, pinyin = title.groups()
     body, _, notes = markdown.partition("## Notes")
-    judgment_match = re.search(r"^\*\*(?:[䷀-䷿])\s+[^*]+\*\*\s+(.+)$", body, re.MULTILINE)
+    judgment_match = re.search(
+        r"^<img[^>]+>\s*(.+?)(?=\n1\.)",
+        body,
+        re.MULTILINE | re.DOTALL,
+    )
     if not judgment_match:
-        judgment_match = re.search(r'(?m)^<img[^>]+>\s*(?:<a id="p-\d+"/>\s*)*(.+)$', body)
-    line_matches = re.findall(r"(?m)^([1-7])\.(?:<a [^>]+/>)?\s*(.+)$", body)
+        raise ValueError(f"cannot locate complete Legge gua-ci boundary for hexagram {number}")
+    line_matches = re.findall(r"(?ms)^([1-7])\.(?:<a [^>]+/>)?\s*(.+?)(?=\n\n>\s)", body)
     if not judgment_match or len(line_matches) not in {6, 7}:
         raise ValueError(f"cannot parse Legge text for hexagram {number}")
     base = f"SBE XVI, Hexagram {number}; scan-backed transcription p. {_page_anchor(body)}"
+    source_title = re.compile(r"\*\*(?:(?:[䷀-䷿])\s+[^*]+|[^*]+\s+(?:[䷀-䷿]))\*\*")
+    source_title_present = bool(source_title.search(judgment_match.group(1)))
+    judgment = source_title.sub(legge_title, judgment_match.group(1))
+    cleaned_judgment = _strip_markdown(judgment)
+    if number == 51:
+        if "lǐ(里)" not in cleaned_judgment:
+            raise ValueError("expected extraction-platform li annotation in hexagram 51")
+        cleaned_judgment = cleaned_judgment.replace("lǐ(里)", "lî")
     rows = [
         _text(
             key=f"{key}-gua-ci-en-legge",
@@ -198,10 +313,15 @@ def _english_hexagram(markdown: str, number: int, key: str) -> tuple[dict[str, A
             unit_type="gua-ci",
             language="en",
             source="legge-yi-king-1882",
-            exact_text=_strip_markdown(judgment_match.group(1)),
+            exact_text=cleaned_judgment,
             locator=f"{base}, hexagram statement",
             sequence=number * 100,
             hexagram=key,
+            notes=(
+                "Legge's title restored from the source statement."
+                if source_title_present
+                else "The source statement does not repeat its section title."
+            ),
         )
     ]
     for raw_position, raw_text in line_matches:
@@ -229,7 +349,7 @@ def _english_hexagram(markdown: str, number: int, key: str) -> tuple[dict[str, A
                 unit_type="hexagram-commentary",
                 language="en",
                 source="legge-yi-king-1882",
-                exact_text=notes.strip(),
+                exact_text=_source_text(_restore_legge_labels(notes, all_legge_titles)),
                 locator=f"{base}, notes",
                 sequence=number,
                 hexagram=key,
@@ -239,29 +359,48 @@ def _english_hexagram(markdown: str, number: int, key: str) -> tuple[dict[str, A
     identity = {
         "chinese_name": chinese.group(1),
         "pinyin": pinyin,
-        "legge_title": f"The {pinyin} Hexagram",
+        "legge_title": legge_title,
         "glyph": glyph,
     }
     return identity, rows
 
 
-def _chinese_hexagram(markdown: str, number: int, key: str, chinese_name: str) -> list[dict]:
-    preface = markdown.split("\n###", 1)[0]
-    quoted = [line[1:].strip() for line in preface.splitlines() if line.startswith(">")]
-    quoted = [line for line in quoted if line]
-    core = [line for line in quoted if not line.startswith("《")]
+def _chinese_hexagram(wikitext: str, number: int, key: str, witness_page_name: str) -> list[dict]:
+    def clean(line: str) -> str:
+        line = re.sub(r"-\{([^}]+)}-", r"\1", line)
+        line = re.sub(r"\{\{[^{}]*}}", "", line)
+        line = re.sub(r"<[^>]+>", "", line)
+        return line.replace("'''", "").lstrip("*#").strip()
+
+    wikitext = re.sub(r"<span\s+style=", "<span style=", wikitext)
+    raw_lines = [line.strip() for line in wikitext.splitlines()]
+    lines = [clean(line) for line in raw_lines]
+
+    def marker_index(marker: str) -> int:
+        try:
+            return lines.index(marker)
+        except ValueError as exc:
+            raise ValueError(
+                f"Chinese Wikisource hexagram {number} lacks {marker!r} marker"
+            ) from exc
+
+    yi_index = marker_index("易經：")
+    tuan_index = marker_index("彖曰：")
+    xiang_index = marker_index("象曰：")
+    core = [line for line in lines[yi_index + 1 : tuan_index] if line]
     yao = [line for line in core if re.match(r"^(初[六九]|[六九][二三四五]|上[六九])[,，：]", line)]
     if len(yao) != 6:
         raise ValueError(f"expected six Chinese line texts for hexagram {number}, got {len(yao)}")
-    judgment = next(
-        line for line in core if line not in yao and not line.startswith(("用九", "用六"))
-    )
-    xiang = [line for line in quoted if line.startswith("《象》")]
-    if len(xiang) < 7:
-        raise ValueError(f"expected great and six line images for hexagram {number}")
-    tuan = next(line for line in quoted if line.startswith("《彖》"))
+    judgment = "".join(core[: core.index(yao[0])])
+    special = next((line for line in core if line.startswith(("用九", "用六"))), None)
+    tuan = "".join(line for line in lines[tuan_index + 1 : xiang_index] if line)
+    xiang = [line for line in lines[xiang_index + 1 :] if line]
+    expected_xiang = 8 if special else 7
+    if len(xiang) < expected_xiang:
+        raise ValueError(f"expected great and six Chinese line images for hexagram {number}")
+    xiang = xiang[:expected_xiang]
     locator = (
-        f"Chinese Wikisource 周易/{chinese_name}; cross-checked against CTP Book of Changes, "
+        f"Chinese Wikisource 周易/{witness_page_name}; cross-checked against CTP Book of Changes, "
         f"hexagram {number}"
     )
     rows = [
@@ -282,7 +421,7 @@ def _chinese_hexagram(markdown: str, number: int, key: str, chinese_name: str) -
             unit_type="tuan",
             language="zh-Hant",
             source="zhouyi-received-wikisource",
-            exact_text=tuan.removeprefix("《彖》曰："),
+            exact_text=tuan,
             locator=f"{locator}, 彖",
             sequence=number,
             hexagram=key,
@@ -293,7 +432,7 @@ def _chinese_hexagram(markdown: str, number: int, key: str, chinese_name: str) -
             unit_type="great-image",
             language="zh-Hant",
             source="zhouyi-received-wikisource",
-            exact_text=xiang[0].removeprefix("《象》曰：").split("。")[0] + "。",
+            exact_text=xiang[0],
             locator=f"{locator}, 大象",
             sequence=number,
             hexagram=key,
@@ -321,14 +460,13 @@ def _chinese_hexagram(markdown: str, number: int, key: str, chinese_name: str) -
                 unit_type="line-image",
                 language="zh-Hant",
                 source="zhouyi-received-wikisource",
-                exact_text=xiang[position].removeprefix("《象》曰："),
+                exact_text=xiang[position],
                 locator=f"{locator}, 小象 {position}",
                 sequence=number * 100 + position,
                 hexagram=key,
                 line_position=position,
             )
         )
-    special = next((line for line in core if line.startswith(("用九", "用六"))), None)
     if special:
         rows.append(
             _text(
@@ -350,7 +488,7 @@ def _chinese_hexagram(markdown: str, number: int, key: str, chinese_name: str) -
                 unit_type="special-image",
                 language="zh-Hant",
                 source="zhouyi-received-wikisource",
-                exact_text=xiang[7].removeprefix("《象》曰："),
+                exact_text=xiang[7],
                 locator=f"{locator}, 用辭象",
                 sequence=number * 100 + 7,
                 hexagram=key,
@@ -374,13 +512,15 @@ def _numbered_paragraphs(block: str) -> list[str]:
     ]
 
 
-def _legge_wings(tuan_md: str, xiang_md: str) -> list[dict]:
+def _legge_wings(tuan_md: str, xiang_md: str, titles: dict[int, str]) -> list[dict]:
     tuan_blocks = _appendix_blocks(tuan_md)
     xiang_blocks = _appendix_blocks(xiang_md)
     if len(tuan_blocks) != 64 or len(xiang_blocks) != 64:
         raise ValueError("Legge Tuan/Xiang appendices must contain 64 hexagram blocks")
     rows: list[dict] = []
     for number, (tuan, xiang) in enumerate(zip(tuan_blocks, xiang_blocks, strict=True), 1):
+        tuan = _restore_legge_labels(tuan, titles)
+        xiang = _restore_legge_labels(xiang, titles)
         key = f"hexagram-{number:02d}"
         tuan_parts = _numbered_paragraphs(tuan)
         tuan_heading = re.sub(
@@ -465,25 +605,36 @@ def _legge_wings(tuan_md: str, xiang_md: str) -> list[dict]:
 
 
 def _wiki_wikitexts(titles: list[str]) -> dict[str, str]:
-    query = urllib.parse.urlencode(
-        {
-            "action": "query",
-            "prop": "revisions",
-            "titles": "|".join(titles),
-            "rvprop": "content",
-            "rvslots": "main",
-            "redirects": 1,
-            "format": "json",
-            "formatversion": 2,
-        }
-    )
-    result = json.loads(_fetch(f"{ZH_API}?{query}"))["query"]
-    by_title = {
-        page["title"]: page["revisions"][0]["slots"]["main"]["content"] for page in result["pages"]
-    }
-    for redirect in result.get("redirects", []):
-        by_title[redirect["from"]] = by_title[redirect["to"]]
+    by_title: dict[str, str] = {}
+    for offset in range(0, len(titles), 50):
+        batch = titles[offset : offset + 50]
+        query = urllib.parse.urlencode(
+            {
+                "action": "query",
+                "prop": "revisions",
+                "titles": "|".join(batch),
+                "rvprop": "content",
+                "rvslots": "main",
+                "redirects": 1,
+                "format": "json",
+                "formatversion": 2,
+            }
+        )
+        result = json.loads(_fetch(f"{ZH_API}?{query}"))["query"]
+        for page in result["pages"]:
+            if "revisions" not in page:
+                raise ValueError(f"missing Chinese Wikisource witness: {page['title']}")
+            by_title[page["title"]] = page["revisions"][0]["slots"]["main"]["content"]
+        for redirect in result.get("redirects", []):
+            by_title[redirect["from"]] = by_title[redirect["to"]]
     return by_title
+
+
+def _wikisource_identity_name(wikitext: str) -> str:
+    match = re.search(r"(?m)^;(.+?)\s*$", wikitext)
+    if not match:
+        raise ValueError("Chinese Wikisource hexagram page lacks an identity heading")
+    return re.sub(r"-\{([^}]+)}-", r"\1", match.group(1)).strip()
 
 
 def _legge_titles() -> dict[int, str]:
@@ -516,7 +667,7 @@ def _legge_titles() -> dict[int, str]:
         link = re.search(r"\[\[[^]]+\|(.+)]]", raw_title)
         if link:
             raw_title = link.group(1)
-        raw_title = re.sub(r"\{\{bl/il\|([^}]+)}}", r"\1", raw_title)
+        raw_title = re.sub(r"\{\{bl/il\|Z}}", "Ž", raw_title)
         result[number] = raw_title.replace("''", "").strip()
     if len(result) != 64:
         raise ValueError("expected 64 Legge titles from scan-backed Wikisource")
@@ -539,22 +690,29 @@ def _clean_wikitext(value: str) -> str:
     value = re.sub(r"\{\{header2.*?}}", "", value, flags=re.DOTALL)
     value = re.sub(r"\{\{\*\|([^}]+)}}", r"[\1]", value)
     value = re.sub(r"-\{([^}]+)}-", r"\1", value)
+    value = re.sub(r"\[\[(?:File|Image):[^]]+]]", "", value, flags=re.IGNORECASE)
+    value = re.sub(r"\[\[[^]|]+\|([^]]+)]]", r"\1", value)
+    value = re.sub(r"\[\[([^]]+)]]", r"\1", value)
+    value = re.sub(r"\{\{[^{}]*}}", "", value)
+    value = re.sub(r"<[^>]+>", "", value)
     value = re.sub(r"'''?", "", value)
+    value = re.sub(r"(?m)^\s*[*#;:]+\s?", "", value)
     return value.strip()
 
 
-def _general_texts() -> list[dict]:
+def _general_texts(legge_titles: dict[int, str]) -> list[dict]:
     rows: list[dict] = []
     titles = [f"周易/{value[1]}" for value in APPENDICES.values()] + ["周易/乾", "周易/坤"]
     wiki = _wiki_wikitexts(titles)
     for sequence, (section, (layer, zh_title, files)) in enumerate(APPENDICES.items(), 1):
         english = "\n\n".join(_fetch(UPSTREAM + filename) for filename in files)
+        source_english = _source_text(_restore_legge_labels(english, legge_titles))
         chinese = _clean_wikitext(wiki[f"周易/{zh_title}"])
         for language, source, exact, locator in (
             (
                 "en",
                 "legge-yi-king-1882",
-                english,
+                source_english,
                 f"SBE XVI, {layer}, scan pages {_page_anchor(english)} onward",
             ),
             (
@@ -666,7 +824,12 @@ def _general_texts() -> list[dict]:
         marker = "*文言曰："
         chinese = page.split(marker, 1)[1] if marker in page else page.split("文言曰：", 1)[-1]
         for language, source, exact, locator in (
-            ("en", "legge-yi-king-1882", english, f"SBE XVI, Appendix IV, section {number}"),
+            (
+                "en",
+                "legge-yi-king-1882",
+                _source_text(_restore_legge_labels(english, legge_titles)),
+                f"SBE XVI, Appendix IV, section {number}",
+            ),
             (
                 "zh-Hant",
                 "zhouyi-received-wikisource",
@@ -702,6 +865,12 @@ def acquire(root: Path) -> dict[str, int]:
         and re.match(r"^e[0-9a-f]+.*\.md$", row["path"])
     ]
     legge_titles = _legge_titles()
+    witness_page_names = [
+        "恒" if number == 32 else name for number, name in enumerate(TRADITIONAL_HEXAGRAM_NAMES, 1)
+    ]
+    chinese_titles = [f"周易/{name}" for name in witness_page_names]
+    chinese_witnesses = _wiki_wikitexts(chinese_titles)
+    identity_corrections: list[dict[str, str]] = []
     parsed: dict[int, tuple[str, str, dict[str, Any], list[dict], str]] = {}
     for filename in candidates:
         english = _fetch(UPSTREAM + filename)
@@ -710,10 +879,32 @@ def acquire(root: Path) -> dict[str, int]:
             continue
         number = ord(match.group(1)) - 0x4DC0 + 1
         key = f"hexagram-{number:02d}"
-        identity, english_rows = _english_hexagram(english, number, key)
-        identity["legge_title"] = legge_titles[number]
+        identity, english_rows = _english_hexagram(
+            english, number, key, legge_titles[number], legge_titles
+        )
+        extracted_name = identity["chinese_name"]
+        traditional_name = TRADITIONAL_HEXAGRAM_NAMES[number - 1]
+        witness_page_name = witness_page_names[number - 1]
+        witnessed_name = _wikisource_identity_name(chinese_witnesses[f"周易/{witness_page_name}"])
+        if witnessed_name != traditional_name:
+            raise ValueError(
+                f"Chinese identity mismatch for hexagram {number}: "
+                f"{traditional_name!r} != {witnessed_name!r}"
+            )
+        identity["chinese_name"] = witnessed_name
+        if extracted_name != witnessed_name:
+            identity_corrections.append(
+                {
+                    "affected_key": key,
+                    "before": extracted_name,
+                    "after": witnessed_name,
+                    "authoritative_witness": "Chinese Wikisource received 周易",
+                    "locator": f"周易/{witness_page_name}, identity heading",
+                    "reason": "Simplified-character leakage from the extraction aid identity.",
+                }
+            )
         chinese_filename = filename.removesuffix(".md") + "_cn.md"
-        chinese = _fetch(UPSTREAM + chinese_filename)
+        chinese = chinese_witnesses[f"周易/{witness_page_name}"]
         parsed[number] = (filename, chinese_filename, identity, english_rows, chinese)
     if sorted(parsed) != list(range(1, 65)):
         raise ValueError(f"upstream transcription did not resolve 64 hexagrams: {sorted(parsed)}")
@@ -755,14 +946,15 @@ def acquire(root: Path) -> dict[str, int]:
             for position, bit in enumerate(pattern, 1)
         )
         texts.extend(english_rows)
-        texts.extend(_chinese_hexagram(chinese, number, key, identity["chinese_name"]))
+        texts.extend(_chinese_hexagram(chinese, number, key, witness_page_names[number - 1]))
     texts.extend(
         _legge_wings(
             _fetch(UPSTREAM + "appendix01s1.md") + _fetch(UPSTREAM + "appendix01s2.md"),
             _fetch(UPSTREAM + "appendix02s1.md") + _fetch(UPSTREAM + "appendix02s2.md"),
+            legge_titles,
         )
     )
-    texts.extend(_general_texts())
+    texts.extend(_general_texts(legge_titles))
     texts.append(
         _text(
             key="three-coin-computational-specification-en",
@@ -906,14 +1098,95 @@ def acquire(root: Path) -> dict[str, int]:
         raise ValueError(f"empty extracted texts: {', '.join(empty_keys)}")
     bundle = ImportBundle.model_validate(payload)
     root.mkdir(parents=True, exist_ok=True)
-    _write_authoring(root, bundle.model_dump(mode="json"))
+    dumped = bundle.model_dump(mode="json")
+    _write_authoring(root, dumped)
+    english_gua = {
+        row["hexagram"]: row
+        for row in dumped["iching_texts"]
+        if row["layer"] == "zhouyi-core"
+        and row["unit_type"] == "gua-ci"
+        and row["language"] == "en"
+    }
+    title_corrections = []
+    for hexagram in dumped["hexagrams"]:
+        text_row = english_gua[hexagram["key"]]
+        if text_row["notes"] != "Legge's title restored from the source statement.":
+            continue
+        title = hexagram["legge_title"]
+        title_corrections.append(
+            {
+                "affected_key": text_row["key"],
+                "before": text_row["exact_text"].replace(title, "", 1).strip(),
+                "after": text_row["exact_text"],
+                "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+                "locator": text_row["locator"],
+                "reason": "Restore Legge's hexagram name, previously omitted by normalization.",
+            }
+        )
+    hexagram_64 = english_gua["hexagram-64"]
+    boundary_correction = {
+        "affected_key": hexagram_64["key"],
+        "before": "intimates progress and success (in the circumstances which it implies).",
+        "after": hexagram_64["exact_text"],
+        "authoritative_witness": "Legge SBE XVI (1882), printed page 207",
+        "locator": hexagram_64["locator"],
+        "reason": "The former single-line regular expression truncated a multi-line gua-ci.",
+    }
+    annotation_correction = {
+        "affected_key": english_gua["hexagram-51"]["key"],
+        "before": "lǐ(里)",
+        "after": "lî",
+        "authoritative_witness": "Legge SBE XVI (1882), printed page 172",
+        "locator": english_gua["hexagram-51"]["locator"],
+        "reason": "Remove a modern extraction-platform dictionary annotation.",
+    }
+    english_lines = {
+        row["key"]: row
+        for row in dumped["iching_texts"]
+        if row["layer"] == "zhouyi-core"
+        and row["unit_type"] == "yao-ci"
+        and row["language"] == "en"
+    }
+    truncated_line_prefixes = {
+        "hexagram-03-line-4-en-legge": (
+            "The fourth SIX, divided, shows (its subject as a lady), the horses of whose "
+            "chariot appear in retreat."
+        ),
+        "hexagram-27-line-4-en-legge": (
+            "The fourth SIX, divided, shows one looking downwards for (the power to) nourish. "
+            "There will be good fortune."
+        ),
+        "hexagram-40-line-5-en-legge": (
+            "The fifth SIX, divided, shows (its subject), the superior man (= the ruler),"
+        ),
+        "hexagram-56-line-6-en-legge": (
+            "The sixth NINE, undivided, suggests the idea of a bird burning its nest."
+        ),
+    }
+    line_boundary_corrections = [
+        {
+            "affected_key": key,
+            "before": before,
+            "after": english_lines[key]["exact_text"],
+            "authoritative_witness": "Legge SBE XVI (1882), scan-backed transcription",
+            "locator": english_lines[key]["locator"],
+            "reason": "The former single-line regular expression truncated a multi-line line text.",
+        }
+        for key, before in truncated_line_prefixes.items()
+    ]
     (root / "corrections.json").write_text(
         json.dumps(
             {
-                "corrections": [],
+                "corrections": [
+                    boundary_correction,
+                    annotation_correction,
+                    *line_boundary_corrections,
+                    *identity_corrections,
+                    *title_corrections,
+                ],
                 "note": (
-                    "No silent corrections. Future changes must identify source, locator, "
-                    "before, after, and rationale."
+                    "Compiler/source-integrity corrections are explicit. Future changes "
+                    "must identify source, locator, before, after, and rationale."
                 ),
             },
             ensure_ascii=False,
@@ -971,6 +1244,113 @@ def _write_authoring(root: Path, payload: dict[str, Any]) -> None:
                 "texts": texts_by_hexagram.get(key, []),
             },
         )
+    english_gua = {
+        row["hexagram"]: row
+        for row in payload["iching_texts"]
+        if row["layer"] == "zhouyi-core"
+        and row["unit_type"] == "gua-ci"
+        and row["language"] == "en"
+    }
+    english_lines = [
+        row
+        for row in payload["iching_texts"]
+        if row["layer"] == "zhouyi-core"
+        and row["unit_type"] == "yao-ci"
+        and row["language"] == "en"
+    ]
+    spot_numbers = (1, 2, 8, 16, 24, 32, 40, 48, 56, 63, 64)
+    spot_units = (
+        "identity",
+        "pattern",
+        "lower-trigram",
+        "upper-trigram",
+        "chinese-gua-ci",
+        "legge-gua-ci",
+        "line-1",
+        "line-3",
+        "line-6",
+        "tuan",
+        "great-image",
+        "line-xiang-1",
+        "line-xiang-3",
+        "line-xiang-6",
+    )
+    spot_checks = []
+    hexagrams_by_number = {row["canonical_number"]: row for row in payload["hexagrams"]}
+    for number in spot_numbers:
+        hexagram = hexagrams_by_number[number]
+        selected_texts = [
+            row
+            for row in texts_by_hexagram[hexagram["key"]]
+            if row["unit_type"] in {"gua-ci", "tuan", "great-image"}
+            or (row["unit_type"] in {"yao-ci", "line-image"} and row["line_position"] in {1, 3, 6})
+        ]
+        spot_checks.append(
+            {
+                "hexagram": hexagram["key"],
+                "units": spot_units,
+                "structure": {
+                    "chinese_name": hexagram["chinese_name"],
+                    "binary_pattern": hexagram["binary_pattern"],
+                    "lower_trigram": hexagram["lower_trigram"],
+                    "upper_trigram": hexagram["upper_trigram"],
+                },
+                "text_sha256": {
+                    row["key"]: hashlib.sha256(row["exact_text"].encode("utf-8")).hexdigest()
+                    for row in selected_texts
+                },
+                "witnesses": (
+                    "Legge SBE XVI scan-backed Wikisource; Chinese Wikisource; "
+                    "Chinese Text Project; Sacred Texts Legge transcription"
+                ),
+                "status": "collated",
+            }
+        )
+    _write_json(
+        root / "source-integrity.json",
+        {
+            "exact_text_semantics": (
+                "Source-faithful textual content with extraction-platform links, HTML, "
+                "images, anchors, and Markdown removed; whitespace and typography may be "
+                "normalized, so this is not a byte-for-byte diplomatic transcription."
+            ),
+            "legge_gua_ci_boundary_audit": [
+                {
+                    "hexagram": row["key"],
+                    "boundary": "after hexagram heading through immediately before line 1",
+                    "locator": english_gua[row["key"]]["locator"],
+                    "sha256": hashlib.sha256(
+                        english_gua[row["key"]]["exact_text"].encode("utf-8")
+                    ).hexdigest(),
+                    "characters": len(english_gua[row["key"]]["exact_text"]),
+                }
+                for row in payload["hexagrams"]
+            ],
+            "traditional_name_audit": [
+                {
+                    "hexagram": row["key"],
+                    "chinese_name": row["chinese_name"],
+                    "witness": (
+                        "Chinese Wikisource 周易/"
+                        f"{'恒' if row['canonical_number'] == 32 else row['chinese_name']}, "
+                        f"identity heading {row['chinese_name']}"
+                    ),
+                }
+                for row in payload["hexagrams"]
+            ],
+            "legge_line_boundary_audit": [
+                {
+                    "key": row["key"],
+                    "boundary": "after numbered line marker through navigation block",
+                    "locator": row["locator"],
+                    "sha256": hashlib.sha256(row["exact_text"].encode("utf-8")).hexdigest(),
+                    "characters": len(row["exact_text"]),
+                }
+                for row in english_lines
+            ],
+            "expanded_spot_check": spot_checks,
+        },
+    )
 
 
 def _load_authoring_bundle(root: Path) -> ImportBundle:
@@ -1015,6 +1395,7 @@ def build(root: Path) -> dict[str, int]:
 
 def validate(root: Path) -> dict[str, int]:
     bundle = _load_authoring_bundle(root)
+    integrity = json.loads((root / "source-integrity.json").read_text(encoding="utf-8"))
     errors: list[str] = []
     if len(bundle.trigrams) != 8:
         errors.append("expected 8 trigrams")
@@ -1047,6 +1428,71 @@ def validate(root: Path) -> dict[str, int]:
     special = [row for row in bundle.iching_texts if row.unit_type == "special-use"]
     if len(special) != 4 or any(row.line_position is not None for row in special):
         errors.append("Qian/Kun special-use texts must be two bilingual non-line units")
+    if tuple(row.chinese_name for row in bundle.hexagrams) != TRADITIONAL_HEXAGRAM_NAMES:
+        errors.append("hexagram identity names differ from the Traditional Chinese witness")
+    english_gua = {
+        row.hexagram: row
+        for row in bundle.iching_texts
+        if row.layer == "zhouyi-core" and row.unit_type == "gua-ci" and row.language == "en"
+    }
+    boundary_audit = integrity.get("legge_gua_ci_boundary_audit", [])
+    if len(boundary_audit) != 64:
+        errors.append("expected 64 Legge gua-ci source-boundary audit records")
+    else:
+        for hexagram, audit in zip(bundle.hexagrams, boundary_audit, strict=True):
+            text_row = english_gua.get(hexagram.key)
+            if text_row is None:
+                continue
+            digest = hashlib.sha256(text_row.exact_text.encode("utf-8")).hexdigest()
+            if audit["hexagram"] != hexagram.key or audit["sha256"] != digest:
+                errors.append(f"stale Legge gua-ci boundary audit for {hexagram.key}")
+            if (
+                text_row.notes == "Legge's title restored from the source statement."
+                and hexagram.legge_title not in text_row.exact_text
+            ):
+                errors.append(f"Legge gua-ci omits its source title for {hexagram.key}")
+    english_line_rows = {
+        row.key: row
+        for row in bundle.iching_texts
+        if row.layer == "zhouyi-core" and row.unit_type == "yao-ci" and row.language == "en"
+    }
+    line_audit = integrity.get("legge_line_boundary_audit", [])
+    if len(line_audit) != 384:
+        errors.append("expected 384 Legge line source-boundary audit records")
+    else:
+        for audit in line_audit:
+            text_row = english_line_rows.get(audit["key"])
+            if (
+                text_row is None
+                or hashlib.sha256(text_row.exact_text.encode("utf-8")).hexdigest()
+                != audit["sha256"]
+            ):
+                errors.append(f"stale Legge line boundary audit for {audit['key']}")
+    source_markup = re.compile(r"\[[^]]+]\([^)]+\)|<[^>]+>|https?://")
+    if any(source_markup.search(row.exact_text) for row in bundle.iching_texts):
+        errors.append("exact_text contains extraction-platform markup")
+    spot_checks = integrity.get("expanded_spot_check", [])
+    if [row.get("hexagram") for row in spot_checks] != [
+        f"hexagram-{number:02d}" for number in (1, 2, 8, 16, 24, 32, 40, 48, 56, 63, 64)
+    ]:
+        errors.append("expanded source spot-check manifest is incomplete")
+    else:
+        texts_by_key = {row.key: row for row in bundle.iching_texts}
+        for spot_check in spot_checks:
+            hashes = spot_check.get("text_sha256", {})
+            if len(hashes) != 18:
+                errors.append(
+                    f"expanded source spot check lacks 18 texts for {spot_check['hexagram']}"
+                )
+                continue
+            for key, expected_digest in hashes.items():
+                text_row = texts_by_key.get(key)
+                if (
+                    text_row is None
+                    or hashlib.sha256(text_row.exact_text.encode("utf-8")).hexdigest()
+                    != expected_digest
+                ):
+                    errors.append(f"stale expanded source spot check for {key}")
     if errors:
         raise ValueError("I Ching corpus validation failed:\n- " + "\n- ".join(errors))
     return {

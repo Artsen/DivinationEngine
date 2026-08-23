@@ -8,8 +8,21 @@ records. `build/iching-import.json` is the generated import bundle containing ei
 trigrams, the 64 King Wen hexagrams, 384 ordinary bottom-to-top lines, bilingual
 received Chinese/James Legge core text and Wings, source locators, casting-method
 records, and computed structural relationships.
-`corrections.json` is the mandatory audit log; it is currently empty because the build
-made no silent textual emendations.
+`corrections.json` is the mandatory audit log. It records the gua-ci and ordinary-line
+boundary repairs, Traditional Chinese identity corrections, and restoration of Legge's
+source titles; no correction is applied silently.
+
+`exact_text` means source-faithful textual content, not a byte-for-byte diplomatic
+transcription. Extraction-platform Markdown links, HTML, images, and anchors are
+removed while their visible textual content is retained. Whitespace and typographic
+markup may be normalized. The pinned extraction revision remains available when the
+platform-level Markdown itself must be inspected.
+
+Legge gua-ci records retain Legge's hexagram name at the beginning of the source
+statement. Modern pinyin from the extraction aid is identity metadata and does not
+replace or silently remove Legge's wording. `source-integrity.json` records the
+64-record gua-ci and 384-record ordinary-line boundary audits, the Traditional Chinese
+identity-name audit, and the expanded source spot check.
 
 ## Provenance
 
@@ -24,8 +37,11 @@ made no silent textual emendations.
 
 The compiler handles documented transcription-shape irregularities only (for example,
 a missing blockquote marker and an OCR `S.` used for numbered item `5.`). It does not
-rewrite source prose. Any future correction must be entered in `corrections.json` with
-the source, locator, before/after values, and rationale.
+rewrite source prose. The source-integrity pass corrected a compiler boundary defect
+that previously retained only the first physical source line of a multi-line gua-ci;
+this was a parser correction, not an emendation to Legge. Any future textual correction
+must be entered in `corrections.json` with the source, locator, before/after values, and
+rationale.
 
 ## Commands
 

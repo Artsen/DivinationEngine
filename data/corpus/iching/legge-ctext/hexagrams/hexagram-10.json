@@ -60,10 +60,10 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "suggests the idea of one treading on the tail of a tiger, which does not bite him. There will be progress and success.",
+      "exact_text": "Lî suggests the idea of one treading on the tail of a tiger, which does not bite him. There will be progress and success.",
       "locator": "SBE XVI, Hexagram 10; scan-backed transcription p. 78, hexagram statement",
       "sequence": 1000,
-      "notes": null
+      "notes": "Legge's title restored from the source statement."
     },
     {
       "key": "hexagram-10-line-1-en-legge",
@@ -172,7 +172,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "The character giving its name to the hexagram plays an important part also in the symbolism; and this may be the reason why it does not, as the name, occupy the first place in the [Tuàn](https://ctext.org/book-of-changes/tuan-zhuan). Looking at the figure, we see it is made up of the trigrams **☱ Duì**, representing a marsh, and **☰ Qián**, representing the sky. **☱ Duì** is a `yīn` trigram, and its top line is divided. Below **☰ Qián**, the great symbol of strength, it may readily suggest the idea of treading on a tiger's tail, which was an old way of expressing what was hazardous ([Zhōu Shū](https://ctext.org/dictionary.pl?if=en&id=21476&remap=gb)). But what suggests the statement that 'the tiger does not bite the treader?' The attribute of **☱ Duì** is pleased satisfaction. of course such an attribute could not be predicated of one who was in the fangs of a tiger. The coming scatheless out of such danger further suggests the idea of 'progress and success' in the course which king [Wén](https://en.wikipedia.org/wiki/King_Wen_of_Zhou) had in his mind. And according to [Appendix VI](appendix06s1.md), that course was `propriety`, the observance of all the rules of courtesy. On these, as so many stepping-stones, one may tread safely amid scenes of disorder and peril.\n\nLine 1 is an undivided line in an odd place; giving us the ideas of activity, firmness, and correctness. One so characterised will act rightly.\n\nLine 2 occupies the middle place of the trigram, which is supposed to symbolise a path cut straight and level along the hill-side, or over difficult ground. Line, is not a proper correlate, and hence the idea of the subject of 2 being `a quiet and solitary man`.\n\nLine 3 is neither central nor in an even place, which would be proper to it. But with the strength of will which the occupant of an odd place should possess, he goes forward with the evil results so variously emblemed. The editors of the imperial edition, in illustration of the closing sentence, refer to [Analects VII](https://ctext.org/dictionary.pl?if=en&id=1261&remap=gb).\n\nLine 4 is in contiguity with 5, whose subject is in the place of authority; but he occupies the place proper to a weak or divided line, and hence he bethinks himself, and goes softly.\n\nBeneath the symbolism under line 5, lies the principle that the most excellent thing in `propriety` is humility. And the subject of the line, which is strong and central, will not be lacking in this, but bear in mind that the higher he is exalted, the greater may be his fall.\n\nWhat is said on line 6 is good, but is only a truism. The whole course has been shown; if every step has been right and appropriate, the issue will be very good.\n\n# [履 ䷉](e5b1a5lv_cn.md)",
+      "exact_text": "The character giving its name to the hexagram plays an important part also in the symbolism; and this may be the reason why it does not, as the name, occupy the first place in the Tuàn. Looking at the figure, we see it is made up of the trigrams ☱ Duì, representing a marsh, and ☰ Qián, representing the sky. ☱ Duì is a yīn trigram, and its top line is divided. Below ☰ Qián, the great symbol of strength, it may readily suggest the idea of treading on a tiger's tail, which was an old way of expressing what was hazardous (Zhōu Shū). But what suggests the statement that 'the tiger does not bite the treader?' The attribute of ☱ Duì is pleased satisfaction. of course such an attribute could not be predicated of one who was in the fangs of a tiger. The coming scatheless out of such danger further suggests the idea of 'progress and success' in the course which king Wén had in his mind. And according to Appendix VI, that course was propriety, the observance of all the rules of courtesy. On these, as so many stepping-stones, one may tread safely amid scenes of disorder and peril.\n\nLine 1 is an undivided line in an odd place; giving us the ideas of activity, firmness, and correctness. One so characterised will act rightly.\n\nLine 2 occupies the middle place of the trigram, which is supposed to symbolise a path cut straight and level along the hill-side, or over difficult ground. Line, is not a proper correlate, and hence the idea of the subject of 2 being a quiet and solitary man.\n\nLine 3 is neither central nor in an even place, which would be proper to it. But with the strength of will which the occupant of an odd place should possess, he goes forward with the evil results so variously emblemed. The editors of the imperial edition, in illustration of the closing sentence, refer to Analects VII.\n\nLine 4 is in contiguity with 5, whose subject is in the place of authority; but he occupies the place proper to a weak or divided line, and hence he bethinks himself, and goes softly.\n\nBeneath the symbolism under line 5, lies the principle that the most excellent thing in propriety is humility. And the subject of the line, which is strong and central, will not be lacking in this, but bear in mind that the higher he is exalted, the greater may be his fall.\n\nWhat is said on line 6 is good, but is only a truism. The whole course has been shown; if every step has been right and appropriate, the issue will be very good. 履 ䷉",
       "locator": "SBE XVI, Hexagram 10; scan-backed transcription p. 78, notes",
       "sequence": 10,
       "notes": "Markdown transcription retained to preserve Legge's notes and links."
@@ -220,7 +220,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "上天下澤，履，君子以辯上下，定民志。",
+      "exact_text": "上天下澤，履；君子以辨上下，定民志。",
       "locator": "Chinese Wikisource 周易/履; cross-checked against CTP Book of Changes, hexagram 10, 大象",
       "sequence": 10,
       "notes": null
@@ -236,7 +236,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "初九，素履，往，无咎。",
+      "exact_text": "初九：素履，往无咎。",
       "locator": "Chinese Wikisource 周易/履; cross-checked against CTP Book of Changes, hexagram 10, 爻 1",
       "sequence": 1001,
       "notes": null
@@ -268,7 +268,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九二，履道坦坦，幽人貞吉。",
+      "exact_text": "九二：履道坦坦，幽人貞吉。",
       "locator": "Chinese Wikisource 周易/履; cross-checked against CTP Book of Changes, hexagram 10, 爻 2",
       "sequence": 1002,
       "notes": null
@@ -300,7 +300,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六三，眇能視，跛能履。履虎尾，咥人凶。武人為于大君。",
+      "exact_text": "六三：眇能視，跛能履，履虎尾，咥人，凶。武人為于大君。",
       "locator": "Chinese Wikisource 周易/履; cross-checked against CTP Book of Changes, hexagram 10, 爻 3",
       "sequence": 1003,
       "notes": null
@@ -316,7 +316,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "眇能視，不足以有明也；跛能履，不足以與行也；咥人之凶，位不當也；武人為于大君，志剛也。",
+      "exact_text": "眇能視，不足以有明也。跛能履，不足以與行也。咥人之凶，位不當也。武人為于大君，志剛也。",
       "locator": "Chinese Wikisource 周易/履; cross-checked against CTP Book of Changes, hexagram 10, 小象 3",
       "sequence": 1003,
       "notes": null
@@ -332,7 +332,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九四，履虎尾，愬愬，終吉。",
+      "exact_text": "九四：履虎尾，愬愬終吉。",
       "locator": "Chinese Wikisource 周易/履; cross-checked against CTP Book of Changes, hexagram 10, 爻 4",
       "sequence": 1004,
       "notes": null
@@ -364,7 +364,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九五，夬履，貞厲。",
+      "exact_text": "九五：夬履，貞厲。",
       "locator": "Chinese Wikisource 周易/履; cross-checked against CTP Book of Changes, hexagram 10, 爻 5",
       "sequence": 1005,
       "notes": null
@@ -396,7 +396,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "上九，視履，考祥其旋，元吉。",
+      "exact_text": "上九：視履考祥，其旋元吉。",
       "locator": "Chinese Wikisource 周易/履; cross-checked against CTP Book of Changes, hexagram 10, 爻 6",
       "sequence": 1006,
       "notes": null
@@ -428,7 +428,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "In ䷉ Lǚ we have (the symbol of) weakness treading on (that of) strength.\n\n(The lower trigram ☱) indicates pleasure and satisfaction, and responds to (the upper ☰) indicating strength. Hence (it is said), 'He treads on the tail of a tiger, which does not bite him; there will be progress and success.'\n\n(The fifth line is) strong, in the centre, and in its correct place. (Its subject) occupies the God-(given) position, and falls into no distress or failure; -- (his) action will be brilliant.",
+      "exact_text": "In Lî we have (the symbol of) weakness treading on (that of) strength.\n\n(The lower trigram ☱) indicates pleasure and satisfaction, and responds to (the upper ☰) indicating strength. Hence (it is said), 'He treads on the tail of a tiger, which does not bite him; there will be progress and success.'\n\n(The fifth line is) strong, in the centre, and in its correct place. (Its subject) occupies the God-(given) position, and falls into no distress or failure; -- (his) action will be brilliant.",
       "locator": "SBE XVI, Appendix I, Hexagram 10, p. 223",
       "sequence": 10,
       "notes": null
@@ -444,7 +444,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(The trigramm ☰ representing) the sky above, and below it (☱ that representing the waters of) a marsh, form ䷉ Lǚ. The superior man, in accordance with this, discriminates between high and low, and gives settlement to the aims of the people.",
+      "exact_text": "(The trigramm ☰ representing) the sky above, and below it (☱ that representing the waters of) a marsh, form Lî. The superior man, in accordance with this, discriminates between high and low, and gives settlement to the aims of the people.",
       "locator": "SBE XVI, Appendix II, Hexagram 10, p. 281",
       "sequence": 10,
       "notes": null

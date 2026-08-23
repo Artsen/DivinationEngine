@@ -5,7 +5,7 @@
     "binary_pattern": "011010",
     "chinese_name": "井",
     "pinyin": "Jǐng",
-    "legge_title": "Zing",
+    "legge_title": "Žing",
     "glyph": "䷯",
     "lower_trigram": "xun",
     "upper_trigram": "kan"
@@ -60,10 +60,10 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(Looking at) ䷯ Jǐng, (we think of) how (the site of) a town may be changed, while (the fashion of) its wells undergoes no change. (The water of a well) never disappears and never receives (any great) increase, and those who come and those who go can draw and enjoy the benefit. If (the drawing) have nearly been accomplished, but, before the rope has quite reached the water, the bucket is broken, this is evil.",
+      "exact_text": "(Looking at) Žing, (we think of) how (the site of) a town may be changed, while (the fashion of) its wells undergoes no change. (The water of a well) never disappears and never receives (any great) increase, and those who come and those who go can draw and enjoy the benefit. If (the drawing) have nearly been accomplished, but, before the rope has quite reached the water, the bucket is broken, this is evil.",
       "locator": "SBE XVI, Hexagram 48; scan-backed transcription p. 164, hexagram statement",
       "sequence": 4800,
-      "notes": null
+      "notes": "Legge's title restored from the source statement."
     },
     {
       "key": "hexagram-48-line-1-en-legge",
@@ -172,7 +172,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "井，改邑不改井，无喪无得，往來井井。汔至，亦未繘井，羸其瓶，凶。",
+      "exact_text": "井：改邑不改井，无喪无得，往來井井。汔至亦未繘井。羸其瓶，凶。",
       "locator": "Chinese Wikisource 周易/井; cross-checked against CTP Book of Changes, hexagram 48, 易經卦辭",
       "sequence": 4800,
       "notes": null
@@ -188,7 +188,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "巽乎水而上水，井，井養而不窮也。改邑不改井，乃以剛中也；汔至亦未繘井，未有功也；羸其瓶，是以凶也。",
+      "exact_text": "巽乎水而上水，井；井養而不窮也。改邑不改井，乃以剛中也。汔至亦未繘井，未有功也。羸其瓶，是以凶也。",
       "locator": "Chinese Wikisource 周易/井; cross-checked against CTP Book of Changes, hexagram 48, 彖",
       "sequence": 48,
       "notes": null
@@ -204,7 +204,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "木上有水，井，君子以勞民勸相。",
+      "exact_text": "木上有水，井；君子以勞民勸相。",
       "locator": "Chinese Wikisource 周易/井; cross-checked against CTP Book of Changes, hexagram 48, 大象",
       "sequence": 48,
       "notes": null
@@ -220,7 +220,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "初六，井泥不食，舊井无禽。",
+      "exact_text": "初六：井泥不食，舊井无禽。",
       "locator": "Chinese Wikisource 周易/井; cross-checked against CTP Book of Changes, hexagram 48, 爻 1",
       "sequence": 4801,
       "notes": null
@@ -236,7 +236,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "井泥不食，下也；舊井无禽，時舍也。",
+      "exact_text": "井泥不食，下也。舊井无禽，時舍也。",
       "locator": "Chinese Wikisource 周易/井; cross-checked against CTP Book of Changes, hexagram 48, 小象 1",
       "sequence": 4801,
       "notes": null
@@ -252,7 +252,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九二，井谷射鮒，甕敝漏。",
+      "exact_text": "九二：井谷射鮒，瓮敝漏。",
       "locator": "Chinese Wikisource 周易/井; cross-checked against CTP Book of Changes, hexagram 48, 爻 2",
       "sequence": 4802,
       "notes": null
@@ -284,7 +284,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九三，井渫不食，為我心惻。可用汲，王明，並受其福。",
+      "exact_text": "九三：井渫不食，為我心惻，可用汲，王明，并受其福。",
       "locator": "Chinese Wikisource 周易/井; cross-checked against CTP Book of Changes, hexagram 48, 爻 3",
       "sequence": 4803,
       "notes": null
@@ -300,7 +300,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "井渫不食，行惻也；求王明，受福也。",
+      "exact_text": "井渫不食，行惻也。求王明，受福也。",
       "locator": "Chinese Wikisource 周易/井; cross-checked against CTP Book of Changes, hexagram 48, 小象 3",
       "sequence": 4803,
       "notes": null
@@ -316,7 +316,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六四，井甃无咎。",
+      "exact_text": "六四：井甃，无咎。",
       "locator": "Chinese Wikisource 周易/井; cross-checked against CTP Book of Changes, hexagram 48, 爻 4",
       "sequence": 4804,
       "notes": null
@@ -332,7 +332,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "井甃无咎，脩井也。",
+      "exact_text": "井甃无咎，修井也。",
       "locator": "Chinese Wikisource 周易/井; cross-checked against CTP Book of Changes, hexagram 48, 小象 4",
       "sequence": 4804,
       "notes": null
@@ -348,7 +348,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九五，井洌，寒泉食。",
+      "exact_text": "九五：井冽，寒泉食。",
       "locator": "Chinese Wikisource 周易/井; cross-checked against CTP Book of Changes, hexagram 48, 爻 5",
       "sequence": 4805,
       "notes": null
@@ -380,7 +380,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "上六，井收勿幕，有孚元吉。",
+      "exact_text": "上六：井收勿幕，有孚元吉。",
       "locator": "Chinese Wikisource 周易/井; cross-checked against CTP Book of Changes, hexagram 48, 爻 6",
       "sequence": 4806,
       "notes": null
@@ -412,7 +412,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "In ䷯ Jǐng (We have the symbol of) wood in the water and the raising of the water; which (gives us the idea of) a well. A well supplies nourishment and is not (itself) exhausted.\n\n'The site of a town may be changed, while the fashion of its wells undergoes no change:' -- this is indicated by the central position of the strong lines (in the second and fifth places). 'The drawing is nearly accomplished, but the rope has not yet reached the water of the well:' -- its service has not yet been accomplished. 'The bucket is broken:' -- it is this that occasions evil.",
+      "exact_text": "In Žing (We have the symbol of) wood in the water and the raising of the water; which (gives us the idea of) a well. A well supplies nourishment and is not (itself) exhausted.\n\n'The site of a town may be changed, while the fashion of its wells undergoes no change:' -- this is indicated by the central position of the strong lines (in the second and fifth places). 'The drawing is nearly accomplished, but the rope has not yet reached the water of the well:' -- its service has not yet been accomplished. 'The bucket is broken:' -- it is this that occasions evil.",
       "locator": "SBE XVI, Appendix I, Hexagram 48, p. unpaginated transcription",
       "sequence": 48,
       "notes": null
@@ -428,7 +428,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(The trigram ☴ representing) wood and above it ☵ that for water form ䷯ Jǐng. The superior man, in accordance with this, comforts the people, and. stimulates them to mutual helpfulness.",
+      "exact_text": "(The trigram ☴ representing) wood and above it ☵ that for water form Žing. The superior man, in accordance with this, comforts the people, and. stimulates them to mutual helpfulness.",
       "locator": "SBE XVI, Appendix II, Hexagram 48, p. 328",
       "sequence": 48,
       "notes": null

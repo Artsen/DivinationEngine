@@ -60,10 +60,10 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "In (the condition denoted by) ䷮ Kùn there may (yet be) progress and success. For the firm and correct, the (really) great man, there will be good fortune. He will fall into no error. If he make speeches, his words cannot be made good.",
+      "exact_text": "In (the condition denoted by) Khwăn there may (yet be) progress and success. For the firm and correct, the (really) great man, there will be good fortune. He will fall into no error. If he make speeches, his words cannot be made good.",
       "locator": "SBE XVI, Hexagram 47; scan-backed transcription p. 161, hexagram statement",
       "sequence": 4700,
-      "notes": null
+      "notes": "Legge's title restored from the source statement."
     },
     {
       "key": "hexagram-47-line-1-en-legge",
@@ -172,7 +172,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "困，亨，貞，大人吉，无咎，有言不信。",
+      "exact_text": "困：亨，貞大人吉，无咎，有言不信。",
       "locator": "Chinese Wikisource 周易/困; cross-checked against CTP Book of Changes, hexagram 47, 易經卦辭",
       "sequence": 4700,
       "notes": null
@@ -188,7 +188,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "困，剛揜也。險以說，困而不失其所亨，其唯君子乎。貞大人吉，以剛中也；有言不信，尚口乃窮也。",
+      "exact_text": "困，剛掩也。險以說，困而不失其所，亨；其唯君子乎？ 貞大人吉，以剛中也。有言不信，尚口乃窮也。",
       "locator": "Chinese Wikisource 周易/困; cross-checked against CTP Book of Changes, hexagram 47, 彖",
       "sequence": 47,
       "notes": null
@@ -204,7 +204,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "澤无水，困。",
+      "exact_text": "澤无水，困；君子以致命遂志。",
       "locator": "Chinese Wikisource 周易/困; cross-checked against CTP Book of Changes, hexagram 47, 大象",
       "sequence": 47,
       "notes": null
@@ -220,7 +220,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "初六，臀困于株木，入于幽谷，三歲不覿。",
+      "exact_text": "初六：臀困于株木，入于幽谷，三歲不覿。",
       "locator": "Chinese Wikisource 周易/困; cross-checked against CTP Book of Changes, hexagram 47, 爻 1",
       "sequence": 4701,
       "notes": null
@@ -252,7 +252,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九二，困于酒食，朱紱方來，利用亨祀，征凶，无咎。",
+      "exact_text": "九二：困于酒食，朱紱方來，利用亨祀，征凶，无咎。",
       "locator": "Chinese Wikisource 周易/困; cross-checked against CTP Book of Changes, hexagram 47, 爻 2",
       "sequence": 4702,
       "notes": null
@@ -284,7 +284,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六三，困于石，據于蒺蔾。入于其宮，不見其妻，凶。",
+      "exact_text": "六三：困于石，據于蒺藜，入于其宮，不見其妻，凶。",
       "locator": "Chinese Wikisource 周易/困; cross-checked against CTP Book of Changes, hexagram 47, 爻 3",
       "sequence": 4703,
       "notes": null
@@ -300,7 +300,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "據于蒺蔾，乘剛也。入于其宮，不見其妻，不祥也。",
+      "exact_text": "據于蒺藜，乘剛也。入于其宮，不見其妻，不祥也。",
       "locator": "Chinese Wikisource 周易/困; cross-checked against CTP Book of Changes, hexagram 47, 小象 3",
       "sequence": 4703,
       "notes": null
@@ -316,7 +316,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九四，來徐徐，困于金車，吝，有終。",
+      "exact_text": "九四：來徐徐，困于金車，吝，有終。",
       "locator": "Chinese Wikisource 周易/困; cross-checked against CTP Book of Changes, hexagram 47, 爻 4",
       "sequence": 4704,
       "notes": null
@@ -348,7 +348,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九五，劓刖，困于赤紱。乃徐有說，利用祭祀。",
+      "exact_text": "九五：劓刖，困于赤紱，乃徐有說，利用祭祀。",
       "locator": "Chinese Wikisource 周易/困; cross-checked against CTP Book of Changes, hexagram 47, 爻 5",
       "sequence": 4705,
       "notes": null
@@ -364,7 +364,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "劓刖，志未得也；乃徐有說，以中直也；利用祭祀，受福也。",
+      "exact_text": "劓刖，志未得也。乃徐有說，以中直也。利用祭祀，受福也。",
       "locator": "Chinese Wikisource 周易/困; cross-checked against CTP Book of Changes, hexagram 47, 小象 5",
       "sequence": 4705,
       "notes": null
@@ -380,7 +380,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "上六，困于葛藟，于臲卼，曰動悔有悔，征吉。",
+      "exact_text": "上六：困于葛藟，于臲卼，曰動悔。有悔，征吉。",
       "locator": "Chinese Wikisource 周易/困; cross-checked against CTP Book of Changes, hexagram 47, 爻 6",
       "sequence": 4706,
       "notes": null
@@ -396,7 +396,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "困于葛藟，未當也；動悔有悔，吉行也。",
+      "exact_text": "困于葛藟，未當也。動悔，有悔，吉行也。",
       "locator": "Chinese Wikisource 周易/困; cross-checked against CTP Book of Changes, hexagram 47, 小象 6",
       "sequence": 4706,
       "notes": null
@@ -412,7 +412,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "In ䷮ Kùn (we see) the strong (lines) covered and obscured (by the weak).\n\nWe have in it (the attribute of) perilousness going on to that of satisfaction. Who is it but the superior man that, though straitened, still does not fail in making progress to his proper end? For the firm and correct, the (really) great man, there will be good fortune:' -- this is shown by the central positions of the strong (lines). 'If he make speeches, his words cannot be made good:' -- to be fond of arguing or pleading is the way to be reduced to extremity.",
+      "exact_text": "In Khwăn (we see) the strong (lines) covered and obscured (by the weak).\n\nWe have in it (the attribute of) perilousness going on to that of satisfaction. Who is it but the superior man that, though straitened, still does not fail in making progress to his proper end? For the firm and correct, the (really) great man, there will be good fortune:' -- this is shown by the central positions of the strong (lines). 'If he make speeches, his words cannot be made good:' -- to be fond of arguing or pleading is the way to be reduced to extremity.",
       "locator": "SBE XVI, Appendix I, Hexagram 47, p. 253",
       "sequence": 47,
       "notes": null
@@ -428,7 +428,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(The trigram ☱ representing) a marsh, and (below it ☵ that for a defile, which has drained the other dry so that there is) no water in it, form ䷮ Kùn. The superior man, in accordance with this, will sacrifice his life in order to carry out his purpose.",
+      "exact_text": "(The trigram ☱ representing) a marsh, and (below it ☵ that for a defile, which has drained the other dry so that there is) no water in it, form Khwăn. The superior man, in accordance with this, will sacrifice his life in order to carry out his purpose.",
       "locator": "SBE XVI, Appendix II, Hexagram 47, p. 326",
       "sequence": 47,
       "notes": null

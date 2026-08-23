@@ -1,4 +1,5 @@
 import json
+import re
 from collections import Counter
 from itertools import product
 from pathlib import Path
@@ -9,7 +10,7 @@ from sqlalchemy.orm import Session, sessionmaker
 
 from app.db import models
 from app.domain.iching import cast_yarrow_stalk
-from app.services.iching_corpus import PATTERNS, validate
+from app.services.iching_corpus import PATTERNS, TRADITIONAL_HEXAGRAM_NAMES, validate
 from app.services.importer import ImportBundle, import_bundle
 from tests.conftest import FakeRandom
 
@@ -56,7 +57,56 @@ def test_corpus_has_complete_bilingual_layers_and_no_collection() -> None:
         "three-coin-divination",
     }
     corrections = json.loads((CORPUS_ROOT / "corrections.json").read_text(encoding="utf-8"))
-    assert corrections["corrections"] == []
+    assert any(
+        row["affected_key"] == "hexagram-64-gua-ci-en-legge"
+        and "single-line regular expression" in row["reason"]
+        for row in corrections["corrections"]
+    )
+    assert {
+        "hexagram-03-line-4-en-legge",
+        "hexagram-27-line-4-en-legge",
+        "hexagram-40-line-5-en-legge",
+        "hexagram-56-line-6-en-legge",
+    } <= {row["affected_key"] for row in corrections["corrections"]}
+
+
+def test_source_integrity_regressions_and_exact_text_semantics() -> None:
+    bundle = _bundle()
+    assert tuple(row.chinese_name for row in bundle.hexagrams) == TRADITIONAL_HEXAGRAM_NAMES
+    assert bundle.hexagrams[31].chinese_name == "恆"
+    assert bundle.hexagrams[62].chinese_name == "既濟"
+    assert bundle.hexagrams[63].chinese_name == "未濟"
+
+    english_gua = {
+        row.hexagram: row
+        for row in bundle.iching_texts
+        if row.layer == "zhouyi-core" and row.unit_type == "gua-ci" and row.language == "en"
+    }
+    assert len(english_gua) == 64
+    assert english_gua["hexagram-64"].exact_text == (
+        "Wei Žî intimates progress and success (in the circumstances which it implies). "
+        "(We see) a young fox that has nearly crossed (the stream), when its tail gets "
+        "immersed. There will be no advantage in any way."
+    )
+    assert english_gua["hexagram-06"].exact_text.endswith(
+        "it will not be advantageous to cross the great stream."
+    )
+    assert english_gua["hexagram-40"].exact_text.endswith(
+        "there will be good fortune in the early conducting of them."
+    )
+    line_56_6 = next(row for row in bundle.iching_texts if row.key == "hexagram-56-line-6-en-legge")
+    assert line_56_6.exact_text.endswith(
+        "He has lost his ox(-like docility) too readily and easily. There will be evil."
+    )
+
+    platform_markup = re.compile(r"\[[^]]+]\([^)]+\)|<[^>]+>|https?://")
+    assert not any(platform_markup.search(row.exact_text) for row in bundle.iching_texts)
+    integrity = json.loads((CORPUS_ROOT / "source-integrity.json").read_text(encoding="utf-8"))
+    assert len(integrity["legge_gua_ci_boundary_audit"]) == 64
+    assert len(integrity["legge_line_boundary_audit"]) == 384
+    assert len(integrity["traditional_name_audit"]) == 64
+    assert len(integrity["expanded_spot_check"]) == 11
+    assert all(len(row["text_sha256"]) == 18 for row in integrity["expanded_spot_check"])
 
 
 def test_patterns_relationships_and_special_use_invariants() -> None:

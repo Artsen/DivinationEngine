@@ -3,7 +3,7 @@
     "key": "hexagram-22",
     "canonical_number": 22,
     "binary_pattern": "101001",
-    "chinese_name": "贲",
+    "chinese_name": "賁",
     "pinyin": "Bì",
     "legge_title": "Pî",
     "glyph": "䷕",
@@ -60,10 +60,10 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "indicates that there should be free course (in what it denotes). There will be little advantage (however) if it be allowed to advance (and take the lead).",
+      "exact_text": "Pî indicates that there should be free course (in what it denotes). There will be little advantage (however) if it be allowed to advance (and take the lead).",
       "locator": "SBE XVI, Hexagram 22; scan-backed transcription p. 103, hexagram statement",
       "sequence": 2200,
-      "notes": null
+      "notes": "Legge's title restored from the source statement."
     },
     {
       "key": "hexagram-22-line-1-en-legge",
@@ -172,7 +172,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "The character **䷕ Bì** is the symbol of what is ornamental and of the act of adorning. As there is ornament in nature, so should there be in society; but its place is secondary to that of what is substantial. This is the view of king [Wén](https://en.wikipedia.org/wiki/King_Wen_of_Zhou) in his [Tuàn](https://ctext.org/book-of-changes/tuan-zhuan). The symbolism of the separate lines is sometimes fantastic.\n\nLine 1 is strong, and in an odd place. It is at the very bottom of the hexagram, and is the first line of Lî, the trigram. for fire or light, and suggesting what is elegant and bright. Its subject has nothing to do but to attend to himself. Thus he cultivates -- adorns -- himself in his humble position; but if need be, righteousness requiring it, he can give up every luxury and indulgence.\n\nLine 2 is weak and in its proper place, but with no proper correlate above. The strong line 3 is similarly situated. These two lines therefore keep together, and are as the beard and the chin. Line 1 follows 2. What is substantial commands and rules what is merely ornamental.\n\nLine 3 is strong, and between two weak lines, which adorn it, and bestow their favours on it. But this happy condition is from the accident of place. The subject of the line must be always correct and firm to ensure its continuance.\n\nLine 4 has its proper correlate in 1, from whose strength it should receive ornament, but 2 and the strong 3 intervene and keep them apart, so that the ornament is only white, and of no bright colour. Line 4, however, is faithful to 1, and earnest for their union. And finally line 3 appears in a good character, and not with the purpose to injure, so that the union of 1 and 4 takes place. All this is intended to indicate how ornament recognises the superiority of solidity. Compare the symbolism of the second line of [**䷂ Zhūn**](e5b1afzhun.md) (No. 3), and that of the topmost line of [**䷥ Kuí**](e79dbdkui.md) (No. 38).\n\nLine 5 is in the place of honour, and has no proper correlate in 2. It therefore associates with the strong 6, which is symbolised by the heights and gardens round a city, and serving both to protect and to beautify it. Thus the subject of the line receives adorning from without, and does not of itself try to manifest it. Moreover, in his weakness, his offerings of ceremony are poor and mean. But, as Confucius said, '[In ceremonies it is better to be sparing than extravagant.](https://ctext.org/dictionary.pl?if=en&id=1145)' Hence that stinginess does not prevent a good auspice.\n\nLine 6 is at the top of the hexagram **䷕**. Ornament has had its course, and here there is a return to pure, `white`, simplicity. Substantiality is better than ornament.\n\n# [贲 ䷕](e8b4b2bi_cn.md)",
+      "exact_text": "The character Pî is the symbol of what is ornamental and of the act of adorning. As there is ornament in nature, so should there be in society; but its place is secondary to that of what is substantial. This is the view of king Wén in his Tuàn. The symbolism of the separate lines is sometimes fantastic.\n\nLine 1 is strong, and in an odd place. It is at the very bottom of the hexagram, and is the first line of Lî, the trigram. for fire or light, and suggesting what is elegant and bright. Its subject has nothing to do but to attend to himself. Thus he cultivates -- adorns -- himself in his humble position; but if need be, righteousness requiring it, he can give up every luxury and indulgence.\n\nLine 2 is weak and in its proper place, but with no proper correlate above. The strong line 3 is similarly situated. These two lines therefore keep together, and are as the beard and the chin. Line 1 follows 2. What is substantial commands and rules what is merely ornamental.\n\nLine 3 is strong, and between two weak lines, which adorn it, and bestow their favours on it. But this happy condition is from the accident of place. The subject of the line must be always correct and firm to ensure its continuance.\n\nLine 4 has its proper correlate in 1, from whose strength it should receive ornament, but 2 and the strong 3 intervene and keep them apart, so that the ornament is only white, and of no bright colour. Line 4, however, is faithful to 1, and earnest for their union. And finally line 3 appears in a good character, and not with the purpose to injure, so that the union of 1 and 4 takes place. All this is intended to indicate how ornament recognises the superiority of solidity. Compare the symbolism of the second line of Kun (No. 3), and that of the topmost line of Khwei (No. 38).\n\nLine 5 is in the place of honour, and has no proper correlate in 2. It therefore associates with the strong 6, which is symbolised by the heights and gardens round a city, and serving both to protect and to beautify it. Thus the subject of the line receives adorning from without, and does not of itself try to manifest it. Moreover, in his weakness, his offerings of ceremony are poor and mean. But, as Confucius said, 'In ceremonies it is better to be sparing than extravagant.' Hence that stinginess does not prevent a good auspice.\n\nLine 6 is at the top of the hexagram ䷕. Ornament has had its course, and here there is a return to pure, white, simplicity. Substantiality is better than ornament. 贲 ䷕",
       "locator": "SBE XVI, Hexagram 22; scan-backed transcription p. 103, notes",
       "sequence": 22,
       "notes": "Markdown transcription retained to preserve Legge's notes and links."
@@ -188,8 +188,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "賁，亨，小利有攸往。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 易經卦辭",
+      "exact_text": "賁：亨。小利有攸往。",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 易經卦辭",
       "sequence": 2200,
       "notes": null
     },
@@ -204,8 +204,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "賁亨。柔來而文剛，故亨。分剛上而文柔，故小利有攸往，天文也。文明以止，人文也。觀乎天文，以察時變，觀乎人文，以化成天下。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 彖",
+      "exact_text": "賁，亨；柔來而文剛，故亨。分剛上而文柔，故小利有攸往。剛柔交錯，天文也；文明以止，人文也。觀乎天文，以察時變；觀乎人文，以化成天下。",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 彖",
       "sequence": 22,
       "notes": null
     },
@@ -220,8 +220,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "山下有火，賁。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 大象",
+      "exact_text": "山下有火，賁；君子以明庶政，无敢折獄。",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 大象",
       "sequence": 22,
       "notes": null
     },
@@ -236,8 +236,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "初九，賁其趾，舍車而徒。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 爻 1",
+      "exact_text": "初九：賁其趾，舍車而徒。",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 爻 1",
       "sequence": 2201,
       "notes": null
     },
@@ -253,7 +253,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "舍車而徒，義弗乘也。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 小象 1",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 小象 1",
       "sequence": 2201,
       "notes": null
     },
@@ -268,8 +268,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六二，賁其須。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 爻 2",
+      "exact_text": "六二：賁其須。",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 爻 2",
       "sequence": 2202,
       "notes": null
     },
@@ -285,7 +285,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "賁其須，與上興也。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 小象 2",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 小象 2",
       "sequence": 2202,
       "notes": null
     },
@@ -300,8 +300,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九三，賁如濡如，永貞吉。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 爻 3",
+      "exact_text": "九三：賁如濡如，永貞吉。",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 爻 3",
       "sequence": 2203,
       "notes": null
     },
@@ -317,7 +317,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "永貞之吉，終莫之陵也。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 小象 3",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 小象 3",
       "sequence": 2203,
       "notes": null
     },
@@ -332,8 +332,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六四，賁如皤如，白馬翰如，匪寇婚媾。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 爻 4",
+      "exact_text": "六四：賁如皤如，白馬翰如，匪寇婚媾。",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 爻 4",
       "sequence": 2204,
       "notes": null
     },
@@ -348,8 +348,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六四當位，疑也；匪寇婚媾，終无尤也。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 小象 4",
+      "exact_text": "六四，當位疑也。匪寇婚媾，終无尤也。",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 小象 4",
       "sequence": 2204,
       "notes": null
     },
@@ -364,8 +364,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六五，賁于丘園，束帛戔戔，吝，終吉。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 爻 5",
+      "exact_text": "六五：賁於丘園，束帛戔戔，吝，終吉。",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 爻 5",
       "sequence": 2205,
       "notes": null
     },
@@ -381,7 +381,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "六五之吉，有喜也。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 小象 5",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 小象 5",
       "sequence": 2205,
       "notes": null
     },
@@ -396,8 +396,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "上九，白賁，无咎。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 爻 6",
+      "exact_text": "上九：白賁，无咎。",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 爻 6",
       "sequence": 2206,
       "notes": null
     },
@@ -413,7 +413,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "白賁无咎，上得志也。",
-      "locator": "Chinese Wikisource 周易/贲; cross-checked against CTP Book of Changes, hexagram 22, 小象 6",
+      "locator": "Chinese Wikisource 周易/賁; cross-checked against CTP Book of Changes, hexagram 22, 小象 6",
       "sequence": 2206,
       "notes": null
     },
@@ -428,7 +428,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(When it is said that) ䷕ Bì indicates that there should be free course (in what it denotes):\n\n(We see) the weak line coming and ornamenting the strong lines (of the lower trigram ☲), and hence (it is said that ornament) 'should have free course.' On the other hand, the strong line above ornaments the weak ones (of the upper trigram ☶), and hence (it is said) that 'there will be little advantage, if (ornament) be allowed to advance (and take the lead).' (This is illustrated in the) appearances that ornament the sky.\n\nElegance and intelligence (denoted by the lower trigram ☲) regulated by the arrest (denoted by the upper) suggest the observances that adorn human (society).\n\nWe look at the ornamental figures of the sky, and thereby ascertain the changes of the seasons. We look at the ornamental observances of society, and understand how the processes of transformation are accomplished all under heaven.",
+      "exact_text": "(When it is said that) Pî indicates that there should be free course (in what it denotes):\n\n(We see) the weak line coming and ornamenting the strong lines (of the lower trigram ☲), and hence (it is said that ornament) 'should have free course.' On the other hand, the strong line above ornaments the weak ones (of the upper trigram ☶), and hence (it is said) that 'there will be little advantage, if (ornament) be allowed to advance (and take the lead).' (This is illustrated in the) appearances that ornament the sky.\n\nElegance and intelligence (denoted by the lower trigram ☲) regulated by the arrest (denoted by the upper) suggest the observances that adorn human (society).\n\nWe look at the ornamental figures of the sky, and thereby ascertain the changes of the seasons. We look at the ornamental observances of society, and understand how the processes of transformation are accomplished all under heaven.",
       "locator": "SBE XVI, Appendix I, Hexagram 22, p. 232",
       "sequence": 22,
       "notes": null
@@ -444,7 +444,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(The trigram ☶ representing) a mountain and ☲ that for fire under it form ䷕ Bì. The superior man, in accordance with this, throws a brilliancy around his various processes of government, but does not dare (in a similar way) to decide cases of criminal litigation.",
+      "exact_text": "(The trigram ☶ representing) a mountain and ☲ that for fire under it form Pî. The superior man, in accordance with this, throws a brilliancy around his various processes of government, but does not dare (in a similar way) to decide cases of criminal litigation.",
       "locator": "SBE XVI, Appendix II, Hexagram 22, p. 295",
       "sequence": 22,
       "notes": null

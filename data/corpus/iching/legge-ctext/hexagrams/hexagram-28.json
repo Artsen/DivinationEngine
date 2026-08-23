@@ -3,7 +3,7 @@
     "key": "hexagram-28",
     "canonical_number": 28,
     "binary_pattern": "011110",
-    "chinese_name": "大过",
+    "chinese_name": "大過",
     "pinyin": "Dà Guò",
     "legge_title": "Tâ Kwo",
     "glyph": "䷛",
@@ -60,10 +60,10 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "suggests to us a beam that is weak. There will be advantage in moving (under its conditions) in any direction whatever; there will be success.",
+      "exact_text": "Tâ Kwo suggests to us a beam that is weak. There will be advantage in moving (under its conditions) in any direction whatever; there will be success.",
       "locator": "SBE XVI, Hexagram 28; scan-backed transcription p. 116, hexagram statement",
       "sequence": 2800,
-      "notes": null
+      "notes": "Legge's title restored from the source statement."
     },
     {
       "key": "hexagram-28-line-1-en-legge",
@@ -172,7 +172,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "Very extraordinary times require very extraordinary gifts in the conduct of affairs in them. This is the text on which king [Wén](https://en.wikipedia.org/wiki/King_Wen_of_Zhou) and his son discourse after their fashion in this hexagram. What goes, in their view, to constitute anything extraordinary is its greatness and difficulty. There need not be about it what is not right.\n\nLooking at the figure we see two weak lines at the top and bottom, and four strong lines between them, giving us the idea of a great beam unable to sustain its own weight. But the second and fifth lines are both strong and in the centre; and from this and the attributes of the component trigrams a good auspice is obtained.\n\nLine 1 being weak, and at the bottom of the figure, and of the trigram **☴ Xùn**, which denotes flexibility and humility, its subject is distinguished by his carefulness, as in the matter mentioned; and there is a good auspice.\n\nLine 2 has no proper correlate above. Hence he inclines to the weak 1 below him; and we have the symbolism of the line. [An old husband with a young wife](e59d8ekan.md#p-118) will yet have children; the action of the subject of 2 will be successful.\n\nLine 3 is strong, and in an odd place. Its subject is confident in his own strength, but his correlate in 6 is weak. Alone, he is unequal to the extraordinary strain on him, and has for his symbol the weak beam.\n\nLine 4 is near 5, the ruler's place. On its subject devolves the duty of meeting the extraordinary exigency of the time; but he is strong; and, the line being in an even place, his strength is tempered. He will be equal to his task. Should he look out for the help of the subject of 1, that would affect him with another element of weakness; and his action would give cause for regret.\n\nLine 5 is strong and central. Its subject should be equal to achieve extraordinary merit. But he has no proper correlate below, and as 2 inclined to 1, so does this to 6. But here the willow only produces flowers, not shoots; -- its decay will soon reappear. An old wife will have no children. If the subject of the line is not to be condemned as that of 3, his action does not deserve praise.\n\nThe subject of 6 pursues his daring course, with a view to satisfy the extraordinary exigency of the time, and benefit all under the sky. He is unequal to the task, and sinks beneath it; but his motive modifies the judgment on his conduct.\n\n# [大过 ䷛](e5a4a7e8bf87daguo_cn.md)",
+      "exact_text": "Very extraordinary times require very extraordinary gifts in the conduct of affairs in them. This is the text on which king Wén and his son discourse after their fashion in this hexagram. What goes, in their view, to constitute anything extraordinary is its greatness and difficulty. There need not be about it what is not right.\n\nLooking at the figure we see two weak lines at the top and bottom, and four strong lines between them, giving us the idea of a great beam unable to sustain its own weight. But the second and fifth lines are both strong and in the centre; and from this and the attributes of the component trigrams a good auspice is obtained.\n\nLine 1 being weak, and at the bottom of the figure, and of the trigram ☴ Xùn, which denotes flexibility and humility, its subject is distinguished by his carefulness, as in the matter mentioned; and there is a good auspice.\n\nLine 2 has no proper correlate above. Hence he inclines to the weak 1 below him; and we have the symbolism of the line. An old husband with a young wife will yet have children; the action of the subject of 2 will be successful.\n\nLine 3 is strong, and in an odd place. Its subject is confident in his own strength, but his correlate in 6 is weak. Alone, he is unequal to the extraordinary strain on him, and has for his symbol the weak beam.\n\nLine 4 is near 5, the ruler's place. On its subject devolves the duty of meeting the extraordinary exigency of the time; but he is strong; and, the line being in an even place, his strength is tempered. He will be equal to his task. Should he look out for the help of the subject of 1, that would affect him with another element of weakness; and his action would give cause for regret.\n\nLine 5 is strong and central. Its subject should be equal to achieve extraordinary merit. But he has no proper correlate below, and as 2 inclined to 1, so does this to 6. But here the willow only produces flowers, not shoots; -- its decay will soon reappear. An old wife will have no children. If the subject of the line is not to be condemned as that of 3, his action does not deserve praise.\n\nThe subject of 6 pursues his daring course, with a view to satisfy the extraordinary exigency of the time, and benefit all under the sky. He is unequal to the task, and sinks beneath it; but his motive modifies the judgment on his conduct. 大过 ䷛",
       "locator": "SBE XVI, Hexagram 28; scan-backed transcription p. 116, notes",
       "sequence": 28,
       "notes": "Markdown transcription retained to preserve Legge's notes and links."
@@ -188,8 +188,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "大過，棟橈。利有攸往，亨。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 易經卦辭",
+      "exact_text": "大過：棟橈，利有攸往，亨。",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 易經卦辭",
       "sequence": 2800,
       "notes": null
     },
@@ -204,8 +204,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "大過，大者過也。棟橈，本末弱也。剛過而中，巽而說行，利有攸往，乃亨，大過之時大矣哉。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 彖",
+      "exact_text": "大過，大者過也。棟橈，本末弱也。剛過而中，巽而說行，利有攸往，乃亨。大過之時義大矣哉！",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 彖",
       "sequence": 28,
       "notes": null
     },
@@ -220,8 +220,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "澤滅木，大過。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 大象",
+      "exact_text": "澤滅木，大過。君子以獨立不懼，遯世无悶。",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 大象",
       "sequence": 28,
       "notes": null
     },
@@ -236,8 +236,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "初六，藉用白茅，无咎。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 爻 1",
+      "exact_text": "初六：藉用白茅，无咎。",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 爻 1",
       "sequence": 2801,
       "notes": null
     },
@@ -253,7 +253,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "藉用白茅，柔在下也。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 小象 1",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 小象 1",
       "sequence": 2801,
       "notes": null
     },
@@ -268,8 +268,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九二，枯楊生稊，老夫得其女妻，无不利。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 爻 2",
+      "exact_text": "九二：枯楊生稊，老夫得其女妻，无不利。",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 爻 2",
       "sequence": 2802,
       "notes": null
     },
@@ -285,7 +285,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "老夫女妻，過以相與也。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 小象 2",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 小象 2",
       "sequence": 2802,
       "notes": null
     },
@@ -300,8 +300,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九三，棟橈，凶。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 爻 3",
+      "exact_text": "九三：棟橈，凶。",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 爻 3",
       "sequence": 2803,
       "notes": null
     },
@@ -317,7 +317,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "棟橈之凶，不可以有輔也。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 小象 3",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 小象 3",
       "sequence": 2803,
       "notes": null
     },
@@ -332,8 +332,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九四，棟隆，吉，有它吝。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 爻 4",
+      "exact_text": "九四：棟隆，吉。有它吝。",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 爻 4",
       "sequence": 2804,
       "notes": null
     },
@@ -349,7 +349,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "棟隆之吉，不橈乎下也。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 小象 4",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 小象 4",
       "sequence": 2804,
       "notes": null
     },
@@ -364,8 +364,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九五，枯楊生華，老婦得其士夫，无咎无譽。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 爻 5",
+      "exact_text": "九五：枯楊生華，老婦得其士夫，无咎无譽。",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 爻 5",
       "sequence": 2805,
       "notes": null
     },
@@ -380,8 +380,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "枯楊生華，何可久也；老婦士夫，亦可醜也。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 小象 5",
+      "exact_text": "枯楊生華，何可久也。老婦士夫，亦可丑也。",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 小象 5",
       "sequence": 2805,
       "notes": null
     },
@@ -396,8 +396,8 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "上六，過涉滅頂，凶，无咎。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 爻 6",
+      "exact_text": "上六：過涉滅頂，凶，无咎。",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 爻 6",
       "sequence": 2806,
       "notes": null
     },
@@ -413,7 +413,7 @@
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
       "exact_text": "過涉之凶，不可咎也。",
-      "locator": "Chinese Wikisource 周易/大过; cross-checked against CTP Book of Changes, hexagram 28, 小象 6",
+      "locator": "Chinese Wikisource 周易/大過; cross-checked against CTP Book of Changes, hexagram 28, 小象 6",
       "sequence": 2806,
       "notes": null
     },
@@ -428,7 +428,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "䷛ Dà Guò shows the great ones (⚌ the undivided lines) in excess.\n\nIn the beam that is weak we see weakness both in the lowest and the topmost (lines).\n\nThe strong lines are in excess, but (two of them) are in the central positions. The action (of the hexagram is represented by the symbols of) flexibility and satisfaction. (Hence it is said), 'There will be advantage in moving in any direction whatever; yea, there will be success.'\n\nGreat indeed is (the work to be done in) this very extraordinary time.",
+      "exact_text": "Tâ Kwo shows the great ones (⚌ the undivided lines) in excess.\n\nIn the beam that is weak we see weakness both in the lowest and the topmost (lines).\n\nThe strong lines are in excess, but (two of them) are in the central positions. The action (of the hexagram is represented by the symbols of) flexibility and satisfaction. (Hence it is said), 'There will be advantage in moving in any direction whatever; yea, there will be success.'\n\nGreat indeed is (the work to be done in) this very extraordinary time.",
       "locator": "SBE XVI, Appendix I, Hexagram 28, p. unpaginated transcription",
       "sequence": 28,
       "notes": null
@@ -444,7 +444,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(The trigram ☴ representing) trees hidden beneath ☱ that for the waters of a marsh forms ䷛ Dà Guò. The superior man, in accordance with this, stands up alone and has no fear, and keeps retired from the world without regret.",
+      "exact_text": "(The trigram ☴ representing) trees hidden beneath ☱ that for the waters of a marsh forms Tâ Kwo. The superior man, in accordance with this, stands up alone and has no fear, and keeps retired from the world without regret.",
       "locator": "SBE XVI, Appendix II, Hexagram 28, p. 303",
       "sequence": 28,
       "notes": null

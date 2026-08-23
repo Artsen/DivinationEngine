@@ -60,10 +60,10 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(indicates that in the case which it presupposes) there will be progress and success. I do not (go and) seek the youthful and inexperienced, but he comes and seeks me. When he shows (the sincerity that marks) the first recourse to divination, I instruct him. If he apply a second and third time, that is troublesome; and I do not instruct the troublesome. There will be advantage in being firm and correct.",
+      "exact_text": "Măng (indicates that in the case which it presupposes) there will be progress and success. I do not (go and) seek the youthful and inexperienced, but he comes and seeks me. When he shows (the sincerity that marks) the first recourse to divination, I instruct him. If he apply a second and third time, that is troublesome; and I do not instruct the troublesome. There will be advantage in being firm and correct.",
       "locator": "SBE XVI, Hexagram 4; scan-backed transcription p. 64, hexagram statement",
       "sequence": 400,
-      "notes": null
+      "notes": "Legge's title restored from the source statement."
     },
     {
       "key": "hexagram-04-line-1-en-legge",
@@ -172,7 +172,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "As [**䷂ Zhūn**](e5b1afzhun.md) shows us plants struggling from beneath the surface, **䷃ Méng** suggests to us the small and undeveloped appearance which they then present; and hence it came to be the symbol of youthful inexperience and ignorance. The object of the hexagram is to show how such a condition should be dealt with by the parent and ruler, whose authority and duty are represented by the second and sixth, the two undivided lines. All between the first and last sentences of the [Tuàn](https://ctext.org/book-of-changes/tuan-zhuan) must be taken as an oracular response received by the party divining on the subject of enlightening the youthful ignorant. This accounts for its being more than usually enigmatical, and for its being partly rhythmical. See [Appendix I](appendix01s1.md).\n\nThe subject of the first line, weak, and at the bottom of the figure, is in the grossest ignorance. Let him be punished. If punishment avail to loosen the shackles and manacles from the mind, well; if not, and punishment be persevered with, the effect will be had.\n\nOn the subject of the second line, strong, and in the central place, devolves the task of enlightening the ignorant; and we have him discharging it with forbearance and humility. In proof of his generosity, it is said that 'he receives,' or learns from, even weak and ignorant women. He appears also as 'a son' taking the place of his father.\n\nThe third line is weak, and occupies an odd place belonging properly to an undivided line; nor is its place in the centre. All these things give the subject of it so bad a character.\n\nThe fourth line is far from both the second and sixth, and can get no help from its correlate, -- the first line, weak as itself. What good can be done with or by the subject of it?\n\nThe fifth line is in the place of honour, and has for its correlate the strong line in the second place. Being weak in itself, it is taken as the symbol of a simple lad, willing to be taught.\n\nThe topmost line is strong, and in the highest place. It is natural, but unwise, in him to use violence in carrying on his educational measures. A better course is suggested to him.\n\n# [蒙 ䷃](e89299meng_cn.md)",
+      "exact_text": "As Kun shows us plants struggling from beneath the surface, Măng suggests to us the small and undeveloped appearance which they then present; and hence it came to be the symbol of youthful inexperience and ignorance. The object of the hexagram is to show how such a condition should be dealt with by the parent and ruler, whose authority and duty are represented by the second and sixth, the two undivided lines. All between the first and last sentences of the Tuàn must be taken as an oracular response received by the party divining on the subject of enlightening the youthful ignorant. This accounts for its being more than usually enigmatical, and for its being partly rhythmical. See Appendix I.\n\nThe subject of the first line, weak, and at the bottom of the figure, is in the grossest ignorance. Let him be punished. If punishment avail to loosen the shackles and manacles from the mind, well; if not, and punishment be persevered with, the effect will be had.\n\nOn the subject of the second line, strong, and in the central place, devolves the task of enlightening the ignorant; and we have him discharging it with forbearance and humility. In proof of his generosity, it is said that 'he receives,' or learns from, even weak and ignorant women. He appears also as 'a son' taking the place of his father.\n\nThe third line is weak, and occupies an odd place belonging properly to an undivided line; nor is its place in the centre. All these things give the subject of it so bad a character.\n\nThe fourth line is far from both the second and sixth, and can get no help from its correlate, -- the first line, weak as itself. What good can be done with or by the subject of it?\n\nThe fifth line is in the place of honour, and has for its correlate the strong line in the second place. Being weak in itself, it is taken as the symbol of a simple lad, willing to be taught.\n\nThe topmost line is strong, and in the highest place. It is natural, but unwise, in him to use violence in carrying on his educational measures. A better course is suggested to him. 蒙 ䷃",
       "locator": "SBE XVI, Hexagram 4; scan-backed transcription p. 64, notes",
       "sequence": 4,
       "notes": "Markdown transcription retained to preserve Legge's notes and links."
@@ -188,7 +188,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "蒙，亨，匪我求童蒙，童蒙求我。初筮告，再三瀆，瀆則不告，利貞。",
+      "exact_text": "蒙：亨。匪我求童蒙，童蒙求我。初筮告，再三瀆，瀆則不告。利貞。",
       "locator": "Chinese Wikisource 周易/蒙; cross-checked against CTP Book of Changes, hexagram 4, 易經卦辭",
       "sequence": 400,
       "notes": null
@@ -204,7 +204,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "蒙，山下有險，險而止，蒙。蒙，亨，以亨行，時中也。匪我求童蒙，童蒙求我，志應也。初筮告，以剛中也。再三瀆，瀆則不告，瀆蒙也。蒙以養正，聖功也。",
+      "exact_text": "蒙，山下有險，險而止，蒙。蒙亨，以亨行，時中也。匪我求童蒙，童蒙求我，志應也。初筮告，以剛中也。再三瀆，瀆則不告，瀆蒙也。蒙以養正，聖功也。",
       "locator": "Chinese Wikisource 周易/蒙; cross-checked against CTP Book of Changes, hexagram 4, 彖",
       "sequence": 4,
       "notes": null
@@ -220,7 +220,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "山下出泉，蒙，君子以果行育德。",
+      "exact_text": "山下出泉，蒙；君子以果行育德。",
       "locator": "Chinese Wikisource 周易/蒙; cross-checked against CTP Book of Changes, hexagram 4, 大象",
       "sequence": 4,
       "notes": null
@@ -236,7 +236,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "初六，發蒙，利用刑人。用說桎梏，以往吝。",
+      "exact_text": "初六：發蒙，利用刑人，用說桎梏，以往吝。",
       "locator": "Chinese Wikisource 周易/蒙; cross-checked against CTP Book of Changes, hexagram 4, 爻 1",
       "sequence": 401,
       "notes": null
@@ -268,7 +268,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九二，包蒙吉，納婦吉，子克家。",
+      "exact_text": "九二：包蒙吉，納婦吉，子克家。",
       "locator": "Chinese Wikisource 周易/蒙; cross-checked against CTP Book of Changes, hexagram 4, 爻 2",
       "sequence": 402,
       "notes": null
@@ -300,7 +300,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六三，勿用取女，見金夫，不有躬，无攸利。",
+      "exact_text": "六三：勿用取女，見金夫，不有躬，无攸利。",
       "locator": "Chinese Wikisource 周易/蒙; cross-checked against CTP Book of Changes, hexagram 4, 爻 3",
       "sequence": 403,
       "notes": null
@@ -332,7 +332,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六四，困蒙，吝。",
+      "exact_text": "六四：困蒙，吝。",
       "locator": "Chinese Wikisource 周易/蒙; cross-checked against CTP Book of Changes, hexagram 4, 爻 4",
       "sequence": 404,
       "notes": null
@@ -364,7 +364,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六五，童蒙，吉。",
+      "exact_text": "六五：童蒙，吉。",
       "locator": "Chinese Wikisource 周易/蒙; cross-checked against CTP Book of Changes, hexagram 4, 爻 5",
       "sequence": 405,
       "notes": null
@@ -396,7 +396,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "上九，擊蒙。不利為寇，利禦寇。",
+      "exact_text": "上九：擊蒙，不利為寇，利禦寇。",
       "locator": "Chinese Wikisource 周易/蒙; cross-checked against CTP Book of Changes, hexagram 4, 爻 6",
       "sequence": 406,
       "notes": null
@@ -412,7 +412,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "利用禦寇，上下順也。",
+      "exact_text": "利禦寇，上下順也。",
       "locator": "Chinese Wikisource 周易/蒙; cross-checked against CTP Book of Changes, hexagram 4, 小象 6",
       "sequence": 406,
       "notes": null
@@ -428,7 +428,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "In ䷃ Méng we have (the trigram ☶ for) a mountain, and below it ☵ that of a rugged defile with a stream in it. The conditions of peril and arrest of progress (suggested by these) give (the idea in) ䷃ Méng.\n\n'䷃ Méng indicates that there will be progress and success:' -- for there is development at work in it, and its time of action is exactly what is right. 'I do not seek the youthful and inexperienced; he seeks me:' -- so does will respond to will. 'When he shows (the sincerity that marks) the first recourse to divination, I instruct him:' -- for possessing the qualities of the undivided line and being in the central place, (the subject of the second line thus speaks). 'A second and third application create annoyance, and I do not instruct so as to create annoyance:' -- annoyance (he means) to the ignorant. (The method of dealing with) the young and ignorant is to nourish the correct (nature belonging to them); -- this accomplishes the service of the sage.",
+      "exact_text": "In Măng we have (the trigram ☶ for) a mountain, and below it ☵ that of a rugged defile with a stream in it. The conditions of peril and arrest of progress (suggested by these) give (the idea in) Măng.\n\n'Măng indicates that there will be progress and success:' -- for there is development at work in it, and its time of action is exactly what is right. 'I do not seek the youthful and inexperienced; he seeks me:' -- so does will respond to will. 'When he shows (the sincerity that marks) the first recourse to divination, I instruct him:' -- for possessing the qualities of the undivided line and being in the central place, (the subject of the second line thus speaks). 'A second and third application create annoyance, and I do not instruct so as to create annoyance:' -- annoyance (he means) to the ignorant. (The method of dealing with) the young and ignorant is to nourish the correct (nature belonging to them); -- this accomplishes the service of the sage.",
       "locator": "SBE XVI, Appendix I, Hexagram 4, p. 217",
       "sequence": 4,
       "notes": null
@@ -444,7 +444,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(The trigram ☶ representing) a mountain, and beneath it ☵ that for a spring issuing forth form ䷃ Méng. The superior man, in accordance with this, strives to be resolute in his conduct and nourishes his virtue.",
+      "exact_text": "(The trigram ☶ representing) a mountain, and beneath it ☵ that for a spring issuing forth form Măng. The superior man, in accordance with this, strives to be resolute in his conduct and nourishes his virtue.",
       "locator": "SBE XVI, Appendix II, Hexagram 4, p. 272",
       "sequence": 4,
       "notes": null

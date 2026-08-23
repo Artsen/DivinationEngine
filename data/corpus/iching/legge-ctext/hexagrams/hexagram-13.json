@@ -60,10 +60,10 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(or Union of men) appears here (as we find it) in the (remote districts of the) country, indicating progress and success. It will be advantageous to cross the great stream. It will be advantageous to maintain the firm correctness of the superior man.",
+      "exact_text": "Thung Zăn (or Union of men) appears here (as we find it) in the (remote districts of the) country, indicating progress and success. It will be advantageous to cross the great stream. It will be advantageous to maintain the firm correctness of the superior man.",
       "locator": "SBE XVI, Hexagram 13; scan-backed transcription p. 86, hexagram statement",
       "sequence": 1300,
-      "notes": null
+      "notes": "Legge's title restored from the source statement."
     },
     {
       "key": "hexagram-13-line-1-en-legge",
@@ -172,7 +172,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "**䷌ Tóng Rén** describes a condition of nature and of the state opposite to that of [**䷋ Pǐ**](e590a6pi.md).\nThere was distress and obstruction; here is union. But the union must be based entirely on public considerations, without taint of selfishness.\n\nThe strong line in the fifth, its correct, place, occupies the most important position, and has for its correlate the weak second line, also in its correct place. The one divided line is naturally sought after by all the strong lines. The upper trigram **☰** is that of heaven, which is above; the lower **☲** is that of fire, whose tendency is to mount upwards. All these things are in harmony with the idea of union. But the union must be free from all selfish motives, and this is indicated by its being in the remote districts of the country, where people are unsophisticated, and free from the depraving effects incident to large societies. A union from such motives will cope with the greatest difficulties; and yet a word of caution is added.\n\nLine 1 emblems the first attempts at union. It is strong, but in the lowest place; and it has no proper correlate above. There is, however, no intermixture of selfishness in it.\n\nLines 2 and 5 are proper correlates, which fact suggests in this hexagram the idea of their union being limited and partial, and such as may afford ground for blame.\n\nLine 3 is strong, and in an odd place; but it has not a proper correlate in 6. This makes its subject more anxious to unite with 2; but 2 is devoted to its proper correlate in 5, of whose strength 3 is afraid, and takes the measures described. His abstaining so long, however, from any active attempt, will save him from misfortune.\n\nLine 4 is strong, but in an even place, which weakens its subject, He also would fain make an attempt on 2; but he is afraid, and does not carry his purpose into effect.\n\nLine 5 is strong, in an odd, and the central place; and would fain unite with 2, which indeed is the proper correlate of its subject. But 3 and 4 are powerful foes that oppose the union, Their opposition makes him weep; but he collects his forces, defeats them, and effects his purpose.\n\nThe union reaches to all within the suburbs ([郊](https://ctext.org/dictionary.pl?if=en&char=郊)), and is riot yet universal; but still there is no cause for repentance.\n\n# [同人 ䷌](e5908ce4babatongren_cn.md)",
+      "exact_text": "Thung Zăn describes a condition of nature and of the state opposite to that of Phî. There was distress and obstruction; here is union. But the union must be based entirely on public considerations, without taint of selfishness.\n\nThe strong line in the fifth, its correct, place, occupies the most important position, and has for its correlate the weak second line, also in its correct place. The one divided line is naturally sought after by all the strong lines. The upper trigram ☰ is that of heaven, which is above; the lower ☲ is that of fire, whose tendency is to mount upwards. All these things are in harmony with the idea of union. But the union must be free from all selfish motives, and this is indicated by its being in the remote districts of the country, where people are unsophisticated, and free from the depraving effects incident to large societies. A union from such motives will cope with the greatest difficulties; and yet a word of caution is added.\n\nLine 1 emblems the first attempts at union. It is strong, but in the lowest place; and it has no proper correlate above. There is, however, no intermixture of selfishness in it.\n\nLines 2 and 5 are proper correlates, which fact suggests in this hexagram the idea of their union being limited and partial, and such as may afford ground for blame.\n\nLine 3 is strong, and in an odd place; but it has not a proper correlate in 6. This makes its subject more anxious to unite with 2; but 2 is devoted to its proper correlate in 5, of whose strength 3 is afraid, and takes the measures described. His abstaining so long, however, from any active attempt, will save him from misfortune.\n\nLine 4 is strong, but in an even place, which weakens its subject, He also would fain make an attempt on 2; but he is afraid, and does not carry his purpose into effect.\n\nLine 5 is strong, in an odd, and the central place; and would fain unite with 2, which indeed is the proper correlate of its subject. But 3 and 4 are powerful foes that oppose the union, Their opposition makes him weep; but he collects his forces, defeats them, and effects his purpose.\n\nThe union reaches to all within the suburbs (郊), and is riot yet universal; but still there is no cause for repentance. 同人 ䷌",
       "locator": "SBE XVI, Hexagram 13; scan-backed transcription p. 86, notes",
       "sequence": 13,
       "notes": "Markdown transcription retained to preserve Legge's notes and links."
@@ -188,7 +188,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "同人于野，亨，利涉大川，利君子貞。",
+      "exact_text": "同人于野，亨。 利涉大川，利君子貞。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 易經卦辭",
       "sequence": 1300,
       "notes": null
@@ -204,7 +204,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "同人，柔得位得中而應乎乾，曰同人。同人曰，同人于野，亨，利涉大川，乾行也。文明以健，中正而應，君子正也，唯君子為能通天下之志。",
+      "exact_text": "同人，柔得位得中，而應乎乾，曰同人。同人曰，同人于野，亨。利涉大川，乾行也。文明以健，中正而應，君子正也。唯君子為能通天下之志。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 彖",
       "sequence": 13,
       "notes": null
@@ -220,7 +220,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "天與火，同人。",
+      "exact_text": "天與火，同人；君子以類族辨物。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 大象",
       "sequence": 13,
       "notes": null
@@ -236,7 +236,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "初九，同人于門，无咎。",
+      "exact_text": "初九：同人于門，無咎。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 爻 1",
       "sequence": 1301,
       "notes": null
@@ -268,7 +268,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六二，同人于宗，吝。",
+      "exact_text": "六二：同人于宗，吝。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 爻 2",
       "sequence": 1302,
       "notes": null
@@ -300,7 +300,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九三，伏戎于莽，升其高陵，三歲不興。",
+      "exact_text": "九三：伏戎于莽，升其高陵，三歲不興。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 爻 3",
       "sequence": 1303,
       "notes": null
@@ -316,7 +316,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "伏戎于莽，敵剛也；三歲不興，安行也。",
+      "exact_text": "伏戎于莽，敵剛也。三歲不興，安行也。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 小象 3",
       "sequence": 1303,
       "notes": null
@@ -332,7 +332,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九四，乘其墉，弗克攻。吉。",
+      "exact_text": "九四：乘其墉，弗克，攻吉。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 爻 4",
       "sequence": 1304,
       "notes": null
@@ -348,7 +348,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "乘其墉，義弗克也。其吉，則困而反則也。",
+      "exact_text": "乘其墉，義弗克也，其吉，則困而反則也。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 小象 4",
       "sequence": 1304,
       "notes": null
@@ -364,7 +364,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九五，同人，先號咷而後笑，大師克，相遇。",
+      "exact_text": "九五：同人，先號啕而后笑。大師克相遇。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 爻 5",
       "sequence": 1305,
       "notes": null
@@ -380,7 +380,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "同人之先，以中直也；大師相遇，言相克也。",
+      "exact_text": "同人之先，以中直也。大師相遇，言相克也。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 小象 5",
       "sequence": 1305,
       "notes": null
@@ -396,7 +396,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "上九，同人于郊，无悔。",
+      "exact_text": "上九：同人于郊，無悔。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 爻 6",
       "sequence": 1306,
       "notes": null
@@ -412,7 +412,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "同人于郊，志未得也。本文取自易學網。",
+      "exact_text": "同人于郊，志未得也。",
       "locator": "Chinese Wikisource 周易/同人; cross-checked against CTP Book of Changes, hexagram 13, 小象 6",
       "sequence": 1306,
       "notes": null
@@ -428,7 +428,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "In ䷌ Tóng Rén the weak (line) has the place (of influence), the central place (☲), and responds to (the corresponding line in) ☰ Qián (above); hence comes its name of ䷌ Tóng Rén (or 'Union of men').\n\n䷌ Tóng Rén says:\n\nThe language, '䷌ Tóng Rén appears here (as we find it) in (the remote districts of) the country, indicating progress and success, and that it will be advantageous to cross the great stream,' is moulded by its containing the strength (symbolled) in ☰ Qián. (Then) we have (the trigram indicating) elegance and intelligence, supported by (that indicating) strength; with the line in the central, and its correct, position, and responding (to the corresponding line above): -- (all representing) the correct course of the superior man. It is only the superior man who can comprehend and affect the minds of all under the sky.",
+      "exact_text": "In Thung Zăn the weak (line) has the place (of influence), the central place (☲), and responds to (the corresponding line in) ☰ Qián (above); hence comes its name of Thung Zăn (or 'Union of men').\n\nThung Zăn says:\n\nThe language, 'Thung Zăn appears here (as we find it) in (the remote districts of) the country, indicating progress and success, and that it will be advantageous to cross the great stream,' is moulded by its containing the strength (symbolled) in ☰ Qián. (Then) we have (the trigram indicating) elegance and intelligence, supported by (that indicating) strength; with the line in the central, and its correct, position, and responding (to the corresponding line above): -- (all representing) the correct course of the superior man. It is only the superior man who can comprehend and affect the minds of all under the sky.",
       "locator": "SBE XVI, Appendix I, Hexagram 13, p. 226",
       "sequence": 13,
       "notes": null
@@ -444,7 +444,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "(The trigrams ☰ ☲ for) heaven and fire form ䷌ Tóng Rén. The superior man, in accordance with this), distinguishes things according to their kinds and classes.",
+      "exact_text": "(The trigrams ☰ ☲ for) heaven and fire form Thung Zăn. The superior man, in accordance with this), distinguishes things according to their kinds and classes.",
       "locator": "SBE XVI, Appendix II, Hexagram 13, p. 285",
       "sequence": 13,
       "notes": null

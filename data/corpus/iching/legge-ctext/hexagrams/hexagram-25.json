@@ -60,10 +60,10 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "indicates great progress and success, while there will be advantage in being firm and correct. If (its subject and his action) be not correct, he will fall into errors, and it will not be advantageous for him to move in any direction.",
+      "exact_text": "Wû Wang indicates great progress and success, while there will be advantage in being firm and correct. If (its subject and his action) be not correct, he will fall into errors, and it will not be advantageous for him to move in any direction.",
       "locator": "SBE XVI, Hexagram 25; scan-backed transcription p. 109, hexagram statement",
       "sequence": 2500,
-      "notes": null
+      "notes": "Legge's title restored from the source statement."
     },
     {
       "key": "hexagram-25-line-1-en-legge",
@@ -172,7 +172,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "**䷘ Wú Wàng** is the symbol of being reckless, and often of being insincere; **䷘ Wú Wàng** is descriptive of a state of entire freedom from such a condition; its subject is one who is entirely simple and sincere. The quality is characteristic of the action of Heaven, and of the highest style of humanity. In this hexagram we have an essay on this noble attribute. An absolute rectitude is essential to it. The nearer one comes to the ideal of the quality, the more powerful will be his influence, the greater his success. But let him see to it that he never swerve from being correct.\n\nThe first line is strong; at the commencement of the inner trigram **☳ Zhèn** denoting movement, the action of its subject will very much characterise all the action set forth, and will itself be fortunate.\n\nLine 2 is weak, central, and in its correct place. The quality may be predicated of it in its highest degree. There is an entire freedom in its subject from selfish or mercenary motive. He is good simply for goodness' sake. And things are so constituted that his action will be successful.\n\nBut calamity may also sometimes befal the best, and where there is this freedom from insincerity; and line 3 being weak, and in the place of an even line, lays its subject open to this misfortune. `The people of the neighbourhood` are of course entirely innocent.\n\nLine 4 is the lowest in the trigram **☰ Qián** of strength, and 1 is not a [proper correlate](e5a4a7e89384daxu.md#p-112), nor is the fourth the place for a strong line. Hence the paragraph must be understood as a caution.\n\nLine 5 is strong, in the central place of honour, and has its proper correlate in 2. Hence its subject must possess the quality of the hexagram in perfection. And yet he shall he sick or in distress. But he need not be anxious. Without his efforts a way of escape for him will be opened.\n\nLine 6 is at the top of the hexagram **䷘**, and comes into the field when the action has run its course. He should be still, and not initiate any fresh movement.\n\n# [无妄 ䷘](e697a0e5a684wuwang_cn.md)",
+      "exact_text": "Wû Wang is the symbol of being reckless, and often of being insincere; Wû Wang is descriptive of a state of entire freedom from such a condition; its subject is one who is entirely simple and sincere. The quality is characteristic of the action of Heaven, and of the highest style of humanity. In this hexagram we have an essay on this noble attribute. An absolute rectitude is essential to it. The nearer one comes to the ideal of the quality, the more powerful will be his influence, the greater his success. But let him see to it that he never swerve from being correct.\n\nThe first line is strong; at the commencement of the inner trigram ☳ Zhèn denoting movement, the action of its subject will very much characterise all the action set forth, and will itself be fortunate.\n\nLine 2 is weak, central, and in its correct place. The quality may be predicated of it in its highest degree. There is an entire freedom in its subject from selfish or mercenary motive. He is good simply for goodness' sake. And things are so constituted that his action will be successful.\n\nBut calamity may also sometimes befal the best, and where there is this freedom from insincerity; and line 3 being weak, and in the place of an even line, lays its subject open to this misfortune. The people of the neighbourhood are of course entirely innocent.\n\nLine 4 is the lowest in the trigram ☰ Qián of strength, and 1 is not a proper correlate, nor is the fourth the place for a strong line. Hence the paragraph must be understood as a caution.\n\nLine 5 is strong, in the central place of honour, and has its proper correlate in 2. Hence its subject must possess the quality of the hexagram in perfection. And yet he shall he sick or in distress. But he need not be anxious. Without his efforts a way of escape for him will be opened.\n\nLine 6 is at the top of the hexagram ䷘, and comes into the field when the action has run its course. He should be still, and not initiate any fresh movement. 无妄 ䷘",
       "locator": "SBE XVI, Hexagram 25; scan-backed transcription p. 109, notes",
       "sequence": 25,
       "notes": "Markdown transcription retained to preserve Legge's notes and links."
@@ -188,7 +188,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "无妄，元亨利貞。其匪正有眚，不利有攸往。",
+      "exact_text": "无妄：元亨。利貞。其匪正有眚，不利有攸往。",
       "locator": "Chinese Wikisource 周易/无妄; cross-checked against CTP Book of Changes, hexagram 25, 易經卦辭",
       "sequence": 2500,
       "notes": null
@@ -204,7 +204,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "无妄，剛自外來而為主於內，動而健，剛中而應，大亨以正，天之命也，其匪正有眚，不利有攸往。无妄之往，何之矣。天命不祐，行矣哉。",
+      "exact_text": "无妄，剛自外來，而為主於內。動而健，剛中而應，大亨以正，天之命也。其匪正有眚，不利有攸往。无妄之往，何之矣？ 天命不佑，行矣哉？",
       "locator": "Chinese Wikisource 周易/无妄; cross-checked against CTP Book of Changes, hexagram 25, 彖",
       "sequence": 25,
       "notes": null
@@ -220,7 +220,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "天下雷行，物與无妄。",
+      "exact_text": "天下雷行，物與无妄；先王以茂對時，育萬物。",
       "locator": "Chinese Wikisource 周易/无妄; cross-checked against CTP Book of Changes, hexagram 25, 大象",
       "sequence": 25,
       "notes": null
@@ -236,7 +236,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "初九，无妄往，吉。",
+      "exact_text": "初九：无妄，往吉。",
       "locator": "Chinese Wikisource 周易/无妄; cross-checked against CTP Book of Changes, hexagram 25, 爻 1",
       "sequence": 2501,
       "notes": null
@@ -268,7 +268,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六二，不耕穫，不菑畬，則利有攸往。",
+      "exact_text": "六二：不耕穫，不菑畬，則利有攸往。",
       "locator": "Chinese Wikisource 周易/无妄; cross-checked against CTP Book of Changes, hexagram 25, 爻 2",
       "sequence": 2502,
       "notes": null
@@ -300,7 +300,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "六三，无妄之災。或繫之牛，行人之得，邑人災也。",
+      "exact_text": "六三：无妄之災，或系之牛，行人之得，邑人之災。",
       "locator": "Chinese Wikisource 周易/无妄; cross-checked against CTP Book of Changes, hexagram 25, 爻 3",
       "sequence": 2503,
       "notes": null
@@ -332,7 +332,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九四，可貞，无咎。",
+      "exact_text": "九四：可貞，无咎。",
       "locator": "Chinese Wikisource 周易/无妄; cross-checked against CTP Book of Changes, hexagram 25, 爻 4",
       "sequence": 2504,
       "notes": null
@@ -364,7 +364,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "九五，无妄之疾，勿藥有喜。",
+      "exact_text": "九五：无妄之疾，勿藥有喜。",
       "locator": "Chinese Wikisource 周易/无妄; cross-checked against CTP Book of Changes, hexagram 25, 爻 5",
       "sequence": 2505,
       "notes": null
@@ -396,7 +396,7 @@
       "language": "zh-Hant",
       "source": "zhouyi-received-wikisource",
       "tradition": "received-yijing",
-      "exact_text": "上九，无妄行，有眚，无攸利。",
+      "exact_text": "上九：无妄，行有眚，无攸利。",
       "locator": "Chinese Wikisource 周易/无妄; cross-checked against CTP Book of Changes, hexagram 25, 爻 6",
       "sequence": 2506,
       "notes": null
@@ -428,7 +428,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "In ䷘ Wú Wàng we have the strong (first) line come from the outer (trigram ☰), and become in the inner trigram ☳ lord (of the whole figure); we have (the attributes of) motive power and strength; we have the strong line (of the fifth place) in the central position, and responded to (by the weak second): -- there will be 'great progress proceeding from correctness; such is the appointment of Heaven. 'If (its subject and his action) be not correct, he will fall into errors, and it will not be advantageous for him to move in any direction:' -- whither can he (who thinks he is) free from all insincerity, (and yet is as here described) proceed? Can anything be done (advantageously) by him whom the (will and) appointment of Heaven do not help?",
+      "exact_text": "In Wû Wang we have the strong (first) line come from the outer (trigram ☰), and become in the inner trigram ☳ lord (of the whole figure); we have (the attributes of) motive power and strength; we have the strong line (of the fifth place) in the central position, and responded to (by the weak second): -- there will be 'great progress proceeding from correctness; such is the appointment of Heaven. 'If (its subject and his action) be not correct, he will fall into errors, and it will not be advantageous for him to move in any direction:' -- whither can he (who thinks he is) free from all insincerity, (and yet is as here described) proceed? Can anything be done (advantageously) by him whom the (will and) appointment of Heaven do not help?",
       "locator": "SBE XVI, Appendix I, Hexagram 25, p. 234",
       "sequence": 25,
       "notes": null
@@ -444,7 +444,7 @@
       "language": "en",
       "source": "legge-yi-king-1882",
       "tradition": "received-yijing",
-      "exact_text": "䷘ Wú Wàng The thunder rolls all under the sky, and to (every)thing there is given (its nature), free from all insincerity. The ancient kings, in accordance with this, (made their regulations) in complete accordance with the seasons, thereby nourishing all things.",
+      "exact_text": "Wû Wang The thunder rolls all under the sky, and to (every)thing there is given (its nature), free from all insincerity. The ancient kings, in accordance with this, (made their regulations) in complete accordance with the seasons, thereby nourishing all things.",
       "locator": "SBE XVI, Appendix II, Hexagram 25, p. 300",
       "sequence": 25,
       "notes": null

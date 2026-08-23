@@ -1,4 +1,773 @@
 {
-  "corrections": [],
-  "note": "No silent corrections. Future changes must identify source, locator, before, after, and rationale."
+  "corrections": [
+    {
+      "affected_key": "hexagram-64-gua-ci-en-legge",
+      "before": "intimates progress and success (in the circumstances which it implies).",
+      "after": "Wei Žî intimates progress and success (in the circumstances which it implies). (We see) a young fox that has nearly crossed (the stream), when its tail gets immersed. There will be no advantage in any way.",
+      "authoritative_witness": "Legge SBE XVI (1882), printed page 207",
+      "locator": "SBE XVI, Hexagram 64; scan-backed transcription p. 207, hexagram statement",
+      "reason": "The former single-line regular expression truncated a multi-line gua-ci."
+    },
+    {
+      "affected_key": "hexagram-51-gua-ci-en-legge",
+      "before": "lǐ(里)",
+      "after": "lî",
+      "authoritative_witness": "Legge SBE XVI (1882), printed page 172",
+      "locator": "SBE XVI, Hexagram 51; scan-backed transcription p. 172, hexagram statement",
+      "reason": "Remove a modern extraction-platform dictionary annotation."
+    },
+    {
+      "affected_key": "hexagram-03-line-4-en-legge",
+      "before": "The fourth SIX, divided, shows (its subject as a lady), the horses of whose chariot appear in retreat.",
+      "after": "The fourth SIX, divided, shows (its subject as a lady), the horses of whose chariot appear in retreat. She seeks, however, (the help of) him who seeks her to be his wife. Advance will be fortunate; all will turn out advantageously.",
+      "authoritative_witness": "Legge SBE XVI (1882), scan-backed transcription",
+      "locator": "SBE XVI, Hexagram 3; scan-backed transcription p. 62, line 4",
+      "reason": "The former single-line regular expression truncated a multi-line line text."
+    },
+    {
+      "affected_key": "hexagram-27-line-4-en-legge",
+      "before": "The fourth SIX, divided, shows one looking downwards for (the power to) nourish. There will be good fortune.",
+      "after": "The fourth SIX, divided, shows one looking downwards for (the power to) nourish. There will be good fortune. Looking with a tiger's downward unwavering glare, and with his desire that impels him to spring after spring, he will fall into no error.",
+      "authoritative_witness": "Legge SBE XVI (1882), scan-backed transcription",
+      "locator": "SBE XVI, Hexagram 27; scan-backed transcription p. 114, line 4",
+      "reason": "The former single-line regular expression truncated a multi-line line text."
+    },
+    {
+      "affected_key": "hexagram-40-line-5-en-legge",
+      "before": "The fifth SIX, divided, shows (its subject), the superior man (= the ruler),",
+      "after": "The fifth SIX, divided, shows (its subject), the superior man (= the ruler), executing his function of removing (whatever is injurious to the idea of the hexagram), in which case there will he good fortune, and confidence in him will be shown even by the small men.",
+      "authoritative_witness": "Legge SBE XVI (1882), scan-backed transcription",
+      "locator": "SBE XVI, Hexagram 40; scan-backed transcription p. 144, line 5",
+      "reason": "The former single-line regular expression truncated a multi-line line text."
+    },
+    {
+      "affected_key": "hexagram-56-line-6-en-legge",
+      "before": "The sixth NINE, undivided, suggests the idea of a bird burning its nest.",
+      "after": "The sixth NINE, undivided, suggests the idea of a bird burning its nest. The stranger, (thus represented), first laughs and then cries out. He has lost his ox(-like docility) too readily and easily. There will be evil.",
+      "authoritative_witness": "Legge SBE XVI (1882), scan-backed transcription",
+      "locator": "SBE XVI, Hexagram 56; scan-backed transcription p. 187, line 6",
+      "reason": "The former single-line regular expression truncated a multi-line line text."
+    },
+    {
+      "affected_key": "hexagram-55",
+      "before": "丰",
+      "after": "豐",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/豐, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-19",
+      "before": "临",
+      "after": "臨",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/臨, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-58",
+      "before": "兑",
+      "after": "兌",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/兌, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-23",
+      "before": "剥",
+      "after": "剝",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/剝, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-24",
+      "before": "复",
+      "after": "復",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/復, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-34",
+      "before": "大壮",
+      "after": "大壯",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/大壯, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-28",
+      "before": "大过",
+      "after": "大過",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/大過, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-62",
+      "before": "小过",
+      "after": "小過",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/小過, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-07",
+      "before": "师",
+      "after": "師",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/師, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-54",
+      "before": "归妹",
+      "after": "歸妹",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/歸妹, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-32",
+      "before": "恒",
+      "after": "恆",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/恒, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-41",
+      "before": "损",
+      "after": "損",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/損, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-63",
+      "before": "既济",
+      "after": "既濟",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/既濟, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-35",
+      "before": "晋",
+      "after": "晉",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/晉, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-64",
+      "before": "未济",
+      "after": "未濟",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/未濟, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-59",
+      "before": "涣",
+      "after": "渙",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/渙, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-53",
+      "before": "渐",
+      "after": "漸",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/漸, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-30",
+      "before": "离",
+      "after": "離",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/離, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-60",
+      "before": "节",
+      "after": "節",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/節, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-18",
+      "before": "蛊",
+      "after": "蠱",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/蠱, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-20",
+      "before": "观",
+      "after": "觀",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/觀, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-06",
+      "before": "讼",
+      "after": "訟",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/訟, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-15",
+      "before": "谦",
+      "after": "謙",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/謙, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-22",
+      "before": "贲",
+      "after": "賁",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/賁, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-17",
+      "before": "随",
+      "after": "隨",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/隨, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-27",
+      "before": "颐",
+      "after": "頤",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/頤, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-50",
+      "before": "鼑",
+      "after": "鼎",
+      "authoritative_witness": "Chinese Wikisource received 周易",
+      "locator": "周易/鼎, identity heading",
+      "reason": "Simplified-character leakage from the extraction aid identity."
+    },
+    {
+      "affected_key": "hexagram-01-gua-ci-en-legge",
+      "before": "(represents) what is great and originating, penetrating, advantageous, correct and firm.",
+      "after": "Khien (represents) what is great and originating, penetrating, advantageous, correct and firm.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 1; scan-backed transcription p. 57, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-02-gua-ci-en-legge",
+      "before": "(represents) what is great and originating, penetrating, advantageous, correct and having the firmness of a mare. When the superior man (here intended) has to make any movement, if he take the initiative, he will go astray; if he follow, he will find his (proper) lord. The advantageousness will be seen in his getting friends in the south-west, and losing friends in the north-east. If he rest in correctness and firmness, there will be good fortune.",
+      "after": "Khwăn (represents) what is great and originating, penetrating, advantageous, correct and having the firmness of a mare. When the superior man (here intended) has to make any movement, if he take the initiative, he will go astray; if he follow, he will find his (proper) lord. The advantageousness will be seen in his getting friends in the south-west, and losing friends in the north-east. If he rest in correctness and firmness, there will be good fortune.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 2; scan-backed transcription p. 59, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-03-gua-ci-en-legge",
+      "before": "(indicates that in the case which it presupposes) there will be great progress and success, and the advantage will come from being correct and firm. (But) any movement in advance should not be (lightly) undertaken. There will be advantage in appointing feudal princes.",
+      "after": "Kun (indicates that in the case which it presupposes) there will be great progress and success, and the advantage will come from being correct and firm. (But) any movement in advance should not be (lightly) undertaken. There will be advantage in appointing feudal princes.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 3; scan-backed transcription p. 62, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-04-gua-ci-en-legge",
+      "before": "(indicates that in the case which it presupposes) there will be progress and success. I do not (go and) seek the youthful and inexperienced, but he comes and seeks me. When he shows (the sincerity that marks) the first recourse to divination, I instruct him. If he apply a second and third time, that is troublesome; and I do not instruct the troublesome. There will be advantage in being firm and correct.",
+      "after": "Măng (indicates that in the case which it presupposes) there will be progress and success. I do not (go and) seek the youthful and inexperienced, but he comes and seeks me. When he shows (the sincerity that marks) the first recourse to divination, I instruct him. If he apply a second and third time, that is troublesome; and I do not instruct the troublesome. There will be advantage in being firm and correct.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 4; scan-backed transcription p. 64, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-05-gua-ci-en-legge",
+      "before": "intimates that, with the sincerity which is declared in it, there will be brilliant success. With firmness there will be good fortune; and it will be advantageous to cross the great stream.",
+      "after": "Hsü intimates that, with the sincerity which is declared in it, there will be brilliant success. With firmness there will be good fortune; and it will be advantageous to cross the great stream.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 5; scan-backed transcription p. 67, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-06-gua-ci-en-legge",
+      "before": "intimates how, though there is sincerity in one's contention, he will yet meet with opposition and obstruction; but if he cherish an apprehensive caution, there will be good fortune, while, if he must prosecute the contention to the (bitter) end, there will be evil. It will be advantageous to see the great man; it will not be advantageous to cross the great stream.",
+      "after": "Sung intimates how, though there is sincerity in one's contention, he will yet meet with opposition and obstruction; but if he cherish an apprehensive caution, there will be good fortune, while, if he must prosecute the contention to the (bitter) end, there will be evil. It will be advantageous to see the great man; it will not be advantageous to cross the great stream.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 6; scan-backed transcription p. 69, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-07-gua-ci-en-legge",
+      "before": "indicates how, in the case which it supposes, with firmness and correctness, and (a leader of) age and experience, there will be good fortune and no error.",
+      "after": "Sze indicates how, in the case which it supposes, with firmness and correctness, and (a leader of) age and experience, there will be good fortune and no error.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 7; scan-backed transcription p. 71, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-08-gua-ci-en-legge",
+      "before": "indicates that (under the conditions which it supposes) there is good fortune. But let (the principal party intended in it) re-examine himself, (as if) by divination, whether his virtue be great, unintermitting, and firm. If it be so, there will be no error. Those who have not rest will then come to him; and with those who are (too) late in coming it will be ill.",
+      "after": "Pî indicates that (under the conditions which it supposes) there is good fortune. But let (the principal party intended in it) re-examine himself, (as if) by divination, whether his virtue be great, unintermitting, and firm. If it be so, there will be no error. Those who have not rest will then come to him; and with those who are (too) late in coming it will be ill.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 8; scan-backed transcription p. 73, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-09-gua-ci-en-legge",
+      "before": "indicates that (under its conditions) there will be progress and success. (We see) dense clouds, but no rain coming from our borders in the west.",
+      "after": "Hsiâo Khû indicates that (under its conditions) there will be progress and success. (We see) dense clouds, but no rain coming from our borders in the west.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 9; scan-backed transcription p. 76, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-10-gua-ci-en-legge",
+      "before": "suggests the idea of one treading on the tail of a tiger, which does not bite him. There will be progress and success.",
+      "after": "Lî suggests the idea of one treading on the tail of a tiger, which does not bite him. There will be progress and success.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 10; scan-backed transcription p. 78, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-11-gua-ci-en-legge",
+      "before": "In  (we see) the little gone and the great come. (It indicates that) there will be good fortune, with progress and success.",
+      "after": "In Thâi (we see) the little gone and the great come. (It indicates that) there will be good fortune, with progress and success.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 11; scan-backed transcription p. 81, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-12-gua-ci-en-legge",
+      "before": "In  there is the want of good understanding between the (different classes of) men, and its indication is unfavourable to the firm and correct course of the superior man. We see in it the great gone and the little come.",
+      "after": "In Phî there is the want of good understanding between the (different classes of) men, and its indication is unfavourable to the firm and correct course of the superior man. We see in it the great gone and the little come.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 12; scan-backed transcription p. 83, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-13-gua-ci-en-legge",
+      "before": "(or Union of men) appears here (as we find it) in the (remote districts of the) country, indicating progress and success. It will be advantageous to cross the great stream. It will be advantageous to maintain the firm correctness of the superior man.",
+      "after": "Thung Zăn (or Union of men) appears here (as we find it) in the (remote districts of the) country, indicating progress and success. It will be advantageous to cross the great stream. It will be advantageous to maintain the firm correctness of the superior man.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 13; scan-backed transcription p. 86, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-14-gua-ci-en-legge",
+      "before": "indicates that, (under the circumstances which it implies), there will be great progress and success.",
+      "after": "Tâ Yû indicates that, (under the circumstances which it implies), there will be great progress and success.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 14; scan-backed transcription p. 88, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-15-gua-ci-en-legge",
+      "before": "indicates progress and success. The superior man, (being humble as it implies), will have a (good) issue (to his undertakings).",
+      "after": "Khien indicates progress and success. The superior man, (being humble as it implies), will have a (good) issue (to his undertakings).",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 15; scan-backed transcription p. 89, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-16-gua-ci-en-legge",
+      "before": "indicates that, (in the state which it implies), feudal princes may be set up, and the hosts put in motion, with advantage.",
+      "after": "Yü indicates that, (in the state which it implies), feudal princes may be set up, and the hosts put in motion, with advantage.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 16; scan-backed transcription p. 91, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-17-gua-ci-en-legge",
+      "before": "indicates that (under its conditions) there will be great progress and success. But it will be advantageous to be firm and correct. There will (then) be no error.",
+      "after": "Sui indicates that (under its conditions) there will be great progress and success. But it will be advantageous to be firm and correct. There will (then) be no error.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 17; scan-backed transcription p. 93, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-18-gua-ci-en-legge",
+      "before": "indicates great progress and success (to him who deals properly with the condition represented by it). There will be advantage in (efforts like that of) crossing the great stream. (He should weigh well, however, the events of) three days before the turning point, and those (to be done) three days after it.",
+      "after": "Kû indicates great progress and success (to him who deals properly with the condition represented by it). There will be advantage in (efforts like that of) crossing the great stream. (He should weigh well, however, the events of) three days before the turning point, and those (to be done) three days after it.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 18; scan-backed transcription p. 95, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-19-gua-ci-en-legge",
+      "before": "(indicates that under the conditions supposed in it) there will be great progress and success, while it will be advantageous to be firmly correct. In the eighth month there will be evil.",
+      "after": "Lin (indicates that under the conditions supposed in it) there will be great progress and success, while it will be advantageous to be firmly correct. In the eighth month there will be evil.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 19; scan-backed transcription p. 97, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-20-gua-ci-en-legge",
+      "before": "shows (how he whom it represents should be like) the worshipper who has washed his hands, but not (yet) presented his offerings; -- with sincerity and an appearance of dignity (commanding reverent regard).",
+      "after": "Kwân shows (how he whom it represents should be like) the worshipper who has washed his hands, but not (yet) presented his offerings; -- with sincerity and an appearance of dignity (commanding reverent regard).",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 20; scan-backed transcription p. 99, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-21-gua-ci-en-legge",
+      "before": "indicates successful progress (in the condition of things which it supposes). It will be advantageous to use legal constraints.",
+      "after": "Shih Ho indicates successful progress (in the condition of things which it supposes). It will be advantageous to use legal constraints.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 21; scan-backed transcription p. 102, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-22-gua-ci-en-legge",
+      "before": "indicates that there should be free course (in what it denotes). There will be little advantage (however) if it be allowed to advance (and take the lead).",
+      "after": "Pî indicates that there should be free course (in what it denotes). There will be little advantage (however) if it be allowed to advance (and take the lead).",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 22; scan-backed transcription p. 103, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-23-gua-ci-en-legge",
+      "before": "indicates that (in the state which it symbolises) it will not be advantageous to make a movement in any direction whatever.",
+      "after": "Po indicates that (in the state which it symbolises) it will not be advantageous to make a movement in any direction whatever.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 23; scan-backed transcription p. 105, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-24-gua-ci-en-legge",
+      "before": "indicates that there will be free course and progress (in what it denotes). (The subject of it) finds no one to distress him in his exits and entrances; friends come to him, and no error is committed . He will return and repeat his (proper) course. In seven days comes his return. There will be advantage in whatever direction movement is made.",
+      "after": "Fû indicates that there will be free course and progress (in what it denotes). (The subject of it) finds no one to distress him in his exits and entrances; friends come to him, and no error is committed . He will return and repeat his (proper) course. In seven days comes his return. There will be advantage in whatever direction movement is made.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 24; scan-backed transcription p. 107, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-25-gua-ci-en-legge",
+      "before": "indicates great progress and success, while there will be advantage in being firm and correct. If (its subject and his action) be not correct, he will fall into errors, and it will not be advantageous for him to move in any direction.",
+      "after": "Wû Wang indicates great progress and success, while there will be advantage in being firm and correct. If (its subject and his action) be not correct, he will fall into errors, and it will not be advantageous for him to move in any direction.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 25; scan-backed transcription p. 109, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-26-gua-ci-en-legge",
+      "before": "Under the conditions of  it will be advantageous to be firm and correct. (If its subject do not seek to) enjoy his revenues in his own family (without taking service at court), there will be good fortune. It will be advantageous for him to cross the great stream.",
+      "after": "Under the conditions of Tâ Khû it will be advantageous to be firm and correct. (If its subject do not seek to) enjoy his revenues in his own family (without taking service at court), there will be good fortune. It will be advantageous for him to cross the great stream.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 26; scan-backed transcription p. 112, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-27-gua-ci-en-legge",
+      "before": "indicates that with firm correctness there will be good fortune (in what is denoted by it). We must look at what we are seeking to nourish, and by the exercise of our thoughts seek for the proper aliment.",
+      "after": "Î indicates that with firm correctness there will be good fortune (in what is denoted by it). We must look at what we are seeking to nourish, and by the exercise of our thoughts seek for the proper aliment.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 27; scan-backed transcription p. 114, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-28-gua-ci-en-legge",
+      "before": "suggests to us a beam that is weak. There will be advantage in moving (under its conditions) in any direction whatever; there will be success.",
+      "after": "Tâ Kwo suggests to us a beam that is weak. There will be advantage in moving (under its conditions) in any direction whatever; there will be success.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 28; scan-backed transcription p. 116, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-29-gua-ci-en-legge",
+      "before": ", here repeated, shows the possession of sincerity, through which the mind is penetrating. Action (in accordance with this) will be of high value.",
+      "after": "Khân, here repeated, shows the possession of sincerity, through which the mind is penetrating. Action (in accordance with this) will be of high value.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 29; scan-backed transcription p. 118, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-30-gua-ci-en-legge",
+      "before": "indicates that, (in regard to what it denotes), it will be advantageous to be firm and correct, and that thus there will be free course and success. Let (its subject) also nourish (a docility like that of) the cow, and there will be good fortune.",
+      "after": "Lî indicates that, (in regard to what it denotes), it will be advantageous to be firm and correct, and that thus there will be free course and success. Let (its subject) also nourish (a docility like that of) the cow, and there will be good fortune.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 30; scan-backed transcription p. 120, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-31-gua-ci-en-legge",
+      "before": "indicates that, (on the fulfilment of the conditions implied in it), there will be free course and success. Its advantageousness will depend on the being firm and correct, (as) in marrying a young lady. There will be good fortune.",
+      "after": "Hsien indicates that, (on the fulfilment of the conditions implied in it), there will be free course and success. Its advantageousness will depend on the being firm and correct, (as) in marrying a young lady. There will be good fortune.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 31; scan-backed transcription p. 123, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-32-gua-ci-en-legge",
+      "before": "indicates successful progress and no error (in what it denotes). But the advantage will come from being firm and correct; and movement in any direction whatever will be advantageous.",
+      "after": "Hăng indicates successful progress and no error (in what it denotes). But the advantage will come from being firm and correct; and movement in any direction whatever will be advantageous.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 32; scan-backed transcription p. 125, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-33-gua-ci-en-legge",
+      "before": "indicates successful progress (in its circumstances). To a small extent it will (still) be advantageous to be firm and correct.",
+      "after": "Thun indicates successful progress (in its circumstances). To a small extent it will (still) be advantageous to be firm and correct.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 33; scan-backed transcription p. 127, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-34-gua-ci-en-legge",
+      "before": "indicates that (under the conditions which it symbolises) it will be advantageous to be firm and correct.",
+      "after": "Ta Kwang indicates that (under the conditions which it symbolises) it will be advantageous to be firm and correct.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 34; scan-backed transcription p. 129, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-35-gua-ci-en-legge",
+      "before": "In  we see a prince who secures the tranquillity (of the people) presented on that account with numerous horses (by the king), and three times in a day received at interviews.",
+      "after": "In Žin we see a prince who secures the tranquillity (of the people) presented on that account with numerous horses (by the king), and three times in a day received at interviews.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 35; scan-backed transcription p. 131, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-36-gua-ci-en-legge",
+      "before": "indicates that (in the circumstances which it denotes) it will be advantageous to realise the difficulty (of the position), and maintain firm correctness.",
+      "after": "Ming Î indicates that (in the circumstances which it denotes) it will be advantageous to realise the difficulty (of the position), and maintain firm correctness.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 36; scan-backed transcription p. 134, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-37-gua-ci-en-legge",
+      "before": "For (the realisation of what is taught in)  , (or for the regulation of the family), what is most advantageous is that the wife be firm and correct.",
+      "after": "For (the realisation of what is taught in) Kiâ Zăn , (or for the regulation of the family), what is most advantageous is that the wife be firm and correct.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 37; scan-backed transcription p. 136, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-38-gua-ci-en-legge",
+      "before": "indicates that, (notwithstanding the condition of things which it denotes), in small matters there will (still) be good success.",
+      "after": "Khwei indicates that, (notwithstanding the condition of things which it denotes), in small matters there will (still) be good success.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 38; scan-backed transcription p. 139, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-39-gua-ci-en-legge",
+      "before": "In (the state indicated by)  advantage will be found in the south-west, and the contrary in the north-east. It will be advantageous (also) to meet with the great man. (In these circumstances), with firmness and correctness, there will be good fortune.",
+      "after": "In (the state indicated by) Kien advantage will be found in the south-west, and the contrary in the north-east. It will be advantageous (also) to meet with the great man. (In these circumstances), with firmness and correctness, there will be good fortune.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 39; scan-backed transcription p. 141, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-40-gua-ci-en-legge",
+      "before": "In (the state indicated by)  advantage will be found in the south-west. If no (further) operations be called for, there will be good fortune in coming back (to the old conditions). If some operations be called for, there will be good fortune in the early conducting of them.",
+      "after": "In (the state indicated by) Kieh advantage will be found in the south-west. If no (further) operations be called for, there will be good fortune in coming back (to the old conditions). If some operations be called for, there will be good fortune in the early conducting of them.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 40; scan-backed transcription p. 144, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-41-gua-ci-en-legge",
+      "before": "In (what is denoted by) , if there be sincerity (in him who employs it), there will be great good fortune: -- freedom from error; firmness and correctness that can be maintained; and advantage in every movement that shall be made. In what shall this (sincerity in the exercise of Sun) be employed? (Even) in sacrifice two baskets of grain, (though there be nothing else), may be presented.",
+      "after": "In (what is denoted by) Sun, if there be sincerity (in him who employs it), there will be great good fortune: -- freedom from error; firmness and correctness that can be maintained; and advantage in every movement that shall be made. In what shall this (sincerity in the exercise of Sun) be employed? (Even) in sacrifice two baskets of grain, (though there be nothing else), may be presented.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 41; scan-backed transcription p. 146, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-42-gua-ci-en-legge",
+      "before": "indicates that (in the state which it denotes) there will be advantage in every movement which shall be undertaken, that it will be advantageous (even) to cross the great stream.",
+      "after": "Yî indicates that (in the state which it denotes) there will be advantage in every movement which shall be undertaken, that it will be advantageous (even) to cross the great stream.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 42; scan-backed transcription p. 149, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-43-gua-ci-en-legge",
+      "before": "requires (in him who would fulfil its meaning) the exhibition (of the culprit's guilt) in the royal court, and a sincere and earnest appeal (for sympathy and support), with a consciousness of the peril (involved in cutting off the criminal). He should (also) make announcement in his own city, and show that it will not be well to have recourse at once to arms. (In this way) there will be advantage in whatever he shall go forward to.",
+      "after": "Kwâi requires (in him who would fulfil its meaning) the exhibition (of the culprit's guilt) in the royal court, and a sincere and earnest appeal (for sympathy and support), with a consciousness of the peril (involved in cutting off the criminal). He should (also) make announcement in his own city, and show that it will not be well to have recourse at once to arms. (In this way) there will be advantage in whatever he shall go forward to.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 43; scan-backed transcription p. 151, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-44-gua-ci-en-legge",
+      "before": "shows a female who is bold and strong. It will not be good to marry (such) a female.",
+      "after": "Kâu shows a female who is bold and strong. It will not be good to marry (such) a female.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 44; scan-backed transcription p. 154, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-45-gua-ci-en-legge",
+      "before": "In (the state denoted by) , the king will repair to his ancestral temple. It will be advantageous (also) to meet with the great man; and then there will be progress and success, though the advantage must come through firm correctness. The use of great victims will conduce to good fortune; and in whatever direction movement is made, it will be advantageous.",
+      "after": "In (the state denoted by) Žhui, the king will repair to his ancestral temple. It will be advantageous (also) to meet with the great man; and then there will be progress and success, though the advantage must come through firm correctness. The use of great victims will conduce to good fortune; and in whatever direction movement is made, it will be advantageous.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 45; scan-backed transcription p. 156, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-46-gua-ci-en-legge",
+      "before": "indicates that (under its conditions) there will be great progress and success. Seeking by (the qualities implied in it) to meet with the great man, its subject need have no anxiety. Advance to the south will be fortunate.",
+      "after": "Shăng indicates that (under its conditions) there will be great progress and success. Seeking by (the qualities implied in it) to meet with the great man, its subject need have no anxiety. Advance to the south will be fortunate.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 46; scan-backed transcription p. 159, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-47-gua-ci-en-legge",
+      "before": "In (the condition denoted by)  there may (yet be) progress and success. For the firm and correct, the (really) great man, there will be good fortune. He will fall into no error. If he make speeches, his words cannot be made good.",
+      "after": "In (the condition denoted by) Khwăn there may (yet be) progress and success. For the firm and correct, the (really) great man, there will be good fortune. He will fall into no error. If he make speeches, his words cannot be made good.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 47; scan-backed transcription p. 161, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-48-gua-ci-en-legge",
+      "before": "(Looking at) , (we think of) how (the site of) a town may be changed, while (the fashion of) its wells undergoes no change. (The water of a well) never disappears and never receives (any great) increase, and those who come and those who go can draw and enjoy the benefit. If (the drawing) have nearly been accomplished, but, before the rope has quite reached the water, the bucket is broken, this is evil.",
+      "after": "(Looking at) Žing, (we think of) how (the site of) a town may be changed, while (the fashion of) its wells undergoes no change. (The water of a well) never disappears and never receives (any great) increase, and those who come and those who go can draw and enjoy the benefit. If (the drawing) have nearly been accomplished, but, before the rope has quite reached the water, the bucket is broken, this is evil.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 48; scan-backed transcription p. 164, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-49-gua-ci-en-legge",
+      "before": "(What takes place as indicated by)  is believed in only after it has been accomplished. There will be great progress and success. Advantage will come from being firm and correct. (In that case) occasion for repentance will disappear.",
+      "after": "(What takes place as indicated by) Ko is believed in only after it has been accomplished. There will be great progress and success. Advantage will come from being firm and correct. (In that case) occasion for repentance will disappear.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 49; scan-backed transcription p. 167, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-50-gua-ci-en-legge",
+      "before": "gives the intimation of great progress and success.",
+      "after": "Ting gives the intimation of great progress and success.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 50; scan-backed transcription p. 169, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-51-gua-ci-en-legge",
+      "before": "gives the intimation of ease and development. When (the time of) movement (which it indicates) comes, (the subject of the hexagram) will be found looking out with apprehension, and yet smiling and talking cheerfully. When the movement (like a crash of thunder) terrifies all within a hundred lî, he will be (like the sincere worshipper) who is not (startled into) letting go his ladle and (cup of) sacrificial spirits.",
+      "after": "Kăn gives the intimation of ease and development. When (the time of) movement (which it indicates) comes, (the subject of the hexagram) will be found looking out with apprehension, and yet smiling and talking cheerfully. When the movement (like a crash of thunder) terrifies all within a hundred lî, he will be (like the sincere worshipper) who is not (startled into) letting go his ladle and (cup of) sacrificial spirits.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 51; scan-backed transcription p. 172, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-53-gua-ci-en-legge",
+      "before": "suggests to us the marriage of a young lady, and the good fortune (attending it). There will be advantage in being firm and correct.",
+      "after": "Kien suggests to us the marriage of a young lady, and the good fortune (attending it). There will be advantage in being firm and correct.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 53; scan-backed transcription p. 178, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-54-gua-ci-en-legge",
+      "before": "indicates that (under the conditions which it denotes) action will be evil, and in no wise advantageous.",
+      "after": "Kwei Mei indicates that (under the conditions which it denotes) action will be evil, and in no wise advantageous.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 54; scan-backed transcription p. 180, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-55-gua-ci-en-legge",
+      "before": "intimates progress and development. When a king has reached the point (which the name denotes) there is no occasion to be anxious (through fear of a change). Let him be as the sun at noon.",
+      "after": "Făng intimates progress and development. When a king has reached the point (which the name denotes) there is no occasion to be anxious (through fear of a change). Let him be as the sun at noon.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 55; scan-backed transcription p. 183, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-56-gua-ci-en-legge",
+      "before": "intimates that (in the condition which it denotes) there may be some little attainment and progress. If the stranger or traveller be firm and correct as he ought to be, there will be good fortune.",
+      "after": "Lü intimates that (in the condition which it denotes) there may be some little attainment and progress. If the stranger or traveller be firm and correct as he ought to be, there will be good fortune.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 56; scan-backed transcription p. 187, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-57-gua-ci-en-legge",
+      "before": "intimates that (under the conditions which it denotes) there will be some little attainment and progress. There will be advantage in movement onward in whatever direction. It will be advantageous (also) to see the great man.",
+      "after": "Sun intimates that (under the conditions which it denotes) there will be some little attainment and progress. There will be advantage in movement onward in whatever direction. It will be advantageous (also) to see the great man.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 57; scan-backed transcription p. 189, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-58-gua-ci-en-legge",
+      "before": "intimates that (under its conditions) there will be progress and attainment. (But) it will be advantageous to be firm and correct.",
+      "after": "Tui intimates that (under its conditions) there will be progress and attainment. (But) it will be advantageous to be firm and correct.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 58; scan-backed transcription p. 192, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-59-gua-ci-en-legge",
+      "before": "intimates that (under its conditions) there will be progress and success. The king goes to his ancestral temple; and it will be advantageous to cross the great stream. It will be advantageous to be firm and correct.",
+      "after": "Hwân intimates that (under its conditions) there will be progress and success. The king goes to his ancestral temple; and it will be advantageous to cross the great stream. It will be advantageous to be firm and correct.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 59; scan-backed transcription p. 194, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-60-gua-ci-en-legge",
+      "before": "intimates that (under its conditions) there will be progress and attainment. (But) if the regulations (which it prescribes) be severe and difficult, they cannot be permanent.",
+      "after": "Kieh intimates that (under its conditions) there will be progress and attainment. (But) if the regulations (which it prescribes) be severe and difficult, they cannot be permanent.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 60; scan-backed transcription p. 197, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-61-gua-ci-en-legge",
+      "before": "(moves even) pigs and fish, and leads to good fortune. There will be advantage in crossing the great stream. There will be advantage in being firm and correct.",
+      "after": "Kung Fû (moves even) pigs and fish, and leads to good fortune. There will be advantage in crossing the great stream. There will be advantage in being firm and correct.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 61; scan-backed transcription p. 199, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-62-gua-ci-en-legge",
+      "before": "indicates that (in the circumstances which it implies) there will be progress and attainment. But it will be advantageous to be firm and correct. (What the name denotes) may be done in small affairs, but not in great affairs. (It is like) the notes that come down from a bird on the wing; -- to descend is better than to ascend. There will (in this way) be great good fortune.",
+      "after": "Hsiâo Kwo indicates that (in the circumstances which it implies) there will be progress and attainment. But it will be advantageous to be firm and correct. (What the name denotes) may be done in small affairs, but not in great affairs. (It is like) the notes that come down from a bird on the wing; -- to descend is better than to ascend. There will (in this way) be great good fortune.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 62; scan-backed transcription p. 201, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-63-gua-ci-en-legge",
+      "before": "intimates progress and success in small matters. There will be advantage in being firm and correct. There has been good fortune in the beginning; there may be disorder in the end.",
+      "after": "Kî Žî intimates progress and success in small matters. There will be advantage in being firm and correct. There has been good fortune in the beginning; there may be disorder in the end.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 63; scan-backed transcription p. 204, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    },
+    {
+      "affected_key": "hexagram-64-gua-ci-en-legge",
+      "before": "intimates progress and success (in the circumstances which it implies). (We see) a young fox that has nearly crossed (the stream), when its tail gets immersed. There will be no advantage in any way.",
+      "after": "Wei Žî intimates progress and success (in the circumstances which it implies). (We see) a young fox that has nearly crossed (the stream), when its tail gets immersed. There will be no advantage in any way.",
+      "authoritative_witness": "Legge SBE XVI scan contents and hexagram text",
+      "locator": "SBE XVI, Hexagram 64; scan-backed transcription p. 207, hexagram statement",
+      "reason": "Restore Legge's hexagram name, previously omitted by normalization."
+    }
+  ],
+  "note": "Compiler/source-integrity corrections are explicit. Future changes must identify source, locator, before, after, and rationale."
 }
