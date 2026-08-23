@@ -4,6 +4,18 @@ from app.main import create_app
 from tests.conftest import FakeRandom
 
 
+def test_corpus_status_reports_missing_data_on_empty_database(client: TestClient) -> None:
+    response = client.get("/api/v1/corpus-status")
+    assert response.status_code == 200
+    assert response.json() == {
+        "rws_ready": False,
+        "rws_item_count": 0,
+        "iching_ready": False,
+        "hexagram_count": 0,
+        "iching_method_count": 0,
+    }
+
+
 def test_draw_persists_and_multiple_casts(
     client: TestClient, collection: dict, reading: dict
 ) -> None:
@@ -24,6 +36,9 @@ def test_draw_persists_and_multiple_casts(
     reloaded = client.get(f"/api/v1/readings/{reading['id']}").json()
     assert len(reloaded["casts"]) == 2
     assert reloaded["casts"][0]["draw_results"] == original
+    summary = client.get("/api/v1/readings").json()[0]
+    assert summary["cast_count"] == 2
+    assert summary["cast_types"] == ["collection", "iching"]
 
 
 def test_draw_too_many_returns_validation_error(

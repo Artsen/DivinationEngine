@@ -1,7 +1,8 @@
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Request, Response, status
-from sqlalchemy import select
+from fastapi.responses import FileResponse
+from sqlalchemy import func, select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session, selectinload
 
@@ -12,6 +13,7 @@ from app.schemas.contracts import (
     CollectionCreate,
     CollectionOut,
     CollectionPatch,
+    CorpusStatus,
     CorrespondenceCreate,
     CorrespondenceOut,
     DrawRequest,
@@ -40,6 +42,7 @@ from app.schemas.readings import (
     ReadingContext,
     ReadingDetail,
 )
+from app.services.assets import resolve_item_image
 from app.services.readings import (
     cast_dict,
     context_dict,
@@ -128,6 +131,27 @@ def health() -> dict[str, str]:
     return {"status": "ok"}
 
 
+@router.get("/corpus-status", response_model=CorpusStatus)
+def corpus_status(db: DB) -> dict[str, bool | int]:
+    rws_item_count = (
+        db.scalar(
+            select(func.count(models.Item.id))
+            .join(models.Collection)
+            .where(models.Collection.slug == "rws-1909")
+        )
+        or 0
+    )
+    hexagram_count = db.scalar(select(func.count(models.Hexagram.id))) or 0
+    method_count = db.scalar(select(func.count(models.IChingMethod.id))) or 0
+    return {
+        "rws_ready": rws_item_count == 78,
+        "rws_item_count": rws_item_count,
+        "iching_ready": hexagram_count == 64 and method_count >= 2,
+        "hexagram_count": hexagram_count,
+        "iching_method_count": method_count,
+    }
+
+
 @router.get("/collections", response_model=list[CollectionOut])
 def list_collections(db: DB) -> list[dict]:
     rows = db.scalars(
@@ -202,6 +226,28 @@ def get_item(item_id: str, db: DB) -> dict:
     if row is None:
         raise not_found("item")
     return item_out(row)
+
+
+@router.get(
+    "/items/{item_id}/image",
+    responses={200: {"content": {"image/jpeg": {}}}, 404: {"description": "Image not found"}},
+)
+def get_item_image(item_id: str, db: DB) -> FileResponse:
+    item = db.get(models.Item, item_id)
+    if item is None:
+        raise not_found("item image")
+    resolved = resolve_item_image(item)
+    if resolved is None:
+        raise not_found("item image")
+    path, media_type, sha256 = resolved
+    return FileResponse(
+        path,
+        media_type=media_type,
+        headers={
+            "Cache-Control": "public, max-age=31536000, immutable",
+            "ETag": f'"{sha256}"',
+        },
+    )
 
 
 @router.get("/sources", response_model=list[SourceOut])
@@ -330,7 +376,13 @@ def create_reading(body: ReadingCreate, db: DB) -> models.Reading:
 
 @router.get("/readings", response_model=list[ReadingSummary])
 def list_readings(db: DB) -> list[models.Reading]:
-    return list(db.scalars(select(models.Reading).order_by(models.Reading.created_at.desc())).all())
+    return list(
+        db.scalars(
+            select(models.Reading)
+            .options(selectinload(models.Reading.casts))
+            .order_by(models.Reading.created_at.desc())
+        ).all()
+    )
 
 
 @router.get("/readings/{reading_id}", response_model=ReadingDetail)

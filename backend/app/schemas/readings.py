@@ -46,6 +46,39 @@ class IChingCastRequest(BaseModel):
     method: Literal["three-coin", "yarrow-stalk", "three_coin"] = "three-coin"
 
 
+class IChingTextContext(BaseModel):
+    key: str
+    layer: str
+    unit_type: str
+    line_position: int | None
+    section: str | None
+    language: str
+    source_id: str
+    tradition_id: str | None
+    exact_text: str
+    locator: str
+    sequence: int
+    notes: str | None
+
+
+class HexagramContext(BaseModel):
+    key: str | None
+    canonical_number: int
+    binary_pattern: str
+    chinese_name: str | None
+    pinyin: str | None
+    legge_title: str | None
+    glyph: str | None
+    texts: list[IChingTextContext]
+
+
+class IChingKnowledge(BaseModel):
+    primary: HexagramContext | None
+    relating: HexagramContext | None
+    changing_lines: list[int]
+    selection_notice: str
+
+
 class IChingOut(BaseModel):
     method: Literal["three-coin", "yarrow-stalk"]
     pattern_order: Literal["bottom_to_top"]
@@ -53,7 +86,7 @@ class IChingOut(BaseModel):
     changing_lines: list[int]
     relating_pattern: str
     throws: list[IChingThrowOut]
-    knowledge: dict[str, Any] | None = None
+    knowledge: IChingKnowledge | None = None
 
 
 class CastOut(BaseModel):

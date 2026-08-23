@@ -1,9 +1,9 @@
 # DivinationEngine
 
-DivinationEngine is a standalone, provenance-first backend for digital divination. The
-current milestone performs mechanical collection draws, data-driven spread placement, and
-traditional six-throw three-coin I Ching casts. It persists readings and source-backed
-knowledge. **It does not provide AI-generated readings or fabricate symbolic meaning.**
+DivinationEngine is a local, provenance-first application for digital divination. Its React
+workspace is a client of a FastAPI backend that performs mechanical Tarot draws and I Ching
+casts, persists exact results, and returns source-backed knowledge. **It does not provide
+AI-generated readings or fabricate symbolic meaning.**
 
 ## Architecture
 
@@ -12,6 +12,7 @@ knowledge. **It does not provide AI-generated readings or fabricate symbolic mea
 - `backend/app/db`: SQLAlchemy persistence models, separate from domain values/functions.
 - `backend/app/api`: versioned HTTP transport only.
 - `backend/alembic`: the production schema migration history.
+- `frontend`: React, Vite, and TypeScript browser client; no divination mechanics.
 - `data`: import documentation and explicitly fictional examples.
 
 A Reading owns any number of immutable collection or I Ching casts. A collection cast owns
@@ -24,23 +25,70 @@ columns, so new systems do not require schema changes.
 SQLite is the default. PostgreSQL can replace it by setting `DIVINATION_DATABASE_URL`; the
 domain layer has no database dependency. UUID strings are public identifiers.
 
-## Install and run
+## Install and run the application
 
-Python 3.12 or newer is required.
+Python 3.12+, [uv](https://docs.astral.sh/uv/), and Node.js 22+ are required. The bootstrap
+command applies migrations and idempotently installs the bundled RWS and I Ching corpora. It
+never deletes existing readings or other user data and is safe to run again.
 
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
-pip install -e ".[dev]"
-alembic upgrade head
-uvicorn app.main:app --app-dir backend --reload
+```console
+uv sync --extra dev
+uv run divination-dev-bootstrap
 ```
 
-Swagger is at `http://127.0.0.1:8000/docs`. Configuration uses environment variables with
-the `DIVINATION_` prefix, notably `DIVINATION_DATABASE_URL`.
+Then run two terminals from the repository root.
+
+Terminal 1 — API:
+
+```console
+uv run uvicorn app.main:app --app-dir backend --reload
+```
+
+Terminal 2 — browser client:
+
+```console
+cd frontend
+npm ci
+npm run dev
+```
+
+Open `http://localhost:5173`. The Vite development server proxies relative `/api/v1/...`
+requests to `http://127.0.0.1:8000`; set `VITE_API_PROXY_TARGET` to change that development
+target. A production deployment can set `VITE_API_BASE_URL` at build time without editing
+source. No permissive cross-origin policy is required for the normal proxy setup.
+
+The app reports when the API is unavailable or either corpus is missing. Corpus installation
+is never triggered by the browser. Configuration uses environment variables with the
+`DIVINATION_` prefix, notably `DIVINATION_DATABASE_URL`; set it before bootstrap and server
+startup to use a database other than the default `divination.db`.
+
+Swagger remains available at `http://127.0.0.1:8000/docs` for API development.
+
+### Development bootstrap
+
+`divination-dev-bootstrap` explicitly performs two operations:
+
+1. upgrades the selected database to the latest Alembic revision;
+2. transactionally upserts `rws-import.json` and `iching-import.json`.
+
+Its JSON report distinguishes created and updated rows. There is intentionally no implicit or
+destructive reset mode.
+
+### OpenAPI client types
+
+The checked-in OpenAPI snapshot and generated TypeScript declarations make frontend builds
+independent of a running backend. Refresh both after changing API contracts:
+
+```console
+uv run divination-openapi frontend/openapi.json
+cd frontend
+npm run api:types
+```
 
 ## Example workflow
+
+The web UI is the primary human workflow. The following curl sequence remains useful for API
+development and integration debugging.
 
 ```bash
 curl -X POST http://127.0.0.1:8000/api/v1/collections \
@@ -150,6 +198,12 @@ The deterministic relevance rule is:
 All other stored categories remain visible under `other_interpretations`; new taxonomy values are
 never silently declared relevant.
 
+Canonical RWS images are delivered offline through
+`GET /api/v1/items/{item_id}/image`. The endpoint accepts only an existing item identity,
+cross-checks its metadata against the committed RWS image manifest, and never accepts a file
+path. Attested images receive immutable cache headers; unknown, non-RWS, missing, or altered
+asset records return 404.
+
 ## Taxonomy policy
 
 Content classifications are open taxonomies. `Collection.system_type` and
@@ -164,17 +218,24 @@ or workflow state therefore requires an intentional engine and schema change.
 ## Quality checks
 
 ```bash
-pytest
-ruff format --check .
-ruff check .
-mypy
-alembic check
+uv run pytest
+uv run ruff format --check .
+uv run ruff check .
+uv run mypy
+uv lock --check
+uv run alembic check
+cd frontend
+npm run typecheck
+npm run lint
+npm test
+npm run build
+npm run e2e
 ```
 
 ## Scope and roadmap
 
-This milestone includes the API, migrations, secure mechanical casts, persistent readings,
-notes, spreads/placements, provenance-aware item knowledge, and bulk import. Future milestones
-may add a web UI, authentication, richer hexagram corpora, more collection systems, and an AI
-client. Any future AI remains a consumer of the public facts API—not a truth source and not part
-of casting.
+This milestone includes the browser reading workspace, API, migrations, secure mechanical
+casts, persistent readings, notes, basic spread/placement display, provenance-aware knowledge,
+and bulk import. Future milestones may add richer spread editing, authentication, additional
+rights-compatible corpora, or packaging. Any future AI remains a consumer of the public facts
+API—not a truth source and not part of casting.

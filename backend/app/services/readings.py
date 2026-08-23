@@ -325,7 +325,7 @@ def context_dict(session: Session, reading: models.Reading) -> dict:
                     return None
                 selected = []
                 for text_row in iching_texts_by_hexagram.get(row.id, []):
-                    include = text_row.unit_type in {"gua-ci", "great-image"}
+                    include = text_row.unit_type in {"gua-ci", "great-image", "tuan"}
                     include = include or (
                         primary
                         and text_row.line_position in changing_lines

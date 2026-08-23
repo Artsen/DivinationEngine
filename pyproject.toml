@@ -29,6 +29,8 @@ dev = [
 divination-import = "app.services.importer:main"
 divination-corpus = "app.services.corpus:main"
 divination-iching-corpus = "app.services.iching_corpus:main"
+divination-dev-bootstrap = "app.services.dev_bootstrap:main"
+divination-openapi = "app.services.openapi_schema:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["backend/app"]

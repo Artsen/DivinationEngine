@@ -18,3 +18,10 @@ test.db
 /rws_corpus_complete_rebuilt_metadata.zip
 /rws_corpus_complete_rebuilt_metadata/
 /.quality-rws*.db
+/.e2e-web-ui.db
+
+# Frontend build and browser-test output
+/frontend/node_modules/
+/frontend/dist/
+/frontend/playwright-report/
+/frontend/test-results/
