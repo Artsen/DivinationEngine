@@ -1,0 +1,103 @@
+{
+  "slug": "two-of-pentacles",
+  "name": "Two of Pentacles",
+  "sequence": 65,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "two",
+  "rank_index": 2,
+  "interpretations": [
+    {
+      "key": "waite-pk-two-of-pentacles-description",
+      "item": "rws-1909/two-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A young man, in the act of dancing, has a pentacle in either hand, and they are joined by that endless cord which is like the number 8 reversed.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Two",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-two-of-pentacles-divinatory-upright",
+      "item": "rws-1909/two-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "On the one hand it is represented as a card of gaiety, recreation and its connexions, which is the subject of the design; but it is read also as news and messages in writing, as obstacles, agitation, trouble, embroilment.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Two",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-two-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/two-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Enforced gaiety, simulated enjoyment, literal sense, handwriting, composition, letters of exchange.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Two",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-two-of-pentacles-additional-upright",
+      "item": "rws-1909/two-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Two",
+      "interpretation_type": "upright",
+      "exact_text": "Troubles are more imaginary than real",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-two-of-pentacles-additional-reversed",
+      "item": "rws-1909/two-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Two",
+      "interpretation_type": "reversed",
+      "exact_text": "Bad omen, ignorance, injustice",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-two-of-pentacles-golden-dawn-title-harmonious-change",
+      "item": "rws-1909/two-of-pentacles",
+      "type": "golden_dawn_title",
+      "value": "Harmonious Change",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-two-of-pentacles-planet-jupiter",
+      "item": "rws-1909/two-of-pentacles",
+      "type": "planet",
+      "value": "Jupiter",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-two-of-pentacles-zodiac-sign-capricorn",
+      "item": "rws-1909/two-of-pentacles",
+      "type": "zodiac_sign",
+      "value": "Capricorn",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-two-of-pentacles"
+}

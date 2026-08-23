@@ -1,0 +1,70 @@
+{
+  "slug": "the-sun",
+  "name": "The Sun",
+  "sequence": 19,
+  "arcana": "major",
+  "major_number": 19,
+  "suit": null,
+  "rank": null,
+  "rank_index": null,
+  "interpretations": [
+    {
+      "key": "waite-pk-the-sun-inner-symbolism",
+      "item": "rws-1909/the-sun",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "symbolism",
+      "exact_text": "The naked child mounted on a white horse and displaying a red standard has been mentioned already as the better symbolism connected with this card. It is the destiny of the Supernatural East and the great and holy light which goes before the endless procession of humanity, coming out from the walled garden of the sensitive life and passing on the journey home. The card signifies, therefore, the transit from the manifest light of this world, represented by the glorious sun of earth, to the light of the world to come, which goes before aspiration and is typified by the heart of a child.\nBut the last allusion is again the key to a different form or aspect of the symbolism. The sun is that of consciousness in the spirit - the direct as the antithesis of the reflected light. The characteristic type of humanity has become a little child therein--a child in the sense of simplicity and innocence in the sense of wisdom. In that simplicity, he bears the seal of Nature and of Art; in that innocence, he signifies the restored world. When the self-knowing spirit has dawned in the consciousness above the natural mind, that mind in its renewal leads forth the animal nature in a state of perfect conformity.",
+      "locator": "Part II, §2, The Trumps Major and their Inner Symbolism, The Sun",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-the-sun-divinatory-upright",
+      "item": "rws-1909/the-sun",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Material happiness, fortunate marriage, contentment.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, The Sun",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-the-sun-divinatory-reversed",
+      "item": "rws-1909/the-sun",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "The same in a lesser sense.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, The Sun",
+      "sequence": 2,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-the-sun-hebrew-letter-resh",
+      "item": "rws-1909/the-sun",
+      "type": "hebrew_letter",
+      "value": "Resh",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Golden Dawn attribution; not an intrinsic Waite claim."
+    },
+    {
+      "key": "gd-the-sun-attribution-sun",
+      "item": "rws-1909/the-sun",
+      "type": "golden_dawn_attribution",
+      "value": "Sun",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Planet/sign/element attribution as applicable."
+    }
+  ],
+  "image_key": "rws1909-image-the-sun"
+}

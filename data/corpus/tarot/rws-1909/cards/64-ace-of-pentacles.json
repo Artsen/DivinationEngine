@@ -1,0 +1,92 @@
+{
+  "slug": "ace-of-pentacles",
+  "name": "Ace of Pentacles",
+  "sequence": 64,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "ace",
+  "rank_index": 1,
+  "interpretations": [
+    {
+      "key": "waite-pk-ace-of-pentacles-description",
+      "item": "rws-1909/ace-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A hand--issuing, as usual, from a cloud--holds up a pentacle.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Ace",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-ace-of-pentacles-divinatory-upright",
+      "item": "rws-1909/ace-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Perfect contentment, felicity, ecstasy; also speedy intelligence; gold.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Ace",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ace-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/ace-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "The evil side of wealth, bad intelligence; also great riches. In any case it shews prosperity, comfortable material conditions, but whether these are of advantage to the possessor will depend on whether the card is reversed or not.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Ace",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ace-of-pentacles-additional-upright",
+      "item": "rws-1909/ace-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Ace",
+      "interpretation_type": "upright",
+      "exact_text": "The most favourable of all cards",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ace-of-pentacles-additional-reversed",
+      "item": "rws-1909/ace-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Ace",
+      "interpretation_type": "reversed",
+      "exact_text": "A share in the finding of treasure.",
+      "sequence": 4,
+      "notes": "Section-boundary repair: following Waite commentary belongs outside §4."
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-ace-of-pentacles-title-root-of-earth",
+      "item": "rws-1909/ace-of-pentacles",
+      "type": "golden_dawn_title",
+      "value": "Root of the Powers of Earth",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, Aces",
+      "notes": null
+    },
+    {
+      "key": "gd-ace-of-pentacles-element-earth",
+      "item": "rws-1909/ace-of-pentacles",
+      "type": "element",
+      "value": "Earth",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, Aces",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-ace-of-pentacles"
+}

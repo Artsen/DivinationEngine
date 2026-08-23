@@ -1,0 +1,41 @@
+[
+  {
+    "key": "waite-pictorial-key-1922-wikisource",
+    "title": "The Pictorial Key to the Tarot",
+    "author": "Arthur Edward Waite",
+    "edition": "William Rider & Son Ltd. 1922 reprint; first published 1910",
+    "publisher": "William Rider & Son Limited",
+    "publication_year": 1922,
+    "language": "en",
+    "citation": "Waite, The Pictorial Key to the Tarot, scan-backed Wikisource transcription.",
+    "source_url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot",
+    "rights_status": "public_domain",
+    "notes": "Authoritative text witness. The GitHub tarot-api extraction was used only as a recovery parsing seed."
+  },
+  {
+    "key": "golden-dawn-book-t-mathers-felkin",
+    "title": "A Description of the Cards of the Tarot, with Their Attributions",
+    "author": "Hermetic Order of the Golden Dawn manuscript tradition",
+    "edition": "The Equinox, Volume I, Number VIII",
+    "publisher": "The Equinox",
+    "publication_year": 1912,
+    "language": "en",
+    "citation": "The Equinox I(8), 1912, pp. 143–210 (publication witness for Book T material).",
+    "source_url": "https://hermetic.com/_media/crowley/equinox/equinox-iviii.pdf",
+    "rights_status": "public_domain",
+    "notes": "Used only for Golden Dawn tradition-specific claims; never treated as intrinsic RWS metadata."
+  },
+  {
+    "key": "rws-roses-lilies-1909-wikimedia",
+    "title": "Rider-Waite tarot deck (Roses & Lilies)",
+    "author": "Pamela Colman Smith",
+    "edition": "Original 1909 scan set",
+    "publisher": "Wikimedia Commons",
+    "publication_year": 1909,
+    "language": "en",
+    "citation": "Individual Commons file records in the Roses & Lilies category.",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Rider-Waite_tarot_deck_(Roses_%26_Lilies)",
+    "rights_status": "public_domain",
+    "notes": "Saskia Jansen scan set; individual file pages and hashes are recorded per image."
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "slug": "six-of-wands",
+  "name": "Six of Wands",
+  "sequence": 27,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "six",
+  "rank_index": 6,
+  "interpretations": [
+    {
+      "key": "waite-pk-six-of-wands-description",
+      "item": "rws-1909/six-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A laurelled horseman bears one staff adorned with a laurel crown; footmen with staves are at his side.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Six",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-six-of-wands-divinatory-upright",
+      "item": "rws-1909/six-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "The card has been so designed that it can cover several significations; on the surface, it is a victor triumphing, but it is also great news, such as might be carried in state by the King's courier; it is expectation crowned with its own desire, the crown of hope, and so forth.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Six",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-six-of-wands-divinatory-reversed",
+      "item": "rws-1909/six-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Apprehension, fear, as of a victorious enemy at the gate; treachery, disloyalty, as of gates being opened to the enemy; also indefinite delay.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Six",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-six-of-wands-additional-upright",
+      "item": "rws-1909/six-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Six",
+      "interpretation_type": "upright",
+      "exact_text": "Servants may lose the confidence of their masters; a young lady may be betrayed by a friend",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-six-of-wands-additional-reversed",
+      "item": "rws-1909/six-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Six",
+      "interpretation_type": "reversed",
+      "exact_text": "Fulfilment of deferred hope. ​",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-six-of-wands-golden-dawn-title-victory",
+      "item": "rws-1909/six-of-wands",
+      "type": "golden_dawn_title",
+      "value": "Victory",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-six-of-wands-planet-jupiter",
+      "item": "rws-1909/six-of-wands",
+      "type": "planet",
+      "value": "Jupiter",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-six-of-wands-zodiac-sign-leo",
+      "item": "rws-1909/six-of-wands",
+      "type": "zodiac_sign",
+      "value": "Leo",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-six-of-wands"
+}

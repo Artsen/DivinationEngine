@@ -10,3 +10,11 @@ divination.db
 test.db
 .env
 
+# RWS corpus recovery/build artifacts
+/rws_corpus_recovery_kit.zip
+/rws_corpus_complete_rebuilt.zip
+/rws_corpus_complete_rebuilt/
+/rws_corpus_recovery_kit/
+/rws_corpus_complete_rebuilt_metadata.zip
+/rws_corpus_complete_rebuilt_metadata/
+/.quality-rws*.db

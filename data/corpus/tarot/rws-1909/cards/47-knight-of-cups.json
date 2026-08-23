@@ -1,0 +1,69 @@
+{
+  "slug": "knight-of-cups",
+  "name": "Knight of Cups",
+  "sequence": 47,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "knight",
+  "rank_index": 12,
+  "interpretations": [
+    {
+      "key": "waite-pk-knight-of-cups-description",
+      "item": "rws-1909/knight-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "Graceful, but not warlike; riding quietly, wearing a winged helmet, referring to those higher graces of the imagination which sometimes characterize this card. He too is a dreamer, but the images of the side of sense haunt him in his vision.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Knight",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-knight-of-cups-divinatory-upright",
+      "item": "rws-1909/knight-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Arrival, approach--sometimes that of a messenger; advances, proposition, demeanour, invitation, incitement.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Knight",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-knight-of-cups-divinatory-reversed",
+      "item": "rws-1909/knight-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Trickery, artifice, subtlety, swindling, duplicity, fraud.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Knight",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-knight-of-cups-additional-upright",
+      "item": "rws-1909/knight-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Knight",
+      "interpretation_type": "upright",
+      "exact_text": "A visit from a friend, who will bring unexpected money to the Querent",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-knight-of-cups-additional-reversed",
+      "item": "rws-1909/knight-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Knight",
+      "interpretation_type": "reversed",
+      "exact_text": "Irregularity",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-knight-of-cups"
+}

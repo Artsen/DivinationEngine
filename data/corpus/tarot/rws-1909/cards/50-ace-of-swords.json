@@ -1,0 +1,92 @@
+{
+  "slug": "ace-of-swords",
+  "name": "Ace of Swords",
+  "sequence": 50,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "swords",
+  "rank": "ace",
+  "rank_index": 1,
+  "interpretations": [
+    {
+      "key": "waite-pk-ace-of-swords-description",
+      "item": "rws-1909/ace-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A hand issues from a cloud, grasping as word, the point of which is encircled by a crown.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Ace",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-ace-of-swords-divinatory-upright",
+      "item": "rws-1909/ace-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Triumph, the excessive degree in everything, conquest, triumph of force. It is a card of great force, in love as well as in hatred. The crown may carry a much higher significance than comes usually within the sphere of fortune-telling.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Ace",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ace-of-swords-divinatory-reversed",
+      "item": "rws-1909/ace-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "The same, but the results are disastrous; another account says--conception, childbirth, augmentation, multiplicity.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Ace",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ace-of-swords-additional-upright",
+      "item": "rws-1909/ace-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Ace",
+      "interpretation_type": "upright",
+      "exact_text": "Great prosperity or great misery",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ace-of-swords-additional-reversed",
+      "item": "rws-1909/ace-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Ace",
+      "interpretation_type": "reversed",
+      "exact_text": "Marriage broken off, for a woman, through her own imprudence",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-ace-of-swords-title-root-of-air",
+      "item": "rws-1909/ace-of-swords",
+      "type": "golden_dawn_title",
+      "value": "Root of the Powers of Air",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, Aces",
+      "notes": null
+    },
+    {
+      "key": "gd-ace-of-swords-element-air",
+      "item": "rws-1909/ace-of-swords",
+      "type": "element",
+      "value": "Air",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, Aces",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-ace-of-swords"
+}

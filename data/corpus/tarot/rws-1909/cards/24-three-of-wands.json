@@ -1,0 +1,92 @@
+{
+  "slug": "three-of-wands",
+  "name": "Three of Wands",
+  "sequence": 24,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "three",
+  "rank_index": 3,
+  "interpretations": [
+    {
+      "key": "waite-pk-three-of-wands-description",
+      "item": "rws-1909/three-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A calm, stately personage, with his back turned, looking from a cliff's edge at ships passing over the sea. Three staves are planted in the ground, and he leans slightly on one of them.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Three",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-three-of-wands-divinatory-upright",
+      "item": "rws-1909/three-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "He symbolizes established strength, enterprise, effort, trade, commerce, discovery; those are his ships, bearing his merchandise, which are sailing over the sea. The card also signifies able co-operation in business, as if the successful merchant prince were looking from his side towards yours with a view to help you.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Three",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-three-of-wands-divinatory-reversed",
+      "item": "rws-1909/three-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "The end of troubles, suspension or cessation of adversity, toil and disappointment.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Three",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-three-of-wands-additional-upright",
+      "item": "rws-1909/three-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Three",
+      "interpretation_type": "upright",
+      "exact_text": "A very good card; collaboration will favour enterprise",
+      "sequence": 3,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-three-of-wands-golden-dawn-title-established-strength",
+      "item": "rws-1909/three-of-wands",
+      "type": "golden_dawn_title",
+      "value": "Established Strength",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-three-of-wands-planet-sun",
+      "item": "rws-1909/three-of-wands",
+      "type": "planet",
+      "value": "Sun",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-three-of-wands-zodiac-sign-aries",
+      "item": "rws-1909/three-of-wands",
+      "type": "zodiac_sign",
+      "value": "Aries",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-three-of-wands"
+}

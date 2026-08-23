@@ -1,0 +1,92 @@
+{
+  "slug": "ace-of-wands",
+  "name": "Ace of Wands",
+  "sequence": 22,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "ace",
+  "rank_index": 1,
+  "interpretations": [
+    {
+      "key": "waite-pk-ace-of-wands-description",
+      "item": "rws-1909/ace-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A hand issuing from a cloud grasps a stout wand or club.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Ace",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-ace-of-wands-divinatory-upright",
+      "item": "rws-1909/ace-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Creation, invention, enterprise, the powers which result in these; principle, beginning, source; birth, family, origin, and in a sense the virility which is behind them; the starting point of enterprises; according to another account, money, fortune, inheritance.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Ace",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ace-of-wands-divinatory-reversed",
+      "item": "rws-1909/ace-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Fall, decadence, ruin, perdition, to perish also a certain clouded joy.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Ace",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ace-of-wands-additional-upright",
+      "item": "rws-1909/ace-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Ace",
+      "interpretation_type": "upright",
+      "exact_text": "Calamities of all kinds",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ace-of-wands-additional-reversed",
+      "item": "rws-1909/ace-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Ace",
+      "interpretation_type": "reversed",
+      "exact_text": "A sign of birth",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-ace-of-wands-title-root-of-fire",
+      "item": "rws-1909/ace-of-wands",
+      "type": "golden_dawn_title",
+      "value": "Root of the Powers of Fire",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, Aces",
+      "notes": null
+    },
+    {
+      "key": "gd-ace-of-wands-element-fire",
+      "item": "rws-1909/ace-of-wands",
+      "type": "element",
+      "value": "Fire",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, Aces",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-ace-of-wands"
+}

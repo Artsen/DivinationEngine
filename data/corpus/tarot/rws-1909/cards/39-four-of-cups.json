@@ -1,0 +1,103 @@
+{
+  "slug": "four-of-cups",
+  "name": "Four of Cups",
+  "sequence": 39,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "four",
+  "rank_index": 4,
+  "interpretations": [
+    {
+      "key": "waite-pk-four-of-cups-description",
+      "item": "rws-1909/four-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A young man is seated under a tree and contemplates three cups set on the grass before him; an arm issuing from a cloud offers him another cup. His expression notwithstanding is one of discontent with his environment.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Four",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-four-of-cups-divinatory-upright",
+      "item": "rws-1909/four-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Weariness, disgust, aversion, imaginary vexations, as if the wine of this world had caused satiety only; another wine, as if a fairy gift, is now offered the wastrel, but he sees no consolation therein. This is also a card of blended pleasure.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Four",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-four-of-cups-divinatory-reversed",
+      "item": "rws-1909/four-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Novelty, presage, new instruction, new relations.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Four",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-four-of-cups-additional-upright",
+      "item": "rws-1909/four-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Four",
+      "interpretation_type": "upright",
+      "exact_text": "Contrarieties",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-four-of-cups-additional-reversed",
+      "item": "rws-1909/four-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Four",
+      "interpretation_type": "reversed",
+      "exact_text": "Presentiment",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-four-of-cups-golden-dawn-title-blended-pleasure",
+      "item": "rws-1909/four-of-cups",
+      "type": "golden_dawn_title",
+      "value": "Blended Pleasure",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-four-of-cups-planet-moon",
+      "item": "rws-1909/four-of-cups",
+      "type": "planet",
+      "value": "Moon",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-four-of-cups-zodiac-sign-cancer",
+      "item": "rws-1909/four-of-cups",
+      "type": "zodiac_sign",
+      "value": "Cancer",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-four-of-cups"
+}

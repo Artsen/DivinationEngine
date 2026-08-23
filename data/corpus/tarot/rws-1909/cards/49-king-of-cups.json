@@ -1,0 +1,69 @@
+{
+  "slug": "king-of-cups",
+  "name": "King of Cups",
+  "sequence": 49,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "king",
+  "rank_index": 14,
+  "interpretations": [
+    {
+      "key": "waite-pk-king-of-cups-description",
+      "item": "rws-1909/king-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "He holds a short sceptre in his left hand and a great cup in his right; his throne is set upon the sea; on one side a ship is riding and on the other a dolphin is leaping. The implicit is that the Sign of the Cup naturally refers to water, which appears in all the court cards.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, King",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-king-of-cups-divinatory-upright",
+      "item": "rws-1909/king-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Fair man, man of business, law, or divinity; responsible, disposed to oblige the Querent; also equity, art and science, including those who profess science, law and art; creative intelligence.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, King",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-king-of-cups-divinatory-reversed",
+      "item": "rws-1909/king-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Dishonest, double-dealing man; roguery, exaction, injustice, vice, scandal, pillage, considerable loss.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, King",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-king-of-cups-additional-upright",
+      "item": "rws-1909/king-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, King",
+      "interpretation_type": "upright",
+      "exact_text": "Beware of ill-will on the part of a man of position, and of hypocrisy pretending to help",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-king-of-cups-additional-reversed",
+      "item": "rws-1909/king-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, King",
+      "interpretation_type": "reversed",
+      "exact_text": "Loss",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-king-of-cups"
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "eight-of-swords",
+  "name": "Eight of Swords",
+  "sequence": 57,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "swords",
+  "rank": "eight",
+  "rank_index": 8,
+  "interpretations": [
+    {
+      "key": "waite-pk-eight-of-swords-description",
+      "item": "rws-1909/eight-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A woman, bound and hoodwinked, with the swords of the card about her. Yet it is rather a card of temporary durance than of irretrievable bondage.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Eight",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-eight-of-swords-divinatory-upright",
+      "item": "rws-1909/eight-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Bad news, violent chagrin, crisis, censure, power in trammels, conflict, calumny; also sickness.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Eight",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-eight-of-swords-divinatory-reversed",
+      "item": "rws-1909/eight-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Disquiet, difficulty, opposition, accident, treachery; what is unforeseen; fatality.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Eight",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-eight-of-swords-additional-upright",
+      "item": "rws-1909/eight-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Eight",
+      "interpretation_type": "upright",
+      "exact_text": "For a woman, scandal spread in her respect",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-eight-of-swords-additional-reversed",
+      "item": "rws-1909/eight-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Eight",
+      "interpretation_type": "reversed",
+      "exact_text": "Departure of a relative",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-eight-of-swords-golden-dawn-title-shortened-force",
+      "item": "rws-1909/eight-of-swords",
+      "type": "golden_dawn_title",
+      "value": "Shortened Force",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-eight-of-swords-planet-jupiter",
+      "item": "rws-1909/eight-of-swords",
+      "type": "planet",
+      "value": "Jupiter",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-eight-of-swords-zodiac-sign-gemini",
+      "item": "rws-1909/eight-of-swords",
+      "type": "zodiac_sign",
+      "value": "Gemini",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-eight-of-swords"
+}

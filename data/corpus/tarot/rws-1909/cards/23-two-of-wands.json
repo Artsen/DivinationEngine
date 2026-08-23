@@ -1,0 +1,92 @@
+{
+  "slug": "two-of-wands",
+  "name": "Two of Wands",
+  "sequence": 23,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "two",
+  "rank_index": 2,
+  "interpretations": [
+    {
+      "key": "waite-pk-two-of-wands-description",
+      "item": "rws-1909/two-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A tall man looks from a battlemented roof over sea and shore; he holds a globe in his right hand, while a staff in his left rests on the battlement; another is fixed in a ring. The Rose and Cross and Lily should be noticed on the left side.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Two",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-two-of-wands-divinatory-upright",
+      "item": "rws-1909/two-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Between the alternative readings there is no marriage possible; on the one hand, riches, fortune, magnificence; on the other, physical suffering, disease, chagrin, sadness, mortification. The design gives one suggestion; here is a lord overlooking his dominion and alternately contemplating a globe; it looks like the malady, the mortification, the sadness of Alexander amidst the grandeur of this world's wealth.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Two",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-two-of-wands-divinatory-reversed",
+      "item": "rws-1909/two-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Surprise, wonder, enchantment, emotion, trouble, fear.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Two",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-two-of-wands-additional-upright",
+      "item": "rws-1909/two-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Two",
+      "interpretation_type": "upright",
+      "exact_text": "A young lady may expect trivial disappointments",
+      "sequence": 3,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-two-of-wands-golden-dawn-title-dominion",
+      "item": "rws-1909/two-of-wands",
+      "type": "golden_dawn_title",
+      "value": "Dominion",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-two-of-wands-planet-mars",
+      "item": "rws-1909/two-of-wands",
+      "type": "planet",
+      "value": "Mars",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-two-of-wands-zodiac-sign-aries",
+      "item": "rws-1909/two-of-wands",
+      "type": "zodiac_sign",
+      "value": "Aries",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-two-of-wands"
+}

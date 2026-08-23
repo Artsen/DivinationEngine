@@ -1,0 +1,103 @@
+{
+  "slug": "ten-of-swords",
+  "name": "Ten of Swords",
+  "sequence": 59,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "swords",
+  "rank": "ten",
+  "rank_index": 10,
+  "interpretations": [
+    {
+      "key": "waite-pk-ten-of-swords-description",
+      "item": "rws-1909/ten-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A prostrate figure, pierced by all the swords belonging to the card.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Ten",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-ten-of-swords-divinatory-upright",
+      "item": "rws-1909/ten-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Whatsoever is intimated by the design; also pain, affliction, tears, sadness, desolation. It is not especially a card of violent death.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Ten",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ten-of-swords-divinatory-reversed",
+      "item": "rws-1909/ten-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Advantage, profit, success, favour, but none of these are permanent; also power and authority.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Ten",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ten-of-swords-additional-upright",
+      "item": "rws-1909/ten-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Ten",
+      "interpretation_type": "upright",
+      "exact_text": "Followed by Ace and King, imprisonment; for girl or wife, treason on the part of friends",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ten-of-swords-additional-reversed",
+      "item": "rws-1909/ten-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Ten",
+      "interpretation_type": "reversed",
+      "exact_text": "Victory and consequent fortune for a soldier in war",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-ten-of-swords-golden-dawn-title-ruin",
+      "item": "rws-1909/ten-of-swords",
+      "type": "golden_dawn_title",
+      "value": "Ruin",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-ten-of-swords-planet-sun",
+      "item": "rws-1909/ten-of-swords",
+      "type": "planet",
+      "value": "Sun",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-ten-of-swords-zodiac-sign-gemini",
+      "item": "rws-1909/ten-of-swords",
+      "type": "zodiac_sign",
+      "value": "Gemini",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-ten-of-swords"
+}

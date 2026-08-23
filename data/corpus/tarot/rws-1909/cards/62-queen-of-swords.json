@@ -1,0 +1,69 @@
+{
+  "slug": "queen-of-swords",
+  "name": "Queen of Swords",
+  "sequence": 62,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "swords",
+  "rank": "queen",
+  "rank_index": 13,
+  "interpretations": [
+    {
+      "key": "waite-pk-queen-of-swords-description",
+      "item": "rws-1909/queen-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "Her right hand raises the weapon vertically and the hilt rests on an arm of her royal chair the left hand is extended, the arm raised her countenance is severe but chastened; it suggests familiarity with sorrow. It does not represent mercy, and, her sword notwithstanding, she is scarcely a symbol of power.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Queen",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-queen-of-swords-divinatory-upright",
+      "item": "rws-1909/queen-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Widowhood, female sadness and embarrassment, absence, sterility, mourning, privation, separation.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Queen",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-queen-of-swords-divinatory-reversed",
+      "item": "rws-1909/queen-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Malice, bigotry, artifice, prudery, bale, deceit.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Queen",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-queen-of-swords-additional-upright",
+      "item": "rws-1909/queen-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Queen",
+      "interpretation_type": "upright",
+      "exact_text": "A widow",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-queen-of-swords-additional-reversed",
+      "item": "rws-1909/queen-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Queen",
+      "interpretation_type": "reversed",
+      "exact_text": "A bad woman, with ill-will towards the Querent",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-queen-of-swords"
+}

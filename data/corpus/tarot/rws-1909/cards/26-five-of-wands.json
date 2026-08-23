@@ -1,0 +1,103 @@
+{
+  "slug": "five-of-wands",
+  "name": "Five of Wands",
+  "sequence": 26,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "five",
+  "rank_index": 5,
+  "interpretations": [
+    {
+      "key": "waite-pk-five-of-wands-description",
+      "item": "rws-1909/five-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A posse of youths, who are brandishing staves, as if in sport or strife. It is mimic warfare, and hereto correspond the divinatory meanings.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Five",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-five-of-wands-divinatory-upright",
+      "item": "rws-1909/five-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune. In this sense it connects with the battle of life. Hence some attributions say that it is a card of gold, gain, opulence.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Five",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-five-of-wands-divinatory-reversed",
+      "item": "rws-1909/five-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Litigation, disputes, trickery, contradiction.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Five",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-five-of-wands-additional-upright",
+      "item": "rws-1909/five-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Five",
+      "interpretation_type": "upright",
+      "exact_text": "Success in financial speculation",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-five-of-wands-additional-reversed",
+      "item": "rws-1909/five-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Five",
+      "interpretation_type": "reversed",
+      "exact_text": "Quarrels may be turned to advantage",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-five-of-wands-golden-dawn-title-strife",
+      "item": "rws-1909/five-of-wands",
+      "type": "golden_dawn_title",
+      "value": "Strife",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-five-of-wands-planet-saturn",
+      "item": "rws-1909/five-of-wands",
+      "type": "planet",
+      "value": "Saturn",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-five-of-wands-zodiac-sign-leo",
+      "item": "rws-1909/five-of-wands",
+      "type": "zodiac_sign",
+      "value": "Leo",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-five-of-wands"
+}

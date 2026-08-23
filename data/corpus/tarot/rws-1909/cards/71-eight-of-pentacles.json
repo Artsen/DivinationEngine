@@ -1,0 +1,103 @@
+{
+  "slug": "eight-of-pentacles",
+  "name": "Eight of Pentacles",
+  "sequence": 71,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "eight",
+  "rank_index": 8,
+  "interpretations": [
+    {
+      "key": "waite-pk-eight-of-pentacles-description",
+      "item": "rws-1909/eight-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "An artist in stone at his work, which he exhibits in the form of trophies.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Eight",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-eight-of-pentacles-divinatory-upright",
+      "item": "rws-1909/eight-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Work, employment, commission, craftsmanship, skill in craft and business, perhaps in the preparatory stage.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Eight",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-eight-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/eight-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Voided ambition, vanity, cupidity, exaction, usury. It may also signify the possession of skill, in the sense of the ingenious mind turned to cunning and intrigue.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Eight",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-eight-of-pentacles-additional-upright",
+      "item": "rws-1909/eight-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Eight",
+      "interpretation_type": "upright",
+      "exact_text": "A young man in business who has relations with the Querent; a dark girl",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-eight-of-pentacles-additional-reversed",
+      "item": "rws-1909/eight-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Eight",
+      "interpretation_type": "reversed",
+      "exact_text": "The Querent will be compromised in a matter of money-lending",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-eight-of-pentacles-golden-dawn-title-prudence",
+      "item": "rws-1909/eight-of-pentacles",
+      "type": "golden_dawn_title",
+      "value": "Prudence",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-eight-of-pentacles-planet-sun",
+      "item": "rws-1909/eight-of-pentacles",
+      "type": "planet",
+      "value": "Sun",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-eight-of-pentacles-zodiac-sign-virgo",
+      "item": "rws-1909/eight-of-pentacles",
+      "type": "zodiac_sign",
+      "value": "Virgo",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-eight-of-pentacles"
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "ten-of-wands",
+  "name": "Ten of Wands",
+  "sequence": 31,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "ten",
+  "rank_index": 10,
+  "interpretations": [
+    {
+      "key": "waite-pk-ten-of-wands-description",
+      "item": "rws-1909/ten-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A man oppressed by the weight of the ten staves which he is carrying.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Ten",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-ten-of-wands-divinatory-upright",
+      "item": "rws-1909/ten-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "A card of many significances, and some of the readings cannot be harmonized. I set aside that which connects it with honour and good faith. The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things. It is also a card of false-seeming, disguise, perfidy. The place which the figure is approaching may suffer from the rods that he carries. Success is stultified if the Nine of Swords follows, and if it is a question of a lawsuit, there will be certain loss.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Ten",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ten-of-wands-divinatory-reversed",
+      "item": "rws-1909/ten-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Contrarieties, difficulties, intrigues, and their analogies.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Ten",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ten-of-wands-additional-upright",
+      "item": "rws-1909/ten-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Ten",
+      "interpretation_type": "upright",
+      "exact_text": "Difficulties and contradictions, if near a good card",
+      "sequence": 3,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-ten-of-wands-golden-dawn-title-oppression",
+      "item": "rws-1909/ten-of-wands",
+      "type": "golden_dawn_title",
+      "value": "Oppression",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-ten-of-wands-planet-saturn",
+      "item": "rws-1909/ten-of-wands",
+      "type": "planet",
+      "value": "Saturn",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-ten-of-wands-zodiac-sign-sagittarius",
+      "item": "rws-1909/ten-of-wands",
+      "type": "zodiac_sign",
+      "value": "Sagittarius",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-ten-of-wands"
+}

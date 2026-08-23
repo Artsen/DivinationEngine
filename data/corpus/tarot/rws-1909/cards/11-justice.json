@@ -1,0 +1,70 @@
+{
+  "slug": "justice",
+  "name": "Justice",
+  "sequence": 11,
+  "arcana": "major",
+  "major_number": 11,
+  "suit": null,
+  "rank": null,
+  "rank_index": null,
+  "interpretations": [
+    {
+      "key": "waite-pk-justice-inner-symbolism",
+      "item": "rws-1909/justice",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "symbolism",
+      "exact_text": "As this card follows the traditional symbolism and carries above all its obvious meanings, there is little to say regarding it outside the few considerations collected in the first part, to which the reader is referred.\nIt will be seen, however, that the figure is seated between pillars, like the High Priestess, and on this account it seems desirable to indicate that the moral principle which deals unto every man according to his works--while, of course, it is in strict analogy with higher things;--differs in its essence from the spiritual justice which is involved in the idea of election. The latter belongs to a mysterious order of Providence, in virtue of which it is possible for certain men to conceive the idea of dedication to the highest things. The operation of this is like the breathing of the Spirit where it wills, and we have no canon of criticism or ground of explanation concerning it. It is analogous to the possession of the fairy gifts and the high gifts and the gracious gifts of the poet: we have them or have not, and their presence is as much a mystery as their absence. The law of Justice is not however involved by either alternative. In conclusion, the pillars of Justice open into one world and the pillars of the High Priestess into another.",
+      "locator": "Part II, §2, The Trumps Major and their Inner Symbolism, Justice",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-justice-divinatory-upright",
+      "item": "rws-1909/justice",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Equity, rightness, probity, executive; triumph of the deserving side in law.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, Justice",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-justice-divinatory-reversed",
+      "item": "rws-1909/justice",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Law in all its departments, legal complications, bigotry, bias, excessive severity.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, Justice",
+      "sequence": 2,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-justice-hebrew-letter-lamed",
+      "item": "rws-1909/justice",
+      "type": "hebrew_letter",
+      "value": "Lamed",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Golden Dawn attribution; not an intrinsic Waite claim."
+    },
+    {
+      "key": "gd-justice-attribution-libra",
+      "item": "rws-1909/justice",
+      "type": "golden_dawn_attribution",
+      "value": "Libra",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Planet/sign/element attribution as applicable."
+    }
+  ],
+  "image_key": "rws1909-image-justice"
+}

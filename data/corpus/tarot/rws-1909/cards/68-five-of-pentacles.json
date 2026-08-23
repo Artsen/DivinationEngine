@@ -1,0 +1,103 @@
+{
+  "slug": "five-of-pentacles",
+  "name": "Five of Pentacles",
+  "sequence": 68,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "five",
+  "rank_index": 5,
+  "interpretations": [
+    {
+      "key": "waite-pk-five-of-pentacles-description",
+      "item": "rws-1909/five-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "Two mendicants in a snow-storm pass a lighted casement.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Five",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-five-of-pentacles-divinatory-upright",
+      "item": "rws-1909/five-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "The card foretells material trouble above all, whether in the form illustrated--that is, destitution--or otherwise. For some cartomancists, it is a card of love and lovers-wife, husband, friend, mistress; also concordance, affinities. These alternatives cannot be harmonized.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Five",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-five-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/five-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Disorder, chaos, ruin, discord, profligacy.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Five",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-five-of-pentacles-additional-upright",
+      "item": "rws-1909/five-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Five",
+      "interpretation_type": "upright",
+      "exact_text": "Conquest of fortune by reason",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-five-of-pentacles-additional-reversed",
+      "item": "rws-1909/five-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Five",
+      "interpretation_type": "reversed",
+      "exact_text": "Troubles in love",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-five-of-pentacles-golden-dawn-title-material-trouble",
+      "item": "rws-1909/five-of-pentacles",
+      "type": "golden_dawn_title",
+      "value": "Material Trouble",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-five-of-pentacles-planet-mercury",
+      "item": "rws-1909/five-of-pentacles",
+      "type": "planet",
+      "value": "Mercury",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-five-of-pentacles-zodiac-sign-taurus",
+      "item": "rws-1909/five-of-pentacles",
+      "type": "zodiac_sign",
+      "value": "Taurus",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-five-of-pentacles"
+}

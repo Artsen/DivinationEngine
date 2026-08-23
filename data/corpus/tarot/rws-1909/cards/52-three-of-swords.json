@@ -1,0 +1,103 @@
+{
+  "slug": "three-of-swords",
+  "name": "Three of Swords",
+  "sequence": 52,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "swords",
+  "rank": "three",
+  "rank_index": 3,
+  "interpretations": [
+    {
+      "key": "waite-pk-three-of-swords-description",
+      "item": "rws-1909/three-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "Three swords piercing a heart; cloud and rain behind.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Three",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-three-of-swords-divinatory-upright",
+      "item": "rws-1909/three-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Removal, absence, delay, division, rupture, dispersion, and all that the design signifies naturally, being too simple and obvious to call for specific enumeration.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Three",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-three-of-swords-divinatory-reversed",
+      "item": "rws-1909/three-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Mental alienation, error, loss, distraction, disorder, confusion.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Three",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-three-of-swords-additional-upright",
+      "item": "rws-1909/three-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Three",
+      "interpretation_type": "upright",
+      "exact_text": "For a woman, the flight of her lover",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-three-of-swords-additional-reversed",
+      "item": "rws-1909/three-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Three",
+      "interpretation_type": "reversed",
+      "exact_text": "A meeting with one whom the Querent has compromised; also a nun",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-three-of-swords-golden-dawn-title-sorrow",
+      "item": "rws-1909/three-of-swords",
+      "type": "golden_dawn_title",
+      "value": "Sorrow",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-three-of-swords-planet-saturn",
+      "item": "rws-1909/three-of-swords",
+      "type": "planet",
+      "value": "Saturn",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-three-of-swords-zodiac-sign-libra",
+      "item": "rws-1909/three-of-swords",
+      "type": "zodiac_sign",
+      "value": "Libra",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-three-of-swords"
+}

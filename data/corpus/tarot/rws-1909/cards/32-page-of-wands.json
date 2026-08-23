@@ -1,0 +1,69 @@
+{
+  "slug": "page-of-wands",
+  "name": "Page of Wands",
+  "sequence": 32,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "page",
+  "rank_index": 11,
+  "interpretations": [
+    {
+      "key": "waite-pk-page-of-wands-description",
+      "item": "rws-1909/page-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "In a scene similar to the former, a young man stands in the act of proclamation. He is unknown but faithful, and his tidings are strange.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Page",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-page-of-wands-divinatory-upright",
+      "item": "rws-1909/page-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Dark young man, faithful, a lover, an envoy, a postman. Beside a man, he will bear favourable testimony concerning him. A dangerous rival, if followed by the Page of Cups. Has the chief qualities of his suit. He may signify family intelligence.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Page",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-page-of-wands-divinatory-reversed",
+      "item": "rws-1909/page-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Anecdotes, announcements, evil news. Also indecision and the instability which accompanies it.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Page",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-page-of-wands-additional-upright",
+      "item": "rws-1909/page-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Page",
+      "interpretation_type": "upright",
+      "exact_text": "Young man of family in search of young lady",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-page-of-wands-additional-reversed",
+      "item": "rws-1909/page-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Page",
+      "interpretation_type": "reversed",
+      "exact_text": "Bad news",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-page-of-wands"
+}

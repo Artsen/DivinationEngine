@@ -1,0 +1,69 @@
+{
+  "slug": "king-of-swords",
+  "name": "King of Swords",
+  "sequence": 63,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "swords",
+  "rank": "king",
+  "rank_index": 14,
+  "interpretations": [
+    {
+      "key": "waite-pk-king-of-swords-description",
+      "item": "rws-1909/king-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "He sits in judgment, holding the unsheathed sign of his suit. He recalls, of course, the conventional Symbol of justice in the Trumps Major, and he may represent this virtue, but he is rather the power of life and death, in virtue of his office.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, King",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-king-of-swords-divinatory-upright",
+      "item": "rws-1909/king-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Whatsoever arises out of the idea of judgment and all its connexions-power, command, authority, militant intelligence, law, offices of the crown, and so forth.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, King",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-king-of-swords-divinatory-reversed",
+      "item": "rws-1909/king-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Cruelty, perversity, barbarity, perfidy, evil intention.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, King",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-king-of-swords-additional-upright",
+      "item": "rws-1909/king-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, King",
+      "interpretation_type": "upright",
+      "exact_text": "A lawyer, senator, doctor",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-king-of-swords-additional-reversed",
+      "item": "rws-1909/king-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, King",
+      "interpretation_type": "reversed",
+      "exact_text": "A bad man; also a caution to put an end to a ruinous lawsuit. ​",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-king-of-swords"
+}

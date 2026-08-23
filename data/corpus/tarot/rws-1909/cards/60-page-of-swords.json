@@ -1,0 +1,69 @@
+{
+  "slug": "page-of-swords",
+  "name": "Page of Swords",
+  "sequence": 60,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "swords",
+  "rank": "page",
+  "rank_index": 11,
+  "interpretations": [
+    {
+      "key": "waite-pk-page-of-swords-description",
+      "item": "rws-1909/page-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A lithe, active figure holds a sword upright in both hands, while in the act of swift walking. He is passing over rugged land, and about his way the clouds are collocated wildly. He is alert and lithe, looking this way and that, as if an expected enemy might appear at any moment.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Page",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-page-of-swords-divinatory-upright",
+      "item": "rws-1909/page-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Page",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-page-of-swords-divinatory-reversed",
+      "item": "rws-1909/page-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "More evil side of these qualities; what is unforeseen, unprepared state; sickness is also intimated.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Page",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-page-of-swords-additional-upright",
+      "item": "rws-1909/page-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Page",
+      "interpretation_type": "upright",
+      "exact_text": "An indiscreet person will pry into the Querent's secrets",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-page-of-swords-additional-reversed",
+      "item": "rws-1909/page-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Page",
+      "interpretation_type": "reversed",
+      "exact_text": "Astonishing news",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-page-of-swords"
+}

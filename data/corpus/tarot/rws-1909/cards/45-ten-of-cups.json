@@ -1,0 +1,103 @@
+{
+  "slug": "ten-of-cups",
+  "name": "Ten of Cups",
+  "sequence": 45,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "ten",
+  "rank_index": 10,
+  "interpretations": [
+    {
+      "key": "waite-pk-ten-of-cups-description",
+      "item": "rws-1909/ten-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "Appearance of Cups in a rainbow; it is contemplated in wonder and ecstacy by a man and woman below, evidently husband and wife. His right arm is about her; his left is raised upward; she raises her right arm. The two children dancing near them have not observed the prodigy but are happy after their own manner. There is a home-scene beyond.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Ten",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-ten-of-cups-divinatory-upright",
+      "item": "rws-1909/ten-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Contentment, repose of the entire heart; the perfection of that state; also perfection of human love and friendship; if with several picture-cards, a person who is taking charge of the Querent's interests; also the town, village or country inhabited by the Querent.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Ten",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ten-of-cups-divinatory-reversed",
+      "item": "rws-1909/ten-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Repose of the false heart, indignation, violence.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Ten",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ten-of-cups-additional-upright",
+      "item": "rws-1909/ten-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Ten",
+      "interpretation_type": "upright",
+      "exact_text": "For a male Querent, a good marriage and one beyond his expectations",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ten-of-cups-additional-reversed",
+      "item": "rws-1909/ten-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Ten",
+      "interpretation_type": "reversed",
+      "exact_text": "Sorrow; also a serious quarrel. ​",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-ten-of-cups-golden-dawn-title-perfected-success",
+      "item": "rws-1909/ten-of-cups",
+      "type": "golden_dawn_title",
+      "value": "Perfected Success",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-ten-of-cups-planet-mars",
+      "item": "rws-1909/ten-of-cups",
+      "type": "planet",
+      "value": "Mars",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-ten-of-cups-zodiac-sign-pisces",
+      "item": "rws-1909/ten-of-cups",
+      "type": "zodiac_sign",
+      "value": "Pisces",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-ten-of-cups"
+}

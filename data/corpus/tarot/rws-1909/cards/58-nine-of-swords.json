@@ -1,0 +1,103 @@
+{
+  "slug": "nine-of-swords",
+  "name": "Nine of Swords",
+  "sequence": 58,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "swords",
+  "rank": "nine",
+  "rank_index": 9,
+  "interpretations": [
+    {
+      "key": "waite-pk-nine-of-swords-description",
+      "item": "rws-1909/nine-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "One seated on her couch in lamentation, with the swords over her. She is as one who knows no sorrow which is like unto hers. It is a card of utter desolation.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Nine",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-nine-of-swords-divinatory-upright",
+      "item": "rws-1909/nine-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Death, failure, miscarriage, delay, deception, disappointment, despair.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Nine",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-nine-of-swords-divinatory-reversed",
+      "item": "rws-1909/nine-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Imprisonment, suspicion, doubt, reasonable fear, shame.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Nine",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-nine-of-swords-additional-upright",
+      "item": "rws-1909/nine-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Nine",
+      "interpretation_type": "upright",
+      "exact_text": "An ecclesiastic, a priest; generally, a card of bad omen",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-nine-of-swords-additional-reversed",
+      "item": "rws-1909/nine-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Nine",
+      "interpretation_type": "reversed",
+      "exact_text": "Good ground for suspicion against a doubtful person",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-nine-of-swords-golden-dawn-title-despair-and-cruelty",
+      "item": "rws-1909/nine-of-swords",
+      "type": "golden_dawn_title",
+      "value": "Despair and Cruelty",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-nine-of-swords-planet-mars",
+      "item": "rws-1909/nine-of-swords",
+      "type": "planet",
+      "value": "Mars",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-nine-of-swords-zodiac-sign-gemini",
+      "item": "rws-1909/nine-of-swords",
+      "type": "zodiac_sign",
+      "value": "Gemini",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-nine-of-swords"
+}

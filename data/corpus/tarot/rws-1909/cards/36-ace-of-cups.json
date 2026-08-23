@@ -1,0 +1,92 @@
+{
+  "slug": "ace-of-cups",
+  "name": "Ace of Cups",
+  "sequence": 36,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "ace",
+  "rank_index": 1,
+  "interpretations": [
+    {
+      "key": "waite-pk-ace-of-cups-description",
+      "item": "rws-1909/ace-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "The waters are beneath, and thereon are water-lilies; the hand issues from the cloud, holding in its palm the cup, from which four streams are pouring; a dove, bearing in its bill a cross-marked Host, descends to place the Wafer in the Cup; the dew of water is falling on all sides. It is an intimation of that which may lie behind the Lesser Arcana.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Ace",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-ace-of-cups-divinatory-upright",
+      "item": "rws-1909/ace-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "House of the true heart, joy, content, abode, nourishment, abundance, fertility; Holy Table, felicity hereof.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Ace",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ace-of-cups-divinatory-reversed",
+      "item": "rws-1909/ace-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "House of the false heart, mutation, instability, revolution.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Ace",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ace-of-cups-additional-upright",
+      "item": "rws-1909/ace-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Ace",
+      "interpretation_type": "upright",
+      "exact_text": "Inflexible will, unalterable law",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ace-of-cups-additional-reversed",
+      "item": "rws-1909/ace-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Ace",
+      "interpretation_type": "reversed",
+      "exact_text": "Unexpected change of position",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-ace-of-cups-title-root-of-water",
+      "item": "rws-1909/ace-of-cups",
+      "type": "golden_dawn_title",
+      "value": "Root of the Powers of Water",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, Aces",
+      "notes": null
+    },
+    {
+      "key": "gd-ace-of-cups-element-water",
+      "item": "rws-1909/ace-of-cups",
+      "type": "element",
+      "value": "Water",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, Aces",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-ace-of-cups"
+}

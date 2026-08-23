@@ -1,0 +1,103 @@
+{
+  "slug": "seven-of-swords",
+  "name": "Seven of Swords",
+  "sequence": 56,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "swords",
+  "rank": "seven",
+  "rank_index": 7,
+  "interpretations": [
+    {
+      "key": "waite-pk-seven-of-swords-description",
+      "item": "rws-1909/seven-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A man in the act of carrying away five swords rapidly; the two others of the card remain stuck in the ground. A camp is close at hand.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Seven",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-seven-of-swords-divinatory-upright",
+      "item": "rws-1909/seven-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Design, attempt, wish, hope, confidence; also quarrelling, a plan that may fail, annoyance. The design is uncertain in its import, because the significations are widely at variance with each other.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Seven",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-seven-of-swords-divinatory-reversed",
+      "item": "rws-1909/seven-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Good advice, counsel, instruction, slander, babbling.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Seven",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-seven-of-swords-additional-upright",
+      "item": "rws-1909/seven-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Seven",
+      "interpretation_type": "upright",
+      "exact_text": "Dark girl; a good card; it promises a country life after a competence has been secured",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-seven-of-swords-additional-reversed",
+      "item": "rws-1909/seven-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Seven",
+      "interpretation_type": "reversed",
+      "exact_text": "Good advice, probably neglected",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-seven-of-swords-golden-dawn-title-unstable-effort",
+      "item": "rws-1909/seven-of-swords",
+      "type": "golden_dawn_title",
+      "value": "Unstable Effort",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-seven-of-swords-planet-moon",
+      "item": "rws-1909/seven-of-swords",
+      "type": "planet",
+      "value": "Moon",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-seven-of-swords-zodiac-sign-aquarius",
+      "item": "rws-1909/seven-of-swords",
+      "type": "zodiac_sign",
+      "value": "Aquarius",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-seven-of-swords"
+}

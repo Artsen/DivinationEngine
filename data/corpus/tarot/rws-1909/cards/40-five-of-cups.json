@@ -1,0 +1,103 @@
+{
+  "slug": "five-of-cups",
+  "name": "Five of Cups",
+  "sequence": 40,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "five",
+  "rank_index": 5,
+  "interpretations": [
+    {
+      "key": "waite-pk-five-of-cups-description",
+      "item": "rws-1909/five-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A dark, cloaked figure, looking sideways at three prone cups two others stand upright behind him; a bridge is in the background, leading to a small keep or holding. Divanatory Meanings: It is a card of loss, but something remains over; three have been taken, but two are left; it is a card of inheritance, patrimony, transmission, but not corresponding to expectations; with some interpreters it is a card of marriage, but not without bitterness or frustration. Reversed: News, alliances, affinity, consanguinity, ancestry, return, false projects",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Five",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-five-of-cups-divinatory-upright",
+      "item": "rws-1909/five-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "A dark, cloaked figure, looking sideways at three prone cups two others stand upright behind him; a bridge is in the background, leading to a small keep or holding. Divanatory Meanings: It is a card of loss, but something remains over; three have been taken, but two are left; it is a card of inheritance, patrimony, transmission, but not corresponding to expectations; with some interpreters it is a card of marriage, but not without bitterness or frustration.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Five",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-five-of-cups-divinatory-reversed",
+      "item": "rws-1909/five-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "News, alliances, affinity, consanguinity, ancestry, return, false projects.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Five",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-five-of-cups-additional-upright",
+      "item": "rws-1909/five-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Five",
+      "interpretation_type": "upright",
+      "exact_text": "Generally favourable; a happy marriage; also patrimony, legacies, gifts, success in enterprise",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-five-of-cups-additional-reversed",
+      "item": "rws-1909/five-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Five",
+      "interpretation_type": "reversed",
+      "exact_text": "Return of some relative who has not been seen for long",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-five-of-cups-golden-dawn-title-loss-in-pleasure",
+      "item": "rws-1909/five-of-cups",
+      "type": "golden_dawn_title",
+      "value": "Loss in Pleasure",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-five-of-cups-planet-mars",
+      "item": "rws-1909/five-of-cups",
+      "type": "planet",
+      "value": "Mars",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-five-of-cups-zodiac-sign-scorpio",
+      "item": "rws-1909/five-of-cups",
+      "type": "zodiac_sign",
+      "value": "Scorpio",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-five-of-cups"
+}

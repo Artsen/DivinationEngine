@@ -1,0 +1,70 @@
+{
+  "slug": "strength",
+  "name": "Strength",
+  "sequence": 8,
+  "arcana": "major",
+  "major_number": 8,
+  "suit": null,
+  "rank": null,
+  "rank_index": null,
+  "interpretations": [
+    {
+      "key": "waite-pk-strength-inner-symbolism",
+      "item": "rws-1909/strength",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "symbolism",
+      "exact_text": "A woman, over whose head there broods the same symbol of life which we have seen in the card of the Magician, is closing the jaws of a lion. The only point in which this design differs from the conventional presentations is that her beneficent fortitude has already subdued the lion, which is being led by a chain of flowers. For reasons which satisfy myself, this card has been interchanged with that of justice, which is usually numbered eight. As the variation carries nothing with it which will signify to the reader, there is no cause for explanation. Fortitude, in one of its most exalted aspects, is connected with the Divine Mystery of Union; the virtue, of course, operates in all planes, and hence draws on all in its symbolism. It connects also with innocentia inviolata, and with the strength which resides in contemplation.\nThese higher meanings are, however, matters of inference, and I do not suggest that they are transparent on the surface of the card. They are intimated in a concealed manner by the chain of flowers, which signifies, among many other things, the sweet yoke and the light burden of Divine Law, when it has been taken into the heart of hearts. The card has nothing to do with self-confidence in the ordinary sense, though this has been suggested--but it concerns the confidence of those whose strength is God, who have found their refuge in Him. There is one aspect in which the lion signifies the passions, and she who is called Strength is the higher nature in its liberation. It has walked upon the asp and the basilisk and has trodden down the lion and the dragon.",
+      "locator": "Part II, §2, The Trumps Major and their Inner Symbolism, Strength",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-strength-divinatory-upright",
+      "item": "rws-1909/strength",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Power, energy, action, courage, magnanimity; also complete success and honours.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, Strength",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-strength-divinatory-reversed",
+      "item": "rws-1909/strength",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Despotism, abuse of power, weakness, discord, sometimes even disgrace.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, Strength",
+      "sequence": 2,
+      "notes": "Recovery extraction repaired from ‘abuse if power’ against the scan-backed witness."
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-strength-hebrew-letter-teth",
+      "item": "rws-1909/strength",
+      "type": "hebrew_letter",
+      "value": "Teth",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Golden Dawn attribution; not an intrinsic Waite claim."
+    },
+    {
+      "key": "gd-strength-attribution-leo",
+      "item": "rws-1909/strength",
+      "type": "golden_dawn_attribution",
+      "value": "Leo",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Planet/sign/element attribution as applicable."
+    }
+  ],
+  "image_key": "rws1909-image-strength"
+}

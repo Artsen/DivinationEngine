@@ -1,0 +1,103 @@
+{
+  "slug": "eight-of-cups",
+  "name": "Eight of Cups",
+  "sequence": 43,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "eight",
+  "rank_index": 8,
+  "interpretations": [
+    {
+      "key": "waite-pk-eight-of-cups-description",
+      "item": "rws-1909/eight-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A man of dejected aspect is deserting the cups of his felicity, enterprise, undertaking or previous concern.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Eight",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-eight-of-cups-divinatory-upright",
+      "item": "rws-1909/eight-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "The card speaks for itself on the surface, but other readings are entirely antithetical--giving joy, mildness, timidity, honour, modesty. In practice, it is usually found that the card shews the decline of a matter, or that a matter which has been thought to be important is really of slight consequence--either for good or evil.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Eight",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-eight-of-cups-divinatory-reversed",
+      "item": "rws-1909/eight-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Great joy, happiness, feasting.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Eight",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-eight-of-cups-additional-upright",
+      "item": "rws-1909/eight-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Eight",
+      "interpretation_type": "upright",
+      "exact_text": "Marriage with a fair woman",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-eight-of-cups-additional-reversed",
+      "item": "rws-1909/eight-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Eight",
+      "interpretation_type": "reversed",
+      "exact_text": "Perfect satisfaction",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-eight-of-cups-golden-dawn-title-abandoned-success",
+      "item": "rws-1909/eight-of-cups",
+      "type": "golden_dawn_title",
+      "value": "Abandoned Success",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-eight-of-cups-planet-saturn",
+      "item": "rws-1909/eight-of-cups",
+      "type": "planet",
+      "value": "Saturn",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-eight-of-cups-zodiac-sign-pisces",
+      "item": "rws-1909/eight-of-cups",
+      "type": "zodiac_sign",
+      "value": "Pisces",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-eight-of-cups"
+}
