@@ -28,6 +28,7 @@ dev = [
 [project.scripts]
 divination-import = "app.services.importer:main"
 divination-corpus = "app.services.corpus:main"
+divination-iching-corpus = "app.services.iching_corpus:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["backend/app"]

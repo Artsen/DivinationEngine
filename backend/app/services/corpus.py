@@ -253,7 +253,20 @@ def build_bundle(corpus: LoadedCorpus) -> ImportBundle:
     )
     output = corpus.root / "build" / "rws-import.json"
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(bundle.model_dump_json(indent=2), encoding="utf-8")
+    output.write_text(
+        bundle.model_dump_json(
+            indent=2,
+            exclude={
+                "trigrams",
+                "hexagrams",
+                "hexagram_lines",
+                "iching_texts",
+                "iching_relationships",
+                "iching_methods",
+            },
+        ),
+        encoding="utf-8",
+    )
     return bundle
 
 

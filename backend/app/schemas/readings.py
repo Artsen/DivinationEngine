@@ -37,17 +37,23 @@ class DrawResultOut(BaseModel):
 
 class IChingThrowOut(BaseModel):
     line_number: int
-    coins: list[int]
+    coins: list[int] | None
     line_value: int
+    procedure: dict[str, Any] | None = None
+
+
+class IChingCastRequest(BaseModel):
+    method: Literal["three-coin", "yarrow-stalk", "three_coin"] = "three-coin"
 
 
 class IChingOut(BaseModel):
-    method: Literal["three_coin"]
+    method: Literal["three-coin", "yarrow-stalk"]
     pattern_order: Literal["bottom_to_top"]
     primary_pattern: str
     changing_lines: list[int]
     relating_pattern: str
     throws: list[IChingThrowOut]
+    knowledge: dict[str, Any] | None = None
 
 
 class CastOut(BaseModel):

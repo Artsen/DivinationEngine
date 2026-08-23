@@ -114,6 +114,19 @@ Missing canonical assets can be fetched reproducibly with `divination-corpus ass
 The corpus README documents its source hierarchy, rights, correction workflow, stable keys, and
 the deliberate separation between Waite and Golden Dawn traditions.
 
+The production Yijing corpus is under `data/corpus/iching/legge-ctext`. It remains an
+algorithmic domain (64 hexagrams, 384 ordinary lines, and eight trigrams), not a generic
+Collection. Zhouyi core, Tuan, Xiang, Wenyan, Xici, Shuo Gua, Xu Gua, Za Gua, Legge
+commentary, and casting-method layers remain separate and carry per-record locators.
+
+```console
+divination-iching-corpus validate data/corpus/iching/legge-ctext
+divination-import data/corpus/iching/legge-ctext/build/iching-import.json --dry-run
+```
+
+I Ching cast requests accept `{"method":"three-coin"}` or
+`{"method":"yarrow-stalk"}`. Omitting the body preserves the three-coin default.
+
 An unknown reference or constraint violation rolls back the entire import, including updates
 performed earlier in that bundle.
 

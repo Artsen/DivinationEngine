@@ -129,6 +129,23 @@ class Correspondence(Base, TimestampMixin):
     tradition: Mapped[Tradition | None] = relationship()
 
 
+class Trigram(Base, TimestampMixin):
+    __tablename__ = "trigrams"
+    __table_args__ = (
+        CheckConstraint("length(binary_pattern) = 3", name="ck_trigram_pattern_length"),
+        CheckConstraint(
+            "replace(replace(binary_pattern, '0', ''), '1', '') = ''",
+            name="ck_trigram_pattern_binary",
+        ),
+    )
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
+    key: Mapped[str] = mapped_column(String(40), unique=True)
+    chinese_name: Mapped[str] = mapped_column(String(20))
+    pinyin: Mapped[str] = mapped_column(String(40))
+    glyph: Mapped[str] = mapped_column(String(8), unique=True)
+    binary_pattern: Mapped[str] = mapped_column(String(3), unique=True)
+
+
 class Hexagram(Base, TimestampMixin):
     """Mechanical identifier; textual claims live in HexagramText with provenance."""
 
@@ -142,12 +159,89 @@ class Hexagram(Base, TimestampMixin):
         ),
     )
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
+    key: Mapped[str | None] = mapped_column(String(40), unique=True)
     canonical_number: Mapped[int] = mapped_column(Integer, unique=True)
     binary_pattern: Mapped[str] = mapped_column(String(6), unique=True)
     chinese_name: Mapped[str | None] = mapped_column(String(120))
+    pinyin: Mapped[str | None] = mapped_column(String(120))
+    legge_title: Mapped[str | None] = mapped_column(String(200))
     glyph: Mapped[str | None] = mapped_column(String(16))
     lower_trigram: Mapped[str | None] = mapped_column(String(120))
     upper_trigram: Mapped[str | None] = mapped_column(String(120))
+    lower_trigram_id: Mapped[str | None] = mapped_column(
+        ForeignKey("trigrams.id", ondelete="RESTRICT")
+    )
+    upper_trigram_id: Mapped[str | None] = mapped_column(
+        ForeignKey("trigrams.id", ondelete="RESTRICT")
+    )
+
+
+class HexagramLine(Base):
+    __tablename__ = "hexagram_lines"
+    __table_args__ = (
+        UniqueConstraint("hexagram_id", "position", name="uq_hexagram_line_position"),
+        UniqueConstraint("key", name="uq_hexagram_line_key"),
+        CheckConstraint("position BETWEEN 1 AND 6", name="ck_hexagram_line_position"),
+        CheckConstraint("polarity IN ('yin','yang')", name="ck_hexagram_line_polarity"),
+    )
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
+    key: Mapped[str] = mapped_column(String(80))
+    hexagram_id: Mapped[str] = mapped_column(ForeignKey("hexagrams.id", ondelete="CASCADE"))
+    position: Mapped[int] = mapped_column(Integer)
+    polarity: Mapped[str] = mapped_column(String(8))
+
+
+class IChingText(Base, TimestampMixin):
+    __tablename__ = "iching_texts"
+    __table_args__ = (
+        UniqueConstraint("key", name="uq_iching_text_key"),
+        CheckConstraint(
+            "line_position IS NULL OR line_position BETWEEN 1 AND 6",
+            name="ck_iching_text_line_position",
+        ),
+    )
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
+    key: Mapped[str] = mapped_column(String(220))
+    layer: Mapped[str] = mapped_column(String(80))
+    unit_type: Mapped[str] = mapped_column(String(80))
+    hexagram_id: Mapped[str | None] = mapped_column(ForeignKey("hexagrams.id", ondelete="CASCADE"))
+    trigram_id: Mapped[str | None] = mapped_column(ForeignKey("trigrams.id", ondelete="CASCADE"))
+    line_position: Mapped[int | None] = mapped_column(Integer)
+    section: Mapped[str | None] = mapped_column(String(120))
+    language: Mapped[str] = mapped_column(String(40))
+    source_id: Mapped[str] = mapped_column(ForeignKey("sources.id", ondelete="RESTRICT"))
+    tradition_id: Mapped[str | None] = mapped_column(
+        ForeignKey("traditions.id", ondelete="SET NULL")
+    )
+    exact_text: Mapped[str] = mapped_column(Text)
+    locator: Mapped[str] = mapped_column(String(500))
+    sequence: Mapped[int] = mapped_column(Integer)
+    notes: Mapped[str | None] = mapped_column(Text)
+    source: Mapped[Source] = relationship()
+    tradition: Mapped[Tradition | None] = relationship()
+
+
+class IChingRelationship(Base):
+    __tablename__ = "iching_relationships"
+    __table_args__ = (UniqueConstraint("key", name="uq_iching_relationship_key"),)
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
+    key: Mapped[str] = mapped_column(String(120))
+    source_hexagram_id: Mapped[str] = mapped_column(ForeignKey("hexagrams.id", ondelete="CASCADE"))
+    target_hexagram_id: Mapped[str] = mapped_column(ForeignKey("hexagrams.id", ondelete="CASCADE"))
+    relationship_type: Mapped[str] = mapped_column(String(40))
+    line_position: Mapped[int | None] = mapped_column(Integer)
+
+
+class IChingMethod(Base, TimestampMixin):
+    __tablename__ = "iching_methods"
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
+    key: Mapped[str] = mapped_column(String(80), unique=True)
+    name: Mapped[str] = mapped_column(String(160))
+    probabilities: Mapped[dict] = mapped_column(JSON)
+    source_id: Mapped[str] = mapped_column(ForeignKey("sources.id", ondelete="RESTRICT"))
+    locator: Mapped[str] = mapped_column(String(500))
+    notes: Mapped[str | None] = mapped_column(Text)
+    source: Mapped[Source] = relationship()
 
 
 class HexagramText(Base, TimestampMixin):
@@ -364,18 +458,28 @@ class IChingThrow(Base):
         UniqueConstraint("cast_id", "line_number", name="uq_iching_line"),
         CheckConstraint("line_number BETWEEN 1 AND 6", name="ck_line_number"),
         CheckConstraint("line_value IN (6,7,8,9)", name="ck_line_value"),
-        CheckConstraint("coin_1 IN (2,3)", name="ck_coin_1"),
-        CheckConstraint("coin_2 IN (2,3)", name="ck_coin_2"),
-        CheckConstraint("coin_3 IN (2,3)", name="ck_coin_3"),
-        CheckConstraint("line_value = coin_1 + coin_2 + coin_3", name="ck_line_value_coin_sum"),
+        CheckConstraint("coin_1 IS NULL OR coin_1 IN (2,3)", name="ck_coin_1"),
+        CheckConstraint("coin_2 IS NULL OR coin_2 IN (2,3)", name="ck_coin_2"),
+        CheckConstraint("coin_3 IS NULL OR coin_3 IN (2,3)", name="ck_coin_3"),
+        CheckConstraint(
+            "(coin_1 IS NULL AND coin_2 IS NULL AND coin_3 IS NULL) OR "
+            "(coin_1 IS NOT NULL AND coin_2 IS NOT NULL AND coin_3 IS NOT NULL)",
+            name="ck_coin_presence",
+        ),
+        CheckConstraint(
+            "(coin_1 IS NULL AND coin_2 IS NULL AND coin_3 IS NULL) OR "
+            "line_value = coin_1 + coin_2 + coin_3",
+            name="ck_line_value_coin_sum",
+        ),
     )
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
     cast_id: Mapped[str] = mapped_column(ForeignKey("reading_casts.id", ondelete="CASCADE"))
     line_number: Mapped[int] = mapped_column(Integer)
-    coin_1: Mapped[int] = mapped_column(Integer)
-    coin_2: Mapped[int] = mapped_column(Integer)
-    coin_3: Mapped[int] = mapped_column(Integer)
+    coin_1: Mapped[int | None] = mapped_column(Integer)
+    coin_2: Mapped[int | None] = mapped_column(Integer)
+    coin_3: Mapped[int | None] = mapped_column(Integer)
     line_value: Mapped[int] = mapped_column(Integer)
+    procedure: Mapped[dict | None] = mapped_column(JSON)
     cast: Mapped[ReadingCast] = relationship(back_populates="throws")
 
 

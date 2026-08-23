@@ -33,7 +33,13 @@ from app.schemas.contracts import (
     TraditionCreate,
     TraditionOut,
 )
-from app.schemas.readings import CastOut, PlacementOut, ReadingContext, ReadingDetail
+from app.schemas.readings import (
+    CastOut,
+    IChingCastRequest,
+    PlacementOut,
+    ReadingContext,
+    ReadingDetail,
+)
 from app.services.readings import (
     cast_dict,
     context_dict,
@@ -388,11 +394,13 @@ def iching_cast(
     reading_id: str,
     db: DB,
     randomness: Annotated[RandomSource, Depends(random_source)],
+    body: IChingCastRequest | None = None,
 ) -> dict:
     reading = db.get(models.Reading, reading_id)
     if reading is None:
         raise not_found("reading")
-    return cast_dict(create_iching_cast(db, reading, randomness))
+    method = body.method if body else "three-coin"
+    return cast_dict(create_iching_cast(db, reading, randomness, method))
 
 
 @router.post(

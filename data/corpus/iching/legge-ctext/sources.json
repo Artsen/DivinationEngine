@@ -1,0 +1,41 @@
+[
+  {
+    "key": "legge-yi-king-1882",
+    "title": "The Yî King",
+    "author": "James Legge",
+    "edition": "Sacred Books of the East, Volume XVI",
+    "publisher": "Oxford: Clarendon Press",
+    "publication_year": 1882,
+    "language": "English",
+    "citation": "James Legge, trans., The Yî King, SBE XVI (Oxford, 1882).",
+    "source_url": "https://en.wikisource.org/wiki/Index:Sacred_Books_of_the_East_-_Volume_16.djvu",
+    "rights_status": "public_domain",
+    "notes": "Scan-backed Wikisource edition; Unlicense Markdown transcription at revision 4cecd53bb53aa10fc9a4c92ac30ce541724cd1ff used as an extraction aid."
+  },
+  {
+    "key": "zhouyi-received-wikisource",
+    "title": "周易 (received traditional Chinese text)",
+    "author": null,
+    "edition": null,
+    "publisher": null,
+    "publication_year": null,
+    "language": "Classical Chinese",
+    "citation": "周易, traditional Chinese transcription, Chinese Wikisource.",
+    "source_url": "https://zh.wikisource.org/zh-hant/%E5%91%A8%E6%98%93",
+    "rights_status": "public_domain",
+    "notes": "Chinese Wikisource is the reproducible source; CTP is the named manual collation witness."
+  },
+  {
+    "key": "three-coin-computational-convention",
+    "title": "Three-coin computational convention",
+    "author": null,
+    "edition": null,
+    "publisher": null,
+    "publication_year": null,
+    "language": "English",
+    "citation": "Documented computational convention; no claim of a single historical origin.",
+    "source_url": null,
+    "rights_status": "not_applicable",
+    "notes": "Heads=3 and tails=2. Historical origin is intentionally recorded as uncertain."
+  }
+]
