@@ -1,0 +1,70 @@
+{
+  "slug": "the-hermit",
+  "name": "The Hermit",
+  "sequence": 9,
+  "arcana": "major",
+  "major_number": 9,
+  "suit": null,
+  "rank": null,
+  "rank_index": null,
+  "interpretations": [
+    {
+      "key": "waite-pk-the-hermit-inner-symbolism",
+      "item": "rws-1909/the-hermit",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "symbolism",
+      "exact_text": "The variation from the conventional models in this card is only that the lamp is not enveloped partially in the mantle of its bearer, who blends the idea of the Ancient of Days with the Light of the World It is a star which shines in the lantern. I have said that this is a card of attainment, and to extend this conception the figure is seen holding up his beacon on an eminence. Therefore the Hermit is not, as Court de Gebelin explained, a wise man in search of truth and justice; nor is he, as a later explanation proposes, an especial example of experience. His beacon intimates that \"where I am, you also may be.\"\nIt is further a card which is understood quite incorrectly when it is connected with the idea of occult isolation, as the protection of personal magnetism against admixture. This is one of the frivolous renderings which we owe to Éliphas Lévi. It has been adopted by the French Order of Martinism and some of us have heard a great deal of the Silent and Unknown Philosophy enveloped by his mantle from the knowledge of the profane. In true Martinism, the significance of the term Philosophe inconnu was of another order. It did not refer to the intended concealment of the Instituted Mysteries, much less of their substitutes, but--like the card itself--to the truth that the Divine Mysteries secure their own protection from those who are unprepared.",
+      "locator": "Part II, §2, The Trumps Major and their Inner Symbolism, The Hermit",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-the-hermit-divinatory-upright",
+      "item": "rws-1909/the-hermit",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Prudence, circumspection; also and especially treason, dissimulation, roguery, corruption.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, The Hermit",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-the-hermit-divinatory-reversed",
+      "item": "rws-1909/the-hermit",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Concealment, disguise, policy, fear, unreasoned caution.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, The Hermit",
+      "sequence": 2,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-the-hermit-hebrew-letter-yod",
+      "item": "rws-1909/the-hermit",
+      "type": "hebrew_letter",
+      "value": "Yod",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Golden Dawn attribution; not an intrinsic Waite claim."
+    },
+    {
+      "key": "gd-the-hermit-attribution-virgo",
+      "item": "rws-1909/the-hermit",
+      "type": "golden_dawn_attribution",
+      "value": "Virgo",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Planet/sign/element attribution as applicable."
+    }
+  ],
+  "image_key": "rws1909-image-the-hermit"
+}

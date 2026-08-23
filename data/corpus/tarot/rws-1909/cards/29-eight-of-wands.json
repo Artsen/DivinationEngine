@@ -1,0 +1,92 @@
+{
+  "slug": "eight-of-wands",
+  "name": "Eight of Wands",
+  "sequence": 29,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "eight",
+  "rank_index": 8,
+  "interpretations": [
+    {
+      "key": "waite-pk-eight-of-wands-description",
+      "item": "rws-1909/eight-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "The card represents motion through the immovable-a flight of wands through an open country; but they draw to the term of their course. That which they signify is at hand; it may be even on the threshold.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Eight",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-eight-of-wands-divinatory-upright",
+      "item": "rws-1909/eight-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Activity in undertakings, the path of such activity, swiftness, as that of an express messenger; great haste, great hope, speed towards an end which promises assured felicity; generally, that which is on the move; also the arrows of love.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Eight",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-eight-of-wands-divinatory-reversed",
+      "item": "rws-1909/eight-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Arrows of jealousy, internal dispute, stingings of conscience, quarrels; and domestic disputes for persons who are married.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Eight",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-eight-of-wands-additional-upright",
+      "item": "rws-1909/eight-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Eight",
+      "interpretation_type": "upright",
+      "exact_text": "Domestic disputes for a married person",
+      "sequence": 3,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-eight-of-wands-golden-dawn-title-swiftness",
+      "item": "rws-1909/eight-of-wands",
+      "type": "golden_dawn_title",
+      "value": "Swiftness",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-eight-of-wands-planet-mercury",
+      "item": "rws-1909/eight-of-wands",
+      "type": "planet",
+      "value": "Mercury",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-eight-of-wands-zodiac-sign-sagittarius",
+      "item": "rws-1909/eight-of-wands",
+      "type": "zodiac_sign",
+      "value": "Sagittarius",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-eight-of-wands"
+}

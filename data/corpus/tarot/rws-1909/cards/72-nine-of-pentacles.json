@@ -1,0 +1,103 @@
+{
+  "slug": "nine-of-pentacles",
+  "name": "Nine of Pentacles",
+  "sequence": 72,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "nine",
+  "rank_index": 9,
+  "interpretations": [
+    {
+      "key": "waite-pk-nine-of-pentacles-description",
+      "item": "rws-1909/nine-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A woman, with a bird upon her wrist, stands amidst a great abundance of grapevines in the garden of a manorial house. It is a wide domain, suggesting plenty in all things. Possibly it is her own possession and testifies to material well-being.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Nine",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-nine-of-pentacles-divinatory-upright",
+      "item": "rws-1909/nine-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Prudence, safety, success, accomplishment, certitude, discernment.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Nine",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-nine-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/nine-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Roguery, deception, voided project, bad faith.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Nine",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-nine-of-pentacles-additional-upright",
+      "item": "rws-1909/nine-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Nine",
+      "interpretation_type": "upright",
+      "exact_text": "Prompt fulfilment of what is presaged by neighbouring cards",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-nine-of-pentacles-additional-reversed",
+      "item": "rws-1909/nine-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Nine",
+      "interpretation_type": "reversed",
+      "exact_text": "Vain hopes",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-nine-of-pentacles-golden-dawn-title-material-gain",
+      "item": "rws-1909/nine-of-pentacles",
+      "type": "golden_dawn_title",
+      "value": "Material Gain",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-nine-of-pentacles-planet-venus",
+      "item": "rws-1909/nine-of-pentacles",
+      "type": "planet",
+      "value": "Venus",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-nine-of-pentacles-zodiac-sign-virgo",
+      "item": "rws-1909/nine-of-pentacles",
+      "type": "zodiac_sign",
+      "value": "Virgo",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-nine-of-pentacles"
+}

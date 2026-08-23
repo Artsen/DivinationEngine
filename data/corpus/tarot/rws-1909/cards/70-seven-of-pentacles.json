@@ -1,0 +1,103 @@
+{
+  "slug": "seven-of-pentacles",
+  "name": "Seven of Pentacles",
+  "sequence": 70,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "seven",
+  "rank_index": 7,
+  "interpretations": [
+    {
+      "key": "waite-pk-seven-of-pentacles-description",
+      "item": "rws-1909/seven-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A young man, leaning on his staff, looks intently at seven pentacles attached to a clump of greenery on his right; one would say that these were his treasures and that his heart was there.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Seven",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-seven-of-pentacles-divinatory-upright",
+      "item": "rws-1909/seven-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "These are exceedingly contradictory; in the main, it is a card of money, business, barter; but one reading gives altercation, quarrels--and another innocence, ingenuity, purgation.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Seven",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-seven-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/seven-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Cause for anxiety regarding money which it may be proposed to lend.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Seven",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-seven-of-pentacles-additional-upright",
+      "item": "rws-1909/seven-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Seven",
+      "interpretation_type": "upright",
+      "exact_text": "Improved position for a lady's future husband",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-seven-of-pentacles-additional-reversed",
+      "item": "rws-1909/seven-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Seven",
+      "interpretation_type": "reversed",
+      "exact_text": "Impatience, apprehension, suspicion",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-seven-of-pentacles-golden-dawn-title-success-unfulfilled",
+      "item": "rws-1909/seven-of-pentacles",
+      "type": "golden_dawn_title",
+      "value": "Success Unfulfilled",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-seven-of-pentacles-planet-saturn",
+      "item": "rws-1909/seven-of-pentacles",
+      "type": "planet",
+      "value": "Saturn",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-seven-of-pentacles-zodiac-sign-taurus",
+      "item": "rws-1909/seven-of-pentacles",
+      "type": "zodiac_sign",
+      "value": "Taurus",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-seven-of-pentacles"
+}

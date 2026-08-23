@@ -1,0 +1,69 @@
+{
+  "slug": "king-of-wands",
+  "name": "King of Wands",
+  "sequence": 35,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "king",
+  "rank_index": 14,
+  "interpretations": [
+    {
+      "key": "waite-pk-king-of-wands-description",
+      "item": "rws-1909/king-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "The physical and emotional nature to which this card is attributed is dark, ardent, lithe, animated, impassioned, noble. The King uplifts a flowering wand, and wears, like his three correspondences in the remaining suits, what is called a cap of maintenance beneath his crown. He connects with the symbol of the lion, which is emblazoned on the back of his throne.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, King",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-king-of-wands-divinatory-upright",
+      "item": "rws-1909/king-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Dark man, friendly, countryman, generally married, honest and conscientious. The card always signifies honesty, and may mean news concerning an unexpected heritage to fall in before very long.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, King",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-king-of-wands-divinatory-reversed",
+      "item": "rws-1909/king-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Good, but severe; austere, yet tolerant.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, King",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-king-of-wands-additional-upright",
+      "item": "rws-1909/king-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, King",
+      "interpretation_type": "upright",
+      "exact_text": "Generally favourable; may signify a good marriage",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-king-of-wands-additional-reversed",
+      "item": "rws-1909/king-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, King",
+      "interpretation_type": "reversed",
+      "exact_text": "Advice that should be followed",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-king-of-wands"
+}

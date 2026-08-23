@@ -1,0 +1,70 @@
+{
+  "slug": "the-star",
+  "name": "The Star",
+  "sequence": 17,
+  "arcana": "major",
+  "major_number": 17,
+  "suit": null,
+  "rank": null,
+  "rank_index": null,
+  "interpretations": [
+    {
+      "key": "waite-pk-the-star-inner-symbolism",
+      "item": "rws-1909/the-star",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "symbolism",
+      "exact_text": "A great, radiant star of eight rays, surrounded by seven lesser stars--also of eight rays. The female figure in the foreground is entirely naked. Her left knee is on the land and her right foot upon the water. She pours Water of Life from two great ewers, irrigating sea and land. Behind her is rising ground and on the right a shrub or tree, whereon a bird alights. The figure expresses eternal youth and beauty. The star is l'étoile flamboyante, which appears in Masonic symbolism, but has been confused therein. That which the figure communicates to the living scene is the substance of the heavens and the elements. It has been said truly that the mottoes of this card are \"Waters of Life freely\" and \"Gifts of the Spirit.\"\nThe summary of several tawdry explanations says that it is a card of hope. On other planes it has been certified as immortality and interior light. For the majority of prepared minds, the figure will appear as the type of Truth unveiled, glorious in undying beauty, pouring on the waters of the soul some part and measure of her priceless possession. But she is in reality the Great Mother in the Kabalistic Sephira Binah, which is supernal Understanding, who communicates to the Sephiroth that are below in the measure that they can receive her influx.",
+      "locator": "Part II, §2, The Trumps Major and their Inner Symbolism, The Star",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-the-star-divinatory-upright",
+      "item": "rws-1909/the-star",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Loss, theft, privation, abandonment; another reading says-hope and bright prospects,",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, The Star",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-the-star-divinatory-reversed",
+      "item": "rws-1909/the-star",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Arrogance, haughtiness, impotence.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, The Star",
+      "sequence": 2,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-the-star-hebrew-letter-tzaddi",
+      "item": "rws-1909/the-star",
+      "type": "hebrew_letter",
+      "value": "Tzaddi",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Golden Dawn attribution; not an intrinsic Waite claim."
+    },
+    {
+      "key": "gd-the-star-attribution-aquarius",
+      "item": "rws-1909/the-star",
+      "type": "golden_dawn_attribution",
+      "value": "Aquarius",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Planet/sign/element attribution as applicable."
+    }
+  ],
+  "image_key": "rws1909-image-the-star"
+}

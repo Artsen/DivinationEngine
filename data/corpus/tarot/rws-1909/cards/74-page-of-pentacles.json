@@ -1,0 +1,69 @@
+{
+  "slug": "page-of-pentacles",
+  "name": "Page of Pentacles",
+  "sequence": 74,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "page",
+  "rank_index": 11,
+  "interpretations": [
+    {
+      "key": "waite-pk-page-of-pentacles-description",
+      "item": "rws-1909/page-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A youthful figure, looking intently at the pentacle which hovers over his raised hands. He moves slowly, insensible of that which is about him.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Page",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-page-of-pentacles-divinatory-upright",
+      "item": "rws-1909/page-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Application, study, scholarship, reflection another reading says news, messages and the bringer thereof; also rule, management.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Page",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-page-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/page-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Prodigality, dissipation, liberality, luxury; unfavourable news.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Page",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-page-of-pentacles-additional-upright",
+      "item": "rws-1909/page-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Page",
+      "interpretation_type": "upright",
+      "exact_text": "A dark youth; a young officer or soldier; a child",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-page-of-pentacles-additional-reversed",
+      "item": "rws-1909/page-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Page",
+      "interpretation_type": "reversed",
+      "exact_text": "Sometimes degradation and sometimes pillage",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-page-of-pentacles"
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "nine-of-wands",
+  "name": "Nine of Wands",
+  "sequence": 30,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "nine",
+  "rank_index": 9,
+  "interpretations": [
+    {
+      "key": "waite-pk-nine-of-wands-description",
+      "item": "rws-1909/nine-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "The figure leans upon his staff and has an expectant look, as if awaiting an enemy. Behind are eight other staves--erect, in orderly disposition, like a palisade.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Nine",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-nine-of-wands-divinatory-upright",
+      "item": "rws-1909/nine-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "The card signifies strength in opposition. If attacked, the person will meet an onslaught boldly; and his build shews, that he may prove a formidable antagonist. With this main significance there are all its possible adjuncts--delay, suspension, adjournment.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Nine",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-nine-of-wands-divinatory-reversed",
+      "item": "rws-1909/nine-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Obstacles, adversity, calamity.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Nine",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-nine-of-wands-additional-upright",
+      "item": "rws-1909/nine-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Nine",
+      "interpretation_type": "upright",
+      "exact_text": "Generally speaking, a bad card",
+      "sequence": 3,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-nine-of-wands-golden-dawn-title-great-strength",
+      "item": "rws-1909/nine-of-wands",
+      "type": "golden_dawn_title",
+      "value": "Great Strength",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-nine-of-wands-planet-moon",
+      "item": "rws-1909/nine-of-wands",
+      "type": "planet",
+      "value": "Moon",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-nine-of-wands-zodiac-sign-sagittarius",
+      "item": "rws-1909/nine-of-wands",
+      "type": "zodiac_sign",
+      "value": "Sagittarius",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-nine-of-wands"
+}

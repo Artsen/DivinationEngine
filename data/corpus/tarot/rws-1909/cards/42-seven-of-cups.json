@@ -1,0 +1,103 @@
+{
+  "slug": "seven-of-cups",
+  "name": "Seven of Cups",
+  "sequence": 42,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "seven",
+  "rank_index": 7,
+  "interpretations": [
+    {
+      "key": "waite-pk-seven-of-cups-description",
+      "item": "rws-1909/seven-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "Strange chalices of vision, but the images are more especially those of the fantastic spirit.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Seven",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-seven-of-cups-divinatory-upright",
+      "item": "rws-1909/seven-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Fairy favours, images of reflection, sentiment, imagination, things seen in the glass of contemplation; some attainment in these degrees, but nothing permanent or substantial is suggested.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Seven",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-seven-of-cups-divinatory-reversed",
+      "item": "rws-1909/seven-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Desire, will, determination, project.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Seven",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-seven-of-cups-additional-upright",
+      "item": "rws-1909/seven-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Seven",
+      "interpretation_type": "upright",
+      "exact_text": "Fair child; idea, design, resolve, movement",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-seven-of-cups-additional-reversed",
+      "item": "rws-1909/seven-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Seven",
+      "interpretation_type": "reversed",
+      "exact_text": "Success, if accompanied by the Three of Cups",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-seven-of-cups-golden-dawn-title-illusionary-success",
+      "item": "rws-1909/seven-of-cups",
+      "type": "golden_dawn_title",
+      "value": "Illusionary Success",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-seven-of-cups-planet-venus",
+      "item": "rws-1909/seven-of-cups",
+      "type": "planet",
+      "value": "Venus",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-seven-of-cups-zodiac-sign-scorpio",
+      "item": "rws-1909/seven-of-cups",
+      "type": "zodiac_sign",
+      "value": "Scorpio",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-seven-of-cups"
+}

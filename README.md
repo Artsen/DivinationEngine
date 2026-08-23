@@ -99,6 +99,21 @@ constraints without retaining changes with:
 divination-import data/examples/demo-import.json --dry-run
 ```
 
+### Corpus authoring
+
+The tracked Rider–Waite–Smith corpus is under `data/corpus/tarot/rws-1909`. It keeps per-card
+authoring records, provenance registries, and canonical public-domain image metadata separate from
+the generated importer bundle. Validate or rebuild it with:
+
+```console
+divination-corpus validate data/corpus/tarot/rws-1909
+divination-corpus build data/corpus/tarot/rws-1909
+```
+
+Missing canonical assets can be fetched reproducibly with `divination-corpus assets download`.
+The corpus README documents its source hierarchy, rights, correction workflow, stable keys, and
+the deliberate separation between Waite and Golden Dawn traditions.
+
 An unknown reference or constraint violation rolls back the entire import, including updates
 performed earlier in that bundle.
 

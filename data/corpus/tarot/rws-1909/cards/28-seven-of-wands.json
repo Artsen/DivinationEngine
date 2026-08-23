@@ -1,0 +1,92 @@
+{
+  "slug": "seven-of-wands",
+  "name": "Seven of Wands",
+  "sequence": 28,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "seven",
+  "rank_index": 7,
+  "interpretations": [
+    {
+      "key": "waite-pk-seven-of-wands-description",
+      "item": "rws-1909/seven-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A young man on a craggy eminence brandishing a staff; six other staves are raised towards him from below.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Seven",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-seven-of-wands-divinatory-upright",
+      "item": "rws-1909/seven-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "It is a card of valour, for, on the surface, six are attacking one, who has, however, the vantage position. On the intellectual plane, it signifies discussion, wordy strife; in business--negotiations, war of trade, barter, competition. It is further a card of success, for the combatant is on the top and his enemies may be unable to reach him.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Seven",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-seven-of-wands-divinatory-reversed",
+      "item": "rws-1909/seven-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Perplexity, embarrassments, anxiety. It is also a caution against indecision.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Seven",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-seven-of-wands-additional-upright",
+      "item": "rws-1909/seven-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Seven",
+      "interpretation_type": "upright",
+      "exact_text": "A dark child",
+      "sequence": 3,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-seven-of-wands-golden-dawn-title-valour",
+      "item": "rws-1909/seven-of-wands",
+      "type": "golden_dawn_title",
+      "value": "Valour",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-seven-of-wands-planet-mars",
+      "item": "rws-1909/seven-of-wands",
+      "type": "planet",
+      "value": "Mars",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-seven-of-wands-zodiac-sign-leo",
+      "item": "rws-1909/seven-of-wands",
+      "type": "zodiac_sign",
+      "value": "Leo",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-seven-of-wands"
+}

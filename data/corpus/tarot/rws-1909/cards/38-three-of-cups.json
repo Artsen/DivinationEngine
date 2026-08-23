@@ -1,0 +1,103 @@
+{
+  "slug": "three-of-cups",
+  "name": "Three of Cups",
+  "sequence": 38,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "three",
+  "rank_index": 3,
+  "interpretations": [
+    {
+      "key": "waite-pk-three-of-cups-description",
+      "item": "rws-1909/three-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "Maidens in a garden-ground with cups uplifted, as if pledging one another.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Three",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-three-of-cups-divinatory-upright",
+      "item": "rws-1909/three-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "The conclusion of any matter in plenty, perfection and merriment; happy issue, victory, fulfilment, solace, healing,",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Three",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-three-of-cups-divinatory-reversed",
+      "item": "rws-1909/three-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Expedition, dispatch, achievement, end. It signifies also the side of excess in physical enjoyment, and the pleasures of the senses.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Three",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-three-of-cups-additional-upright",
+      "item": "rws-1909/three-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Three",
+      "interpretation_type": "upright",
+      "exact_text": "Unexpected advancement for military man",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-three-of-cups-additional-reversed",
+      "item": "rws-1909/three-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Three",
+      "interpretation_type": "reversed",
+      "exact_text": "Consolation, cure. end of the business",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-three-of-cups-golden-dawn-title-abundance",
+      "item": "rws-1909/three-of-cups",
+      "type": "golden_dawn_title",
+      "value": "Abundance",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-three-of-cups-planet-mercury",
+      "item": "rws-1909/three-of-cups",
+      "type": "planet",
+      "value": "Mercury",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-three-of-cups-zodiac-sign-cancer",
+      "item": "rws-1909/three-of-cups",
+      "type": "zodiac_sign",
+      "value": "Cancer",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-three-of-cups"
+}

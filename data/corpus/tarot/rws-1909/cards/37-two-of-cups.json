@@ -1,0 +1,103 @@
+{
+  "slug": "two-of-cups",
+  "name": "Two of Cups",
+  "sequence": 37,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "two",
+  "rank_index": 2,
+  "interpretations": [
+    {
+      "key": "waite-pk-two-of-cups-description",
+      "item": "rws-1909/two-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A youth and maiden are pledging one another, and above their cups rises the Caduceus of Hermes, between the great wings of which there appears a lion's head. It is a variant of a sign which is found in a few old examples of this card. Some curious emblematical meanings are attached to it, but they do not concern us in this place.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Two",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-two-of-cups-divinatory-upright",
+      "item": "rws-1909/two-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Love, passion, friendship, affinity, union, concord, sympathy, the interrelation of the sexes, and--as a suggestion apart from all offices of divination--that desire which is not in Nature, but by which Nature is sanctified.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Two",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-two-of-cups-divinatory-reversed",
+      "item": "rws-1909/two-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Lust, cupidity, jealousy, wish, desire, but the card may also give, says W., \"that desire which is not in nature, but by which nature is sanctified.\"",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Two",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-two-of-cups-additional-upright",
+      "item": "rws-1909/two-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Two",
+      "interpretation_type": "upright",
+      "exact_text": "Favourable in things of pleasure and business, as well as love; also wealth and honour",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-two-of-cups-additional-reversed",
+      "item": "rws-1909/two-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Two",
+      "interpretation_type": "reversed",
+      "exact_text": "Passion",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-two-of-cups-golden-dawn-title-love",
+      "item": "rws-1909/two-of-cups",
+      "type": "golden_dawn_title",
+      "value": "Love",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-two-of-cups-planet-venus",
+      "item": "rws-1909/two-of-cups",
+      "type": "planet",
+      "value": "Venus",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-two-of-cups-zodiac-sign-cancer",
+      "item": "rws-1909/two-of-cups",
+      "type": "zodiac_sign",
+      "value": "Cancer",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-two-of-cups"
+}

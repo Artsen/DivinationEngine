@@ -1,0 +1,69 @@
+{
+  "slug": "queen-of-cups",
+  "name": "Queen of Cups",
+  "sequence": 48,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "queen",
+  "rank_index": 13,
+  "interpretations": [
+    {
+      "key": "waite-pk-queen-of-cups-description",
+      "item": "rws-1909/queen-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "Beautiful, fair, dreamy--as one who sees visions in a cup. This is, however, only one of her aspects; she sees, but she also acts, and her activity feeds her dream.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Queen",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-queen-of-cups-divinatory-upright",
+      "item": "rws-1909/queen-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Good, fair woman; honest, devoted woman, who will do service to the Querent; loving intelligence, and hence the gift of vision; success, happiness, pleasure; also wisdom, virtue; a perfect spouse and a good mother.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Queen",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-queen-of-cups-divinatory-reversed",
+      "item": "rws-1909/queen-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "The accounts vary; good woman; otherwise, distinguished woman but one not to be trusted; perverse woman; vice, dishonour, depravity.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Queen",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-queen-of-cups-additional-upright",
+      "item": "rws-1909/queen-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Queen",
+      "interpretation_type": "upright",
+      "exact_text": "Sometimes denotes a woman of equivocal character",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-queen-of-cups-additional-reversed",
+      "item": "rws-1909/queen-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Queen",
+      "interpretation_type": "reversed",
+      "exact_text": "A rich marriage for a man and a distinguished one for a woman",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-queen-of-cups"
+}

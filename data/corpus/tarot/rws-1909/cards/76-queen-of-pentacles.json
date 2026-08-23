@@ -1,0 +1,69 @@
+{
+  "slug": "queen-of-pentacles",
+  "name": "Queen of Pentacles",
+  "sequence": 76,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "queen",
+  "rank_index": 13,
+  "interpretations": [
+    {
+      "key": "waite-pk-queen-of-pentacles-description",
+      "item": "rws-1909/queen-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "The face suggests that of a dark woman, whose qualities might be summed up in the idea of greatness of soul; she has also the serious cast of intelligence; she contemplates her symbol and may see worlds therein.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Queen",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-queen-of-pentacles-divinatory-upright",
+      "item": "rws-1909/queen-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Opulence, generosity, magnificence, security, liberty.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Queen",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-queen-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/queen-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Evil, suspicion, suspense, fear, mistrust.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Queen",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-queen-of-pentacles-additional-upright",
+      "item": "rws-1909/queen-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Queen",
+      "interpretation_type": "upright",
+      "exact_text": "Dark woman; presents from a rich relative; rich and happy marriage for a young man",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-queen-of-pentacles-additional-reversed",
+      "item": "rws-1909/queen-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Queen",
+      "interpretation_type": "reversed",
+      "exact_text": "An illness",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-queen-of-pentacles"
+}

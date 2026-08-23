@@ -1,0 +1,103 @@
+{
+  "slug": "six-of-cups",
+  "name": "Six of Cups",
+  "sequence": 41,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "six",
+  "rank_index": 6,
+  "interpretations": [
+    {
+      "key": "waite-pk-six-of-cups-description",
+      "item": "rws-1909/six-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "Children in an old garden, their cups filled with flowers.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Six",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-six-of-cups-divinatory-upright",
+      "item": "rws-1909/six-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "A card of the past and of memories, looking back, as--for example--on childhood; happiness, enjoyment, but coming rather from the past; things that have vanished. Another reading reverses this, giving new relations, new knowledge, new environment, and then the children are disporting in an unfamiliar precinct.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Six",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-six-of-cups-divinatory-reversed",
+      "item": "rws-1909/six-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "The future, renewal, that which will come to pass presently.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Six",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-six-of-cups-additional-upright",
+      "item": "rws-1909/six-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Six",
+      "interpretation_type": "upright",
+      "exact_text": "Pleasant memories",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-six-of-cups-additional-reversed",
+      "item": "rws-1909/six-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Six",
+      "interpretation_type": "reversed",
+      "exact_text": "Inheritance to fall in quickly",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-six-of-cups-golden-dawn-title-pleasure",
+      "item": "rws-1909/six-of-cups",
+      "type": "golden_dawn_title",
+      "value": "Pleasure",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-six-of-cups-planet-sun",
+      "item": "rws-1909/six-of-cups",
+      "type": "planet",
+      "value": "Sun",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-six-of-cups-zodiac-sign-scorpio",
+      "item": "rws-1909/six-of-cups",
+      "type": "zodiac_sign",
+      "value": "Scorpio",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-six-of-cups"
+}

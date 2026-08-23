@@ -1,0 +1,69 @@
+{
+  "slug": "page-of-cups",
+  "name": "Page of Cups",
+  "sequence": 46,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "page",
+  "rank_index": 11,
+  "interpretations": [
+    {
+      "key": "waite-pk-page-of-cups-description",
+      "item": "rws-1909/page-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A fair, pleasing, somewhat effeminate page, of studious and intent aspect, contemplates a fish rising from a cup to look at him. It is the pictures of the mind taking form.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Page",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-page-of-cups-divinatory-upright",
+      "item": "rws-1909/page-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Fair young man, one impelled to render service and with whom the Querent will be connected; a studious youth; news, message; application, reflection, meditation; also these things directed to business.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Page",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-page-of-cups-divinatory-reversed",
+      "item": "rws-1909/page-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Taste, inclination, attachment, seduction, deception, artifice.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Page",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-page-of-cups-additional-upright",
+      "item": "rws-1909/page-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Page",
+      "interpretation_type": "upright",
+      "exact_text": "Good augury; also a young man who is unfortunate in love",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-page-of-cups-additional-reversed",
+      "item": "rws-1909/page-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Page",
+      "interpretation_type": "reversed",
+      "exact_text": "Obstacles of all kinds",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-page-of-cups"
+}

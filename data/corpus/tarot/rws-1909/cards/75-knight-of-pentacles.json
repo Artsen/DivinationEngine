@@ -1,0 +1,69 @@
+{
+  "slug": "knight-of-pentacles",
+  "name": "Knight of Pentacles",
+  "sequence": 75,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "knight",
+  "rank_index": 12,
+  "interpretations": [
+    {
+      "key": "waite-pk-knight-of-pentacles-description",
+      "item": "rws-1909/knight-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "He rides a slow, enduring, heavy horse, to which his own aspect corresponds. He exhibits his symbol, but does not look therein.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Knight",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-knight-of-pentacles-divinatory-upright",
+      "item": "rws-1909/knight-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Utility, serviceableness, interest, responsibility, rectitude-all on the normal and external plane.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Knight",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-knight-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/knight-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "inertia, idleness, repose of that kind, stagnation; also placidity, discouragement, carelessness.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Knight",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-knight-of-pentacles-additional-upright",
+      "item": "rws-1909/knight-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Knight",
+      "interpretation_type": "upright",
+      "exact_text": "An useful man; useful discoveries",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-knight-of-pentacles-additional-reversed",
+      "item": "rws-1909/knight-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Knight",
+      "interpretation_type": "reversed",
+      "exact_text": "A brave man out of employment",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-knight-of-pentacles"
+}

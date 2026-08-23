@@ -1,0 +1,103 @@
+{
+  "slug": "four-of-pentacles",
+  "name": "Four of Pentacles",
+  "sequence": 67,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "four",
+  "rank_index": 4,
+  "interpretations": [
+    {
+      "key": "waite-pk-four-of-pentacles-description",
+      "item": "rws-1909/four-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A crowned figure, having a pentacle over his crown, clasps another with hands and arms; two pentacles are under his feet. He holds to that which he has.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Four",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-four-of-pentacles-divinatory-upright",
+      "item": "rws-1909/four-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "The surety of possessions, cleaving to that which one has, gift, legacy, inheritance.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Four",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-four-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/four-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Suspense, delay, opposition.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Four",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-four-of-pentacles-additional-upright",
+      "item": "rws-1909/four-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Four",
+      "interpretation_type": "upright",
+      "exact_text": "For a bachelor, pleasant news from a lady",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-four-of-pentacles-additional-reversed",
+      "item": "rws-1909/four-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Four",
+      "interpretation_type": "reversed",
+      "exact_text": "Observation, hindrances",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-four-of-pentacles-golden-dawn-title-earthly-power",
+      "item": "rws-1909/four-of-pentacles",
+      "type": "golden_dawn_title",
+      "value": "Earthly Power",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-four-of-pentacles-planet-sun",
+      "item": "rws-1909/four-of-pentacles",
+      "type": "planet",
+      "value": "Sun",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-four-of-pentacles-zodiac-sign-capricorn",
+      "item": "rws-1909/four-of-pentacles",
+      "type": "zodiac_sign",
+      "value": "Capricorn",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-four-of-pentacles"
+}

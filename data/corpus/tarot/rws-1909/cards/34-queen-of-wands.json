@@ -1,0 +1,69 @@
+{
+  "slug": "queen-of-wands",
+  "name": "Queen of Wands",
+  "sequence": 34,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "queen",
+  "rank_index": 13,
+  "interpretations": [
+    {
+      "key": "waite-pk-queen-of-wands-description",
+      "item": "rws-1909/queen-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "The Wands throughout this suit are always in leaf, as it is a suit of life and animation. Emotionally and otherwise, the Queen's personality corresponds to that of the King, but is more magnetic.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Queen",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-queen-of-wands-divinatory-upright",
+      "item": "rws-1909/queen-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "A dark woman, countrywoman, friendly, chaste, loving, honourable. If the card beside her signifies a man, she is well disposed towards him; if a woman, she is interested in the Querent. Also, love of money, or a certain success in business.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Queen",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-queen-of-wands-divinatory-reversed",
+      "item": "rws-1909/queen-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Good, economical, obliging, serviceable. Signifies also--but in certain positions and in the neighbourhood of other cards tending in such directions--opposition, jealousy, even deceit and infidelity.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Queen",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-queen-of-wands-additional-upright",
+      "item": "rws-1909/queen-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Queen",
+      "interpretation_type": "upright",
+      "exact_text": "A good harvest, which may be taken in several senses",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-queen-of-wands-additional-reversed",
+      "item": "rws-1909/queen-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Queen",
+      "interpretation_type": "reversed",
+      "exact_text": "Good-will towards the Querent, but without the opportunity to exercise it",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-queen-of-wands"
+}

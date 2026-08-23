@@ -1,0 +1,103 @@
+{
+  "slug": "six-of-swords",
+  "name": "Six of Swords",
+  "sequence": 55,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "swords",
+  "rank": "six",
+  "rank_index": 6,
+  "interpretations": [
+    {
+      "key": "waite-pk-six-of-swords-description",
+      "item": "rws-1909/six-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A ferryman carrying passengers in his punt to the further shore. The course is smooth, and seeing that the freight is light, it may be noted that the work is not beyond his strength.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Six",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-six-of-swords-divinatory-upright",
+      "item": "rws-1909/six-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Journey by water, route, way, envoy, commissionary, expedient.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Six",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-six-of-swords-divinatory-reversed",
+      "item": "rws-1909/six-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Declaration, confession, publicity; one account says that it is a proposal of love.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Six",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-six-of-swords-additional-upright",
+      "item": "rws-1909/six-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Six",
+      "interpretation_type": "upright",
+      "exact_text": "The voyage will be pleasant",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-six-of-swords-additional-reversed",
+      "item": "rws-1909/six-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Six",
+      "interpretation_type": "reversed",
+      "exact_text": "Unfavourable issue of lawsuit",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-six-of-swords-golden-dawn-title-earned-success",
+      "item": "rws-1909/six-of-swords",
+      "type": "golden_dawn_title",
+      "value": "Earned Success",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-six-of-swords-planet-mercury",
+      "item": "rws-1909/six-of-swords",
+      "type": "planet",
+      "value": "Mercury",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-six-of-swords-zodiac-sign-aquarius",
+      "item": "rws-1909/six-of-swords",
+      "type": "zodiac_sign",
+      "value": "Aquarius",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-six-of-swords"
+}

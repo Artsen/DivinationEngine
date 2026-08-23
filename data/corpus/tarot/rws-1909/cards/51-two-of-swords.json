@@ -1,0 +1,103 @@
+{
+  "slug": "two-of-swords",
+  "name": "Two of Swords",
+  "sequence": 51,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "swords",
+  "rank": "two",
+  "rank_index": 2,
+  "interpretations": [
+    {
+      "key": "waite-pk-two-of-swords-description",
+      "item": "rws-1909/two-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A hoodwinked female figure balances two swords upon her shoulders.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Two",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-two-of-swords-divinatory-upright",
+      "item": "rws-1909/two-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Conformity and the equipoise which it suggests, courage, friendship, concord in a state of arms; another reading gives tenderness, affection, intimacy. The suggestion of harmony and other favourable readings must be considered in a qualified manner, as Swords generally are not symbolical of beneficent forces in human affairs.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Two",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-two-of-swords-divinatory-reversed",
+      "item": "rws-1909/two-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Imposture, falsehood, duplicity, disloyalty.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Two",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-two-of-swords-additional-upright",
+      "item": "rws-1909/two-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Two",
+      "interpretation_type": "upright",
+      "exact_text": "Gifts for a lady, influential protection for a man in search of help",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-two-of-swords-additional-reversed",
+      "item": "rws-1909/two-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Two",
+      "interpretation_type": "reversed",
+      "exact_text": "Dealings with rogues",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-two-of-swords-golden-dawn-title-peace-restored",
+      "item": "rws-1909/two-of-swords",
+      "type": "golden_dawn_title",
+      "value": "Peace Restored",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-two-of-swords-planet-moon",
+      "item": "rws-1909/two-of-swords",
+      "type": "planet",
+      "value": "Moon",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-two-of-swords-zodiac-sign-libra",
+      "item": "rws-1909/two-of-swords",
+      "type": "zodiac_sign",
+      "value": "Libra",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-two-of-swords"
+}

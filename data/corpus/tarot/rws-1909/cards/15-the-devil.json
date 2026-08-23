@@ -1,0 +1,70 @@
+{
+  "slug": "the-devil",
+  "name": "The Devil",
+  "sequence": 15,
+  "arcana": "major",
+  "major_number": 15,
+  "suit": null,
+  "rank": null,
+  "rank_index": null,
+  "interpretations": [
+    {
+      "key": "waite-pk-the-devil-inner-symbolism",
+      "item": "rws-1909/the-devil",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "symbolism",
+      "exact_text": "The design is an accommodation, mean or harmony, between several motives mentioned in the first part. The Horned Goat of Mendes, with wings like those of a bat, is standing on an altar. At the pit of the stomach there is the sign of Mercury. The right hand is upraised and extended, being the reverse of that benediction which is given by the Hierophant in the fifth card. In the left hand there is a great flaming torch, inverted towards the earth. A reversed pentagram is on the forehead. There is a ring in front of the altar, from which two chains are carried to the necks of two figures, male and female. These are analogous with those of the fifth card, as if Adam and Eve after the Fall. Hereof is the chain and fatality of the material life.\nThe figures are tailed, to signify the animal nature, but there is human intelligence in the faces, and he who is exalted above them is not to be their master for ever. Even now, he is also a bondsman, sustained by the evil that is in him and blind to the liberty of service. With more than his usual derision for the arts which he pretended to respect and interpret as a master therein, Éliphas Lévi affirms that the Baphometic figure is occult science and magic. Another commentator says that in the Divine world it signifies predestination, but there is no correspondence in that world with the things which below are of the brute. What it does signify is the Dweller on the Threshold without the Mystical Garden when those are driven forth therefrom who have eaten the forbidden fruit.",
+      "locator": "Part II, §2, The Trumps Major and their Inner Symbolism, The Devil",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-the-devil-divinatory-upright",
+      "item": "rws-1909/the-devil",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Ravage, violence, vehemence, extraordinary efforts, force, fatality; that which is predestined but is not for this reason evil.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, The Devil",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-the-devil-divinatory-reversed",
+      "item": "rws-1909/the-devil",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Evil fatality, weakness, pettiness, blindness.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, The Devil",
+      "sequence": 2,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-the-devil-hebrew-letter-ayin",
+      "item": "rws-1909/the-devil",
+      "type": "hebrew_letter",
+      "value": "Ayin",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Golden Dawn attribution; not an intrinsic Waite claim."
+    },
+    {
+      "key": "gd-the-devil-attribution-capricorn",
+      "item": "rws-1909/the-devil",
+      "type": "golden_dawn_attribution",
+      "value": "Capricorn",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Planet/sign/element attribution as applicable."
+    }
+  ],
+  "image_key": "rws1909-image-the-devil"
+}

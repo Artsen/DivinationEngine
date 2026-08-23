@@ -1,0 +1,103 @@
+{
+  "slug": "ten-of-pentacles",
+  "name": "Ten of Pentacles",
+  "sequence": 73,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "ten",
+  "rank_index": 10,
+  "interpretations": [
+    {
+      "key": "waite-pk-ten-of-pentacles-description",
+      "item": "rws-1909/ten-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A man and woman beneath an archway which gives entrance to a house and domain. They are accompanied by a child, who looks curiously at two dogs accosting an ancient personage seated in the foreground. The child's hand is on one of them.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Ten",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-ten-of-pentacles-divinatory-upright",
+      "item": "rws-1909/ten-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Gain, riches; family matters, archives, extraction, the abode of a family.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Ten",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ten-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/ten-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Chance, fatality, loss, robbery, games of hazard; sometimes gift, dowry, pension.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Ten",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ten-of-pentacles-additional-upright",
+      "item": "rws-1909/ten-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Ten",
+      "interpretation_type": "upright",
+      "exact_text": "Represents house or dwelling, and de ​ rives its value from other cards",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-ten-of-pentacles-additional-reversed",
+      "item": "rws-1909/ten-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Ten",
+      "interpretation_type": "reversed",
+      "exact_text": "An occasion which may be fortunate or otherwise",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-ten-of-pentacles-golden-dawn-title-wealth",
+      "item": "rws-1909/ten-of-pentacles",
+      "type": "golden_dawn_title",
+      "value": "Wealth",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-ten-of-pentacles-planet-mercury",
+      "item": "rws-1909/ten-of-pentacles",
+      "type": "planet",
+      "value": "Mercury",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-ten-of-pentacles-zodiac-sign-virgo",
+      "item": "rws-1909/ten-of-pentacles",
+      "type": "zodiac_sign",
+      "value": "Virgo",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-ten-of-pentacles"
+}

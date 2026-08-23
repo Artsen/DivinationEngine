@@ -1,0 +1,69 @@
+{
+  "slug": "knight-of-wands",
+  "name": "Knight of Wands",
+  "sequence": 33,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "knight",
+  "rank_index": 12,
+  "interpretations": [
+    {
+      "key": "waite-pk-knight-of-wands-description",
+      "item": "rws-1909/knight-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "He is shewn as if upon a journey, armed with a short wand, and although mailed is not on a warlike errand. He is passing mounds or pyramids. The motion of the horse is a key to the character of its rider, and suggests the precipitate mood, or things connected therewith.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Knight",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-knight-of-wands-divinatory-upright",
+      "item": "rws-1909/knight-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Departure, absence, flight, emigration. A dark young man, friendly. Change of residence.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Knight",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-knight-of-wands-divinatory-reversed",
+      "item": "rws-1909/knight-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Rupture, division, interruption, discord.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Knight",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-knight-of-wands-additional-upright",
+      "item": "rws-1909/knight-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Knight",
+      "interpretation_type": "upright",
+      "exact_text": "A bad card; according to some readings, alienation",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-knight-of-wands-additional-reversed",
+      "item": "rws-1909/knight-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Knight",
+      "interpretation_type": "reversed",
+      "exact_text": "For a woman, marriage, but probably frustrated",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [],
+  "image_key": "rws1909-image-knight-of-wands"
+}

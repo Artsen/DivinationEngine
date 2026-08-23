@@ -1,0 +1,103 @@
+{
+  "slug": "four-of-wands",
+  "name": "Four of Wands",
+  "sequence": 25,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "wands",
+  "rank": "four",
+  "rank_index": 4,
+  "interpretations": [
+    {
+      "key": "waite-pk-four-of-wands-description",
+      "item": "rws-1909/four-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "From the four great staves planted in the foreground there is a great garland suspended; two female figures uplift nosegays; at their side is a bridge over a moat, leading to an old manorial house.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Four",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-four-of-wands-divinatory-upright",
+      "item": "rws-1909/four-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "They are for once almost on the surface--country life, haven of refuge, a species of domestic harvest-home, repose, concord, harmony, prosperity, peace, and the perfected work of these.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Four",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-four-of-wands-divinatory-reversed",
+      "item": "rws-1909/four-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "The meaning remains unaltered; it is prosperity, increase, felicity, beauty, embellishment.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Wands, Four",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-four-of-wands-additional-upright",
+      "item": "rws-1909/four-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Four",
+      "interpretation_type": "upright",
+      "exact_text": "Unexpected good fortune",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-four-of-wands-additional-reversed",
+      "item": "rws-1909/four-of-wands",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Wands, Four",
+      "interpretation_type": "reversed",
+      "exact_text": "A married woman will have beautiful children",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-four-of-wands-golden-dawn-title-perfected-work",
+      "item": "rws-1909/four-of-wands",
+      "type": "golden_dawn_title",
+      "value": "Perfected Work",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-four-of-wands-planet-venus",
+      "item": "rws-1909/four-of-wands",
+      "type": "planet",
+      "value": "Venus",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-four-of-wands-zodiac-sign-aries",
+      "item": "rws-1909/four-of-wands",
+      "type": "zodiac_sign",
+      "value": "Aries",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-four-of-wands"
+}

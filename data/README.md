@@ -18,3 +18,7 @@ divination-import examples/demo-import.json --dry-run
 ```
 
 `examples/demo-import.json` is deliberately fictional and must not be treated as canonical.
+
+Curated, independently editable corpora live under `corpus/`. Generated importer bundles remain
+inside each corpus's `build/` directory so authoring records never collapse into a single opaque
+source file. The first production corpus is documented in `corpus/tarot/rws-1909/README.md`.

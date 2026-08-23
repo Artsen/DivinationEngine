@@ -1,0 +1,12 @@
+[
+  {
+    "slug": "rider-waite-smith",
+    "name": "Rider–Waite–Smith / Waite",
+    "description": "Interpretive material explicitly sourced to A. E. Waite and the original Smith deck."
+  },
+  {
+    "slug": "golden-dawn",
+    "name": "Hermetic Order of the Golden Dawn",
+    "description": "Historical Golden Dawn correspondences kept distinct from Waite."
+  }
+]

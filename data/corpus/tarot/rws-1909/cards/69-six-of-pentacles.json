@@ -1,0 +1,103 @@
+{
+  "slug": "six-of-pentacles",
+  "name": "Six of Pentacles",
+  "sequence": 69,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "six",
+  "rank_index": 6,
+  "interpretations": [
+    {
+      "key": "waite-pk-six-of-pentacles-description",
+      "item": "rws-1909/six-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A person in the guise of a merchant weighs money in a pair of scales and distributes it to the needy and distressed. It is a testimony to his own success in life, as well as to his goodness of heart.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Six",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-six-of-pentacles-divinatory-upright",
+      "item": "rws-1909/six-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Presents, gifts, gratification another account says attention, vigilance now is the accepted time, present prosperity, etc.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Six",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-six-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/six-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Desire, cupidity, envy, jealousy, illusion.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Six",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-six-of-pentacles-additional-upright",
+      "item": "rws-1909/six-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Six",
+      "interpretation_type": "upright",
+      "exact_text": "The present must not be relied on",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-six-of-pentacles-additional-reversed",
+      "item": "rws-1909/six-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Six",
+      "interpretation_type": "reversed",
+      "exact_text": "A check on the Querent's ambition",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-six-of-pentacles-golden-dawn-title-material-success",
+      "item": "rws-1909/six-of-pentacles",
+      "type": "golden_dawn_title",
+      "value": "Material Success",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-six-of-pentacles-planet-moon",
+      "item": "rws-1909/six-of-pentacles",
+      "type": "planet",
+      "value": "Moon",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-six-of-pentacles-zodiac-sign-taurus",
+      "item": "rws-1909/six-of-pentacles",
+      "type": "zodiac_sign",
+      "value": "Taurus",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-six-of-pentacles"
+}

@@ -1,0 +1,9 @@
+{
+  "format_version": "1",
+  "slug": "rws-1909",
+  "name": "Rider–Waite–Smith Tarot (1909)",
+  "description": "A provenance-backed 78-card RWS corpus preserving Waite and Golden Dawn as distinct traditions.",
+  "system_type": "tarot",
+  "supports_reversals": true,
+  "authoritative_text_source": "waite-pictorial-key-1922-wikisource"
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "the-hanged-man",
+  "name": "The Hanged Man",
+  "sequence": 12,
+  "arcana": "major",
+  "major_number": 12,
+  "suit": null,
+  "rank": null,
+  "rank_index": null,
+  "interpretations": [
+    {
+      "key": "waite-pk-the-hanged-man-inner-symbolism",
+      "item": "rws-1909/the-hanged-man",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "symbolism",
+      "exact_text": "The gallows from which he is suspended forms a Tau cross, while the figure--from the position of the legs--forms a fylfot cross. There is a nimbus about the head of the seeming martyr. It should be noted (1) that the tree of sacrifice is living wood, with leaves thereon; (2) that the face expresses deep entrancement, not suffering; (3) that the figure, as a whole, suggests life in suspension, but life and not death. It is a card of profound significance, but all the significance is veiled. One of his editors suggests that Éliphas Lévi did not know the meaning, which is unquestionable nor did the editor himself. It has been called falsely a card of martyrdom, a card a of prudence, a card of the Great Work, a card of duty; but we may exhaust all published interpretations and find only vanity. I will say very simply on my own part that it expresses the relation, in one of its aspects, between the Divine and the Universe.\nHe who can understand that the story of his higher nature is imbedded in this symbolism will receive intimations concerning a great awakening that is possible, and will know that after the sacred Mystery of Death there is a glorious Mystery of Resurrection.",
+      "locator": "Part II, §2, The Trumps Major and their Inner Symbolism, The Hanged Man",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-the-hanged-man-divinatory-upright",
+      "item": "rws-1909/the-hanged-man",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Wisdom, circumspection, discernment, trials, sacrifice, intuition, divination, prophecy.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, The Hanged Man",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-the-hanged-man-divinatory-reversed",
+      "item": "rws-1909/the-hanged-man",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Selfishness, the crowd, body politic.",
+      "locator": "Part III, §3, The Greater Arcana and their Divinatory Meanings, The Hanged Man",
+      "sequence": 2,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-the-hanged-man-hebrew-letter-mem",
+      "item": "rws-1909/the-hanged-man",
+      "type": "hebrew_letter",
+      "value": "Mem",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Golden Dawn attribution; not an intrinsic Waite claim."
+    },
+    {
+      "key": "gd-the-hanged-man-attribution-water",
+      "item": "rws-1909/the-hanged-man",
+      "type": "golden_dawn_attribution",
+      "value": "Water",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, \"The Twenty-Two Keys of the Book\"",
+      "notes": "Planet/sign/element attribution as applicable."
+    }
+  ],
+  "image_key": "rws1909-image-the-hanged-man"
+}

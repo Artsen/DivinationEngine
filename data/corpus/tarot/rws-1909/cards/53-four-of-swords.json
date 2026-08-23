@@ -1,0 +1,103 @@
+{
+  "slug": "four-of-swords",
+  "name": "Four of Swords",
+  "sequence": 53,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "swords",
+  "rank": "four",
+  "rank_index": 4,
+  "interpretations": [
+    {
+      "key": "waite-pk-four-of-swords-description",
+      "item": "rws-1909/four-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "The effigy of a knight in the attitude of prayer, at full length upon his tomb.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Four",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-four-of-swords-divinatory-upright",
+      "item": "rws-1909/four-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Vigilance, retreat, solitude, hermit's repose, exile, tomb and coffin. It is these last that have suggested the design.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Four",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-four-of-swords-divinatory-reversed",
+      "item": "rws-1909/four-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Wise administration, circumspection, economy, avarice, precaution, testament.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Swords, Four",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-four-of-swords-additional-upright",
+      "item": "rws-1909/four-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Four",
+      "interpretation_type": "upright",
+      "exact_text": "A bad card, but if reversed a qualified success may be expected by wise administration of affairs",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-four-of-swords-additional-reversed",
+      "item": "rws-1909/four-of-swords",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Swords, Four",
+      "interpretation_type": "reversed",
+      "exact_text": "A certain success following wise administration",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-four-of-swords-golden-dawn-title-rest-from-strife",
+      "item": "rws-1909/four-of-swords",
+      "type": "golden_dawn_title",
+      "value": "Rest from Strife",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-four-of-swords-planet-jupiter",
+      "item": "rws-1909/four-of-swords",
+      "type": "planet",
+      "value": "Jupiter",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-four-of-swords-zodiac-sign-libra",
+      "item": "rws-1909/four-of-swords",
+      "type": "zodiac_sign",
+      "value": "Libra",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-four-of-swords"
+}

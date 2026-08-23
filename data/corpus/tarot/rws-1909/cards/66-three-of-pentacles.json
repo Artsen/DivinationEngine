@@ -1,0 +1,103 @@
+{
+  "slug": "three-of-pentacles",
+  "name": "Three of Pentacles",
+  "sequence": 66,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "pentacles",
+  "rank": "three",
+  "rank_index": 3,
+  "interpretations": [
+    {
+      "key": "waite-pk-three-of-pentacles-description",
+      "item": "rws-1909/three-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A sculptor at his work in a monastery. Compare the design which illustrates the Eight of Pentacles. The apprentice or amateur therein has received his reward and is now at work in earnest.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Three",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-three-of-pentacles-divinatory-upright",
+      "item": "rws-1909/three-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Métier, trade, skilled labour; usually, however, regarded as a card of nobility, aristocracy, renown, glory.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Three",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-three-of-pentacles-divinatory-reversed",
+      "item": "rws-1909/three-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Mediocrity, in work and otherwise, puerility, pettiness, weakness.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Pentacles, Three",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-three-of-pentacles-additional-upright",
+      "item": "rws-1909/three-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Three",
+      "interpretation_type": "upright",
+      "exact_text": "If for a man, celebrity for his eldest son",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-three-of-pentacles-additional-reversed",
+      "item": "rws-1909/three-of-pentacles",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Pentacles, Three",
+      "interpretation_type": "reversed",
+      "exact_text": "Depends on neighbouring cards",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-three-of-pentacles-golden-dawn-title-material-works",
+      "item": "rws-1909/three-of-pentacles",
+      "type": "golden_dawn_title",
+      "value": "Material Works",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-three-of-pentacles-planet-mars",
+      "item": "rws-1909/three-of-pentacles",
+      "type": "planet",
+      "value": "Mars",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-three-of-pentacles-zodiac-sign-capricorn",
+      "item": "rws-1909/three-of-pentacles",
+      "type": "zodiac_sign",
+      "value": "Capricorn",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-three-of-pentacles"
+}

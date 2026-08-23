@@ -1,0 +1,103 @@
+{
+  "slug": "nine-of-cups",
+  "name": "Nine of Cups",
+  "sequence": 44,
+  "arcana": "minor",
+  "major_number": null,
+  "suit": "cups",
+  "rank": "nine",
+  "rank_index": 9,
+  "interpretations": [
+    {
+      "key": "waite-pk-nine-of-cups-description",
+      "item": "rws-1909/nine-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "description",
+      "exact_text": "A goodly personage has feasted to his heart's content, and abundant refreshment of wine is on the arched counter behind him, seeming to indicate that the future is also assured. The picture offers the material side only, but there are other aspects.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Nine",
+      "sequence": 0,
+      "notes": "Machine extraction seed; canonical provenance is the scan-backed Waite witness. Scan-level editorial verification is recommended for punctuation/OCR-sensitive release work."
+    },
+    {
+      "key": "waite-pk-nine-of-cups-divinatory-upright",
+      "item": "rws-1909/nine-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "upright",
+      "exact_text": "Concord, contentment, physical bien-être; also victory, success, advantage; satisfaction for the Querent or person for whom the consultation is made.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Nine",
+      "sequence": 1,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-nine-of-cups-divinatory-reversed",
+      "item": "rws-1909/nine-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "interpretation_type": "reversed",
+      "exact_text": "Truth, loyalty, liberty; but the readings vary and include mistakes, imperfections, etc.",
+      "locator": "Part III, §2, The Lesser Arcana, Suit of Cups, Nine",
+      "sequence": 2,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-nine-of-cups-additional-upright",
+      "item": "rws-1909/nine-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Nine",
+      "interpretation_type": "upright",
+      "exact_text": "Of good augury for military men",
+      "sequence": 3,
+      "notes": null
+    },
+    {
+      "key": "waite-pk-nine-of-cups-additional-reversed",
+      "item": "rws-1909/nine-of-cups",
+      "source": "waite-pictorial-key-1922-wikisource",
+      "tradition": "rider-waite-smith",
+      "locator": "Part III, §4, Some Additional Meanings of the Lesser Arcana, Cups, Nine",
+      "interpretation_type": "reversed",
+      "exact_text": "Good business",
+      "sequence": 4,
+      "notes": null
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "gd-nine-of-cups-golden-dawn-title-material-happiness",
+      "item": "rws-1909/nine-of-cups",
+      "type": "golden_dawn_title",
+      "value": "Material Happiness",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-nine-of-cups-planet-jupiter",
+      "item": "rws-1909/nine-of-cups",
+      "type": "planet",
+      "value": "Jupiter",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    },
+    {
+      "key": "gd-nine-of-cups-zodiac-sign-pisces",
+      "item": "rws-1909/nine-of-cups",
+      "type": "zodiac_sign",
+      "value": "Pisces",
+      "tradition": "golden-dawn",
+      "source": "golden-dawn-book-t-mathers-felkin",
+      "status": "tradition_specific",
+      "locator": "Book T, numbered Minor Arcana attribution tables",
+      "notes": null
+    }
+  ],
+  "image_key": "rws1909-image-nine-of-cups"
+}
