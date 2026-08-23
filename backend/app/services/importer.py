@@ -3,7 +3,8 @@ import json
 from pathlib import Path
 from typing import Literal
 
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, Field, ValidationError, model_validator
+from sqlalchemy import select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
@@ -12,11 +13,12 @@ from app.db.session import SessionLocal
 from app.schemas.contracts import (
     CollectionCreate,
     CorrespondenceStatus,
-    InterpretationType,
     ItemCreate,
     SourceCreate,
     TraditionCreate,
 )
+
+KEY_PATTERN = r"^[a-z0-9]+(?:-[a-z0-9]+)*$"
 
 
 class ImportCollection(CollectionCreate):
@@ -24,14 +26,15 @@ class ImportCollection(CollectionCreate):
 
 
 class ImportSource(SourceCreate):
-    key: str = Field(min_length=1, pattern=r"^[a-z0-9_-]+$")
+    pass
 
 
 class ImportInterpretation(BaseModel):
+    key: str = Field(min_length=1, max_length=200, pattern=KEY_PATTERN)
     item: str = Field(description="collection-slug/item-slug")
-    source: str = Field(description="source key from this document")
+    source: str = Field(description="stable source key")
     tradition: str | None = Field(default=None, description="tradition slug")
-    interpretation_type: InterpretationType
+    interpretation_type: str = Field(min_length=1, max_length=40, pattern=KEY_PATTERN)
     exact_text: str = Field(min_length=1)
     locator: str | None = None
     sequence: int | None = None
@@ -39,6 +42,7 @@ class ImportInterpretation(BaseModel):
 
 
 class ImportCorrespondence(BaseModel):
+    key: str = Field(min_length=1, max_length=200, pattern=KEY_PATTERN)
     item: str
     type: str = Field(min_length=1)
     value: str | None = None
@@ -57,100 +61,222 @@ class ImportBundle(BaseModel):
     interpretations: list[ImportInterpretation] = Field(default_factory=list)
     correspondences: list[ImportCorrespondence] = Field(default_factory=list)
 
+    @model_validator(mode="after")
+    def stable_identities_are_unique(self) -> "ImportBundle":
+        _require_unique([row.slug for row in self.collections], "collection slug")
+        _require_unique([row.key for row in self.sources], "source key")
+        _require_unique([row.slug for row in self.traditions], "tradition slug")
+        _require_unique([row.key for row in self.interpretations], "interpretation key")
+        _require_unique([row.key for row in self.correspondences], "correspondence key")
+        item_keys = [
+            f"{collection.slug}/{item.slug}"
+            for collection in self.collections
+            for item in collection.items
+        ]
+        _require_unique(item_keys, "item reference")
+        return self
 
-def import_bundle(session: Session, bundle: ImportBundle) -> dict[str, int]:
-    if bundle.format_version != "1":
-        raise ValueError("unsupported format_version")
-    source_ids: dict[str, str] = {}
-    tradition_ids: dict[str, str] = {}
-    item_ids: dict[str, str] = {}
+
+def _require_unique(values: list[str], kind: str) -> None:
+    if len(values) != len(set(values)):
+        raise ValueError(f"duplicate {kind} in import bundle")
+
+
+def import_bundle(
+    session: Session, bundle: ImportBundle, *, dry_run: bool = False
+) -> dict[str, int | bool]:
+    created = 0
+    updated = 0
     try:
         for tradition_data in bundle.traditions:
-            if tradition_data.slug in tradition_ids:
-                raise ValueError(f"duplicate tradition key: {tradition_data.slug}")
-            tradition_row = models.Tradition(**tradition_data.model_dump())
-            session.add(tradition_row)
-            session.flush()
-            tradition_ids[tradition_data.slug] = tradition_row.id
-        for source_data in bundle.sources:
-            if source_data.key in source_ids:
-                raise ValueError(f"duplicate source key: {source_data.key}")
-            values = source_data.model_dump(exclude={"key"})
-            values["source_url"] = str(source_data.source_url) if source_data.source_url else None
-            source_row = models.Source(**values)
-            session.add(source_row)
-            session.flush()
-            source_ids[source_data.key] = source_row.id
-        for collection_data in bundle.collections:
-            collection_row = models.Collection(
-                **collection_data.model_dump(exclude={"items", "metadata"}),
-                metadata_json=collection_data.metadata,
+            tradition_row = session.scalar(
+                select(models.Tradition).where(models.Tradition.slug == tradition_data.slug)
             )
-            session.add(collection_row)
+            if tradition_row is None:
+                tradition_row = models.Tradition(
+                    slug=tradition_data.slug,
+                    name=tradition_data.name,
+                    description=tradition_data.description,
+                )
+                session.add(tradition_row)
+                created += 1
+            else:
+                tradition_row.name = tradition_data.name
+                tradition_row.description = tradition_data.description
+                updated += 1
+            session.flush()
+
+        for source_data in bundle.sources:
+            source_row = session.scalar(
+                select(models.Source).where(models.Source.key == source_data.key)
+            )
+            source_values = source_data.model_dump()
+            source_values["source_url"] = (
+                str(source_data.source_url) if source_data.source_url else None
+            )
+            if source_row is None:
+                source_row = models.Source(**source_values)
+                session.add(source_row)
+                created += 1
+            else:
+                _assign(source_row, source_values)
+                updated += 1
+            session.flush()
+
+        for collection_data in bundle.collections:
+            collection_row = session.scalar(
+                select(models.Collection).where(models.Collection.slug == collection_data.slug)
+            )
+            collection_values = collection_data.model_dump(exclude={"items", "metadata"})
+            if collection_row is None:
+                collection_row = models.Collection(
+                    **collection_values, metadata_json=collection_data.metadata
+                )
+                session.add(collection_row)
+                created += 1
+            else:
+                _assign(collection_row, collection_values)
+                collection_row.metadata_json = collection_data.metadata
+                updated += 1
             session.flush()
             for item_data in collection_data.items:
-                key = f"{collection_data.slug}/{item_data.slug}"
-                if key in item_ids:
-                    raise ValueError(f"duplicate item reference: {key}")
-                item = models.Item(
-                    collection_id=collection_row.id,
-                    **item_data.model_dump(exclude={"metadata"}),
-                    metadata_json=item_data.metadata,
+                item = session.scalar(
+                    select(models.Item).where(
+                        models.Item.collection_id == collection_row.id,
+                        models.Item.slug == item_data.slug,
+                    )
                 )
-                session.add(item)
+                item_values = item_data.model_dump(exclude={"metadata"})
+                if item is None:
+                    item = models.Item(
+                        collection_id=collection_row.id,
+                        **item_values,
+                        metadata_json=item_data.metadata,
+                    )
+                    session.add(item)
+                    created += 1
+                else:
+                    _assign(item, item_values)
+                    item.metadata_json = item_data.metadata
+                    updated += 1
                 session.flush()
-                item_ids[key] = item.id
+
         for interpretation_data in bundle.interpretations:
-            session.add(
-                models.Interpretation(
-                    item_id=_ref(item_ids, interpretation_data.item, "item"),
-                    source_id=_ref(source_ids, interpretation_data.source, "source"),
-                    tradition_id=_optional_ref(
-                        tradition_ids, interpretation_data.tradition, "tradition"
-                    ),
-                    **interpretation_data.model_dump(exclude={"item", "source", "tradition"}),
+            item = _resolve_item(session, interpretation_data.item)
+            source = _resolve_source(session, interpretation_data.source)
+            tradition = _resolve_tradition(session, interpretation_data.tradition)
+            interpretation_row = session.scalar(
+                select(models.Interpretation).where(
+                    models.Interpretation.key == interpretation_data.key
                 )
             )
+            interpretation_values = interpretation_data.model_dump(
+                exclude={"item", "source", "tradition"}
+            )
+            interpretation_values.update(
+                item_id=item.id,
+                source_id=source.id,
+                tradition_id=tradition.id if tradition else None,
+            )
+            if interpretation_row is None:
+                session.add(models.Interpretation(**interpretation_values))
+                created += 1
+            else:
+                _assign(interpretation_row, interpretation_values)
+                updated += 1
+            session.flush()
+
         for correspondence_data in bundle.correspondences:
-            session.add(
-                models.Correspondence(
-                    item_id=_ref(item_ids, correspondence_data.item, "item"),
-                    source_id=_ref(source_ids, correspondence_data.source, "source"),
-                    tradition_id=_optional_ref(
-                        tradition_ids, correspondence_data.tradition, "tradition"
-                    ),
-                    **correspondence_data.model_dump(exclude={"item", "source", "tradition"}),
+            item = _resolve_item(session, correspondence_data.item)
+            source = _resolve_source(session, correspondence_data.source)
+            tradition = _resolve_tradition(session, correspondence_data.tradition)
+            correspondence_row = session.scalar(
+                select(models.Correspondence).where(
+                    models.Correspondence.key == correspondence_data.key
                 )
             )
-        session.commit()
+            correspondence_values = correspondence_data.model_dump(
+                exclude={"item", "source", "tradition"}
+            )
+            correspondence_values.update(
+                item_id=item.id,
+                source_id=source.id,
+                tradition_id=tradition.id if tradition else None,
+            )
+            if correspondence_row is None:
+                session.add(models.Correspondence(**correspondence_values))
+                created += 1
+            else:
+                _assign(correspondence_row, correspondence_values)
+                updated += 1
+            session.flush()
+
+        result: dict[str, int | bool] = {
+            "collections": len(bundle.collections),
+            "items": sum(len(row.items) for row in bundle.collections),
+            "sources": len(bundle.sources),
+            "traditions": len(bundle.traditions),
+            "interpretations": len(bundle.interpretations),
+            "correspondences": len(bundle.correspondences),
+            "created": created,
+            "updated": updated,
+            "dry_run": dry_run,
+        }
+        if dry_run:
+            session.rollback()
+        else:
+            session.commit()
+        return result
     except (IntegrityError, ValueError):
         session.rollback()
         raise
-    return {
-        "collections": len(bundle.collections),
-        "items": len(item_ids),
-        "sources": len(bundle.sources),
-        "traditions": len(bundle.traditions),
-        "interpretations": len(bundle.interpretations),
-        "correspondences": len(bundle.correspondences),
-    }
 
 
-def _ref(mapping: dict[str, str], key: str, kind: str) -> str:
+def _assign(row: object, values: dict) -> None:
+    for name, value in values.items():
+        setattr(row, name, value)
+
+
+def _resolve_item(session: Session, reference: str) -> models.Item:
     try:
-        return mapping[key]
-    except KeyError as exc:
-        raise ValueError(f"unknown {kind} reference: {key}") from exc
+        collection_slug, item_slug = reference.split("/", maxsplit=1)
+    except ValueError as exc:
+        raise ValueError(f"invalid item reference: {reference}") from exc
+    row = session.scalar(
+        select(models.Item)
+        .join(models.Collection)
+        .where(models.Collection.slug == collection_slug, models.Item.slug == item_slug)
+    )
+    if row is None:
+        raise ValueError(f"unknown item reference: {reference}")
+    return row
 
 
-def _optional_ref(mapping: dict[str, str], key: str | None, kind: str) -> str | None:
-    return _ref(mapping, key, kind) if key is not None else None
+def _resolve_source(session: Session, key: str) -> models.Source:
+    row = session.scalar(select(models.Source).where(models.Source.key == key))
+    if row is None:
+        raise ValueError(f"unknown source reference: {key}")
+    return row
+
+
+def _resolve_tradition(session: Session, slug: str | None) -> models.Tradition | None:
+    if slug is None:
+        return None
+    row = session.scalar(select(models.Tradition).where(models.Tradition.slug == slug))
+    if row is None:
+        raise ValueError(f"unknown tradition reference: {slug}")
+    return row
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Validate and import a DivinationEngine bundle")
+    parser = argparse.ArgumentParser(
+        description="Validate and idempotently import a DivinationEngine bundle"
+    )
     parser.add_argument("file", nargs="?", type=Path)
     parser.add_argument("--schema", action="store_true", help="print the JSON Schema and exit")
+    parser.add_argument(
+        "--dry-run", action="store_true", help="validate and execute without committing changes"
+    )
     args = parser.parse_args()
     if args.schema:
         print(json.dumps(ImportBundle.model_json_schema(), indent=2))
@@ -160,7 +286,7 @@ def main() -> None:
     try:
         bundle = ImportBundle.model_validate_json(args.file.read_text(encoding="utf-8"))
         with SessionLocal() as session:
-            result = import_bundle(session, bundle)
+            result = import_bundle(session, bundle, dry_run=args.dry_run)
     except (OSError, ValidationError, ValueError, IntegrityError) as exc:
         parser.exit(1, f"Import failed: {exc}\n")
     print(json.dumps(result, indent=2))

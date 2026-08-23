@@ -13,6 +13,7 @@ jobs:
           cache: pip
       - run: pip install -e ".[dev]"
       - run: alembic upgrade head
+      - run: alembic check
       - run: pytest
       - run: ruff format --check .
       - run: ruff check .

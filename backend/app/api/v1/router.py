@@ -33,6 +33,7 @@ from app.schemas.contracts import (
     TraditionCreate,
     TraditionOut,
 )
+from app.schemas.readings import CastOut, PlacementOut, ReadingContext, ReadingDetail
 from app.services.readings import (
     cast_dict,
     context_dict,
@@ -326,7 +327,7 @@ def list_readings(db: DB) -> list[models.Reading]:
     return list(db.scalars(select(models.Reading).order_by(models.Reading.created_at.desc())).all())
 
 
-@router.get("/readings/{reading_id}")
+@router.get("/readings/{reading_id}", response_model=ReadingDetail)
 def get_reading(reading_id: str, db: DB) -> dict:
     row = load_reading(db, reading_id)
     if row is None:
@@ -345,7 +346,7 @@ def patch_reading(reading_id: str, body: ReadingPatch, db: DB) -> models.Reading
     return row
 
 
-@router.post("/readings/{reading_id}/casts/draw", status_code=201)
+@router.post("/readings/{reading_id}/casts/draw", response_model=CastOut, status_code=201)
 def draw_cast(
     reading_id: str,
     body: DrawRequest,
@@ -364,14 +365,25 @@ def draw_cast(
         raise not_found("collection")
     try:
         cast = create_draw_cast(
-            db, reading, collection, body.count, body.reversals_enabled, randomness
+            db,
+            reading,
+            collection,
+            body.count,
+            body.reversals_enabled,
+            body.deck_session_id,
+            randomness,
         )
+    except IntegrityError as exc:
+        db.rollback()
+        raise HTTPException(
+            status_code=409, detail="deck session draw conflicts with persisted results"
+        ) from exc
     except ValueError as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc
     return cast_dict(cast)
 
 
-@router.post("/readings/{reading_id}/casts/iching", status_code=201)
+@router.post("/readings/{reading_id}/casts/iching", response_model=CastOut, status_code=201)
 def iching_cast(
     reading_id: str,
     db: DB,
@@ -383,7 +395,11 @@ def iching_cast(
     return cast_dict(create_iching_cast(db, reading, randomness))
 
 
-@router.post("/readings/{reading_id}/casts/{cast_id}/placements", status_code=201)
+@router.post(
+    "/readings/{reading_id}/casts/{cast_id}/placements",
+    response_model=PlacementOut,
+    status_code=201,
+)
 def create_placement(reading_id: str, cast_id: str, body: PlacementCreate, db: DB) -> dict:
     cast = db.get(models.ReadingCast, cast_id)
     if cast is None or cast.reading_id != reading_id:
@@ -434,7 +450,7 @@ def delete_note(reading_id: str, note_id: str, db: DB) -> Response:
     return Response(status_code=status.HTTP_204_NO_CONTENT)
 
 
-@router.get("/readings/{reading_id}/context")
+@router.get("/readings/{reading_id}/context", response_model=ReadingContext)
 def get_context(reading_id: str, db: DB) -> dict:
     row = load_reading(db, reading_id)
     if row is None:

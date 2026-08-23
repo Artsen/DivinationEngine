@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session, selectinload
 from app.db import models
 from app.domain.casting import draw_items
 from app.domain.iching import cast_iching
+from app.domain.knowledge import interpretation_is_applicable
 from app.domain.randomness import RandomSource
 
 
@@ -22,22 +23,53 @@ def create_draw_cast(
     collection: models.Collection,
     count: int,
     reversals_enabled: bool,
+    deck_session_id: str | None,
     randomness: RandomSource,
 ) -> models.ReadingCast:
+    deck_session: models.DeckSession
+    if deck_session_id is None:
+        deck_session = models.DeckSession(reading_id=reading.id, collection_id=collection.id)
+        session.add(deck_session)
+        session.flush()
+    else:
+        existing_session = session.get(models.DeckSession, deck_session_id)
+        if existing_session is None:
+            raise ValueError("deck session not found")
+        if existing_session.reading_id != reading.id:
+            raise ValueError("deck session belongs to a different reading")
+        if existing_session.collection_id != collection.id:
+            raise ValueError("deck session belongs to a different collection")
+        deck_session = existing_session
+    consumed_item_ids = set(
+        session.scalars(
+            select(models.DrawResult.item_id).where(
+                models.DrawResult.deck_session_id == deck_session.id
+            )
+        ).all()
+    )
+    available_items = [item for item in collection.items if item.id not in consumed_item_ids]
     drawn = draw_items(
-        collection.items, count, collection.supports_reversals, reversals_enabled, randomness
+        available_items, count, collection.supports_reversals, reversals_enabled, randomness
     )
     cast = models.ReadingCast(
         reading_id=reading.id,
         cast_type="collection",
         collection_id=collection.id,
+        deck_session_id=deck_session.id,
         cast_order=next_cast_order(session, reading.id),
-        configuration={"count": count, "reversals_enabled": reversals_enabled},
+        configuration={
+            "count": count,
+            "reversals_enabled": reversals_enabled,
+            "deck_session_mode": "fresh" if deck_session_id is None else "continue",
+        },
     )
     for order, result in enumerate(drawn, 1):
         cast.results.append(
             models.DrawResult(
-                item_id=result.item.id, draw_order=order, orientation=result.orientation.value
+                item_id=result.item.id,
+                draw_order=order,
+                orientation=result.orientation.value,
+                deck_session_id=deck_session.id,
             )
         )
     session.add(cast)
@@ -96,6 +128,7 @@ def cast_dict(cast: models.ReadingCast) -> dict:
         "id": cast.id,
         "cast_type": cast.cast_type,
         "collection_id": cast.collection_id,
+        "deck_session_id": cast.deck_session_id,
         "cast_order": cast.cast_order,
         "configuration": cast.configuration,
         "created_at": cast.created_at,
@@ -181,47 +214,122 @@ def context_dict(session: Session, reading: models.Reading) -> dict:
     item_ids = [result.item_id for cast in reading.casts for result in cast.results]
     interpretations = (
         session.scalars(
-            select(models.Interpretation).where(models.Interpretation.item_id.in_(item_ids))
+            select(models.Interpretation)
+            .where(models.Interpretation.item_id.in_(item_ids))
+            .options(
+                selectinload(models.Interpretation.source),
+                selectinload(models.Interpretation.tradition),
+            )
         ).all()
         if item_ids
         else []
     )
     correspondences = (
         session.scalars(
-            select(models.Correspondence).where(models.Correspondence.item_id.in_(item_ids))
+            select(models.Correspondence)
+            .where(models.Correspondence.item_id.in_(item_ids))
+            .options(
+                selectinload(models.Correspondence.source),
+                selectinload(models.Correspondence.tradition),
+            )
         ).all()
         if item_ids
         else []
     )
-    data["knowledge"] = {
-        "interpretations": [
-            {
-                "id": row.id,
-                "item_id": row.item_id,
-                "source_id": row.source_id,
-                "tradition_id": row.tradition_id,
-                "interpretation_type": row.interpretation_type,
-                "exact_text": row.exact_text,
-                "locator": row.locator,
-                "sequence": row.sequence,
-                "notes": row.notes,
+    interpretations_by_item: dict[str, list[models.Interpretation]] = {}
+    correspondences_by_item: dict[str, list[models.Correspondence]] = {}
+    for interpretation in interpretations:
+        interpretations_by_item.setdefault(interpretation.item_id, []).append(interpretation)
+    for correspondence in correspondences:
+        correspondences_by_item.setdefault(correspondence.item_id, []).append(correspondence)
+
+    for cast_data, cast in zip(data["casts"], reading.casts, strict=True):
+        for result_data, result in zip(cast_data["draw_results"], cast.results, strict=True):
+            item_interpretations = interpretations_by_item.get(result.item_id, [])
+            applicable = [
+                interpretation_dict(row)
+                for row in item_interpretations
+                if interpretation_is_applicable(result.orientation, row.interpretation_type)
+            ]
+            other = [
+                interpretation_dict(row)
+                for row in item_interpretations
+                if not interpretation_is_applicable(result.orientation, row.interpretation_type)
+            ]
+            result_data["knowledge"] = {
+                "applicable_interpretations": applicable,
+                "other_interpretations": other,
+                "correspondences": [
+                    correspondence_dict(row)
+                    for row in correspondences_by_item.get(result.item_id, [])
+                ],
             }
-            for row in interpretations
-        ],
-        "correspondences": [
-            {
-                "id": row.id,
-                "item_id": row.item_id,
-                "source_id": row.source_id,
-                "tradition_id": row.tradition_id,
-                "type": row.type,
-                "value": row.value,
-                "status": row.status,
-                "locator": row.locator,
-                "notes": row.notes,
-            }
-            for row in correspondences
-        ],
-        "notice": "Stored source-backed facts only; no generated interpretation.",
+
+    sources: dict[str, models.Source] = {}
+    traditions: dict[str, models.Tradition] = {}
+    for interpretation in interpretations:
+        sources[interpretation.source.id] = interpretation.source
+        if interpretation.tradition is not None:
+            traditions[interpretation.tradition.id] = interpretation.tradition
+    for correspondence in correspondences:
+        sources[correspondence.source.id] = correspondence.source
+        if correspondence.tradition is not None:
+            traditions[correspondence.tradition.id] = correspondence.tradition
+    data["sources"] = {
+        source_id: {
+            "id": source.id,
+            "key": source.key,
+            "title": source.title,
+            "author": source.author,
+            "edition": source.edition,
+            "publisher": source.publisher,
+            "publication_year": source.publication_year,
+            "language": source.language,
+            "citation": source.citation,
+            "source_url": source.source_url,
+            "rights_status": source.rights_status,
+            "notes": source.notes,
+        }
+        for source_id, source in sources.items()
     }
+    data["traditions"] = {
+        tradition_id: {
+            "id": tradition.id,
+            "slug": tradition.slug,
+            "name": tradition.name,
+            "description": tradition.description,
+        }
+        for tradition_id, tradition in traditions.items()
+    }
+    data["notice"] = "Stored and mechanically derived facts only; no generated interpretation."
     return data
+
+
+def interpretation_dict(row: models.Interpretation) -> dict:
+    return {
+        "id": row.id,
+        "key": row.key,
+        "item_id": row.item_id,
+        "source_id": row.source_id,
+        "tradition_id": row.tradition_id,
+        "interpretation_type": row.interpretation_type,
+        "exact_text": row.exact_text,
+        "locator": row.locator,
+        "sequence": row.sequence,
+        "notes": row.notes,
+    }
+
+
+def correspondence_dict(row: models.Correspondence) -> dict:
+    return {
+        "id": row.id,
+        "key": row.key,
+        "item_id": row.item_id,
+        "source_id": row.source_id,
+        "tradition_id": row.tradition_id,
+        "type": row.type,
+        "value": row.value,
+        "status": row.status,
+        "locator": row.locator,
+        "notes": row.notes,
+    }

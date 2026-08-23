@@ -6,6 +6,7 @@ from sqlalchemy import (
     CheckConstraint,
     Float,
     ForeignKey,
+    ForeignKeyConstraint,
     Integer,
     String,
     Text,
@@ -31,9 +32,6 @@ class TimestampMixin:
 
 class Collection(Base, TimestampMixin):
     __tablename__ = "collections"
-    __table_args__ = (
-        CheckConstraint("system_type IN ('tarot','oracle','runes')", name="ck_collection_system"),
-    )
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
     slug: Mapped[str] = mapped_column(String(120), unique=True)
     name: Mapped[str] = mapped_column(String(200))
@@ -72,7 +70,9 @@ class Tradition(Base, TimestampMixin):
 
 class Source(Base, TimestampMixin):
     __tablename__ = "sources"
+    __table_args__ = (UniqueConstraint("key", name="uq_source_key"),)
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
+    key: Mapped[str | None] = mapped_column(String(160))
     title: Mapped[str] = mapped_column(String(300))
     author: Mapped[str | None] = mapped_column(String(200))
     edition: Mapped[str | None] = mapped_column(String(120))
@@ -87,13 +87,9 @@ class Source(Base, TimestampMixin):
 
 class Interpretation(Base, TimestampMixin):
     __tablename__ = "interpretations"
-    __table_args__ = (
-        CheckConstraint(
-            "interpretation_type IN ('upright','reversed','divinatory','symbolism','description','commentary')",  # noqa: E501
-            name="ck_interpretation_type",
-        ),
-    )
+    __table_args__ = (UniqueConstraint("key", name="uq_interpretation_key"),)
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
+    key: Mapped[str | None] = mapped_column(String(200))
     item_id: Mapped[str] = mapped_column(ForeignKey("items.id", ondelete="CASCADE"))
     source_id: Mapped[str] = mapped_column(ForeignKey("sources.id", ondelete="RESTRICT"))
     tradition_id: Mapped[str | None] = mapped_column(
@@ -111,12 +107,14 @@ class Interpretation(Base, TimestampMixin):
 class Correspondence(Base, TimestampMixin):
     __tablename__ = "correspondences"
     __table_args__ = (
+        UniqueConstraint("key", name="uq_correspondence_key"),
         CheckConstraint(
             "status IN ('attested','disputed','tradition_specific','not_applicable','not_attested','unknown')",  # noqa: E501
             name="ck_correspondence_status",
         ),
     )
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
+    key: Mapped[str | None] = mapped_column(String(200))
     item_id: Mapped[str] = mapped_column(ForeignKey("items.id", ondelete="CASCADE"))
     type: Mapped[str] = mapped_column(String(100))
     value: Mapped[str | None] = mapped_column(Text)
@@ -138,6 +136,10 @@ class Hexagram(Base, TimestampMixin):
     __table_args__ = (
         CheckConstraint("canonical_number BETWEEN 1 AND 64", name="ck_hexagram_number"),
         CheckConstraint("length(binary_pattern) = 6", name="ck_hexagram_pattern_length"),
+        CheckConstraint(
+            "replace(replace(binary_pattern, '0', ''), '1', '') = ''",
+            name="ck_hexagram_pattern_binary",
+        ),
     )
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
     canonical_number: Mapped[int] = mapped_column(Integer, unique=True)
@@ -192,6 +194,7 @@ class SpreadPosition(Base):
     __tablename__ = "spread_positions"
     __table_args__ = (
         UniqueConstraint("spread_id", "order", name="uq_spread_position_order"),
+        UniqueConstraint("id", "spread_id", name="uq_spread_position_identity"),
         CheckConstraint('"order" >= 1', name="ck_spread_position_order"),
     )
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
@@ -216,13 +219,51 @@ class Reading(Base, TimestampMixin):
     notes: Mapped[list["ReadingNote"]] = relationship(
         back_populates="reading", cascade="all, delete-orphan", order_by="ReadingNote.created_at"
     )
+    deck_sessions: Mapped[list["DeckSession"]] = relationship(
+        back_populates="reading", cascade="all, delete-orphan"
+    )
+
+
+class DeckSession(Base):
+    __tablename__ = "deck_sessions"
+    __table_args__ = (UniqueConstraint("id", "reading_id", "collection_id"),)
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
+    reading_id: Mapped[str] = mapped_column(ForeignKey("readings.id", ondelete="CASCADE"))
+    collection_id: Mapped[str] = mapped_column(ForeignKey("collections.id", ondelete="RESTRICT"))
+    created_at: Mapped[datetime] = mapped_column(default=utcnow)
+    reading: Mapped[Reading] = relationship(back_populates="deck_sessions")
+    collection: Mapped[Collection] = relationship()
 
 
 class ReadingCast(Base):
     __tablename__ = "reading_casts"
     __table_args__ = (
         UniqueConstraint("reading_id", "cast_order", name="uq_reading_cast_order"),
+        UniqueConstraint("id", "deck_session_id", name="uq_cast_deck_session_identity"),
+        ForeignKeyConstraint(
+            ["deck_session_id", "reading_id", "collection_id"],
+            ["deck_sessions.id", "deck_sessions.reading_id", "deck_sessions.collection_id"],
+            name="fk_cast_deck_session_scope",
+        ),
         CheckConstraint("cast_type IN ('collection','iching')", name="ck_cast_type"),
+        CheckConstraint(
+            "(cast_type = 'collection' AND collection_id IS NOT NULL "
+            "AND primary_pattern IS NULL AND relating_pattern IS NULL) OR "
+            "(cast_type = 'iching' AND collection_id IS NULL "
+            "AND deck_session_id IS NULL AND primary_pattern IS NOT NULL "
+            "AND relating_pattern IS NOT NULL)",
+            name="ck_cast_consistency",
+        ),
+        CheckConstraint(
+            "primary_pattern IS NULL OR (length(primary_pattern) = 6 AND "
+            "replace(replace(primary_pattern, '0', ''), '1', '') = '')",
+            name="ck_cast_primary_pattern",
+        ),
+        CheckConstraint(
+            "relating_pattern IS NULL OR (length(relating_pattern) = 6 AND "
+            "replace(replace(relating_pattern, '0', ''), '1', '') = '')",
+            name="ck_cast_relating_pattern",
+        ),
     )
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
     reading_id: Mapped[str] = mapped_column(ForeignKey("readings.id", ondelete="CASCADE"))
@@ -230,6 +271,7 @@ class ReadingCast(Base):
     collection_id: Mapped[str | None] = mapped_column(
         ForeignKey("collections.id", ondelete="RESTRICT")
     )
+    deck_session_id: Mapped[str | None] = mapped_column(String(36))
     configuration: Mapped[dict] = mapped_column(JSON, default=dict)
     cast_order: Mapped[int] = mapped_column(Integer)
     created_at: Mapped[datetime] = mapped_column(default=utcnow)
@@ -238,7 +280,10 @@ class ReadingCast(Base):
     changing_lines: Mapped[list] = mapped_column(JSON, default=list)
     reading: Mapped[Reading] = relationship(back_populates="casts")
     results: Mapped[list["DrawResult"]] = relationship(
-        back_populates="cast", cascade="all, delete-orphan", order_by="DrawResult.draw_order"
+        back_populates="cast",
+        cascade="all, delete-orphan",
+        order_by="DrawResult.draw_order",
+        foreign_keys="DrawResult.cast_id",
     )
     throws: Mapped[list["IChingThrow"]] = relationship(
         back_populates="cast", cascade="all, delete-orphan", order_by="IChingThrow.line_number"
@@ -250,23 +295,51 @@ class DrawResult(Base):
     __table_args__ = (
         UniqueConstraint("cast_id", "draw_order", name="uq_draw_order"),
         UniqueConstraint("cast_id", "item_id", name="uq_cast_item"),
+        UniqueConstraint("id", "cast_id", name="uq_draw_result_identity"),
+        UniqueConstraint("deck_session_id", "item_id", name="uq_deck_session_item"),
+        ForeignKeyConstraint(
+            ["cast_id", "deck_session_id"],
+            ["reading_casts.id", "reading_casts.deck_session_id"],
+            name="fk_result_cast_deck_session",
+        ),
         CheckConstraint("orientation IN ('upright','reversed','none')", name="ck_orientation"),
     )
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
     cast_id: Mapped[str] = mapped_column(ForeignKey("reading_casts.id", ondelete="CASCADE"))
     item_id: Mapped[str] = mapped_column(ForeignKey("items.id", ondelete="RESTRICT"))
+    deck_session_id: Mapped[str | None] = mapped_column(String(36))
     draw_order: Mapped[int] = mapped_column(Integer)
     orientation: Mapped[str] = mapped_column(String(20))
-    cast: Mapped[ReadingCast] = relationship(back_populates="results")
+    cast: Mapped[ReadingCast] = relationship(back_populates="results", foreign_keys=[cast_id])
     item: Mapped[Item] = relationship()
     placement: Mapped["Placement | None"] = relationship(
-        back_populates="draw_result", uselist=False
+        back_populates="draw_result", uselist=False, foreign_keys="Placement.draw_result_id"
     )
 
 
 class Placement(Base):
     __tablename__ = "placements"
-    __table_args__ = (UniqueConstraint("cast_id", "spread_position_id", name="uq_cast_position"),)
+    __table_args__ = (
+        UniqueConstraint("cast_id", "spread_position_id", name="uq_cast_position"),
+        ForeignKeyConstraint(
+            ["draw_result_id", "cast_id"],
+            ["draw_results.id", "draw_results.cast_id"],
+            ondelete="CASCADE",
+            name="fk_placement_draw_cast",
+        ),
+        ForeignKeyConstraint(
+            ["spread_position_id", "spread_id"],
+            ["spread_positions.id", "spread_positions.spread_id"],
+            ondelete="RESTRICT",
+            name="fk_placement_spread_position",
+        ),
+        CheckConstraint(
+            "(spread_id IS NULL AND spread_position_id IS NULL "
+            "AND x IS NOT NULL AND y IS NOT NULL) "
+            "OR (spread_id IS NOT NULL AND spread_position_id IS NOT NULL)",
+            name="ck_placement_location",
+        ),
+    )
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
     cast_id: Mapped[str] = mapped_column(ForeignKey("reading_casts.id", ondelete="CASCADE"))
     draw_result_id: Mapped[str] = mapped_column(
@@ -279,8 +352,10 @@ class Placement(Base):
     x: Mapped[float | None] = mapped_column(Float)
     y: Mapped[float | None] = mapped_column(Float)
     rotation: Mapped[float | None] = mapped_column(Float)
-    draw_result: Mapped[DrawResult] = relationship(back_populates="placement")
-    spread_position: Mapped[SpreadPosition | None] = relationship()
+    draw_result: Mapped[DrawResult] = relationship(
+        back_populates="placement", foreign_keys=[draw_result_id]
+    )
+    spread_position: Mapped[SpreadPosition | None] = relationship(foreign_keys=[spread_position_id])
 
 
 class IChingThrow(Base):
@@ -289,6 +364,10 @@ class IChingThrow(Base):
         UniqueConstraint("cast_id", "line_number", name="uq_iching_line"),
         CheckConstraint("line_number BETWEEN 1 AND 6", name="ck_line_number"),
         CheckConstraint("line_value IN (6,7,8,9)", name="ck_line_value"),
+        CheckConstraint("coin_1 IN (2,3)", name="ck_coin_1"),
+        CheckConstraint("coin_2 IN (2,3)", name="ck_coin_2"),
+        CheckConstraint("coin_3 IN (2,3)", name="ck_coin_3"),
+        CheckConstraint("line_value = coin_1 + coin_2 + coin_3", name="ck_line_value_coin_sum"),
     )
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
     cast_id: Mapped[str] = mapped_column(ForeignKey("reading_casts.id", ondelete="CASCADE"))

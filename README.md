@@ -15,7 +15,8 @@ knowledge. **It does not provide AI-generated readings or fabricate symbolic mea
 - `data`: import documentation and explicitly fictional examples.
 
 A Reading owns any number of immutable collection or I Ching casts. A collection cast owns
-unique draw results; orientation is recorded on each result. Placement is separate and may
+unique draw results and belongs to a persisted deck session; orientation is recorded on each
+result. Placement is separate and may
 reference a persisted spread position or custom coordinates. Knowledge records reference a
 Source and may reference a Tradition. Correspondence types are open strings rather than
 columns, so new systems do not require schema changes.
@@ -64,15 +65,73 @@ Cast results have no update or delete endpoint by design. Retrieving a reading l
 results and never casts again. I Ching pattern strings and throw arrays are bottom-line first;
 changing lines are numbered 1 through 6 from bottom to top.
 
+### Deck sessions
+
+Omitting `deck_session_id` from a draw creates a fresh session backed by the full collection.
+This preserves the original behavior: independent fresh casts may draw the same item. Every
+collection cast response includes its `deck_session_id`. Pass that ID on a later draw in the
+same Reading and Collection to continue from the remaining unseen items:
+
+```bash
+curl -X POST http://127.0.0.1:8000/api/v1/readings/READING_ID/casts/draw \
+  -H "Content-Type: application/json" \
+  -d '{"collection_id":"COLLECTION_ID","count":1,"deck_session_id":"SESSION_ID"}'
+```
+
+Availability is derived from persisted draw results. A session cannot cross Reading or
+Collection boundaries, cannot redraw a consumed item, and fails cleanly when fewer than the
+requested number remain. Returning cards, cuts, piles, and partial reshuffles are intentionally
+deferred.
+
 ## Bulk data curation
 
-Run `divination-import data/examples/demo-import.json` after migrating. The importer validates
-the complete Pydantic document and all cross-references in one transaction. Its source keys and
-`collection-slug/item-slug` references are stable within the import file; database UUIDs are
-generated during import. Run `divination-import --schema` for its JSON Schema.
+Run `divination-import data/examples/demo-import.json` after migrating. Imports are transactional
+and idempotent upserts. Collections use `slug`; items use `collection-slug/item-slug`; sources,
+interpretations, and correspondences use required curator-controlled `key` values; traditions use
+`slug`. Rerunning a bundle updates those logical records without changing UUIDs or deleting rows
+that disappeared from the file. Stable keys are external identities and should not be casually
+renamed.
+
+Validate the schema with `divination-import --schema`. Exercise all reference resolution and DB
+constraints without retaining changes with:
+
+```bash
+divination-import data/examples/demo-import.json --dry-run
+```
+
+An unknown reference or constraint violation rolls back the entire import, including updates
+performed earlier in that bundle.
 
 The demo bundle is fictional. Do not insert inferred, generated, or unattributed meaning.
 Exact source language must remain in `exact_text`, distinct from locators and curator notes.
+
+## Reading context and provenance
+
+`GET /api/v1/readings/{id}/context` returns facts grouped under each actual draw result. Each
+result contains `applicable_interpretations`, `other_interpretations`, and correspondences.
+Sources and traditions are complete, deduplicated lookup maps at the response root, so every
+provenance identifier can be resolved without another request. The endpoint never generates an
+interpretation.
+
+The deterministic relevance rule is:
+
+- upright: `upright`, `divinatory`, `symbolism`, `description`, `commentary`;
+- reversed: `reversed`, `symbolism`, `description`, `commentary`;
+- no orientation: `divinatory`, `symbolism`, `description`, `commentary`.
+
+All other stored categories remain visible under `other_interpretations`; new taxonomy values are
+never silently declared relevant.
+
+## Taxonomy policy
+
+Content classifications are open taxonomies. `Collection.system_type` and
+`Interpretation.interpretation_type` accept lowercase slug-like values, with `tarot`, `oracle`,
+`runes` and the documented interpretation types treated as known conventions rather than a closed
+database list. This permits future sourced systems and categories without migrations.
+
+Controlled engine states remain closed because they carry behavioral invariants. These include
+cast type, draw orientation, and correspondence attestation status. Adding a new casting strategy
+or workflow state therefore requires an intentional engine and schema change.
 
 ## Quality checks
 
@@ -81,6 +140,7 @@ pytest
 ruff format --check .
 ruff check .
 mypy
+alembic check
 ```
 
 ## Scope and roadmap

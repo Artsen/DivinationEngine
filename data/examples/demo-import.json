@@ -29,6 +29,7 @@
   ],
   "interpretations": [
     {
+      "key": "demo-alpha-description",
       "item": "test-deck/alpha",
       "source": "demo-manual",
       "tradition": "demo-only",
@@ -39,6 +40,7 @@
   ],
   "correspondences": [
     {
+      "key": "demo-alpha-test-category",
       "item": "test-deck/alpha",
       "source": "demo-manual",
       "tradition": "demo-only",
