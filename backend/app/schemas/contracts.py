@@ -1,0 +1,222 @@
+from datetime import datetime
+from typing import Any, Literal
+
+from pydantic import BaseModel, ConfigDict, Field, HttpUrl, model_validator
+
+
+class ORMModel(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+
+class CollectionCreate(BaseModel):
+    slug: str = Field(min_length=1, max_length=120, pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+    name: str = Field(min_length=1, max_length=200)
+    description: str | None = None
+    system_type: Literal["tarot", "oracle", "runes"]
+    supports_reversals: bool = False
+    metadata: dict[str, Any] = Field(default_factory=dict)
+
+
+class CollectionPatch(BaseModel):
+    name: str | None = Field(default=None, min_length=1, max_length=200)
+    description: str | None = None
+    supports_reversals: bool | None = None
+    metadata: dict[str, Any] | None = None
+
+
+class CollectionOut(CollectionCreate):
+    id: str
+    item_count: int
+    created_at: datetime
+    updated_at: datetime
+
+
+class ItemCreate(BaseModel):
+    slug: str = Field(min_length=1, max_length=120, pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+    name: str = Field(min_length=1, max_length=200)
+    display_name: str | None = None
+    sequence: int | None = None
+    symbol: str | None = None
+    metadata: dict[str, Any] = Field(default_factory=dict)
+
+
+class ItemOut(ItemCreate):
+    id: str
+    collection_id: str
+    created_at: datetime
+    updated_at: datetime
+
+
+class SourceCreate(BaseModel):
+    title: str = Field(min_length=1, max_length=300)
+    author: str | None = None
+    edition: str | None = None
+    publisher: str | None = None
+    publication_year: int | None = Field(default=None, ge=1)
+    language: str | None = None
+    citation: str | None = None
+    source_url: HttpUrl | None = None
+    rights_status: str | None = None
+    notes: str | None = None
+
+
+class SourceOut(SourceCreate):
+    id: str
+    created_at: datetime
+    updated_at: datetime
+
+
+class TraditionCreate(BaseModel):
+    slug: str = Field(pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+    name: str = Field(min_length=1)
+    description: str | None = None
+
+
+class TraditionOut(TraditionCreate):
+    id: str
+    created_at: datetime
+    updated_at: datetime
+
+
+InterpretationType = Literal[
+    "upright", "reversed", "divinatory", "symbolism", "description", "commentary"
+]
+
+
+class InterpretationCreate(BaseModel):
+    item_id: str
+    source_id: str
+    tradition_id: str | None = None
+    interpretation_type: InterpretationType
+    exact_text: str = Field(min_length=1)
+    locator: str | None = None
+    sequence: int | None = None
+    notes: str | None = None
+
+
+class InterpretationOut(InterpretationCreate):
+    id: str
+    created_at: datetime
+    updated_at: datetime
+
+
+CorrespondenceStatus = Literal[
+    "attested", "disputed", "tradition_specific", "not_applicable", "not_attested", "unknown"
+]
+
+
+class CorrespondenceCreate(BaseModel):
+    item_id: str
+    type: str = Field(min_length=1)
+    value: str | None = None
+    tradition_id: str | None = None
+    source_id: str
+    status: CorrespondenceStatus
+    locator: str | None = None
+    notes: str | None = None
+
+
+class CorrespondenceOut(CorrespondenceCreate):
+    id: str
+    created_at: datetime
+    updated_at: datetime
+
+
+class PositionCreate(BaseModel):
+    label: str = Field(min_length=1)
+    description: str | None = None
+    x: float
+    y: float
+    rotation: float = Field(default=0, ge=-360, le=360)
+    order: int = Field(ge=1)
+
+
+class PositionOut(PositionCreate):
+    id: str
+
+
+class SpreadCreate(BaseModel):
+    slug: str = Field(pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+    name: str = Field(min_length=1)
+    description: str | None = None
+    positions: list[PositionCreate] = Field(min_length=1)
+
+    @model_validator(mode="after")
+    def unique_orders(self) -> "SpreadCreate":
+        if len({p.order for p in self.positions}) != len(self.positions):
+            raise ValueError("spread position order values must be unique")
+        return self
+
+
+class SpreadPatch(BaseModel):
+    name: str | None = Field(default=None, min_length=1)
+    description: str | None = None
+    positions: list[PositionCreate] | None = None
+
+    @model_validator(mode="after")
+    def unique_orders(self) -> "SpreadPatch":
+        if self.positions is not None and len({p.order for p in self.positions}) != len(
+            self.positions
+        ):
+            raise ValueError("spread position order values must be unique")
+        return self
+
+
+class SpreadOut(BaseModel):
+    id: str
+    slug: str
+    name: str
+    description: str | None
+    positions: list[PositionOut]
+    created_at: datetime
+    updated_at: datetime
+
+
+class ReadingCreate(BaseModel):
+    title: str = Field(min_length=1, max_length=200)
+    question: str | None = None
+
+
+class ReadingPatch(BaseModel):
+    title: str | None = Field(default=None, min_length=1, max_length=200)
+    question: str | None = None
+
+
+class ReadingSummary(ReadingCreate):
+    id: str
+    created_at: datetime
+    updated_at: datetime
+
+
+class DrawRequest(BaseModel):
+    collection_id: str
+    count: int = Field(ge=1)
+    reversals_enabled: bool = False
+
+
+class PlacementCreate(BaseModel):
+    draw_result_id: str
+    spread_id: str | None = None
+    spread_position_id: str | None = None
+    x: float | None = None
+    y: float | None = None
+    rotation: float | None = Field(default=None, ge=-360, le=360)
+
+    @model_validator(mode="after")
+    def has_location(self) -> "PlacementCreate":
+        if self.spread_position_id is None and (self.x is None or self.y is None):
+            raise ValueError("provide a spread position or both custom x and y")
+        if self.spread_position_id is not None and self.spread_id is None:
+            raise ValueError("spread_id is required with spread_position_id")
+        return self
+
+
+class NoteCreate(BaseModel):
+    body: str = Field(min_length=1)
+
+
+class NoteOut(NoteCreate):
+    id: str
+    reading_id: str
+    created_at: datetime
+    updated_at: datetime

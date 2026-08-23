@@ -1,0 +1,51 @@
+{
+  "format_version": "1",
+  "collections": [
+    {
+      "slug": "test-deck",
+      "name": "Test Deck",
+      "description": "Fictional demonstration data; not an occult corpus.",
+      "system_type": "oracle",
+      "supports_reversals": true,
+      "metadata": {"demo": true},
+      "items": [
+        {"slug": "alpha", "name": "Alpha", "sequence": 1},
+        {"slug": "beta", "name": "Beta", "sequence": 2},
+        {"slug": "gamma", "name": "Gamma", "sequence": 3}
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "key": "demo-manual",
+      "title": "Test Deck Demo Manual",
+      "author": "DivinationEngine contributors",
+      "rights_status": "project_demo",
+      "notes": "Fictional fixture text only."
+    }
+  ],
+  "traditions": [
+    {"slug": "demo-only", "name": "Demo Only", "description": "Not a real tradition."}
+  ],
+  "interpretations": [
+    {
+      "item": "test-deck/alpha",
+      "source": "demo-manual",
+      "tradition": "demo-only",
+      "interpretation_type": "description",
+      "exact_text": "Alpha is the first fictional test symbol.",
+      "locator": "Example 1"
+    }
+  ],
+  "correspondences": [
+    {
+      "item": "test-deck/alpha",
+      "source": "demo-manual",
+      "tradition": "demo-only",
+      "type": "test-category",
+      "value": "first",
+      "status": "tradition_specific",
+      "locator": "Example 1"
+    }
+  ]
+}
