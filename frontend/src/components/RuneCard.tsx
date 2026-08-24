@@ -55,7 +55,7 @@ export function RuneCard({ result, sources, traditions }: Props) {
         <details className="fact">
           <summary>Historical evidence</summary>
           <p className="muted">Canonical identity is separated from later poems and modern divination. Archaeological row records and limitations are documented in the corpus source registry.</p>
-          {historicalEvidence.map((fact) => <section key={fact.id} className="nested-fact"><h5>{taxonomyLabel(fact.type)}</h5><p>{fact.value}</p><Provenance source={sources[fact.source_id]} tradition={fact.tradition_id ? traditions[fact.tradition_id] : undefined} locator={fact.locator} /></section>)}
+          {historicalEvidence.map((fact) => <section key={fact.id} className="nested-fact"><h5>{taxonomyLabel(fact.type)}</h5><p>{fact.value} <span className="status-tag">{taxonomyLabel(fact.status)}</span></p>{fact.notes && <p className="rune-caution">{fact.notes}</p>}<Provenance source={sources[fact.source_id]} tradition={fact.tradition_id ? traditions[fact.tradition_id] : undefined} locator={fact.locator} /></section>)}
         </details>
         <details className="fact" open>
           <summary>Rune poems</summary>

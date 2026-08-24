@@ -84,12 +84,31 @@ class RunePoemStanza(BaseModel):
 class Attestation(BaseModel):
     key: str
     name: str
-    kind: Literal["full-row", "partial", "context"]
+    kind: Literal["complete-row", "full-row-with-damage", "partial-row", "contextual"]
+    row_completeness: Literal[
+        "complete", "intended-complete-survives-with-damage", "partial", "contextual"
+    ]
     date: str | None = None
     object_id: str | None = None
     source_refs: list[str]
-    rune_items: list[str]
+    transcription: str | None = None
+    legible_rune_items: list[str]
+    inferred_rune_items: list[str]
+    uncertain_rune_items: list[str]
     notes: str
+
+
+RuneEvidenceStatus = Literal["directly-legible", "inferred", "damaged-or-uncertain"]
+
+
+def _rune_evidence_status(attestation: Attestation, rune_key: str) -> RuneEvidenceStatus | None:
+    if rune_key in attestation.legible_rune_items:
+        return "directly-legible"
+    if rune_key in attestation.inferred_rune_items:
+        return "inferred"
+    if rune_key in attestation.uncertain_rune_items:
+        return "damaged-or-uncertain"
+    return None
 
 
 class LoadedRuneCorpus(BaseModel):
@@ -190,9 +209,58 @@ def validate_corpus(corpus: LoadedRuneCorpus) -> dict[str, int]:
             if source not in source_keys:
                 errors.append(f"{attestation.key}: unknown source {source}")
     for attestation in corpus.attestations:
-        for rune_item in attestation.rune_items:
+        evidence_groups = (
+            attestation.legible_rune_items,
+            attestation.inferred_rune_items,
+            attestation.uncertain_rune_items,
+        )
+        evidence_items = [item for group in evidence_groups for item in group]
+        for rune_item in evidence_items:
             if rune_item not in rune_keys:
                 errors.append(f"{attestation.key}: unknown rune item {rune_item}")
+        duplicate_evidence = _duplicates(evidence_items)
+        if duplicate_evidence:
+            errors.append(
+                f"{attestation.key}: rune evidence statuses overlap: "
+                f"{', '.join(duplicate_evidence)}"
+            )
+        evidence_set = set(evidence_items)
+        if attestation.kind in {"complete-row", "full-row-with-damage"}:
+            if evidence_set != rune_keys:
+                errors.append(
+                    f"{attestation.key}: a 24-rune row witness must classify every rune item"
+                )
+        elif evidence_items:
+            errors.append(
+                f"{attestation.key}: partial/contextual records cannot imply per-rune evidence"
+            )
+        if attestation.kind == "complete-row":
+            if attestation.row_completeness != "complete":
+                errors.append(f"{attestation.key}: complete row has inconsistent completeness")
+            if set(attestation.legible_rune_items) != rune_keys or (
+                attestation.inferred_rune_items or attestation.uncertain_rune_items
+            ):
+                errors.append(
+                    f"{attestation.key}: complete row must classify all 24 runes as legible"
+                )
+        if attestation.kind == "full-row-with-damage":
+            if attestation.row_completeness != "intended-complete-survives-with-damage":
+                errors.append(f"{attestation.key}: damaged row has inconsistent completeness")
+            if not attestation.transcription:
+                errors.append(f"{attestation.key}: damaged row must retain its transcription")
+            if not (attestation.inferred_rune_items or attestation.uncertain_rune_items):
+                errors.append(
+                    f"{attestation.key}: damaged row must identify inferred or uncertain runes"
+                )
+        expected_non_row_completeness = {
+            "partial-row": "partial",
+            "contextual": "contextual",
+        }
+        if (
+            attestation.kind in expected_non_row_completeness
+            and attestation.row_completeness != expected_non_row_completeness[attestation.kind]
+        ):
+            errors.append(f"{attestation.key}: non-row record has inconsistent completeness")
     for rune in runes:
         expected_key = f"runes/elder-futhark/{rune.row_position:02d}"
         if rune.key != expected_key:
@@ -205,6 +273,24 @@ def validate_corpus(corpus: LoadedRuneCorpus) -> dict[str, int]:
         for attestation_ref in rune.attestation_refs:
             if attestation_ref not in attestation_keys:
                 errors.append(f"{rune.key}: unknown attestation {attestation_ref}")
+                continue
+            attestation = next(row for row in corpus.attestations if row.key == attestation_ref)
+            if _rune_evidence_status(attestation, rune.key) is None:
+                errors.append(
+                    f"{rune.key}: attestation {attestation_ref} lacks per-rune evidence status"
+                )
+    rune_refs_by_key = {row.key: set(row.attestation_refs) for row in runes}
+    for attestation in corpus.attestations:
+        evidence_items = (
+            attestation.legible_rune_items
+            + attestation.inferred_rune_items
+            + attestation.uncertain_rune_items
+        )
+        for rune_key in evidence_items:
+            if rune_key in rune_refs_by_key and attestation.key not in rune_refs_by_key[rune_key]:
+                errors.append(
+                    f"{attestation.key}: {rune_key} evidence lacks reciprocal attestation reference"
+                )
 
     counts = Counter(row.poem for row in poems)
     expected_poems = {"old-english": 29, "norwegian": 16, "icelandic": 16}
@@ -269,7 +355,13 @@ def validate_corpus(corpus: LoadedRuneCorpus) -> dict[str, int]:
         "cautious_mappings": sum(row.mapping_status == "likely-related" for row in poems),
         "unmapped_expansions": len(expansions),
         "attestations": len(corpus.attestations),
-        "full_row_attestations": sum(row.kind == "full-row" for row in corpus.attestations),
+        "complete_row_witnesses": sum(row.kind == "complete-row" for row in corpus.attestations),
+        "damaged_row_witnesses": sum(
+            row.kind == "full-row-with-damage" for row in corpus.attestations
+        ),
+        "legible_rune_links": sum(len(row.legible_rune_items) for row in corpus.attestations),
+        "inferred_rune_links": sum(len(row.inferred_rune_items) for row in corpus.attestations),
+        "uncertain_rune_links": sum(len(row.uncertain_rune_items) for row in corpus.attestations),
     }
 
 
@@ -286,6 +378,22 @@ def build_bundle(corpus: LoadedRuneCorpus) -> ImportBundle:
 
     for rune in sorted(corpus.runes, key=lambda row: row.row_position):
         item_ref = f"elder-futhark/{rune.slug}"
+        attestation_evidence = []
+        for attestation_key in rune.attestation_refs:
+            attestation = attestations_by_key[attestation_key]
+            evidence_status = _rune_evidence_status(attestation, rune.key)
+            if evidence_status is None:
+                continue
+            attestation_evidence.append(
+                {
+                    "key": attestation.key,
+                    "name": attestation.name,
+                    "row_classification": attestation.kind,
+                    "row_completeness": attestation.row_completeness,
+                    "rune_evidence_status": evidence_status,
+                    "transcription": attestation.transcription,
+                }
+            )
         items.append(
             {
                 "slug": rune.slug,
@@ -297,7 +405,7 @@ def build_bundle(corpus: LoadedRuneCorpus) -> ImportBundle:
                 | {
                     "system": "elder-futhark",
                     "poem_refs": rune.poem_refs,
-                    "attestation_refs": rune.attestation_refs,
+                    "attestation_evidence": attestation_evidence,
                 },
             }
         )
@@ -371,21 +479,42 @@ def build_bundle(corpus: LoadedRuneCorpus) -> ImportBundle:
         )
         for attestation_key in rune.attestation_refs:
             attestation = attestations_by_key[attestation_key]
+            evidence_status = _rune_evidence_status(attestation, rune.key)
+            if evidence_status is None:
+                continue
+            correspondence_status = {
+                "directly-legible": "attested",
+                "inferred": "reconstructed",
+                "damaged-or-uncertain": "disputed",
+            }[evidence_status]
+            evidence_label = {
+                "directly-legible": "individual rune directly legible",
+                "inferred": "individual rune inferred from the recognized 24-rune row",
+                "damaged-or-uncertain": "individual rune damaged or uncertain",
+            }[evidence_status]
             correspondences.append(
                 ImportCorrespondence(
                     key=f"elder-futhark-{rune.row_position:02d}-attestation-{attestation.key}",
                     item=item_ref,
                     type="archaeological_attestation",
-                    value=" · ".join(
-                        part
-                        for part in (attestation.name, attestation.object_id, attestation.date)
-                        if part
+                    value=(
+                        " · ".join(
+                            part
+                            for part in (attestation.name, attestation.object_id, attestation.date)
+                            if part
+                        )
+                        + f" · {evidence_label}"
                     ),
                     tradition="elder-futhark",
                     source=attestation.source_refs[0],
-                    status="attested",
+                    status=correspondence_status,
                     locator=attestation.object_id,
-                    notes=attestation.notes,
+                    notes=(
+                        f"Per-rune epigraphic status: {evidence_label}. "
+                        f"Row classification: {attestation.kind}; "
+                        f"row completeness: {attestation.row_completeness}. "
+                        f"{attestation.notes}"
+                    ),
                 )
             )
         for poem in sorted(poems_by_item.get(rune.key, []), key=lambda row: row.key):

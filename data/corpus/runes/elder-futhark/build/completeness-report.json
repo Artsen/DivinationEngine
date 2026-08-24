@@ -15,5 +15,9 @@
   "cautious_mappings": 3,
   "unmapped_expansions": 5,
   "attestations": 5,
-  "full_row_attestations": 3
+  "complete_row_witnesses": 1,
+  "damaged_row_witnesses": 2,
+  "legible_rune_links": 65,
+  "inferred_rune_links": 1,
+  "uncertain_rune_links": 6
 }

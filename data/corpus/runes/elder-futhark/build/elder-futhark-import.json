@@ -48,10 +48,31 @@
               "norwegian-01-fe",
               "icelandic-01-fe"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -88,10 +109,31 @@
               "norwegian-02-ur",
               "icelandic-02-ur"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -128,10 +170,31 @@
               "norwegian-03-thurs",
               "icelandic-03-thurs"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -168,10 +231,31 @@
               "norwegian-04-oss",
               "icelandic-04-oss"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -208,10 +292,31 @@
               "norwegian-05-reid",
               "icelandic-05-reid"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -248,10 +353,31 @@
               "norwegian-06-kaun",
               "icelandic-06-kaun"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -286,10 +412,31 @@
             "poem_refs": [
               "old-english-07-gyfu"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -324,10 +471,31 @@
             "poem_refs": [
               "old-english-08-wynn"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -364,10 +532,31 @@
               "norwegian-07-hagall",
               "icelandic-07-hagall"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -404,10 +593,31 @@
               "norwegian-08-naudr",
               "icelandic-08-naud"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -444,10 +654,31 @@
               "norwegian-09-is",
               "icelandic-09-iss"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -484,10 +715,31 @@
               "norwegian-10-ar",
               "icelandic-10-ar"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -522,10 +774,31 @@
             "poem_refs": [
               "old-english-13-eoh"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -560,10 +833,31 @@
             "poem_refs": [
               "old-english-14-peorth"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "damaged-or-uncertain",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "damaged-or-uncertain",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -600,10 +894,31 @@
               "norwegian-16-yr",
               "icelandic-16-yr"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "damaged-or-uncertain",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -640,10 +955,31 @@
               "norwegian-11-sol",
               "icelandic-11-sol"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "inferred",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -680,10 +1016,31 @@
               "norwegian-12-tyr",
               "icelandic-12-tyr"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -720,10 +1077,31 @@
               "norwegian-13-bjarkan",
               "icelandic-13-bjarkan"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -758,10 +1136,31 @@
             "poem_refs": [
               "old-english-19-eh"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -798,10 +1197,31 @@
               "norwegian-14-madr",
               "icelandic-14-madr"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -838,10 +1258,31 @@
               "norwegian-15-logr",
               "icelandic-15-logr"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -876,10 +1317,31 @@
             "poem_refs": [
               "old-english-22-ing"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "damaged-or-uncertain",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -914,10 +1376,31 @@
             "poem_refs": [
               "old-english-24-daeg"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "damaged-or-uncertain",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         },
@@ -952,10 +1435,31 @@
             "poem_refs": [
               "old-english-23-ethel"
             ],
-            "attestation_refs": [
-              "kylver-g88",
-              "vadstena-bracteate",
-              "grumpan-bracteate"
+            "attestation_evidence": [
+              {
+                "key": "kylver-g88",
+                "name": "Kylver Stone / G 88",
+                "row_classification": "complete-row",
+                "row_completeness": "complete",
+                "rune_evidence_status": "directly-legible",
+                "transcription": null
+              },
+              {
+                "key": "vadstena-bracteate",
+                "name": "Vadstena bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "directly-legible",
+                "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)"
+              },
+              {
+                "key": "grumpan-bracteate",
+                "name": "Grumpan bracteate",
+                "row_classification": "full-row-with-damage",
+                "row_completeness": "intended-complete-survives-with-damage",
+                "rune_evidence_status": "damaged-or-uncertain",
+                "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·"
+              }
             ]
           }
         }
@@ -1059,13 +1563,39 @@
       "title": "RuneS: Runic Writing in the Germanic Languages",
       "author": null,
       "edition": null,
-      "publisher": "Academy of Sciences and Literature Mainz",
+      "publisher": "Niedersächsische Akademie der Wissenschaften zu Göttingen",
       "publication_year": null,
       "language": "English and German",
       "citation": null,
       "source_url": "https://www.runesdb.de/",
       "rights_status": "citation_and_facts_only",
-      "notes": "Research database cited by stable inscription identities for the Vadstena and Grumpan bracteates and Charnay fibula."
+      "notes": "Research database cited by stable inscription identity for the Charnay fibula; object-specific records are registered separately where per-rune claims are made."
+    },
+    {
+      "key": "runes-vadstena-179",
+      "title": "RuneS Fund 179: Bracteate from the Vadstena area",
+      "author": null,
+      "edition": null,
+      "publisher": "Niedersächsische Akademie der Wissenschaften zu Göttingen",
+      "publication_year": null,
+      "language": "German",
+      "citation": null,
+      "source_url": "https://runesdb.de/find/179",
+      "rights_status": "citation_and_facts_only",
+      "notes": "Object-specific RuneS record for IK 377,1 / KJ2 / Ög 178. It classifies the inscription as an Older Futhark row, marks the inscription incomplete, and supplies the base transcription retained in attestations.json."
+    },
+    {
+      "key": "runes-grumpan-331",
+      "title": "RuneS Fund 331: Grumpan bracteate",
+      "author": null,
+      "edition": null,
+      "publisher": "Niedersächsische Akademie der Wissenschaften zu Göttingen",
+      "publication_year": null,
+      "language": "German",
+      "citation": null,
+      "source_url": "https://runesdb.de/find/331",
+      "rights_status": "citation_and_facts_only",
+      "notes": "Object-specific RuneS record for IK 260 / KJ3 / Vg 207. It classifies the inscription as an Older Futhark row and supplies the damaged/uncertain base transcription retained in attestations.json."
     },
     {
       "key": "tacitus-germania-fordham",
@@ -1848,34 +2378,34 @@
       "key": "elder-futhark-01-attestation-kylver-g88",
       "item": "elder-futhark/fehu",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-01-attestation-vadstena-bracteate",
       "item": "elder-futhark/fehu",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-01-attestation-grumpan-bracteate",
       "item": "elder-futhark/fehu",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-02-reconstructed-name",
@@ -1936,34 +2466,34 @@
       "key": "elder-futhark-02-attestation-kylver-g88",
       "item": "elder-futhark/uruz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-02-attestation-vadstena-bracteate",
       "item": "elder-futhark/uruz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-02-attestation-grumpan-bracteate",
       "item": "elder-futhark/uruz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-03-reconstructed-name",
@@ -2024,34 +2554,34 @@
       "key": "elder-futhark-03-attestation-kylver-g88",
       "item": "elder-futhark/thurisaz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-03-attestation-vadstena-bracteate",
       "item": "elder-futhark/thurisaz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-03-attestation-grumpan-bracteate",
       "item": "elder-futhark/thurisaz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-04-reconstructed-name",
@@ -2112,34 +2642,34 @@
       "key": "elder-futhark-04-attestation-kylver-g88",
       "item": "elder-futhark/ansuz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-04-attestation-vadstena-bracteate",
       "item": "elder-futhark/ansuz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-04-attestation-grumpan-bracteate",
       "item": "elder-futhark/ansuz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-05-reconstructed-name",
@@ -2200,34 +2730,34 @@
       "key": "elder-futhark-05-attestation-kylver-g88",
       "item": "elder-futhark/raidho",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-05-attestation-vadstena-bracteate",
       "item": "elder-futhark/raidho",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-05-attestation-grumpan-bracteate",
       "item": "elder-futhark/raidho",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-06-reconstructed-name",
@@ -2288,34 +2818,34 @@
       "key": "elder-futhark-06-attestation-kylver-g88",
       "item": "elder-futhark/kenaz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-06-attestation-vadstena-bracteate",
       "item": "elder-futhark/kenaz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-06-attestation-grumpan-bracteate",
       "item": "elder-futhark/kenaz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-07-reconstructed-name",
@@ -2376,34 +2906,34 @@
       "key": "elder-futhark-07-attestation-kylver-g88",
       "item": "elder-futhark/gebo",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-07-attestation-vadstena-bracteate",
       "item": "elder-futhark/gebo",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-07-attestation-grumpan-bracteate",
       "item": "elder-futhark/gebo",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-08-reconstructed-name",
@@ -2464,34 +2994,34 @@
       "key": "elder-futhark-08-attestation-kylver-g88",
       "item": "elder-futhark/wunjo",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-08-attestation-vadstena-bracteate",
       "item": "elder-futhark/wunjo",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-08-attestation-grumpan-bracteate",
       "item": "elder-futhark/wunjo",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-09-reconstructed-name",
@@ -2552,34 +3082,34 @@
       "key": "elder-futhark-09-attestation-kylver-g88",
       "item": "elder-futhark/hagalaz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-09-attestation-vadstena-bracteate",
       "item": "elder-futhark/hagalaz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-09-attestation-grumpan-bracteate",
       "item": "elder-futhark/hagalaz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-10-reconstructed-name",
@@ -2640,34 +3170,34 @@
       "key": "elder-futhark-10-attestation-kylver-g88",
       "item": "elder-futhark/nauthiz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-10-attestation-vadstena-bracteate",
       "item": "elder-futhark/nauthiz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-10-attestation-grumpan-bracteate",
       "item": "elder-futhark/nauthiz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-11-reconstructed-name",
@@ -2728,34 +3258,34 @@
       "key": "elder-futhark-11-attestation-kylver-g88",
       "item": "elder-futhark/isa",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-11-attestation-vadstena-bracteate",
       "item": "elder-futhark/isa",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-11-attestation-grumpan-bracteate",
       "item": "elder-futhark/isa",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-12-reconstructed-name",
@@ -2816,34 +3346,34 @@
       "key": "elder-futhark-12-attestation-kylver-g88",
       "item": "elder-futhark/jera",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-12-attestation-vadstena-bracteate",
       "item": "elder-futhark/jera",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-12-attestation-grumpan-bracteate",
       "item": "elder-futhark/jera",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-13-reconstructed-name",
@@ -2904,34 +3434,34 @@
       "key": "elder-futhark-13-attestation-kylver-g88",
       "item": "elder-futhark/eihwaz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-13-attestation-vadstena-bracteate",
       "item": "elder-futhark/eihwaz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-13-attestation-grumpan-bracteate",
       "item": "elder-futhark/eihwaz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-14-reconstructed-name",
@@ -2992,34 +3522,34 @@
       "key": "elder-futhark-14-attestation-kylver-g88",
       "item": "elder-futhark/perthro",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-14-attestation-vadstena-bracteate",
       "item": "elder-futhark/perthro",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune damaged or uncertain",
       "tradition": "elder-futhark",
-      "source": "runes-database",
-      "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "source": "runes-vadstena-179",
+      "status": "disputed",
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune damaged or uncertain. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-14-attestation-grumpan-bracteate",
       "item": "elder-futhark/perthro",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune damaged or uncertain",
       "tradition": "elder-futhark",
-      "source": "runes-database",
-      "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "source": "runes-grumpan-331",
+      "status": "disputed",
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune damaged or uncertain. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-15-reconstructed-name",
@@ -3080,34 +3610,34 @@
       "key": "elder-futhark-15-attestation-kylver-g88",
       "item": "elder-futhark/algiz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-15-attestation-vadstena-bracteate",
       "item": "elder-futhark/algiz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-15-attestation-grumpan-bracteate",
       "item": "elder-futhark/algiz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune damaged or uncertain",
       "tradition": "elder-futhark",
-      "source": "runes-database",
-      "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "source": "runes-grumpan-331",
+      "status": "disputed",
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune damaged or uncertain. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-16-reconstructed-name",
@@ -3168,34 +3698,34 @@
       "key": "elder-futhark-16-attestation-kylver-g88",
       "item": "elder-futhark/sowilo",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-16-attestation-vadstena-bracteate",
       "item": "elder-futhark/sowilo",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-16-attestation-grumpan-bracteate",
       "item": "elder-futhark/sowilo",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune inferred from the recognized 24-rune row",
       "tradition": "elder-futhark",
-      "source": "runes-database",
-      "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "source": "runes-grumpan-331",
+      "status": "reconstructed",
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune inferred from the recognized 24-rune row. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-17-reconstructed-name",
@@ -3256,34 +3786,34 @@
       "key": "elder-futhark-17-attestation-kylver-g88",
       "item": "elder-futhark/tiwaz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-17-attestation-vadstena-bracteate",
       "item": "elder-futhark/tiwaz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-17-attestation-grumpan-bracteate",
       "item": "elder-futhark/tiwaz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-18-reconstructed-name",
@@ -3344,34 +3874,34 @@
       "key": "elder-futhark-18-attestation-kylver-g88",
       "item": "elder-futhark/berkano",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-18-attestation-vadstena-bracteate",
       "item": "elder-futhark/berkano",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-18-attestation-grumpan-bracteate",
       "item": "elder-futhark/berkano",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-19-reconstructed-name",
@@ -3432,34 +3962,34 @@
       "key": "elder-futhark-19-attestation-kylver-g88",
       "item": "elder-futhark/ehwaz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-19-attestation-vadstena-bracteate",
       "item": "elder-futhark/ehwaz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-19-attestation-grumpan-bracteate",
       "item": "elder-futhark/ehwaz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-20-reconstructed-name",
@@ -3520,34 +4050,34 @@
       "key": "elder-futhark-20-attestation-kylver-g88",
       "item": "elder-futhark/mannaz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-20-attestation-vadstena-bracteate",
       "item": "elder-futhark/mannaz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-20-attestation-grumpan-bracteate",
       "item": "elder-futhark/mannaz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-21-reconstructed-name",
@@ -3608,34 +4138,34 @@
       "key": "elder-futhark-21-attestation-kylver-g88",
       "item": "elder-futhark/laguz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-21-attestation-vadstena-bracteate",
       "item": "elder-futhark/laguz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-21-attestation-grumpan-bracteate",
       "item": "elder-futhark/laguz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-22-reconstructed-name",
@@ -3696,34 +4226,34 @@
       "key": "elder-futhark-22-attestation-kylver-g88",
       "item": "elder-futhark/ingwaz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-22-attestation-vadstena-bracteate",
       "item": "elder-futhark/ingwaz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-22-attestation-grumpan-bracteate",
       "item": "elder-futhark/ingwaz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune damaged or uncertain",
       "tradition": "elder-futhark",
-      "source": "runes-database",
-      "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "source": "runes-grumpan-331",
+      "status": "disputed",
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune damaged or uncertain. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-23-reconstructed-name",
@@ -3784,34 +4314,34 @@
       "key": "elder-futhark-23-attestation-kylver-g88",
       "item": "elder-futhark/dagaz",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-23-attestation-vadstena-bracteate",
       "item": "elder-futhark/dagaz",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune damaged or uncertain",
       "tradition": "elder-futhark",
-      "source": "runes-database",
-      "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "source": "runes-vadstena-179",
+      "status": "disputed",
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune damaged or uncertain. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-23-attestation-grumpan-bracteate",
       "item": "elder-futhark/dagaz",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-grumpan-331",
       "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     },
     {
       "key": "elder-futhark-24-reconstructed-name",
@@ -3872,34 +4402,34 @@
       "key": "elder-futhark-24-attestation-kylver-g88",
       "item": "elder-futhark/othala",
       "type": "archaeological_attestation",
-      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE · individual rune directly legible",
       "tradition": "elder-futhark",
       "source": "shm-kylver-g88",
       "status": "attested",
       "locator": "267753_HST / G 88",
-      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: complete-row; row completeness: complete. Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
     },
     {
       "key": "elder-futhark-24-attestation-vadstena-bracteate",
       "item": "elder-futhark/othala",
       "type": "archaeological_attestation",
-      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179 · 440–560 CE · individual rune directly legible",
       "tradition": "elder-futhark",
-      "source": "runes-database",
+      "source": "runes-vadstena-179",
       "status": "attested",
-      "locator": "IK 377,1 / KJ2 / Ög 178",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "locator": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+      "notes": "Per-rune epigraphic status: individual rune directly legible. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
     },
     {
       "key": "elder-futhark-24-attestation-grumpan-bracteate",
       "item": "elder-futhark/othala",
       "type": "archaeological_attestation",
-      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207 / RuneS Fund 331 · 440–560 CE · individual rune damaged or uncertain",
       "tradition": "elder-futhark",
-      "source": "runes-database",
-      "status": "attested",
-      "locator": "IK 260 / KJ3 / Vg 207",
-      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+      "source": "runes-grumpan-331",
+      "status": "disputed",
+      "locator": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+      "notes": "Per-rune epigraphic status: individual rune damaged or uncertain. Row classification: full-row-with-damage; row completeness: intended-complete-survives-with-damage. RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
     }
   ],
   "trigrams": [],

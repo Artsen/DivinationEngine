@@ -15,9 +15,16 @@ that workflow is explicitly `derived` software behavior.
   to Younger Futhark. They are relationships to Elder Futhark items, not definitions of them.
 - Ac, Æsc, Yr, Iar, and Ear remain legitimate unmapped Futhorc records. They never become
   canonical Elder Futhark items.
-- `attestations.json` distinguishes complete rows, partial evidence, and contextual evidence.
-  Kylver G 88 is collated to the Swedish History Museum catalogue and supporting World-Tree
-  record. Svingerud is context only, not a complete row.
+- `attestations.json` distinguishes complete rows, recognized 24-rune rows whose surviving
+  inscriptions are damaged, partial rows, and contextual evidence. Its `legible_rune_items`,
+  `inferred_rune_items`, and `uncertain_rune_items` are mutually exclusive epigraphic claims.
+  A rune file's `attestation_refs` is only a relationship join and is never, by itself, proof
+  that the rune is visible. Built item metadata replaces those bare joins with structured
+  `attestation_evidence`, and generated correspondences carry the per-rune evidence status.
+  Kylver G 88 is a complete-row witness while retaining a note about epigraphic variation.
+  RuneS classifies Vadstena's inscription as incomplete, and its transcription marks uncertain
+  characters. Grumpan witnesses the row tradition, but its transcription contains uncertain
+  and supplied positions. Svingerud is context only, not a complete row.
 - `divination-methods.json` distinguishes Tacitus's marked wooden lots from the application's
   finite-bag mechanic. Tacitus does not identify Elder Futhark, runes, 24 pieces, rune stones,
   reversals, or modern spreads.

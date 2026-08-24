@@ -34,7 +34,11 @@ def test_corpus_has_exact_historical_layers_and_counts() -> None:
         "cautious_mappings": 3,
         "unmapped_expansions": 5,
         "attestations": 5,
-        "full_row_attestations": 3,
+        "complete_row_witnesses": 1,
+        "damaged_row_witnesses": 2,
+        "legible_rune_links": 65,
+        "inferred_rune_links": 1,
+        "uncertain_rune_links": 6,
     }
     assert [row.row_position for row in corpus.runes] == list(range(1, 25))
     assert all(row.reconstruction_status == "reconstructed" for row in corpus.runes)
@@ -42,6 +46,52 @@ def test_corpus_has_exact_historical_layers_and_counts() -> None:
         row.normalized_name for row in corpus.poems if row.mapping_status == "not-applicable"
     } == {"Ac", "Æsc", "Yr", "Iar", "Ear"}
     assert all(row.english_exact_text is None for row in corpus.poems)
+
+
+def test_damaged_row_witnesses_preserve_per_rune_epigraphic_status() -> None:
+    corpus = load_corpus(ROOT)
+    attestations = {row.key: row for row in corpus.attestations}
+    kylver = attestations["kylver-g88"]
+    vadstena = attestations["vadstena-bracteate"]
+    grumpan = attestations["grumpan-bracteate"]
+
+    assert kylver.kind == "complete-row"
+    assert len(kylver.legible_rune_items) == 24
+    assert not kylver.inferred_rune_items
+    assert not kylver.uncertain_rune_items
+    assert vadstena.kind == "full-row-with-damage"
+    assert set(vadstena.uncertain_rune_items) == {
+        "runes/elder-futhark/14",
+        "runes/elder-futhark/23",
+    }
+    assert grumpan.inferred_rune_items == ["runes/elder-futhark/16"]
+    assert set(grumpan.uncertain_rune_items) == {
+        "runes/elder-futhark/14",
+        "runes/elder-futhark/15",
+        "runes/elder-futhark/22",
+        "runes/elder-futhark/24",
+    }
+
+    bundle = build_bundle(corpus)
+    items = {row.slug: row for row in bundle.collections[0].items}
+    perthro_evidence = items["perthro"].metadata["attestation_evidence"]
+    assert "attestation_refs" not in items["perthro"].metadata
+    assert {(row["key"], row["rune_evidence_status"]) for row in perthro_evidence} == {
+        ("kylver-g88", "directly-legible"),
+        ("vadstena-bracteate", "damaged-or-uncertain"),
+        ("grumpan-bracteate", "damaged-or-uncertain"),
+    }
+    correspondence_by_key = {row.key: row for row in bundle.correspondences}
+    assert (
+        correspondence_by_key["elder-futhark-14-attestation-grumpan-bracteate"].status == "disputed"
+    )
+    assert (
+        correspondence_by_key["elder-futhark-16-attestation-grumpan-bracteate"].status
+        == "reconstructed"
+    )
+    assert (
+        correspondence_by_key["elder-futhark-01-attestation-grumpan-bracteate"].status == "attested"
+    )
 
 
 def test_source_checked_identity_and_difficult_mapping_fixtures() -> None:
@@ -134,6 +184,19 @@ def test_build_is_deterministic_and_uses_generic_collection_engine() -> None:
                 }
             ),
             "blank rune",
+        ),
+        (
+            lambda corpus: corpus.model_copy(
+                update={
+                    "attestations": [
+                        corpus.attestations[0].model_copy(
+                            update={"uncertain_rune_items": ["runes/elder-futhark/01"]}
+                        ),
+                        *corpus.attestations[1:],
+                    ]
+                }
+            ),
+            "statuses overlap",
         ),
     ],
 )
@@ -244,6 +307,32 @@ def test_rune_draw_context_sessions_exhaustion_and_persistence(
         "Younger Futhark",
     }
     assert all(row["source_id"] in before["sources"] for row in poems)
+    assert "attestation_refs" not in fehu["item"]["metadata"]
+    assert all(
+        "rune_evidence_status" in row for row in fehu["item"]["metadata"]["attestation_evidence"]
+    )
+
+    results_by_slug = {
+        result["item"]["slug"]: result
+        for cast in before["casts"]
+        for result in cast["draw_results"]
+    }
+    perthro_grumpan = next(
+        row
+        for row in results_by_slug["perthro"]["knowledge"]["correspondences"]
+        if row["key"] == "elder-futhark-14-attestation-grumpan-bracteate"
+    )
+    sowilo_grumpan = next(
+        row
+        for row in results_by_slug["sowilo"]["knowledge"]["correspondences"]
+        if row["key"] == "elder-futhark-16-attestation-grumpan-bracteate"
+    )
+    assert perthro_grumpan["status"] == "disputed"
+    assert "damaged or uncertain" in perthro_grumpan["notes"]
+    assert sowilo_grumpan["status"] == "reconstructed"
+    assert "inferred from the recognized 24-rune row" in sowilo_grumpan["notes"]
+    assert perthro_grumpan["source_id"] in before["sources"]
+    assert sowilo_grumpan["source_id"] in before["sources"]
     status = client.get("/api/v1/corpus-status").json()
     assert status["runes_ready"] is True
     assert status["elder_futhark_item_count"] == 24

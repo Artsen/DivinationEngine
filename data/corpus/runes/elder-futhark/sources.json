@@ -73,11 +73,29 @@
   {
     "key": "runes-database",
     "title": "RuneS: Runic Writing in the Germanic Languages",
-    "publisher": "Academy of Sciences and Literature Mainz",
+    "publisher": "Niedersächsische Akademie der Wissenschaften zu Göttingen",
     "language": "English and German",
     "source_url": "https://www.runesdb.de/",
     "rights_status": "citation_and_facts_only",
-    "notes": "Research database cited by stable inscription identities for the Vadstena and Grumpan bracteates and Charnay fibula."
+    "notes": "Research database cited by stable inscription identity for the Charnay fibula; object-specific records are registered separately where per-rune claims are made."
+  },
+  {
+    "key": "runes-vadstena-179",
+    "title": "RuneS Fund 179: Bracteate from the Vadstena area",
+    "publisher": "Niedersächsische Akademie der Wissenschaften zu Göttingen",
+    "language": "German",
+    "source_url": "https://runesdb.de/find/179",
+    "rights_status": "citation_and_facts_only",
+    "notes": "Object-specific RuneS record for IK 377,1 / KJ2 / Ög 178. It classifies the inscription as an Older Futhark row, marks the inscription incomplete, and supplies the base transcription retained in attestations.json."
+  },
+  {
+    "key": "runes-grumpan-331",
+    "title": "RuneS Fund 331: Grumpan bracteate",
+    "publisher": "Niedersächsische Akademie der Wissenschaften zu Göttingen",
+    "language": "German",
+    "source_url": "https://runesdb.de/find/331",
+    "rights_status": "citation_and_facts_only",
+    "notes": "Object-specific RuneS record for IK 260 / KJ3 / Vg 207. It classifies the inscription as an Older Futhark row and supplies the damaged/uncertain base transcription retained in attestations.json."
   },
   {
     "key": "tacitus-germania-fordham",
