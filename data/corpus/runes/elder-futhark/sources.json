@@ -1,0 +1,186 @@
+[
+  {
+    "key": "ut-lrc-old-norse-runes",
+    "title": "Old Norse Online, Lesson 10: Runes and Mystic Origins",
+    "author": "Todd B. Krause and Jonathan Slocum",
+    "publisher": "Linguistics Research Center, The University of Texas at Austin",
+    "language": "English",
+    "source_url": "https://lrc.la.utexas.edu/eieol/norol/100",
+    "rights_status": "citation_and_facts_only",
+    "notes": "Scholarly reconstruction reference. The corpus uses the Older Futhark chart and preserves the authors' warning that later rune names should not be applied naively to early inscriptions."
+  },
+  {
+    "key": "unicode-runic-names-list",
+    "title": "Unicode NamesList: Runic (16A0–16FF)",
+    "author": "Unicode Consortium",
+    "publisher": "Unicode Consortium",
+    "language": "English",
+    "source_url": "https://www.unicode.org/charts/nameslist/n_16A0.html",
+    "rights_status": "unicode-data-license",
+    "notes": "Authoritative modern character identities and names; not evidence for ancient rune names."
+  },
+  {
+    "key": "wikisource-rune-poems",
+    "title": "Rune poems",
+    "publisher": "Wikisource contributors",
+    "language": "Old English and Old Norse",
+    "source_url": "https://en.wikisource.org/w/index.php?oldid=10795428&title=Rune_poems",
+    "rights_status": "historical_source_text_public_domain",
+    "notes": "Revision 10795428 (2 January 2021), used as the fixed digital transcription witness for all 61 original-language stanza bodies. No English translations are bundled."
+  },
+  {
+    "key": "hickes-1705-thesaurus",
+    "title": "Linguarum veterum septentrionalium thesaurus grammatico-criticus et archæologicus",
+    "author": "George Hickes",
+    "publisher": "Sheldonian Theatre, Oxford",
+    "publication_year": 1705,
+    "language": "Latin and Old English",
+    "source_url": "https://archive.org/details/b30454736_0001",
+    "rights_status": "public_domain",
+    "notes": "Early printed witness preserving the Old English Rune Poem after the Cotton Otho B.x manuscript was damaged in the 1731 fire."
+  },
+  {
+    "key": "dickins-1915-runic-heroic-poems",
+    "title": "Runic and Heroic Poems of the Old Teutonic Peoples",
+    "author": "Bruce Dickins",
+    "publisher": "Cambridge University Press",
+    "publication_year": 1915,
+    "language": "English",
+    "source_url": "https://en.wikisource.org/wiki/Runic_and_Heroic_Poems_of_the_Old_Teutonic_Peoples",
+    "rights_status": "public_domain_us_jurisdictionally_restricted",
+    "notes": "Bibliography and locators only. Exact English translations are intentionally not bundled because worldwide redistribution status is not uniform; Dickins died in 1978."
+  },
+  {
+    "key": "bosworth-toller-1898",
+    "title": "An Anglo-Saxon Dictionary, Based on the Manuscript Collections of the Late Joseph Bosworth",
+    "author": "Joseph Bosworth; edited and enlarged by T. Northcote Toller",
+    "publisher": "Clarendon Press, Oxford",
+    "publication_year": 1898,
+    "language": "Old English and English",
+    "source_url": "https://lrc.la.utexas.edu/books/asd/index-introduction",
+    "rights_status": "public_domain_dictionary_entries_us",
+    "notes": "Public-domain dictionary entries used as lexical evidence for the project editorial Old English translations. The University of Texas LRC index and page design are separate copyrighted editorial matter and are not reproduced."
+  },
+  {
+    "key": "cleasby-vigfusson-1874",
+    "title": "An Icelandic-English Dictionary",
+    "author": "Richard Cleasby and Guðbrandur Vigfússon",
+    "publisher": "Clarendon Press, Oxford",
+    "publication_year": 1874,
+    "language": "Old Icelandic and English",
+    "source_url": "https://archive.org/details/icelandicenglish00cleauoft",
+    "rights_status": "public_domain",
+    "notes": "Public-domain scan used as the principal lexical and grammatical reference for the Norwegian and Icelandic project editorial translations. No dictionary prose is bundled."
+  },
+  {
+    "key": "zoega-1910",
+    "title": "A Concise Dictionary of Old Icelandic",
+    "author": "Geir T. Zoëga",
+    "publisher": "Clarendon Press, Oxford",
+    "publication_year": 1910,
+    "language": "Old Icelandic and English",
+    "source_url": "https://archive.org/details/concisedictionar001857",
+    "rights_status": "public_domain",
+    "notes": "Public-domain scan used as a secondary lexical check for the Norwegian and Icelandic project editorial translations. No dictionary prose is bundled."
+  },
+  {
+    "key": "shm-kylver-g88",
+    "title": "Kylverstenen",
+    "publisher": "Swedish History Museum",
+    "language": "Swedish",
+    "source_url": "https://samlingar.shm.se/object/B41A7D55-F30E-4706-92AD-CFD16596ADA6",
+    "rights_status": "cc0_metadata",
+    "notes": "Object 267753_HST; runic signum G 88. Catalogue metadata dates the limestone object to 400–550 and identifies an Older Futhark inscription."
+  },
+  {
+    "key": "world-tree-kylver-g88",
+    "title": "The Kylver Stone (G 88)",
+    "author": "Tom Birkett",
+    "publisher": "World-Tree Project",
+    "publication_year": 2012,
+    "language": "English",
+    "source_url": "https://www.worldtreeproject.org/document/1321",
+    "rights_status": "cc-by-nc",
+    "notes": "Supporting record describing the complete older-futhark row; metadata/citation only, with no media redistributed."
+  },
+  {
+    "key": "runes-database",
+    "title": "RuneS: Runic Writing in the Germanic Languages",
+    "publisher": "Niedersächsische Akademie der Wissenschaften zu Göttingen",
+    "language": "English and German",
+    "source_url": "https://www.runesdb.de/",
+    "rights_status": "citation_and_facts_only",
+    "notes": "Research database cited by stable inscription identity for the Charnay fibula; object-specific records are registered separately where per-rune claims are made."
+  },
+  {
+    "key": "runes-vadstena-179",
+    "title": "RuneS Fund 179: Bracteate from the Vadstena area",
+    "publisher": "Niedersächsische Akademie der Wissenschaften zu Göttingen",
+    "language": "German",
+    "source_url": "https://runesdb.de/find/179",
+    "rights_status": "citation_and_facts_only",
+    "notes": "Object-specific RuneS record for IK 377,1 / KJ2 / Ög 178. It classifies the inscription as an Older Futhark row, marks the inscription incomplete, and supplies the base transcription retained in attestations.json."
+  },
+  {
+    "key": "runes-grumpan-331",
+    "title": "RuneS Fund 331: Grumpan bracteate",
+    "publisher": "Niedersächsische Akademie der Wissenschaften zu Göttingen",
+    "language": "German",
+    "source_url": "https://runesdb.de/find/331",
+    "rights_status": "citation_and_facts_only",
+    "notes": "Object-specific RuneS record for IK 260 / KJ3 / Vg 207. It classifies the inscription as an Older Futhark row and supplies the damaged/uncertain base transcription retained in attestations.json."
+  },
+  {
+    "key": "tacitus-germania-fordham",
+    "title": "Tacitus: Germania",
+    "author": "Publius Cornelius Tacitus",
+    "publisher": "Fordham University Internet History Sourcebooks Project",
+    "language": "English",
+    "source_url": "https://sourcebooks.web.fordham.edu/source/tacitus1.asp",
+    "rights_status": "citation_and_paraphrase_only",
+    "notes": "Section 10 describes marked wooden lots; it does not identify Elder Futhark, runes, rune stones, a 24-piece bag, or modern spreads."
+  },
+  {
+    "key": "svingerud-antiquity-2024",
+    "title": "Inscribed sandstone fragments of Hole, Norway: radiocarbon dates provide insight into rune-stone traditions",
+    "author": "Steinar Solheim et al.",
+    "publisher": "Antiquity, Cambridge University Press",
+    "publication_year": 2025,
+    "language": "English",
+    "source_url": "https://doi.org/10.15184/aqy.2024.225",
+    "rights_status": "cc-by-nc-sa-4.0",
+    "notes": "2025 open-access archaeological study used only for contextual early-runic evidence, not as a complete rune-row witness."
+  },
+  {
+    "key": "barnes-2012-runes-handbook",
+    "title": "Runes: A Handbook",
+    "author": "Michael P. Barnes",
+    "publisher": "Boydell Press",
+    "publication_year": 2012,
+    "language": "English",
+    "source_url": "https://boydellandbrewer.com/book/runes-a-handbook-9781783276974/",
+    "rights_status": "bibliographic_only",
+    "notes": "Modern scholarship bibliography; no copyrighted prose is reproduced."
+  },
+  {
+    "key": "blum-modern-rune-oracle",
+    "title": "The Book of Runes",
+    "author": "Ralph Blum",
+    "publisher": "Oracle Books",
+    "publication_year": 1982,
+    "language": "English",
+    "source_url": "https://search.worldcat.org/title/11470005",
+    "rights_status": "bibliographic_only",
+    "notes": "Modern oracle history only. No interpretation text is reproduced; the blank rune is not part of canonical Elder Futhark."
+  },
+  {
+    "key": "von-list-1908-armanenschaft",
+    "title": "Das Geheimnis der Runen",
+    "author": "Guido von List",
+    "publication_year": 1908,
+    "language": "German",
+    "source_url": "https://search.worldcat.org/search?q=ti%3ADas%20Geheimnis%20der%20Runen%20au%3AGuido%20von%20List",
+    "rights_status": "bibliographic_only",
+    "notes": "Later Armanen occult system, kept separate from Elder Futhark identity."
+  }
+]

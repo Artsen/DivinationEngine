@@ -1,0 +1,29 @@
+[
+  {
+    "key": "blank-rune-modern-history",
+    "tradition": "modern-rune-divination",
+    "date": "1982",
+    "source": "blum-modern-rune-oracle",
+    "status": "tradition-specific",
+    "summary": "Bibliographic record for the modern popularization of a blank rune; it is excluded from canonical Elder Futhark.",
+    "copyrighted_exact_text": false
+  },
+  {
+    "key": "reversal-practices",
+    "tradition": "modern-rune-divination",
+    "date": null,
+    "source": "blum-modern-rune-oracle",
+    "status": "not-attested-for-elder-futhark",
+    "summary": "Reversal or merkstave rules are later tradition-specific practices and are disabled for this collection.",
+    "copyrighted_exact_text": false
+  },
+  {
+    "key": "armanen-list",
+    "tradition": "armanen",
+    "date": "1908",
+    "source": "von-list-1908-armanenschaft",
+    "status": "tradition-specific",
+    "summary": "Separate later occult rune system; it does not alter Elder Futhark identities.",
+    "copyrighted_exact_text": false
+  }
+]

@@ -1,0 +1,949 @@
+[
+  {
+    "poem_key": "old-english-01-feoh",
+    "language": "en",
+    "text": "Wealth is a comfort to every person;\nyet each must distribute it generously\nif they wish to obtain honor before the Lord.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-02-ur",
+    "language": "en",
+    "text": "The aurochs is resolute and high-horned,\na very fierce beast; it fights with its horns,\na renowned moor-strider—it is a courageous creature.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "The animal is rendered as “aurochs”; the stanza emphasizes its ferocity and courage without treating those traits as divinatory meanings."
+  },
+  {
+    "poem_key": "old-english-03-thorn",
+    "language": "en",
+    "text": "The thorn is exceedingly sharp; for every warrior\ngrasping it is harmful, immeasurably cruel\nto every person who rests among it.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-04-os",
+    "language": "en",
+    "text": "The mouth is the source of every speech,\nthe support of wisdom and comfort of counselors,\nand for every noble a blessing and hope.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "Os is rendered contextually as “mouth” because the stanza concerns speech; this is not asserted as the reconstructed Elder Futhark rune name."
+  },
+  {
+    "poem_key": "old-english-05-rad",
+    "language": "en",
+    "text": "Riding in the hall is easy for every warrior\nand very bold for one who sits high\non a powerful horse over the mile-paths.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "Bosworth-Toller gives swíþ-hwæt as very strong or very brave in this stanza. “Very bold” preserves that force; the contrast between indoor ease and an actual journey remains compressed."
+  },
+  {
+    "poem_key": "old-english-06-cen",
+    "language": "en",
+    "text": "The torch is known to every living person by its fire,\npale and bright; it burns most often\nwhere nobles rest indoors.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "Blac can describe a pale, shining, or bright appearance; “pale” preserves the contrast with beorhtlic."
+  },
+  {
+    "poem_key": "old-english-07-gyfu",
+    "language": "en",
+    "text": "Giving is an adornment and praise among people,\na support and a distinction; and to every exile\nit is favor and sustenance when they lack all else.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-08-wynn",
+    "language": "en",
+    "text": "Joy is enjoyed by one who knows little of want,\npain, and sorrow, and who possesses\nprosperity and happiness and sufficient protection.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "Byrga geniht literally suggests a sufficiency of strongholds or protections; the translation keeps the protective sense without forcing a concrete setting."
+  },
+  {
+    "poem_key": "old-english-09-haegl",
+    "language": "en",
+    "text": "Hail is the whitest of grains; it whirls from the sky’s air,\nthe wind’s showers toss it; afterward it turns to water.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-10-nyd",
+    "language": "en",
+    "text": "Need is a constriction in the breast; yet it often becomes for human children\nboth help and healing, if they heed it in time.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-11-is",
+    "language": "en",
+    "text": "Ice is very cold and immeasurably slippery;\nit gleams, glass-clear, most like gems,\na floor made by frost, fair to behold.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-12-ger",
+    "language": "en",
+    "text": "Harvest is people’s hope, when God—\nholy king of heaven—allows the earth to give\nbright fruits to nobles and to the needy.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "Ger can denote the year and its yield; “harvest” fits the stanza’s emphasis on the earth’s produce."
+  },
+  {
+    "poem_key": "old-english-13-eoh",
+    "language": "en",
+    "text": "The yew is a rough-barked tree on the outside,\nhard and fast in the earth, a guardian of fire,\nsupported by roots, a joy on the estate.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "Hyrde fyres is retained relatively literally as “guardian of fire”; whether it points to the wood’s burning qualities or another association remains uncertain."
+  },
+  {
+    "poem_key": "old-english-14-peorth",
+    "language": "en",
+    "text": "Peorð is always play and laughter\nfor the proud [in their midst], where warriors sit\ntogether, cheerful in the beer-hall.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "The referent of Peorð is uncertain, so the rune-name term is left untranslated. The brackets belong to the historical transcription."
+  },
+  {
+    "poem_key": "old-english-15-eolh-secg",
+    "language": "en",
+    "text": "The elk-sedge most often has its home in a fen;\nit grows in water and wounds cruelly,\nstaining with blood every person\nwho makes any grasp at it.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "The plant identity of eolh-secg and the exact force of blode breneð are disputed; the rendering preserves the cutting, blood-marking image."
+  },
+  {
+    "poem_key": "old-english-16-sigel",
+    "language": "en",
+    "text": "The sun is always a hope to seafarers\nwhen they carry it over the fishes’ bath,\nuntil the sea-horse brings them to land.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-17-tir",
+    "language": "en",
+    "text": "Tir is a certain sign; it keeps faith well\nwith nobles; it is always on its course\nover night’s mists and never fails.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "The stanza describes a dependable celestial sign, but the translation does not identify it more narrowly where the text itself does not."
+  },
+  {
+    "poem_key": "old-english-18-beorc",
+    "language": "en",
+    "text": "The birch is fruitless, yet it bears\nshoots without seed; it is beautiful in its branches,\nhigh in its crown, splendidly adorned,\nladen with leaves, pressing toward the sky.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-19-eh",
+    "language": "en",
+    "text": "The horse is, before nobles, the joy of princes,\na steed proud in its hooves, where around it wealthy heroes\non horses exchange words;\nand it is always a comfort to the restless.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-20-man",
+    "language": "en",
+    "text": "A person in happiness is dear to their kinsfolk;\nyet each must betray the other,\nbecause the Lord by his decree wills\nto entrust the wretched flesh to the earth.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-21-lagu",
+    "language": "en",
+    "text": "The sea seems long-lasting to people\nif they must venture in a tossing ship,\nand the sea-waves greatly terrify them,\nand the sea-horse does not heed its bridle.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "Lagu broadly denotes water; “sea” is chosen here because the stanza’s ship, waves, and sea-horse establish a maritime setting."
+  },
+  {
+    "poem_key": "old-english-22-ing",
+    "language": "en",
+    "text": "Ing was first seen among the East-Danes\nby men, until afterward he went eastward\nover the wave; his wagon ran after him.\nThus the Heardings named that hero.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "The episode, the Heardings, and the direction expressed by est are textually and historically difficult; the translation preserves the narrative without supplying an identity or myth."
+  },
+  {
+    "poem_key": "old-english-23-ethel",
+    "language": "en",
+    "text": "An inherited estate is very dear to every person,\nif there they may enjoy in their dwelling\nwhat is right and fitting, most often with prosperity.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-24-daeg",
+    "language": "en",
+    "text": "Day is the Lord’s messenger, dear to humankind,\nthe glorious light of the Creator, joy and hope\nto the prosperous and the poor, useful to all.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-25-ac",
+    "language": "en",
+    "text": "The oak on earth is food for the flesh of humankind;\nit travels often over the gannet’s bath. The ocean tests\nwhether the oak possesses noble fidelity.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "The opening compound image is compact and may refer to food or sustenance; the latter lines plainly evoke oak-built seafaring and the wood’s reliability."
+  },
+  {
+    "poem_key": "old-english-26-aesc",
+    "language": "en",
+    "text": "The ash is very tall, dear to people,\nfirm on its foundation; it holds its place rightly\nthough many people attack it.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "old-english-27-yr",
+    "language": "en",
+    "text": "Yr is joy and honor for every prince and noble;\nit is fair on a horse, steadfast on a journey,\na piece of war-gear.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "The object denoted by this Futhorc rune-name is uncertain in the stanza, so Yr is not replaced with a more specific implement."
+  },
+  {
+    "poem_key": "old-english-28-iar",
+    "language": "en",
+    "text": "Iar is a river-fish, and yet it always enjoys\nfood on land; it has a fair dwelling\nsurrounded by water, where it lives in delight.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "The creature denoted by Iar is uncertain and apparently amphibious; the translation retains the source’s “river-fish” description rather than naming a species."
+  },
+  {
+    "poem_key": "old-english-29-ear",
+    "language": "en",
+    "text": "The grave is dreadful to every noble,\nwhen the flesh begins firmly—\nthe corpse—to cool and choose the earth,\npale, as a bedfellow; fruits fall,\njoys depart, covenants cease.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "bosworth-toller-1898"
+    ],
+    "notes": "Ear is rendered “grave” from the stanza’s context. The final wera can bear a covenant or pledge sense; the compressed ending remains open to nuance."
+  },
+  {
+    "poem_key": "norwegian-01-fe",
+    "language": "en",
+    "text": "Wealth causes strife among kinsmen;\nthe wolf grows up in the forest.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "norwegian-02-ur",
+    "language": "en",
+    "text": "Dross comes from poor iron;\nthe reindeer often runs over crusted snow.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "Úr denotes slag or dross here, not the aurochs represented by the similarly named Old English rune."
+  },
+  {
+    "poem_key": "norwegian-03-thurs",
+    "language": "en",
+    "text": "A giant causes women anguish;\nfew become cheerful from misfortune.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "norwegian-04-oss",
+    "language": "en",
+    "text": "An estuary is the way of most voyages;\na sheath is the way of swords.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "The couplet is a compressed parallel: water journeys pass through an estuary as swords pass into a sheath."
+  },
+  {
+    "poem_key": "norwegian-05-reid",
+    "language": "en",
+    "text": "Riding, they say, is hardest for horses;\nReginn forged the finest sword.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "norwegian-06-kaun",
+    "language": "en",
+    "text": "An ulcer is an affliction to children;\nsuffering makes a corpse pale.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "Kaun is a sore or ulcer. The second line’s bǫl is kept broadly as suffering rather than assigned a single cause of death."
+  },
+  {
+    "poem_key": "norwegian-07-hagall",
+    "language": "en",
+    "text": "Hail is the coldest of grains;\nChrist created the ancient world.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "norwegian-08-naudr",
+    "language": "en",
+    "text": "Need makes for a narrow choice;\nthe naked freeze in frost.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "norwegian-09-is",
+    "language": "en",
+    "text": "We call ice a broad bridge;\na blind person needs to be led.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "norwegian-10-ar",
+    "language": "en",
+    "text": "A fruitful year is good for people;\nI say that Fróði was generous.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "Ár denotes a good or fruitful year rather than merely a unit of time."
+  },
+  {
+    "poem_key": "norwegian-11-sol",
+    "language": "en",
+    "text": "The sun is the light of lands;\nI bow to a holy judgment.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "norwegian-12-tyr",
+    "language": "en",
+    "text": "Týr is the one-handed god;\na smith often has to blow the bellows.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "norwegian-13-bjarkan",
+    "language": "en",
+    "text": "Birch is the leaf-greenest of branches;\nLoki gained prosperity through deceit.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "Cleasby-Vigfusson records a figurative sense of tími as good fortune or prosperity. The terse construction and its mythic allusion remain uncertain."
+  },
+  {
+    "poem_key": "norwegian-14-madr",
+    "language": "en",
+    "text": "A person is an increase of earth;\nthe hawk’s grip is great.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "norwegian-15-logr",
+    "language": "en",
+    "text": "A waterfall is water falling from a mountain;\ngold is ornaments.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "The gnomic parallel is intentionally kept terse; nosser denotes ornaments or treasures."
+  },
+  {
+    "poem_key": "norwegian-16-yr",
+    "language": "en",
+    "text": "Yew is the greenest wood in winter;\nwhen it burns, it is apt to scorch.",
+    "latin_gloss": null,
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "The second line may emphasize either the yew’s fierce burning or the likelihood of being scorched by it."
+  },
+  {
+    "poem_key": "icelandic-01-fe",
+    "language": "en",
+    "text": "Wealth is strife among kinsmen,\nand the tide’s beacon,\nand the serpent’s path.",
+    "latin_gloss": "Gold; ruler.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "The final two phrases are poetic circumlocutions for gold; their concrete images are retained instead of being flattened into a rune meaning."
+  },
+  {
+    "poem_key": "icelandic-02-ur",
+    "language": "en",
+    "text": "Rain is the weeping of clouds,\nand the ruin of the hay-harvest,\nand the shepherd’s hatred.",
+    "latin_gloss": "Shadow; leader.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "icelandic-03-thurs",
+    "language": "en",
+    "text": "A giant is women’s torment,\nand a cliff-dweller,\nand the husband of a giantess.",
+    "latin_gloss": "Saturn; prince.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "icelandic-04-oss",
+    "language": "en",
+    "text": "Óss is the aged Gautr,\nand Ásgarðr’s prince,\nand Valhöll’s ruler.",
+    "latin_gloss": "Jupiter; leader.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "Gautr is retained as a name of Óðinn; translating Óss simply as “god” would erase the stanza’s specific naming."
+  },
+  {
+    "poem_key": "icelandic-05-reid",
+    "language": "en",
+    "text": "Riding is seated happiness,\nand a swift journey,\nand a horse’s labor.",
+    "latin_gloss": "Journey; ruler.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "icelandic-06-kaun",
+    "language": "en",
+    "text": "An ulcer is children’s affliction,\nand a battle’s journey,\nand a house of decaying flesh.",
+    "latin_gloss": "Scourges; king.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "The bracketed word in the historical transcription is an editorial supply; the translation follows it without concealing that status."
+  },
+  {
+    "poem_key": "icelandic-07-hagall",
+    "language": "en",
+    "text": "Hail is a cold grain,\nand a shower of sleet,\nand a sickness of snakes.",
+    "latin_gloss": "Hail; ruler.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "icelandic-08-naud",
+    "language": "en",
+    "text": "Need is a bondwoman’s longing,\nand a difficult condition,\nand wearisome work.",
+    "latin_gloss": "Works; king.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "icelandic-09-iss",
+    "language": "en",
+    "text": "Ice is a river’s bark,\nand the wave’s roof,\nand peril to death-bound people.",
+    "latin_gloss": "Ice; prince.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "icelandic-10-ar",
+    "language": "en",
+    "text": "A fruitful year is people’s good,\nand a good summer,\nand a fully grown field.",
+    "latin_gloss": "Year; all-ruler.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "icelandic-11-sol",
+    "language": "en",
+    "text": "The sun is the clouds’ shield,\nand a shining disk,\nand the lifelong bane of ice.",
+    "latin_gloss": "Wheel; ruler.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "Aldr-tregi is a compact personification of the sun as ice’s enduring grief or destruction; “lifelong bane” preserves that force."
+  },
+  {
+    "poem_key": "icelandic-12-tyr",
+    "language": "en",
+    "text": "Týr is a one-handed god,\nand the wolf’s leavings,\nand ruler of temples.",
+    "latin_gloss": "Mars; ruler.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "icelandic-13-bjarkan",
+    "language": "en",
+    "text": "Birch is a leafy branch,\nand a little tree,\nand young-growing wood.",
+    "latin_gloss": "Fir tree; ruler.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "The Latin abies does not redefine the vernacular birch stanza; its separate gloss is preserved as part of the historical tag layer."
+  },
+  {
+    "poem_key": "icelandic-14-madr",
+    "language": "en",
+    "text": "A person is a person’s joy,\nand an increase of earth,\nand an adornment of ships.",
+    "latin_gloss": "Human; generous ruler.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": null
+  },
+  {
+    "poem_key": "icelandic-15-logr",
+    "language": "en",
+    "text": "Water is seething water,\nand a broad kettle,\nand the fishes’ land.",
+    "latin_gloss": "Lake; ruler.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "The stanza is built from poetic descriptions of water; glömmungr is understood contextually through the final land-kenning."
+  },
+  {
+    "poem_key": "icelandic-16-yr",
+    "language": "en",
+    "text": "Yew is a bent bow,\nand brittle iron,\nand the Fárbauti of the arrow.",
+    "latin_gloss": "Bow; prince.",
+    "translation_type": "project-editorial",
+    "status": "derived",
+    "translator": "DivinationEngine editorial translation",
+    "machine_assisted": true,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "cleasby-vigfusson-1874",
+      "zoega-1910"
+    ],
+    "notes": "Fífu fárbauti is an obscure kenning. Cleasby-Vigfusson gives fífa a literal plant sense and a poetic sense of arrow; the poetic sense fits this stanza, while Fárbauti remains unresolved."
+  }
+]

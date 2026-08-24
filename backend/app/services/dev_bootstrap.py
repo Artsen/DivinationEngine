@@ -17,6 +17,13 @@ REPOSITORY_ROOT = Path(__file__).resolve().parents[3]
 CORPORA = (
     REPOSITORY_ROOT / "data" / "corpus" / "tarot" / "rws-1909" / "build" / "rws-import.json",
     REPOSITORY_ROOT / "data" / "corpus" / "iching" / "legge-ctext" / "build" / "iching-import.json",
+    REPOSITORY_ROOT
+    / "data"
+    / "corpus"
+    / "runes"
+    / "elder-futhark"
+    / "build"
+    / "elder-futhark-import.json",
 )
 
 

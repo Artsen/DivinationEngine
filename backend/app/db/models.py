@@ -104,12 +104,43 @@ class Interpretation(Base, TimestampMixin):
     tradition: Mapped[Tradition | None] = relationship()
 
 
+class RunePoem(Base, TimestampMixin):
+    __tablename__ = "rune_poems"
+    __table_args__ = (UniqueConstraint("key", name="uq_rune_poem_key"),)
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
+    key: Mapped[str] = mapped_column(String(200))
+    item_id: Mapped[str | None] = mapped_column(ForeignKey("items.id", ondelete="SET NULL"))
+    source_id: Mapped[str] = mapped_column(ForeignKey("sources.id", ondelete="RESTRICT"))
+    tradition_id: Mapped[str] = mapped_column(ForeignKey("traditions.id", ondelete="RESTRICT"))
+    poem: Mapped[str] = mapped_column(String(40))
+    sequence: Mapped[int] = mapped_column(Integer)
+    rune_character: Mapped[str] = mapped_column(String(40))
+    normalized_name: Mapped[str] = mapped_column(String(80))
+    language: Mapped[str] = mapped_column(String(40))
+    original_text: Mapped[str] = mapped_column(Text)
+    latin_tag: Mapped[str | None] = mapped_column(Text)
+    locator: Mapped[str] = mapped_column(String(500))
+    mapping_status: Mapped[str] = mapped_column(String(40))
+    mapping_justification: Mapped[str] = mapped_column(Text)
+    editorial_translation: Mapped[str] = mapped_column(Text)
+    editorial_latin_gloss: Mapped[str | None] = mapped_column(Text)
+    translation_language: Mapped[str] = mapped_column(String(12), default="en")
+    translation_type: Mapped[str] = mapped_column(String(40))
+    translation_status: Mapped[str] = mapped_column(String(40))
+    translator: Mapped[str] = mapped_column(String(200))
+    machine_assisted: Mapped[bool] = mapped_column(default=True)
+    translation_source_ids: Mapped[list[str]] = mapped_column(JSON, default=list)
+    translation_notes: Mapped[str | None] = mapped_column(Text)
+    source: Mapped[Source] = relationship()
+    tradition: Mapped[Tradition] = relationship()
+
+
 class Correspondence(Base, TimestampMixin):
     __tablename__ = "correspondences"
     __table_args__ = (
         UniqueConstraint("key", name="uq_correspondence_key"),
         CheckConstraint(
-            "status IN ('attested','disputed','tradition_specific','not_applicable','not_attested','unknown')",  # noqa: E501
+            "status IN ('attested','reconstructed','disputed','tradition_specific','derived','not_applicable','not_attested','unknown')",  # noqa: E501
             name="ck_correspondence_status",
         ),
     )

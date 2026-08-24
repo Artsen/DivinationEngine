@@ -63,4 +63,14 @@ def test_existing_milestone_database_migrates_with_data(
         assert connection.execute(
             "SELECT deck_session_id FROM reading_casts WHERE id = 'cast'"
         ).fetchone() == (None,)
+        rune_poem_columns = {
+            row[1] for row in connection.execute("PRAGMA table_info(rune_poems)").fetchall()
+        }
+        assert {
+            "original_text",
+            "editorial_translation",
+            "translation_type",
+            "machine_assisted",
+            "translation_source_ids",
+        } <= rune_poem_columns
     get_settings.cache_clear()

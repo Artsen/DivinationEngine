@@ -14,6 +14,9 @@ class CorpusStatus(BaseModel):
     iching_ready: bool
     hexagram_count: int
     iching_method_count: int
+    runes_ready: bool
+    elder_futhark_item_count: int
+    rune_poem_count: int
 
 
 class CollectionCreate(BaseModel):
@@ -111,7 +114,14 @@ class InterpretationOut(InterpretationCreate):
 
 
 CorrespondenceStatus = Literal[
-    "attested", "disputed", "tradition_specific", "not_applicable", "not_attested", "unknown"
+    "attested",
+    "reconstructed",
+    "disputed",
+    "tradition_specific",
+    "derived",
+    "not_applicable",
+    "not_attested",
+    "unknown",
 ]
 
 

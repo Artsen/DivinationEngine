@@ -562,6 +562,56 @@
         }
       }
     },
+    "/api/v1/rune-poems": {
+      "get": {
+        "summary": "List Rune Poems",
+        "operationId": "list_rune_poems_api_v1_rune_poems_get",
+        "parameters": [
+          {
+            "name": "item_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Item Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ContextRunePoem"
+                  },
+                  "title": "Response List Rune Poems Api V1 Rune Poems Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/v1/correspondences": {
       "get": {
         "summary": "List Correspondences",
@@ -1863,6 +1913,165 @@
         ],
         "title": "ContextInterpretation"
       },
+      "ContextRunePoem": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "key": {
+            "type": "string",
+            "title": "Key"
+          },
+          "item_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Item Id"
+          },
+          "source_id": {
+            "type": "string",
+            "title": "Source Id"
+          },
+          "tradition_id": {
+            "type": "string",
+            "title": "Tradition Id"
+          },
+          "poem": {
+            "type": "string",
+            "title": "Poem"
+          },
+          "sequence": {
+            "type": "integer",
+            "title": "Sequence"
+          },
+          "rune_character": {
+            "type": "string",
+            "title": "Rune Character"
+          },
+          "normalized_name": {
+            "type": "string",
+            "title": "Normalized Name"
+          },
+          "language": {
+            "type": "string",
+            "title": "Language"
+          },
+          "original_text": {
+            "type": "string",
+            "title": "Original Text"
+          },
+          "latin_tag": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Latin Tag"
+          },
+          "locator": {
+            "type": "string",
+            "title": "Locator"
+          },
+          "mapping_status": {
+            "type": "string",
+            "title": "Mapping Status"
+          },
+          "mapping_justification": {
+            "type": "string",
+            "title": "Mapping Justification"
+          },
+          "editorial_translation": {
+            "type": "string",
+            "title": "Editorial Translation"
+          },
+          "editorial_latin_gloss": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Editorial Latin Gloss"
+          },
+          "translation_language": {
+            "type": "string",
+            "title": "Translation Language"
+          },
+          "translation_type": {
+            "type": "string",
+            "title": "Translation Type"
+          },
+          "translation_status": {
+            "type": "string",
+            "title": "Translation Status"
+          },
+          "translator": {
+            "type": "string",
+            "title": "Translator"
+          },
+          "machine_assisted": {
+            "type": "boolean",
+            "title": "Machine Assisted"
+          },
+          "translation_source_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Translation Source Ids"
+          },
+          "translation_notes": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Translation Notes"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "key",
+          "item_id",
+          "source_id",
+          "tradition_id",
+          "poem",
+          "sequence",
+          "rune_character",
+          "normalized_name",
+          "language",
+          "original_text",
+          "latin_tag",
+          "locator",
+          "mapping_status",
+          "mapping_justification",
+          "editorial_translation",
+          "editorial_latin_gloss",
+          "translation_language",
+          "translation_type",
+          "translation_status",
+          "translator",
+          "machine_assisted",
+          "translation_source_ids",
+          "translation_notes"
+        ],
+        "title": "ContextRunePoem"
+      },
       "ContextSource": {
         "properties": {
           "id": {
@@ -2057,6 +2266,18 @@
           "iching_method_count": {
             "type": "integer",
             "title": "Iching Method Count"
+          },
+          "runes_ready": {
+            "type": "boolean",
+            "title": "Runes Ready"
+          },
+          "elder_futhark_item_count": {
+            "type": "integer",
+            "title": "Elder Futhark Item Count"
+          },
+          "rune_poem_count": {
+            "type": "integer",
+            "title": "Rune Poem Count"
           }
         },
         "type": "object",
@@ -2065,7 +2286,10 @@
           "rws_item_count",
           "iching_ready",
           "hexagram_count",
-          "iching_method_count"
+          "iching_method_count",
+          "runes_ready",
+          "elder_futhark_item_count",
+          "rune_poem_count"
         ],
         "title": "CorpusStatus"
       },
@@ -2117,8 +2341,10 @@
             "type": "string",
             "enum": [
               "attested",
+              "reconstructed",
               "disputed",
               "tradition_specific",
+              "derived",
               "not_applicable",
               "not_attested",
               "unknown"
@@ -2206,8 +2432,10 @@
             "type": "string",
             "enum": [
               "attested",
+              "reconstructed",
               "disputed",
               "tradition_specific",
+              "derived",
               "not_applicable",
               "not_attested",
               "unknown"
@@ -3680,13 +3908,21 @@
             },
             "type": "array",
             "title": "Correspondences"
+          },
+          "rune_poems": {
+            "items": {
+              "$ref": "#/components/schemas/ContextRunePoem"
+            },
+            "type": "array",
+            "title": "Rune Poems"
           }
         },
         "type": "object",
         "required": [
           "applicable_interpretations",
           "other_interpretations",
-          "correspondences"
+          "correspondences",
+          "rune_poems"
         ],
         "title": "ResultKnowledge"
       },

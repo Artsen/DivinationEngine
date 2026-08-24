@@ -100,7 +100,7 @@ fieldset { min-width: 0; padding: .8rem 0; border: 0; }
 .knowledge-stack { display: grid; gap: .6rem; margin-top: 1rem; }
 .fact, .casting-details, .provenance { border-top: 1px solid var(--line); padding-top: .65rem; }
 summary { cursor: pointer; color: #ddd5ca; font-weight: 500; }
-.source-text, .iching-text p { white-space: pre-line; line-height: 1.65; color: #c9c1b6; font-family: Georgia, 'Times New Roman', serif; font-size: 1.05rem; }
+.source-text, .translation-text, .iching-text p { white-space: pre-line; line-height: 1.65; color: #c9c1b6; font-family: Georgia, 'Times New Roman', serif; font-size: 1.05rem; }
 .nested-fact { padding: 1rem 0; border-bottom: 1px solid #2c2925; }
 .nested-fact h5, .iching-text h5 { margin: 0 0 .5rem; color: var(--gold); text-transform: uppercase; letter-spacing: .08em; font-size: .7rem; }
 .provenance { margin-top: .7rem; color: var(--muted); font-size: .78rem; }
@@ -108,9 +108,38 @@ summary { cursor: pointer; color: #ddd5ca; font-weight: 500; }
 .provenance dt { color: #817a70; }
 .provenance dd { margin: 0; }
 .correspondence-group { border-left: 2px solid #65557b; padding-left: .8rem; }
+.rune-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1.5rem; align-items: start; }
+.rune-card { min-width: 0; padding: 1.25rem; border: 1px solid #302d28; border-radius: .55rem; background: #131210; }
+.rune-card__identity { display: flex; align-items: center; gap: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid var(--line); }
+.rune-card__identity h4 { margin-bottom: .3rem; }
+.rune-glyph { flex: 0 0 auto; color: var(--gold); font-size: clamp(4rem, 9vw, 6rem); line-height: 1; }
+.rune-transliteration, .translation-notice { margin: 0; color: var(--muted); font-size: .78rem; }
+.tradition-connections { margin-top: 1rem; }
+.tradition-connections h5 { margin-bottom: .55rem; color: var(--muted); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; }
+.tradition-chips { display: flex; flex-wrap: wrap; gap: .45rem; margin: 0; padding: 0; list-style: none; }
+.tradition-chip { display: flex; min-width: 0; align-items: center; gap: .45rem; padding: .4rem .55rem; border: 1px solid var(--line); border-radius: .45rem; background: #191714; }
+.tradition-chip--core { border-color: var(--gold-deep); background: #211b13; }
+.tradition-chip--cautious { border-style: dashed; }
+.tradition-chip__mark { display: grid; flex: 0 0 auto; place-items: center; width: 1.8rem; aspect-ratio: 1; border-radius: 50%; background: #2b2721; color: var(--gold); font-size: .62rem; font-weight: 800; letter-spacing: .04em; }
+.tradition-chip span:last-child { display: grid; line-height: 1.15; }
+.tradition-chip strong { font-size: .72rem; }
+.tradition-chip small { color: var(--muted); font-size: .58rem; }
+.rune-facts { display: grid; grid-template-columns: max-content 1fr; gap: .55rem 1rem; margin: 1.2rem 0; }
+.rune-facts dt { color: var(--muted); font-size: .75rem; }
+.rune-facts dd { margin: 0; }
+.rune-caution { padding: .75rem; border-left: 2px solid var(--gold-deep); background: #211b13; color: #ddc498; font-size: .8rem; line-height: 1.45; }
+.poem-witness { margin-top: .6rem; border: 1px solid #302d28; border-radius: .4rem; background: #11100e; }
+.poem-witness > summary { display: grid; gap: .2rem; min-height: 48px; padding: .75rem; }
+.poem-witness > summary strong { color: var(--gold); font-size: .82rem; }
+.poem-witness > summary span { color: var(--muted); font-size: .7rem; line-height: 1.35; }
+.poem-witness__body { padding: .85rem; border-top: 1px solid #302d28; }
+.poem-layer-label { margin-bottom: .25rem; color: var(--muted); font-size: .74rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.translation-text { margin-top: 0; color: var(--text); }
+.translation-sources { margin-top: .75rem; }
+.translation-sources > summary { color: var(--muted); font-size: .78rem; }
 .cast-controls, .notes-panel { padding: 1.25rem; border: 1px solid var(--line); border-radius: .7rem; background: var(--surface); }
 .cast-controls h2, .notes-panel h2 { margin-bottom: 1rem; font-size: 2rem; }
-.segmented { display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 1rem; }
+.segmented { display: grid; grid-template-columns: repeat(3, 1fr); margin-bottom: 1rem; }
 .segmented button, .count-options button { min-height: 40px; border: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; }
 .segmented button[aria-pressed='true'], .count-options button[aria-pressed='true'] { border-color: var(--gold-deep); background: #2d2417; color: #f5d79d; }
 .check-row, .radio-row { display: flex; gap: .7rem; align-items: start; padding: .5rem 0; }

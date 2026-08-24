@@ -137,10 +137,38 @@ class ContextCorrespondence(BaseModel):
     notes: str | None
 
 
+class ContextRunePoem(BaseModel):
+    id: str
+    key: str
+    item_id: str | None
+    source_id: str
+    tradition_id: str
+    poem: str
+    sequence: int
+    rune_character: str
+    normalized_name: str
+    language: str
+    original_text: str
+    latin_tag: str | None
+    locator: str
+    mapping_status: str
+    mapping_justification: str
+    editorial_translation: str
+    editorial_latin_gloss: str | None
+    translation_language: str
+    translation_type: str
+    translation_status: str
+    translator: str
+    machine_assisted: bool
+    translation_source_ids: list[str]
+    translation_notes: str | None
+
+
 class ResultKnowledge(BaseModel):
     applicable_interpretations: list[ContextInterpretation]
     other_interpretations: list[ContextInterpretation]
     correspondences: list[ContextCorrespondence]
+    rune_poems: list[ContextRunePoem]
 
 
 class ContextDrawResult(DrawResultOut):

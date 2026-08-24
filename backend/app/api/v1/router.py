@@ -37,6 +37,7 @@ from app.schemas.contracts import (
 )
 from app.schemas.readings import (
     CastOut,
+    ContextRunePoem,
     IChingCastRequest,
     PlacementOut,
     ReadingContext,
@@ -143,12 +144,24 @@ def corpus_status(db: DB) -> dict[str, bool | int]:
     )
     hexagram_count = db.scalar(select(func.count(models.Hexagram.id))) or 0
     method_count = db.scalar(select(func.count(models.IChingMethod.id))) or 0
+    rune_item_count = (
+        db.scalar(
+            select(func.count(models.Item.id))
+            .join(models.Collection)
+            .where(models.Collection.slug == "elder-futhark")
+        )
+        or 0
+    )
+    rune_poem_count = db.scalar(select(func.count(models.RunePoem.id))) or 0
     return {
         "rws_ready": rws_item_count == 78,
         "rws_item_count": rws_item_count,
         "iching_ready": hexagram_count == 64 and method_count >= 2,
         "hexagram_count": hexagram_count,
         "iching_method_count": method_count,
+        "runes_ready": rune_item_count == 24 and rune_poem_count == 61,
+        "elder_futhark_item_count": rune_item_count,
+        "rune_poem_count": rune_poem_count,
     }
 
 
@@ -293,6 +306,14 @@ def create_interpretation(body: InterpretationCreate, db: DB) -> models.Interpre
     db.add(row)
     commit(db)
     return row
+
+
+@router.get("/rune-poems", response_model=list[ContextRunePoem])
+def list_rune_poems(db: DB, item_id: str | None = Query(default=None)) -> list[models.RunePoem]:
+    statement = select(models.RunePoem).order_by(models.RunePoem.poem, models.RunePoem.sequence)
+    if item_id:
+        statement = statement.where(models.RunePoem.item_id == item_id)
+    return list(db.scalars(statement).all())
 
 
 @router.get("/correspondences", response_model=list[CorrespondenceOut])

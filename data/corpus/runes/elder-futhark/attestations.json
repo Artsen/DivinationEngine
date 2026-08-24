@@ -1,0 +1,112 @@
+[
+  {
+    "key": "kylver-g88",
+    "name": "Kylver Stone / G 88",
+    "kind": "complete-row",
+    "row_completeness": "complete",
+    "date": "400–550 CE",
+    "object_id": "267753_HST / G 88",
+    "source_refs": ["shm-kylver-g88", "world-tree-kylver-g88"],
+    "transcription": null,
+    "legible_rune_items": [
+      "runes/elder-futhark/01", "runes/elder-futhark/02",
+      "runes/elder-futhark/03", "runes/elder-futhark/04",
+      "runes/elder-futhark/05", "runes/elder-futhark/06",
+      "runes/elder-futhark/07", "runes/elder-futhark/08",
+      "runes/elder-futhark/09", "runes/elder-futhark/10",
+      "runes/elder-futhark/11", "runes/elder-futhark/12",
+      "runes/elder-futhark/13", "runes/elder-futhark/14",
+      "runes/elder-futhark/15", "runes/elder-futhark/16",
+      "runes/elder-futhark/17", "runes/elder-futhark/18",
+      "runes/elder-futhark/19", "runes/elder-futhark/20",
+      "runes/elder-futhark/21", "runes/elder-futhark/22",
+      "runes/elder-futhark/23", "runes/elder-futhark/24"
+    ],
+    "inferred_rune_items": [],
+    "uncertain_rune_items": [],
+    "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes and the final d/o order preserve epigraphic variation rather than the normalized application order."
+  },
+  {
+    "key": "vadstena-bracteate",
+    "name": "Vadstena bracteate",
+    "kind": "full-row-with-damage",
+    "row_completeness": "intended-complete-survives-with-damage",
+    "date": "440–560 CE",
+    "object_id": "IK 377,1 / KJ2 / Ög 178 / RuneS Fund 179",
+    "source_refs": ["runes-vadstena-179"],
+    "transcription": "(1?)uwatuwa · fuþarkgw · hnijï(1?)zs · tbemlŋo(d ·)",
+    "legible_rune_items": [
+      "runes/elder-futhark/01", "runes/elder-futhark/02",
+      "runes/elder-futhark/03", "runes/elder-futhark/04",
+      "runes/elder-futhark/05", "runes/elder-futhark/06",
+      "runes/elder-futhark/07", "runes/elder-futhark/08",
+      "runes/elder-futhark/09", "runes/elder-futhark/10",
+      "runes/elder-futhark/11", "runes/elder-futhark/12",
+      "runes/elder-futhark/13", "runes/elder-futhark/15",
+      "runes/elder-futhark/16", "runes/elder-futhark/17",
+      "runes/elder-futhark/18", "runes/elder-futhark/19",
+      "runes/elder-futhark/20", "runes/elder-futhark/21",
+      "runes/elder-futhark/22", "runes/elder-futhark/24"
+    ],
+    "inferred_rune_items": [],
+    "uncertain_rune_items": [
+      "runes/elder-futhark/14", "runes/elder-futhark/23"
+    ],
+    "notes": "RuneS identifies an Older Futhark row but marks the surviving inscription incomplete. Its base transcription marks the Perthro-position character and the final Dagaz uncertain; this record therefore witnesses the intended 24-rune sequence without claiming both glyphs are unambiguously legible."
+  },
+  {
+    "key": "grumpan-bracteate",
+    "name": "Grumpan bracteate",
+    "kind": "full-row-with-damage",
+    "row_completeness": "intended-complete-survives-with-damage",
+    "date": "440–560 CE",
+    "object_id": "IK 260 / KJ3 / Vg 207 / RuneS Fund 331",
+    "source_refs": ["runes-grumpan-331"],
+    "transcription": "fuþarkgw · hnijï(p 1?)[1?] · tbeml(ŋo)d ·",
+    "legible_rune_items": [
+      "runes/elder-futhark/01", "runes/elder-futhark/02",
+      "runes/elder-futhark/03", "runes/elder-futhark/04",
+      "runes/elder-futhark/05", "runes/elder-futhark/06",
+      "runes/elder-futhark/07", "runes/elder-futhark/08",
+      "runes/elder-futhark/09", "runes/elder-futhark/10",
+      "runes/elder-futhark/11", "runes/elder-futhark/12",
+      "runes/elder-futhark/13", "runes/elder-futhark/17",
+      "runes/elder-futhark/18", "runes/elder-futhark/19",
+      "runes/elder-futhark/20", "runes/elder-futhark/21",
+      "runes/elder-futhark/23"
+    ],
+    "inferred_rune_items": ["runes/elder-futhark/16"],
+    "uncertain_rune_items": [
+      "runes/elder-futhark/14", "runes/elder-futhark/15",
+      "runes/elder-futhark/22", "runes/elder-futhark/24"
+    ],
+    "notes": "RuneS identifies an Older Futhark row, while its base transcription marks damaged or uncertain positions and supplies one lacuna. The row-level witness supports the sequence, but the affected canonical rune identities are not all direct, unambiguous glyph attestations."
+  },
+  {
+    "key": "charnay-fibula",
+    "name": "Charnay fibula",
+    "kind": "partial-row",
+    "row_completeness": "partial",
+    "object_id": null,
+    "source_refs": ["runes-database"],
+    "transcription": null,
+    "legible_rune_items": [],
+    "inferred_rune_items": [],
+    "uncertain_rune_items": [],
+    "notes": "Conservative corpus-level attestation. Unverified collection/date and per-rune precision are intentionally left unknown."
+  },
+  {
+    "key": "svingerud-hole-sandstone",
+    "name": "Svingerud / Hole sandstone context",
+    "kind": "contextual",
+    "row_completeness": "contextual",
+    "date": "Early Roman Iron Age context",
+    "object_id": null,
+    "source_refs": ["svingerud-antiquity-2024"],
+    "transcription": null,
+    "legible_rune_items": [],
+    "inferred_rune_items": [],
+    "uncertain_rune_items": [],
+    "notes": "Early-runic archaeological context only; not a complete 24-rune row and not used as a rune dictionary."
+  }
+]

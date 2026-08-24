@@ -1,0 +1,32 @@
+{
+  "key": "runes/elder-futhark/17",
+  "slug": "tiwaz",
+  "normalized_label": "Tiwaz",
+  "row_position": 17,
+  "aett": 3,
+  "position_in_aett": 1,
+  "glyph": "ᛏ",
+  "code_point": "U+16CF",
+  "unicode_name": "RUNIC LETTER TIWAZ TIR TYR T",
+  "transliteration": "t",
+  "sound_value": "/t/",
+  "proto_germanic_name": "Tīwaz",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "a god's name",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-17-tir",
+    "norwegian-12-tyr",
+    "icelandic-12-tyr"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

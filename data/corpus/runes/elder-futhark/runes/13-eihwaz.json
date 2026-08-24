@@ -1,0 +1,30 @@
+{
+  "key": "runes/elder-futhark/13",
+  "slug": "eihwaz",
+  "normalized_label": "Eihwaz",
+  "row_position": 13,
+  "aett": 2,
+  "position_in_aett": 5,
+  "glyph": "ᛇ",
+  "code_point": "U+16C7",
+  "unicode_name": "RUNIC LETTER IWAZ EOH",
+  "transliteration": "ï/æ",
+  "sound_value": "/iː/ or /ç/",
+  "proto_germanic_name": "īwaz",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "yew tree",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": "The rune's exact historical phonetic value is uncertain; UT transliterates it æ in the chart.",
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-13-eoh"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

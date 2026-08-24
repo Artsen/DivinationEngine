@@ -1,0 +1,32 @@
+{
+  "key": "runes/elder-futhark/20",
+  "slug": "mannaz",
+  "normalized_label": "Mannaz",
+  "row_position": 20,
+  "aett": 3,
+  "position_in_aett": 4,
+  "glyph": "ᛗ",
+  "code_point": "U+16D7",
+  "unicode_name": "RUNIC LETTER MANNAZ MAN M",
+  "transliteration": "m",
+  "sound_value": "/m/",
+  "proto_germanic_name": "mannaz",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "person",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-20-man",
+    "norwegian-14-madr",
+    "icelandic-14-madr"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

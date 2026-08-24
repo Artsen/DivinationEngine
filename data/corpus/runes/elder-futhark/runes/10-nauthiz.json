@@ -1,0 +1,32 @@
+{
+  "key": "runes/elder-futhark/10",
+  "slug": "nauthiz",
+  "normalized_label": "Nauthiz",
+  "row_position": 10,
+  "aett": 2,
+  "position_in_aett": 2,
+  "glyph": "ᚾ",
+  "code_point": "U+16BE",
+  "unicode_name": "RUNIC LETTER NAUDIZ NYD NAUD N",
+  "transliteration": "n",
+  "sound_value": "/n/",
+  "proto_germanic_name": "naudiz",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "tribulation",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-10-nyd",
+    "norwegian-08-naudr",
+    "icelandic-08-naud"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

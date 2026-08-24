@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "elder-futhark",
+    "name": "Elder Futhark",
+    "description": "The 24-character older runic writing system."
+  },
+  {
+    "slug": "proto-germanic-reconstruction",
+    "name": "Proto-Germanic reconstruction",
+    "description": "Modern scholarly linguistic reconstruction, not direct manuscript attestation."
+  },
+  {
+    "slug": "anglo-saxon-futhorc",
+    "name": "Anglo-Saxon Futhorc",
+    "description": "The later expanded English runic system represented by the Old English Rune Poem."
+  },
+  {
+    "slug": "younger-futhark",
+    "name": "Younger Futhark",
+    "description": "The later 16-rune Scandinavian system represented by the Norwegian and Icelandic rune poems."
+  },
+  {
+    "slug": "historical-lot-divination",
+    "name": "Historically attested lot divination",
+    "description": "Marked wooden lots described by Tacitus; the marks are not securely identified as runes."
+  },
+  {
+    "slug": "modern-rune-divination",
+    "name": "Modern rune divination",
+    "description": "Modern oracle practices, kept separate from historical runic evidence."
+  },
+  {
+    "slug": "armanen",
+    "name": "Armanen runes",
+    "description": "Guido von List's separate early twentieth-century occult system."
+  }
+]

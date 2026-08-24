@@ -7,6 +7,7 @@ import { ErrorState, LoadingState } from '../components/AsyncState'
 import { CastControls } from '../components/CastControls'
 import { IChingCast } from '../components/IChingCast'
 import { NotesPanel } from '../components/NotesPanel'
+import { RuneCard } from '../components/RuneCard'
 import { TarotCard } from '../components/TarotCard'
 import { formatDate } from '../utils/format'
 
@@ -28,20 +29,25 @@ export function ReadingPage() {
       <div className="workspace-grid">
         <div className="cast-history">
           <div className="section-heading"><div><p className="eyebrow">Persisted record</p><h2>Casts</h2></div><span>{data.casts.length}</span></div>
-          {data.casts.length === 0 && <div className="empty-state empty-state--compact"><h3>No casts yet</h3><p>Choose Tarot or I Ching to begin this reading.</p></div>}
+          {data.casts.length === 0 && <div className="empty-state empty-state--compact"><h3>No casts yet</h3><p>Choose Tarot, I Ching, or Runes to begin this reading.</p></div>}
           {data.casts.map((cast) => cast.cast_type === 'iching' ? (
             <IChingCast key={cast.id} cast={cast} sources={data.sources} traditions={data.traditions} />
           ) : (
             <article key={cast.id} className="cast-block">
-              <header className="cast-heading"><div><p className="eyebrow">Cast {cast.cast_order} · Tarot</p><h3>{cast.draw_results.length} card draw</h3></div><time dateTime={cast.created_at}>{formatDate(cast.created_at)}</time></header>
-              <div className="tarot-grid">{cast.draw_results.map((result) => <TarotCard key={result.id} result={result} sources={data.sources} traditions={data.traditions} />)}</div>
+              {cast.collection_id === collections.data?.find((row) => row.slug === 'elder-futhark')?.id ? <>
+                <header className="cast-heading"><div><p className="eyebrow">Cast {cast.cast_order} · Runes</p><h3>{cast.draw_results.length} rune draw</h3></div><time dateTime={cast.created_at}>{formatDate(cast.created_at)}</time></header>
+                <div className="rune-grid">{cast.draw_results.map((result) => <RuneCard key={result.id} result={result} sources={data.sources} traditions={data.traditions} />)}</div>
+              </> : <>
+                <header className="cast-heading"><div><p className="eyebrow">Cast {cast.cast_order} · Tarot</p><h3>{cast.draw_results.length} card draw</h3></div><time dateTime={cast.created_at}>{formatDate(cast.created_at)}</time></header>
+                <div className="tarot-grid">{cast.draw_results.map((result) => <TarotCard key={result.id} result={result} sources={data.sources} traditions={data.traditions} />)}</div>
+              </>}
             </article>
           ))}
         </div>
         <aside className="workspace-sidebar">
           {collections.isPending && <LoadingState>Loading cast options…</LoadingState>}
           {collections.isError && <ErrorState message="Unable to load corpus status." />}
-          {collections.data && <CastControls readingId={id} collections={collections.data} casts={data.casts} ichingReady={corpus.data?.iching_ready ?? false} />}
+          {collections.data && <CastControls readingId={id} collections={collections.data} casts={data.casts} ichingReady={corpus.data?.iching_ready ?? false} runesReady={corpus.data?.runes_ready ?? false} />}
           <NotesPanel readingId={id} notes={data.notes} />
         </aside>
       </div>

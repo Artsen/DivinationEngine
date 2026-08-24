@@ -1,0 +1,32 @@
+{
+  "key": "runes/elder-futhark/03",
+  "slug": "thurisaz",
+  "normalized_label": "Thurisaz",
+  "row_position": 3,
+  "aett": 1,
+  "position_in_aett": 3,
+  "glyph": "ᚦ",
+  "code_point": "U+16A6",
+  "unicode_name": "RUNIC LETTER THURISAZ THURS THORN",
+  "transliteration": "þ",
+  "sound_value": "/θ/",
+  "proto_germanic_name": "þurisaz",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "ogre",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-03-thorn",
+    "norwegian-03-thurs",
+    "icelandic-03-thurs"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}
