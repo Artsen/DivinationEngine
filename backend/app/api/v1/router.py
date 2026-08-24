@@ -143,12 +143,22 @@ def corpus_status(db: DB) -> dict[str, bool | int]:
     )
     hexagram_count = db.scalar(select(func.count(models.Hexagram.id))) or 0
     method_count = db.scalar(select(func.count(models.IChingMethod.id))) or 0
+    rune_item_count = (
+        db.scalar(
+            select(func.count(models.Item.id))
+            .join(models.Collection)
+            .where(models.Collection.slug == "elder-futhark")
+        )
+        or 0
+    )
     return {
         "rws_ready": rws_item_count == 78,
         "rws_item_count": rws_item_count,
         "iching_ready": hexagram_count == 64 and method_count >= 2,
         "hexagram_count": hexagram_count,
         "iching_method_count": method_count,
+        "runes_ready": rune_item_count == 24,
+        "elder_futhark_item_count": rune_item_count,
     }
 
 

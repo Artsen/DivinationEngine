@@ -1,0 +1,32 @@
+{
+  "key": "runes/elder-futhark/04",
+  "slug": "ansuz",
+  "normalized_label": "Ansuz",
+  "row_position": 4,
+  "aett": 1,
+  "position_in_aett": 4,
+  "glyph": "ᚨ",
+  "code_point": "U+16A8",
+  "unicode_name": "RUNIC LETTER ANSUZ A",
+  "transliteration": "a",
+  "sound_value": "/a/",
+  "proto_germanic_name": "ansuz",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "god",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-04-os",
+    "norwegian-04-oss",
+    "icelandic-04-oss"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

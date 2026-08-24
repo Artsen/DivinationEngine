@@ -1,0 +1,32 @@
+{
+  "key": "runes/elder-futhark/06",
+  "slug": "kenaz",
+  "normalized_label": "Kenaz",
+  "row_position": 6,
+  "aett": 1,
+  "position_in_aett": 6,
+  "glyph": "ᚲ",
+  "code_point": "U+16B2",
+  "unicode_name": "RUNIC LETTER KAUNA",
+  "transliteration": "k",
+  "sound_value": "/k/",
+  "proto_germanic_name": "kaunan",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "sickness",
+  "name_evidence_status": "disputed",
+  "uncertainty_notes": "The familiar normalized label Kenaz is retained for navigation; UT's Krause-based chart gives kaunan and ‘sickness’. Competing reconstructions make the name/lexeme especially uncertain.",
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-06-cen",
+    "norwegian-06-kaun",
+    "icelandic-06-kaun"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

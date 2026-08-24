@@ -1,0 +1,32 @@
+{
+  "key": "runes/elder-futhark/11",
+  "slug": "isa",
+  "normalized_label": "Isa",
+  "row_position": 11,
+  "aett": 2,
+  "position_in_aett": 3,
+  "glyph": "ᛁ",
+  "code_point": "U+16C1",
+  "unicode_name": "RUNIC LETTER ISAZ IS ISS I",
+  "transliteration": "i",
+  "sound_value": "/iː/",
+  "proto_germanic_name": "īsaz",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "ice",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-11-is",
+    "norwegian-09-is",
+    "icelandic-09-iss"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

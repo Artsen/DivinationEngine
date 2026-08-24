@@ -1,0 +1,135 @@
+[
+  {
+    "key": "kylver-g88",
+    "name": "Kylver Stone / G 88",
+    "kind": "full-row",
+    "date": "400–550 CE",
+    "object_id": "267753_HST / G 88",
+    "source_refs": [
+      "shm-kylver-g88",
+      "world-tree-kylver-g88"
+    ],
+    "rune_items": [
+      "runes/elder-futhark/01",
+      "runes/elder-futhark/02",
+      "runes/elder-futhark/03",
+      "runes/elder-futhark/04",
+      "runes/elder-futhark/05",
+      "runes/elder-futhark/06",
+      "runes/elder-futhark/07",
+      "runes/elder-futhark/08",
+      "runes/elder-futhark/09",
+      "runes/elder-futhark/10",
+      "runes/elder-futhark/11",
+      "runes/elder-futhark/12",
+      "runes/elder-futhark/13",
+      "runes/elder-futhark/14",
+      "runes/elder-futhark/15",
+      "runes/elder-futhark/16",
+      "runes/elder-futhark/17",
+      "runes/elder-futhark/18",
+      "runes/elder-futhark/19",
+      "runes/elder-futhark/20",
+      "runes/elder-futhark/21",
+      "runes/elder-futhark/22",
+      "runes/elder-futhark/23",
+      "runes/elder-futhark/24"
+    ],
+    "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+  },
+  {
+    "key": "vadstena-bracteate",
+    "name": "Vadstena bracteate",
+    "kind": "full-row",
+    "object_id": "IK 377,1 / KJ2 / Ög 178",
+    "source_refs": [
+      "runes-database"
+    ],
+    "rune_items": [
+      "runes/elder-futhark/01",
+      "runes/elder-futhark/02",
+      "runes/elder-futhark/03",
+      "runes/elder-futhark/04",
+      "runes/elder-futhark/05",
+      "runes/elder-futhark/06",
+      "runes/elder-futhark/07",
+      "runes/elder-futhark/08",
+      "runes/elder-futhark/09",
+      "runes/elder-futhark/10",
+      "runes/elder-futhark/11",
+      "runes/elder-futhark/12",
+      "runes/elder-futhark/13",
+      "runes/elder-futhark/14",
+      "runes/elder-futhark/15",
+      "runes/elder-futhark/16",
+      "runes/elder-futhark/17",
+      "runes/elder-futhark/18",
+      "runes/elder-futhark/19",
+      "runes/elder-futhark/20",
+      "runes/elder-futhark/21",
+      "runes/elder-futhark/22",
+      "runes/elder-futhark/23",
+      "runes/elder-futhark/24"
+    ],
+    "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+  },
+  {
+    "key": "grumpan-bracteate",
+    "name": "Grumpan bracteate",
+    "kind": "full-row",
+    "object_id": "IK 260 / KJ3 / Vg 207",
+    "source_refs": [
+      "runes-database"
+    ],
+    "rune_items": [
+      "runes/elder-futhark/01",
+      "runes/elder-futhark/02",
+      "runes/elder-futhark/03",
+      "runes/elder-futhark/04",
+      "runes/elder-futhark/05",
+      "runes/elder-futhark/06",
+      "runes/elder-futhark/07",
+      "runes/elder-futhark/08",
+      "runes/elder-futhark/09",
+      "runes/elder-futhark/10",
+      "runes/elder-futhark/11",
+      "runes/elder-futhark/12",
+      "runes/elder-futhark/13",
+      "runes/elder-futhark/14",
+      "runes/elder-futhark/15",
+      "runes/elder-futhark/16",
+      "runes/elder-futhark/17",
+      "runes/elder-futhark/18",
+      "runes/elder-futhark/19",
+      "runes/elder-futhark/20",
+      "runes/elder-futhark/21",
+      "runes/elder-futhark/22",
+      "runes/elder-futhark/23",
+      "runes/elder-futhark/24"
+    ],
+    "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+  },
+  {
+    "key": "charnay-fibula",
+    "name": "Charnay fibula",
+    "kind": "partial",
+    "object_id": null,
+    "source_refs": [
+      "runes-database"
+    ],
+    "rune_items": [],
+    "notes": "Conservative corpus-level attestation. Unverified collection/date precision is intentionally left unknown."
+  },
+  {
+    "key": "svingerud-hole-sandstone",
+    "name": "Svingerud / Hole sandstone context",
+    "kind": "context",
+    "date": "Early Roman Iron Age context",
+    "object_id": null,
+    "source_refs": [
+      "svingerud-antiquity-2024"
+    ],
+    "rune_items": [],
+    "notes": "Early-runic archaeological context only; not a complete 24-rune row and not used as a rune dictionary."
+  }
+]

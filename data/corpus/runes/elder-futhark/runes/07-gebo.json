@@ -1,0 +1,30 @@
+{
+  "key": "runes/elder-futhark/07",
+  "slug": "gebo",
+  "normalized_label": "Gebo",
+  "row_position": 7,
+  "aett": 1,
+  "position_in_aett": 7,
+  "glyph": "ᚷ",
+  "code_point": "U+16B7",
+  "unicode_name": "RUNIC LETTER GEBO GYFU G",
+  "transliteration": "g",
+  "sound_value": "/g/",
+  "proto_germanic_name": "gebō",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "gift",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-07-gyfu"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

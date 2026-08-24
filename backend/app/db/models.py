@@ -109,7 +109,7 @@ class Correspondence(Base, TimestampMixin):
     __table_args__ = (
         UniqueConstraint("key", name="uq_correspondence_key"),
         CheckConstraint(
-            "status IN ('attested','disputed','tradition_specific','not_applicable','not_attested','unknown')",  # noqa: E501
+            "status IN ('attested','reconstructed','disputed','tradition_specific','derived','not_applicable','not_attested','unknown')",  # noqa: E501
             name="ck_correspondence_status",
         ),
     )

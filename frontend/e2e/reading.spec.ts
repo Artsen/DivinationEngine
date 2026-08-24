@@ -45,6 +45,28 @@ test('I Ching casts display six persisted lines and both backend methods', async
   await expect(page.getByText('Casting details').last()).toBeVisible()
 })
 
+test('Elder Futhark draws three unique persisted runes with historical layers', async ({ page }) => {
+  await createReading(page, 'Rune browser smoke')
+  await page.getByRole('button', { name: 'Runes', exact: true }).click()
+  await page.getByRole('button', { name: '3', exact: true }).click()
+  await expect(page.getByText(/finite 24-rune set without replacement/)).toBeVisible()
+  await expect(page.getByLabel(/reversed/i)).toHaveCount(0)
+  await expect(page.getByLabel(/blank/i)).toHaveCount(0)
+  await page.getByRole('button', { name: 'Draw runes' }).click()
+  const cards = page.locator('.rune-card')
+  await expect(cards).toHaveCount(3)
+  const identities = await cards.locator('.rune-card__identity h4').allTextContents()
+  expect(new Set(identities).size).toBe(3)
+  await expect(cards.first().locator('.rune-glyph')).not.toHaveText('')
+  await expect(cards.first().getByText('Historical evidence')).toBeVisible()
+  await expect(cards.first().getByText('Reconstruction', { exact: true })).toBeVisible()
+  await expect(cards.first().getByText(/Anglo-Saxon Futhorc|Younger Futhark/).first()).toBeVisible()
+  await expect(cards.first().getByText('Exact redistributable English translation is not bundled.').first()).toBeVisible()
+  await page.reload()
+  await expect(page.locator('.rune-card')).toHaveCount(3)
+  expect(await page.locator('.rune-card__identity h4').allTextContents()).toEqual(identities)
+})
+
 test('reading history remains usable at a mobile viewport', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   await createReading(page, 'Mobile reading')

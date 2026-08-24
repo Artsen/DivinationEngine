@@ -1,0 +1,18 @@
+[
+  {
+    "key": "tacitus-marked-lots",
+    "tradition": "historical-lot-divination",
+    "status": "attested",
+    "source": "tacitus-germania-fordham",
+    "summary": "Tacitus describes pieces cut from a fruit-bearing tree, distinguished by marks, scattered on white cloth, and selected three times for interpretation.",
+    "limitations": "The account does not identify the marks as runes or Elder Futhark, and does not describe a 24-piece rune bag, rune stones, reversals, or modern spreads."
+  },
+  {
+    "key": "divination-engine-finite-rune-bag",
+    "tradition": "elder-futhark",
+    "status": "derived",
+    "source": "ut-lrc-old-norse-runes",
+    "summary": "Application mechanic: a fresh bag contains the 24 canonical corpus items; secure random draws occur without replacement and draw order is persisted.",
+    "limitations": "A software design, not a claim about Tacitus, Viking ritual, or an ancient standardized oracle method. No blank rune and no reversals."
+  }
+]

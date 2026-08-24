@@ -2057,6 +2057,14 @@
           "iching_method_count": {
             "type": "integer",
             "title": "Iching Method Count"
+          },
+          "runes_ready": {
+            "type": "boolean",
+            "title": "Runes Ready"
+          },
+          "elder_futhark_item_count": {
+            "type": "integer",
+            "title": "Elder Futhark Item Count"
           }
         },
         "type": "object",
@@ -2065,7 +2073,9 @@
           "rws_item_count",
           "iching_ready",
           "hexagram_count",
-          "iching_method_count"
+          "iching_method_count",
+          "runes_ready",
+          "elder_futhark_item_count"
         ],
         "title": "CorpusStatus"
       },
@@ -2117,8 +2127,10 @@
             "type": "string",
             "enum": [
               "attested",
+              "reconstructed",
               "disputed",
               "tradition_specific",
+              "derived",
               "not_applicable",
               "not_attested",
               "unknown"
@@ -2206,8 +2218,10 @@
             "type": "string",
             "enum": [
               "attested",
+              "reconstructed",
               "disputed",
               "tradition_specific",
+              "derived",
               "not_applicable",
               "not_attested",
               "unknown"

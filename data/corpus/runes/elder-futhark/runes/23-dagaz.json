@@ -1,0 +1,30 @@
+{
+  "key": "runes/elder-futhark/23",
+  "slug": "dagaz",
+  "normalized_label": "Dagaz",
+  "row_position": 23,
+  "aett": 3,
+  "position_in_aett": 7,
+  "glyph": "ᛞ",
+  "code_point": "U+16DE",
+  "unicode_name": "RUNIC LETTER DAGAZ DAEG D",
+  "transliteration": "d",
+  "sound_value": "/d/",
+  "proto_germanic_name": "dagaz",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "day",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-24-daeg"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

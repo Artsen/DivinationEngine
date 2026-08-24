@@ -1,0 +1,30 @@
+{
+  "key": "runes/elder-futhark/14",
+  "slug": "perthro",
+  "normalized_label": "Perthro",
+  "row_position": 14,
+  "aett": 2,
+  "position_in_aett": 6,
+  "glyph": "ᛈ",
+  "code_point": "U+16C8",
+  "unicode_name": "RUNIC LETTER PERTHO PEORTH P",
+  "transliteration": "p",
+  "sound_value": "/p/",
+  "proto_germanic_name": "perþō",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "fruit tree",
+  "name_evidence_status": "disputed",
+  "uncertainty_notes": "The name and lexical reconstruction are debated. UT's Krause-based chart gives perþō and ‘fruit tree’; the corpus does not present this as settled.",
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-14-peorth"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

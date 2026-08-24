@@ -1,0 +1,30 @@
+{
+  "key": "runes/elder-futhark/08",
+  "slug": "wunjo",
+  "normalized_label": "Wunjo",
+  "row_position": 8,
+  "aett": 1,
+  "position_in_aett": 8,
+  "glyph": "ᚹ",
+  "code_point": "U+16B9",
+  "unicode_name": "RUNIC LETTER WUNJO WYNN W",
+  "transliteration": "w",
+  "sound_value": "/w/",
+  "proto_germanic_name": "wunjō",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "joy",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-08-wynn"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

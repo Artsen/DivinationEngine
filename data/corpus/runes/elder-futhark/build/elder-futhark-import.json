@@ -1,0 +1,3911 @@
+{
+  "format_version": "1",
+  "collections": [
+    {
+      "slug": "elder-futhark",
+      "name": "Elder Futhark",
+      "description": "A provenance-backed canonical 24-rune Elder Futhark collection. Names and lexical values are explicitly scholarly reconstructions; later rune-poem systems remain separate.",
+      "system_type": "runes",
+      "supports_reversals": false,
+      "metadata": {
+        "corpus_format_version": "1",
+        "canonical_count": 24,
+        "groups": 3,
+        "casting_method_status": "derived",
+        "blank_rune": false
+      },
+      "items": [
+        {
+          "slug": "fehu",
+          "name": "Fehu",
+          "display_name": "ᚠ Fehu",
+          "sequence": 1,
+          "symbol": "ᚠ",
+          "metadata": {
+            "key": "runes/elder-futhark/01",
+            "slug": "fehu",
+            "normalized_label": "Fehu",
+            "row_position": 1,
+            "aett": 1,
+            "position_in_aett": 1,
+            "glyph": "ᚠ",
+            "code_point": "U+16A0",
+            "unicode_name": "RUNIC LETTER FEHU FEOH FE F",
+            "transliteration": "f",
+            "sound_value": "/f/",
+            "proto_germanic_name": "fehu",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "cattle, possessions",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-01-feoh",
+              "norwegian-01-fe",
+              "icelandic-01-fe"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "uruz",
+          "name": "Uruz",
+          "display_name": "ᚢ Uruz",
+          "sequence": 2,
+          "symbol": "ᚢ",
+          "metadata": {
+            "key": "runes/elder-futhark/02",
+            "slug": "uruz",
+            "normalized_label": "Uruz",
+            "row_position": 2,
+            "aett": 1,
+            "position_in_aett": 2,
+            "glyph": "ᚢ",
+            "code_point": "U+16A2",
+            "unicode_name": "RUNIC LETTER URUZ UR U",
+            "transliteration": "u",
+            "sound_value": "/u/",
+            "proto_germanic_name": "urūz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "aurochs",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-02-ur",
+              "norwegian-02-ur",
+              "icelandic-02-ur"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "thurisaz",
+          "name": "Thurisaz",
+          "display_name": "ᚦ Thurisaz",
+          "sequence": 3,
+          "symbol": "ᚦ",
+          "metadata": {
+            "key": "runes/elder-futhark/03",
+            "slug": "thurisaz",
+            "normalized_label": "Thurisaz",
+            "row_position": 3,
+            "aett": 1,
+            "position_in_aett": 3,
+            "glyph": "ᚦ",
+            "code_point": "U+16A6",
+            "unicode_name": "RUNIC LETTER THURISAZ THURS THORN",
+            "transliteration": "þ",
+            "sound_value": "/θ/",
+            "proto_germanic_name": "þurisaz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "ogre",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-03-thorn",
+              "norwegian-03-thurs",
+              "icelandic-03-thurs"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "ansuz",
+          "name": "Ansuz",
+          "display_name": "ᚨ Ansuz",
+          "sequence": 4,
+          "symbol": "ᚨ",
+          "metadata": {
+            "key": "runes/elder-futhark/04",
+            "slug": "ansuz",
+            "normalized_label": "Ansuz",
+            "row_position": 4,
+            "aett": 1,
+            "position_in_aett": 4,
+            "glyph": "ᚨ",
+            "code_point": "U+16A8",
+            "unicode_name": "RUNIC LETTER ANSUZ A",
+            "transliteration": "a",
+            "sound_value": "/a/",
+            "proto_germanic_name": "ansuz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "god",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-04-os",
+              "norwegian-04-oss",
+              "icelandic-04-oss"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "raidho",
+          "name": "Raidho",
+          "display_name": "ᚱ Raidho",
+          "sequence": 5,
+          "symbol": "ᚱ",
+          "metadata": {
+            "key": "runes/elder-futhark/05",
+            "slug": "raidho",
+            "normalized_label": "Raidho",
+            "row_position": 5,
+            "aett": 1,
+            "position_in_aett": 5,
+            "glyph": "ᚱ",
+            "code_point": "U+16B1",
+            "unicode_name": "RUNIC LETTER RAIDO RAD REID R",
+            "transliteration": "r",
+            "sound_value": "/r/",
+            "proto_germanic_name": "raidō",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "journey, wagon",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-05-rad",
+              "norwegian-05-reid",
+              "icelandic-05-reid"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "kenaz",
+          "name": "Kenaz",
+          "display_name": "ᚲ Kenaz",
+          "sequence": 6,
+          "symbol": "ᚲ",
+          "metadata": {
+            "key": "runes/elder-futhark/06",
+            "slug": "kenaz",
+            "normalized_label": "Kenaz",
+            "row_position": 6,
+            "aett": 1,
+            "position_in_aett": 6,
+            "glyph": "ᚲ",
+            "code_point": "U+16B2",
+            "unicode_name": "RUNIC LETTER KAUNA",
+            "transliteration": "k",
+            "sound_value": "/k/",
+            "proto_germanic_name": "kaunan",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "sickness",
+            "name_evidence_status": "disputed",
+            "uncertainty_notes": "The familiar normalized label Kenaz is retained for navigation; UT's Krause-based chart gives kaunan and ‘sickness’. Competing reconstructions make the name/lexeme especially uncertain.",
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-06-cen",
+              "norwegian-06-kaun",
+              "icelandic-06-kaun"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "gebo",
+          "name": "Gebo",
+          "display_name": "ᚷ Gebo",
+          "sequence": 7,
+          "symbol": "ᚷ",
+          "metadata": {
+            "key": "runes/elder-futhark/07",
+            "slug": "gebo",
+            "normalized_label": "Gebo",
+            "row_position": 7,
+            "aett": 1,
+            "position_in_aett": 7,
+            "glyph": "ᚷ",
+            "code_point": "U+16B7",
+            "unicode_name": "RUNIC LETTER GEBO GYFU G",
+            "transliteration": "g",
+            "sound_value": "/g/",
+            "proto_germanic_name": "gebō",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "gift",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-07-gyfu"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "wunjo",
+          "name": "Wunjo",
+          "display_name": "ᚹ Wunjo",
+          "sequence": 8,
+          "symbol": "ᚹ",
+          "metadata": {
+            "key": "runes/elder-futhark/08",
+            "slug": "wunjo",
+            "normalized_label": "Wunjo",
+            "row_position": 8,
+            "aett": 1,
+            "position_in_aett": 8,
+            "glyph": "ᚹ",
+            "code_point": "U+16B9",
+            "unicode_name": "RUNIC LETTER WUNJO WYNN W",
+            "transliteration": "w",
+            "sound_value": "/w/",
+            "proto_germanic_name": "wunjō",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "joy",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-08-wynn"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "hagalaz",
+          "name": "Hagalaz",
+          "display_name": "ᚺ Hagalaz",
+          "sequence": 9,
+          "symbol": "ᚺ",
+          "metadata": {
+            "key": "runes/elder-futhark/09",
+            "slug": "hagalaz",
+            "normalized_label": "Hagalaz",
+            "row_position": 9,
+            "aett": 2,
+            "position_in_aett": 1,
+            "glyph": "ᚺ",
+            "code_point": "U+16BA",
+            "unicode_name": "RUNIC LETTER HAGLAZ H",
+            "transliteration": "h",
+            "sound_value": "/h/",
+            "proto_germanic_name": "haglaz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "hail",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-09-haegl",
+              "norwegian-07-hagall",
+              "icelandic-07-hagall"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "nauthiz",
+          "name": "Nauthiz",
+          "display_name": "ᚾ Nauthiz",
+          "sequence": 10,
+          "symbol": "ᚾ",
+          "metadata": {
+            "key": "runes/elder-futhark/10",
+            "slug": "nauthiz",
+            "normalized_label": "Nauthiz",
+            "row_position": 10,
+            "aett": 2,
+            "position_in_aett": 2,
+            "glyph": "ᚾ",
+            "code_point": "U+16BE",
+            "unicode_name": "RUNIC LETTER NAUDIZ NYD NAUD N",
+            "transliteration": "n",
+            "sound_value": "/n/",
+            "proto_germanic_name": "naudiz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "tribulation",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-10-nyd",
+              "norwegian-08-naudr",
+              "icelandic-08-naud"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "isa",
+          "name": "Isa",
+          "display_name": "ᛁ Isa",
+          "sequence": 11,
+          "symbol": "ᛁ",
+          "metadata": {
+            "key": "runes/elder-futhark/11",
+            "slug": "isa",
+            "normalized_label": "Isa",
+            "row_position": 11,
+            "aett": 2,
+            "position_in_aett": 3,
+            "glyph": "ᛁ",
+            "code_point": "U+16C1",
+            "unicode_name": "RUNIC LETTER ISAZ IS ISS I",
+            "transliteration": "i",
+            "sound_value": "/iː/",
+            "proto_germanic_name": "īsaz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "ice",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-11-is",
+              "norwegian-09-is",
+              "icelandic-09-iss"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "jera",
+          "name": "Jera",
+          "display_name": "ᛃ Jera",
+          "sequence": 12,
+          "symbol": "ᛃ",
+          "metadata": {
+            "key": "runes/elder-futhark/12",
+            "slug": "jera",
+            "normalized_label": "Jera",
+            "row_position": 12,
+            "aett": 2,
+            "position_in_aett": 4,
+            "glyph": "ᛃ",
+            "code_point": "U+16C3",
+            "unicode_name": "RUNIC LETTER JERAN J",
+            "transliteration": "j",
+            "sound_value": "/j/",
+            "proto_germanic_name": "jēran",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "(good) year",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-12-ger",
+              "norwegian-10-ar",
+              "icelandic-10-ar"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "eihwaz",
+          "name": "Eihwaz",
+          "display_name": "ᛇ Eihwaz",
+          "sequence": 13,
+          "symbol": "ᛇ",
+          "metadata": {
+            "key": "runes/elder-futhark/13",
+            "slug": "eihwaz",
+            "normalized_label": "Eihwaz",
+            "row_position": 13,
+            "aett": 2,
+            "position_in_aett": 5,
+            "glyph": "ᛇ",
+            "code_point": "U+16C7",
+            "unicode_name": "RUNIC LETTER IWAZ EOH",
+            "transliteration": "ï/æ",
+            "sound_value": "/iː/ or /ç/",
+            "proto_germanic_name": "īwaz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "yew tree",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": "The rune's exact historical phonetic value is uncertain; UT transliterates it æ in the chart.",
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-13-eoh"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "perthro",
+          "name": "Perthro",
+          "display_name": "ᛈ Perthro",
+          "sequence": 14,
+          "symbol": "ᛈ",
+          "metadata": {
+            "key": "runes/elder-futhark/14",
+            "slug": "perthro",
+            "normalized_label": "Perthro",
+            "row_position": 14,
+            "aett": 2,
+            "position_in_aett": 6,
+            "glyph": "ᛈ",
+            "code_point": "U+16C8",
+            "unicode_name": "RUNIC LETTER PERTHO PEORTH P",
+            "transliteration": "p",
+            "sound_value": "/p/",
+            "proto_germanic_name": "perþō",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "fruit tree",
+            "name_evidence_status": "disputed",
+            "uncertainty_notes": "The name and lexical reconstruction are debated. UT's Krause-based chart gives perþō and ‘fruit tree’; the corpus does not present this as settled.",
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-14-peorth"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "algiz",
+          "name": "Algiz",
+          "display_name": "ᛉ Algiz",
+          "sequence": 15,
+          "symbol": "ᛉ",
+          "metadata": {
+            "key": "runes/elder-futhark/15",
+            "slug": "algiz",
+            "normalized_label": "Algiz",
+            "row_position": 15,
+            "aett": 2,
+            "position_in_aett": 7,
+            "glyph": "ᛉ",
+            "code_point": "U+16C9",
+            "unicode_name": "RUNIC LETTER ALGIZ EOLHX",
+            "transliteration": "z/R",
+            "sound_value": "/z/",
+            "proto_germanic_name": "algiz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "elk",
+            "name_evidence_status": "disputed",
+            "uncertainty_notes": "The Elder form and its Old English Eolh-secg and Scandinavian Ýr descendants form a difficult, non-identical relationship; all three poem mappings are marked likely-related.",
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-15-eolh-secg",
+              "norwegian-16-yr",
+              "icelandic-16-yr"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "sowilo",
+          "name": "Sowilo",
+          "display_name": "ᛊ Sowilo",
+          "sequence": 16,
+          "symbol": "ᛊ",
+          "metadata": {
+            "key": "runes/elder-futhark/16",
+            "slug": "sowilo",
+            "normalized_label": "Sowilo",
+            "row_position": 16,
+            "aett": 2,
+            "position_in_aett": 8,
+            "glyph": "ᛊ",
+            "code_point": "U+16CA",
+            "unicode_name": "RUNIC LETTER SOWILO S",
+            "transliteration": "s",
+            "sound_value": "/s/",
+            "proto_germanic_name": "sōwilō",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "sun",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-16-sigel",
+              "norwegian-11-sol",
+              "icelandic-11-sol"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "tiwaz",
+          "name": "Tiwaz",
+          "display_name": "ᛏ Tiwaz",
+          "sequence": 17,
+          "symbol": "ᛏ",
+          "metadata": {
+            "key": "runes/elder-futhark/17",
+            "slug": "tiwaz",
+            "normalized_label": "Tiwaz",
+            "row_position": 17,
+            "aett": 3,
+            "position_in_aett": 1,
+            "glyph": "ᛏ",
+            "code_point": "U+16CF",
+            "unicode_name": "RUNIC LETTER TIWAZ TIR TYR T",
+            "transliteration": "t",
+            "sound_value": "/t/",
+            "proto_germanic_name": "Tīwaz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "a god's name",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-17-tir",
+              "norwegian-12-tyr",
+              "icelandic-12-tyr"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "berkano",
+          "name": "Berkano",
+          "display_name": "ᛒ Berkano",
+          "sequence": 18,
+          "symbol": "ᛒ",
+          "metadata": {
+            "key": "runes/elder-futhark/18",
+            "slug": "berkano",
+            "normalized_label": "Berkano",
+            "row_position": 18,
+            "aett": 3,
+            "position_in_aett": 2,
+            "glyph": "ᛒ",
+            "code_point": "U+16D2",
+            "unicode_name": "RUNIC LETTER BERKANAN BEORC BJARKAN B",
+            "transliteration": "b",
+            "sound_value": "/b/",
+            "proto_germanic_name": "berkanan",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "birch twig",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-18-beorc",
+              "norwegian-13-bjarkan",
+              "icelandic-13-bjarkan"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "ehwaz",
+          "name": "Ehwaz",
+          "display_name": "ᛖ Ehwaz",
+          "sequence": 19,
+          "symbol": "ᛖ",
+          "metadata": {
+            "key": "runes/elder-futhark/19",
+            "slug": "ehwaz",
+            "normalized_label": "Ehwaz",
+            "row_position": 19,
+            "aett": 3,
+            "position_in_aett": 3,
+            "glyph": "ᛖ",
+            "code_point": "U+16D6",
+            "unicode_name": "RUNIC LETTER EHWAZ EH E",
+            "transliteration": "e",
+            "sound_value": "/e/",
+            "proto_germanic_name": "ehwaz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "horse",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-19-eh"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "mannaz",
+          "name": "Mannaz",
+          "display_name": "ᛗ Mannaz",
+          "sequence": 20,
+          "symbol": "ᛗ",
+          "metadata": {
+            "key": "runes/elder-futhark/20",
+            "slug": "mannaz",
+            "normalized_label": "Mannaz",
+            "row_position": 20,
+            "aett": 3,
+            "position_in_aett": 4,
+            "glyph": "ᛗ",
+            "code_point": "U+16D7",
+            "unicode_name": "RUNIC LETTER MANNAZ MAN M",
+            "transliteration": "m",
+            "sound_value": "/m/",
+            "proto_germanic_name": "mannaz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "person",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-20-man",
+              "norwegian-14-madr",
+              "icelandic-14-madr"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "laguz",
+          "name": "Laguz",
+          "display_name": "ᛚ Laguz",
+          "sequence": 21,
+          "symbol": "ᛚ",
+          "metadata": {
+            "key": "runes/elder-futhark/21",
+            "slug": "laguz",
+            "normalized_label": "Laguz",
+            "row_position": 21,
+            "aett": 3,
+            "position_in_aett": 5,
+            "glyph": "ᛚ",
+            "code_point": "U+16DA",
+            "unicode_name": "RUNIC LETTER LAUKAZ LAGU LOGR L",
+            "transliteration": "l",
+            "sound_value": "/l/",
+            "proto_germanic_name": "laukaz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "leek",
+            "name_evidence_status": "disputed",
+            "uncertainty_notes": "The normalized label Laguz is conventional; UT's Krause-based reconstruction is laukaz ‘leek’, while later poem descendants have water-related names.",
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-21-lagu",
+              "norwegian-15-logr",
+              "icelandic-15-logr"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "ingwaz",
+          "name": "Ingwaz",
+          "display_name": "ᛜ Ingwaz",
+          "sequence": 22,
+          "symbol": "ᛜ",
+          "metadata": {
+            "key": "runes/elder-futhark/22",
+            "slug": "ingwaz",
+            "normalized_label": "Ingwaz",
+            "row_position": 22,
+            "aett": 3,
+            "position_in_aett": 6,
+            "glyph": "ᛜ",
+            "code_point": "U+16DC",
+            "unicode_name": "RUNIC LETTER INGWAZ",
+            "transliteration": "ŋ",
+            "sound_value": "/ŋ/",
+            "proto_germanic_name": "Ingwaz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "a fertility god's name",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-22-ing"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "dagaz",
+          "name": "Dagaz",
+          "display_name": "ᛞ Dagaz",
+          "sequence": 23,
+          "symbol": "ᛞ",
+          "metadata": {
+            "key": "runes/elder-futhark/23",
+            "slug": "dagaz",
+            "normalized_label": "Dagaz",
+            "row_position": 23,
+            "aett": 3,
+            "position_in_aett": 7,
+            "glyph": "ᛞ",
+            "code_point": "U+16DE",
+            "unicode_name": "RUNIC LETTER DAGAZ DAEG D",
+            "transliteration": "d",
+            "sound_value": "/d/",
+            "proto_germanic_name": "dagaz",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "day",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-24-daeg"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        },
+        {
+          "slug": "othala",
+          "name": "Othala",
+          "display_name": "ᛟ Othala",
+          "sequence": 24,
+          "symbol": "ᛟ",
+          "metadata": {
+            "key": "runes/elder-futhark/24",
+            "slug": "othala",
+            "normalized_label": "Othala",
+            "row_position": 24,
+            "aett": 3,
+            "position_in_aett": 8,
+            "glyph": "ᛟ",
+            "code_point": "U+16DF",
+            "unicode_name": "RUNIC LETTER OTHALAN ETHEL O",
+            "transliteration": "o",
+            "sound_value": "/o/",
+            "proto_germanic_name": "ōþalan",
+            "reconstruction_status": "reconstructed",
+            "lexical_reconstruction": "inherited property",
+            "name_evidence_status": "reconstructed",
+            "uncertainty_notes": null,
+            "source_refs": [
+              "ut-lrc-old-norse-runes",
+              "unicode-runic-names-list"
+            ],
+            "system": "elder-futhark",
+            "poem_refs": [
+              "old-english-23-ethel"
+            ],
+            "attestation_refs": [
+              "kylver-g88",
+              "vadstena-bracteate",
+              "grumpan-bracteate"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "key": "ut-lrc-old-norse-runes",
+      "title": "Old Norse Online, Lesson 10: Runes and Mystic Origins",
+      "author": "Todd B. Krause and Jonathan Slocum",
+      "edition": null,
+      "publisher": "Linguistics Research Center, The University of Texas at Austin",
+      "publication_year": null,
+      "language": "English",
+      "citation": null,
+      "source_url": "https://lrc.la.utexas.edu/eieol/norol/100",
+      "rights_status": "citation_and_facts_only",
+      "notes": "Scholarly reconstruction reference. The corpus uses the Older Futhark chart and preserves the authors' warning that later rune names should not be applied naively to early inscriptions."
+    },
+    {
+      "key": "unicode-runic-names-list",
+      "title": "Unicode NamesList: Runic (16A0–16FF)",
+      "author": "Unicode Consortium",
+      "edition": null,
+      "publisher": "Unicode Consortium",
+      "publication_year": null,
+      "language": "English",
+      "citation": null,
+      "source_url": "https://www.unicode.org/charts/nameslist/n_16A0.html",
+      "rights_status": "unicode-data-license",
+      "notes": "Authoritative modern character identities and names; not evidence for ancient rune names."
+    },
+    {
+      "key": "wikisource-rune-poems",
+      "title": "Rune poems",
+      "author": null,
+      "edition": null,
+      "publisher": "Wikisource contributors",
+      "publication_year": null,
+      "language": "Old English and Old Norse",
+      "citation": null,
+      "source_url": "https://en.wikisource.org/w/index.php?oldid=10795428&title=Rune_poems",
+      "rights_status": "historical_source_text_public_domain",
+      "notes": "Revision 10795428 (2 January 2021), used as the fixed digital transcription witness for all 61 original-language stanza bodies. No English translations are bundled."
+    },
+    {
+      "key": "hickes-1705-thesaurus",
+      "title": "Linguarum veterum septentrionalium thesaurus grammatico-criticus et archæologicus",
+      "author": "George Hickes",
+      "edition": null,
+      "publisher": "Sheldonian Theatre, Oxford",
+      "publication_year": 1705,
+      "language": "Latin and Old English",
+      "citation": null,
+      "source_url": "https://archive.org/details/b30454736_0001",
+      "rights_status": "public_domain",
+      "notes": "Early printed witness preserving the Old English Rune Poem after the Cotton Otho B.x manuscript was damaged in the 1731 fire."
+    },
+    {
+      "key": "dickins-1915-runic-heroic-poems",
+      "title": "Runic and Heroic Poems of the Old Teutonic Peoples",
+      "author": "Bruce Dickins",
+      "edition": null,
+      "publisher": "Cambridge University Press",
+      "publication_year": 1915,
+      "language": "English",
+      "citation": null,
+      "source_url": "https://en.wikisource.org/wiki/Runic_and_Heroic_Poems_of_the_Old_Teutonic_Peoples",
+      "rights_status": "public_domain_us_jurisdictionally_restricted",
+      "notes": "Bibliography and locators only. Exact English translations are intentionally not bundled because worldwide redistribution status is not uniform; Dickins died in 1978."
+    },
+    {
+      "key": "shm-kylver-g88",
+      "title": "Kylverstenen",
+      "author": null,
+      "edition": null,
+      "publisher": "Swedish History Museum",
+      "publication_year": null,
+      "language": "Swedish",
+      "citation": null,
+      "source_url": "https://samlingar.shm.se/object/B41A7D55-F30E-4706-92AD-CFD16596ADA6",
+      "rights_status": "cc0_metadata",
+      "notes": "Object 267753_HST; runic signum G 88. Catalogue metadata dates the limestone object to 400–550 and identifies an Older Futhark inscription."
+    },
+    {
+      "key": "world-tree-kylver-g88",
+      "title": "The Kylver Stone (G 88)",
+      "author": "Tom Birkett",
+      "edition": null,
+      "publisher": "World-Tree Project",
+      "publication_year": 2012,
+      "language": "English",
+      "citation": null,
+      "source_url": "https://www.worldtreeproject.org/document/1321",
+      "rights_status": "cc-by-nc",
+      "notes": "Supporting record describing the complete older-futhark row; metadata/citation only, with no media redistributed."
+    },
+    {
+      "key": "runes-database",
+      "title": "RuneS: Runic Writing in the Germanic Languages",
+      "author": null,
+      "edition": null,
+      "publisher": "Academy of Sciences and Literature Mainz",
+      "publication_year": null,
+      "language": "English and German",
+      "citation": null,
+      "source_url": "https://www.runesdb.de/",
+      "rights_status": "citation_and_facts_only",
+      "notes": "Research database cited by stable inscription identities for the Vadstena and Grumpan bracteates and Charnay fibula."
+    },
+    {
+      "key": "tacitus-germania-fordham",
+      "title": "Tacitus: Germania",
+      "author": "Publius Cornelius Tacitus",
+      "edition": null,
+      "publisher": "Fordham University Internet History Sourcebooks Project",
+      "publication_year": null,
+      "language": "English",
+      "citation": null,
+      "source_url": "https://sourcebooks.web.fordham.edu/source/tacitus1.asp",
+      "rights_status": "citation_and_paraphrase_only",
+      "notes": "Section 10 describes marked wooden lots; it does not identify Elder Futhark, runes, rune stones, a 24-piece bag, or modern spreads."
+    },
+    {
+      "key": "svingerud-antiquity-2024",
+      "title": "Inscribed sandstone fragments of Hole, Norway: radiocarbon dates provide insight into rune-stone traditions",
+      "author": "Steinar Solheim et al.",
+      "edition": null,
+      "publisher": "Antiquity, Cambridge University Press",
+      "publication_year": 2025,
+      "language": "English",
+      "citation": null,
+      "source_url": "https://doi.org/10.15184/aqy.2024.225",
+      "rights_status": "cc-by-nc-sa-4.0",
+      "notes": "2025 open-access archaeological study used only for contextual early-runic evidence, not as a complete rune-row witness."
+    },
+    {
+      "key": "barnes-2012-runes-handbook",
+      "title": "Runes: A Handbook",
+      "author": "Michael P. Barnes",
+      "edition": null,
+      "publisher": "Boydell Press",
+      "publication_year": 2012,
+      "language": "English",
+      "citation": null,
+      "source_url": "https://boydellandbrewer.com/book/runes-a-handbook-9781783276974/",
+      "rights_status": "bibliographic_only",
+      "notes": "Modern scholarship bibliography; no copyrighted prose is reproduced."
+    },
+    {
+      "key": "blum-modern-rune-oracle",
+      "title": "The Book of Runes",
+      "author": "Ralph Blum",
+      "edition": null,
+      "publisher": "Oracle Books",
+      "publication_year": 1982,
+      "language": "English",
+      "citation": null,
+      "source_url": "https://search.worldcat.org/title/11470005",
+      "rights_status": "bibliographic_only",
+      "notes": "Modern oracle history only. No interpretation text is reproduced; the blank rune is not part of canonical Elder Futhark."
+    },
+    {
+      "key": "von-list-1908-armanenschaft",
+      "title": "Das Geheimnis der Runen",
+      "author": "Guido von List",
+      "edition": null,
+      "publisher": null,
+      "publication_year": 1908,
+      "language": "German",
+      "citation": null,
+      "source_url": "https://search.worldcat.org/search?q=ti%3ADas%20Geheimnis%20der%20Runen%20au%3AGuido%20von%20List",
+      "rights_status": "bibliographic_only",
+      "notes": "Later Armanen occult system, kept separate from Elder Futhark identity."
+    }
+  ],
+  "traditions": [
+    {
+      "slug": "elder-futhark",
+      "name": "Elder Futhark",
+      "description": "The 24-character older runic writing system."
+    },
+    {
+      "slug": "proto-germanic-reconstruction",
+      "name": "Proto-Germanic reconstruction",
+      "description": "Modern scholarly linguistic reconstruction, not direct manuscript attestation."
+    },
+    {
+      "slug": "anglo-saxon-futhorc",
+      "name": "Anglo-Saxon Futhorc",
+      "description": "The later expanded English runic system represented by the Old English Rune Poem."
+    },
+    {
+      "slug": "younger-futhark",
+      "name": "Younger Futhark",
+      "description": "The later 16-rune Scandinavian system represented by the Norwegian and Icelandic rune poems."
+    },
+    {
+      "slug": "historical-lot-divination",
+      "name": "Historically attested lot divination",
+      "description": "Marked wooden lots described by Tacitus; the marks are not securely identified as runes."
+    },
+    {
+      "slug": "modern-rune-divination",
+      "name": "Modern rune divination",
+      "description": "Modern oracle practices, kept separate from historical runic evidence."
+    },
+    {
+      "slug": "armanen",
+      "name": "Armanen runes",
+      "description": "Guido von List's separate early twentieth-century occult system."
+    }
+  ],
+  "interpretations": [
+    {
+      "key": "rune-poem-icelandic-01-fe",
+      "item": "elder-futhark/fehu",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Fé er frænda róg\nok flæðar viti\nok grafseiðs gata\naurum fylkir.",
+      "locator": "The Icelandic Rune Poem, stanza 1: Fé",
+      "sequence": 1,
+      "notes": "direct mapping to Fehu; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-01-fe",
+      "item": "elder-futhark/fehu",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Fé vældr frænda róge;\nføðesk ulfr í skóge.",
+      "locator": "The Norwegian Rune Poem, stanza 1: Fé",
+      "sequence": 1,
+      "notes": "direct mapping to Fehu; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-01-feoh",
+      "item": "elder-futhark/fehu",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Feoh byþ frofur fira gehwylcum;\nsceal ðeah manna gehwylc miclun hyt dælan\ngif he wile for drihtne domes hleotan.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 1: Feoh",
+      "sequence": 1,
+      "notes": "direct mapping to Fehu; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-02-ur",
+      "item": "elder-futhark/uruz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Úr er skýja grátr\nok skára þverrir\nok hirðis hatr.\numbre vísi",
+      "locator": "The Icelandic Rune Poem, stanza 2: Úr",
+      "sequence": 2,
+      "notes": "direct mapping to Uruz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-02-ur",
+      "item": "elder-futhark/uruz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Úr er af illu jarne;\nopt løypr ræinn á hjarne.",
+      "locator": "The Norwegian Rune Poem, stanza 2: Úr",
+      "sequence": 2,
+      "notes": "direct mapping to Uruz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-02-ur",
+      "item": "elder-futhark/uruz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Ur byþ anmod ond oferhyrned,\nfelafrecne deor, feohteþ mid hornum\nmære morstapa; þæt is modig wuht.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 2: Ur",
+      "sequence": 2,
+      "notes": "direct mapping to Uruz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-03-thurs",
+      "item": "elder-futhark/thurisaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Þurs er kvenna kvöl\nok kletta búi\nok varðrúnar verr.\nSaturnus þengill.",
+      "locator": "The Icelandic Rune Poem, stanza 3: Þurs",
+      "sequence": 3,
+      "notes": "direct mapping to Thurisaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-03-thurs",
+      "item": "elder-futhark/thurisaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Þurs vældr kvinna kvillu;\nkátr værðr fár af illu.",
+      "locator": "The Norwegian Rune Poem, stanza 3: Þurs",
+      "sequence": 3,
+      "notes": "direct mapping to Thurisaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-03-thorn",
+      "item": "elder-futhark/thurisaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Ðorn byþ ðearle scearp; ðegna gehwylcum\nanfeng ys yfyl, ungemetum reþe\nmanna gehwelcum, ðe him mid resteð.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 3: Ðorn",
+      "sequence": 3,
+      "notes": "direct mapping to Thurisaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-04-oss",
+      "item": "elder-futhark/ansuz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Óss er algingautr\nok ásgarðs jöfurr,\nok valhallar vísi.\nJupiter oddviti.",
+      "locator": "The Icelandic Rune Poem, stanza 4: Óss",
+      "sequence": 4,
+      "notes": "direct mapping to Ansuz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-04-oss",
+      "item": "elder-futhark/ansuz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Óss er flæstra færða\nfǫr; en skalpr er sværða.",
+      "locator": "The Norwegian Rune Poem, stanza 4: Óss",
+      "sequence": 4,
+      "notes": "direct mapping to Ansuz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-04-os",
+      "item": "elder-futhark/ansuz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Os byþ ordfruma ælere spræce,\nwisdomes wraþu ond witena frofur\nand eorla gehwam eadnys ond tohiht.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 4: Os",
+      "sequence": 4,
+      "notes": "direct mapping to Ansuz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-05-reid",
+      "item": "elder-futhark/raidho",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Reið er sitjandi sæla\nok snúðig ferð\nok jórs erfiði.\niter ræsir.",
+      "locator": "The Icelandic Rune Poem, stanza 5: Reið",
+      "sequence": 5,
+      "notes": "direct mapping to Raidho; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-05-reid",
+      "item": "elder-futhark/raidho",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Ræið kveða rossom væsta;\nReginn sló sværðet bæzta.",
+      "locator": "The Norwegian Rune Poem, stanza 5: Ræið",
+      "sequence": 5,
+      "notes": "direct mapping to Raidho; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-05-rad",
+      "item": "elder-futhark/raidho",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Rad byþ on recyde rinca gehwylcum\nsefte ond swiþhwæt, ðamðe sitteþ on ufan\nmeare mægenheardum ofer milpaþas.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 5: Rad",
+      "sequence": 5,
+      "notes": "direct mapping to Raidho; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-06-kaun",
+      "item": "elder-futhark/kenaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Kaun er barna böl\nok bardaga [för]\nok holdfúa hús.\nflagella konungr.",
+      "locator": "The Icelandic Rune Poem, stanza 6: Kaun",
+      "sequence": 6,
+      "notes": "direct mapping to Kenaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-06-kaun",
+      "item": "elder-futhark/kenaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Kaun er barna bǫlvan;\nbǫl gørver nán fǫlvan.",
+      "locator": "The Norwegian Rune Poem, stanza 6: Kaun",
+      "sequence": 6,
+      "notes": "direct mapping to Kenaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-06-cen",
+      "item": "elder-futhark/kenaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Cen byþ cwicera gehwam, cuþ on fyre\nblac ond beorhtlic, byrneþ oftust\nðær hi æþelingas inne restaþ.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 6: Cen",
+      "sequence": 6,
+      "notes": "direct mapping to Kenaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-07-gyfu",
+      "item": "elder-futhark/gebo",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Gyfu gumena byþ gleng and herenys,\nwraþu and wyrþscype and wræcna gehwam\nar and ætwist, ðe byþ oþra leas.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 7: Gyfu",
+      "sequence": 7,
+      "notes": "direct mapping to Gebo; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-08-wynn",
+      "item": "elder-futhark/wunjo",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Wenne bruceþ, ðe can weana lyt\nsares and sorge and him sylfa hæfþ\nblæd and blysse and eac byrga geniht.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 8: Wenne",
+      "sequence": 8,
+      "notes": "direct mapping to Wunjo; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-07-hagall",
+      "item": "elder-futhark/hagalaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Hagall er kaldakorn\nok krapadrífa\nok snáka sótt.\ngrando hildingr.",
+      "locator": "The Icelandic Rune Poem, stanza 7: Hagall",
+      "sequence": 7,
+      "notes": "direct mapping to Hagalaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-07-hagall",
+      "item": "elder-futhark/hagalaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Hagall er kaldastr korna;\nKristr skóp hæimenn forna.",
+      "locator": "The Norwegian Rune Poem, stanza 7: Hagall",
+      "sequence": 7,
+      "notes": "direct mapping to Hagalaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-09-haegl",
+      "item": "elder-futhark/hagalaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Hægl byþ hwitust corna; hwyrft hit of heofones lyfte,\nwealcaþ hit windes scura; weorþeþ hit to wætere syððan.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 9: Hægl",
+      "sequence": 9,
+      "notes": "direct mapping to Hagalaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-08-naud",
+      "item": "elder-futhark/nauthiz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Nauð er Þýjar þrá\nok þungr kostr\nok vássamlig verk.\nopera niflungr.",
+      "locator": "The Icelandic Rune Poem, stanza 8: Nauð",
+      "sequence": 8,
+      "notes": "direct mapping to Nauthiz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-08-naudr",
+      "item": "elder-futhark/nauthiz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Nauðr gerer næppa koste;\nnøktan kælr í froste.",
+      "locator": "The Norwegian Rune Poem, stanza 8: Nauðr",
+      "sequence": 8,
+      "notes": "direct mapping to Nauthiz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-10-nyd",
+      "item": "elder-futhark/nauthiz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Nyd byþ nearu on breostan; weorþeþ hi þeah oft niþa bearnum\nto helpe and to hæle gehwæþre, gif hi his hlystaþ æror.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 10: Nyd",
+      "sequence": 10,
+      "notes": "direct mapping to Nauthiz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-09-iss",
+      "item": "elder-futhark/isa",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Íss er árbörkr\nok unnar þak\nok feigra manna fár.\nglacies jöfurr.",
+      "locator": "The Icelandic Rune Poem, stanza 9: Íss",
+      "sequence": 9,
+      "notes": "direct mapping to Isa; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-09-is",
+      "item": "elder-futhark/isa",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Ís kǫllum brú bræiða;\nblindan þarf at læiða.",
+      "locator": "The Norwegian Rune Poem, stanza 9: Ís",
+      "sequence": 9,
+      "notes": "direct mapping to Isa; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-11-is",
+      "item": "elder-futhark/isa",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Is byþ ofereald, ungemetum slidor,\nglisnaþ glæshluttur gimmum gelicust,\nflor forste geworuht, fæger ansyne.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 11: Is",
+      "sequence": 11,
+      "notes": "direct mapping to Isa; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-10-ar",
+      "item": "elder-futhark/jera",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Ár er gumna góði\nok gott sumar\nalgróinn akr.\nannus allvaldr.",
+      "locator": "The Icelandic Rune Poem, stanza 10: Ár",
+      "sequence": 10,
+      "notes": "direct mapping to Jera; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-10-ar",
+      "item": "elder-futhark/jera",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Ár er gumna góðe;\nget ek at ǫrr var Fróðe.",
+      "locator": "The Norwegian Rune Poem, stanza 10: Ár",
+      "sequence": 10,
+      "notes": "direct mapping to Jera; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-12-ger",
+      "item": "elder-futhark/jera",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Ger byþ gumena hiht, ðonne God læteþ,\nhalig heofones cyning, hrusan syllan\nbeorhte bleda beornum ond ðearfum.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 12: Ger",
+      "sequence": 12,
+      "notes": "direct mapping to Jera; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-13-eoh",
+      "item": "elder-futhark/eihwaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Eoh byþ utan unsmeþe treow,\nheard hrusan fæst, hyrde fyres,\nwyrtrumun underwreþyd, wyn on eþle.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 13: Eoh",
+      "sequence": 13,
+      "notes": "direct mapping to Eihwaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-14-peorth",
+      "item": "elder-futhark/perthro",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Peorð byþ symble plega and hlehter\nwlancum [on middum], ðar wigan sittaþ\non beorsele bliþe ætsomne.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 14: Peorð",
+      "sequence": 14,
+      "notes": "direct mapping to Perthro; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-16-yr",
+      "item": "elder-futhark/algiz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Ýr er bendr bogi\nok brotgjarnt járn\nok fífu fárbauti.\narcus ynglingr.",
+      "locator": "The Icelandic Rune Poem, stanza 16: Ýr",
+      "sequence": 16,
+      "notes": "likely-related mapping to Algiz; Cautious descendant relationship; rune name, form, and poem lexeme are not identical across systems. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-16-yr",
+      "item": "elder-futhark/algiz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Ýr er vetrgrønstr viða;\nvænt er, er brennr, at sviða.",
+      "locator": "The Norwegian Rune Poem, stanza 16: Ýr",
+      "sequence": 16,
+      "notes": "likely-related mapping to Algiz; Cautious descendant relationship; rune name, form, and poem lexeme are not identical across systems. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-15-eolh-secg",
+      "item": "elder-futhark/algiz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Eolh-secg eard hæfþ oftust on fenne\nwexeð on wature, wundaþ grimme,\nblode breneð beorna gehwylcne\nðe him ænigne onfeng gedeþ.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 15: Eolh-secg",
+      "sequence": 15,
+      "notes": "likely-related mapping to Algiz; Cautious descendant relationship; rune name, form, and poem lexeme are not identical across systems. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-11-sol",
+      "item": "elder-futhark/sowilo",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Sól er skýja skjöldr\nok skínandi röðull\nok ísa aldrtregi.\nrota siklingr.",
+      "locator": "The Icelandic Rune Poem, stanza 11: Sól",
+      "sequence": 11,
+      "notes": "direct mapping to Sowilo; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-11-sol",
+      "item": "elder-futhark/sowilo",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Sól er landa ljóme;\nlúti ek helgum dóme.",
+      "locator": "The Norwegian Rune Poem, stanza 11: Sól",
+      "sequence": 11,
+      "notes": "direct mapping to Sowilo; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-16-sigel",
+      "item": "elder-futhark/sowilo",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Sigel semannum symble biþ on hihte,\nðonne hi hine feriaþ ofer fisces beþ,\noþ hi brimhengest bringeþ to lande.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 16: Sigel",
+      "sequence": 16,
+      "notes": "direct mapping to Sowilo; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-12-tyr",
+      "item": "elder-futhark/tiwaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Týr er einhendr áss\nok ulfs leifar\nok hofa hilmir.\nMars tiggi.",
+      "locator": "The Icelandic Rune Poem, stanza 12: Týr",
+      "sequence": 12,
+      "notes": "direct mapping to Tiwaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-12-tyr",
+      "item": "elder-futhark/tiwaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Týr er æinendr ása;\nopt værðr smiðr blása.",
+      "locator": "The Norwegian Rune Poem, stanza 12: Týr",
+      "sequence": 12,
+      "notes": "direct mapping to Tiwaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-17-tir",
+      "item": "elder-futhark/tiwaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Tir biþ tacna sum, healdeð trywa wel\nwiþ æþelingas; a biþ on færylde\nofer nihta genipu, næfre swiceþ.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 17: Tir",
+      "sequence": 17,
+      "notes": "direct mapping to Tiwaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-13-bjarkan",
+      "item": "elder-futhark/berkano",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Bjarkan er laufgat lim\nok lítit tré\nok ungsamligr viðr.\nabies buðlungr.",
+      "locator": "The Icelandic Rune Poem, stanza 13: Bjarkan",
+      "sequence": 13,
+      "notes": "direct mapping to Berkano; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-13-bjarkan",
+      "item": "elder-futhark/berkano",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Bjarkan er laufgrønstr líma;\nLoki bar flærða tíma.",
+      "locator": "The Norwegian Rune Poem, stanza 13: Bjarkan",
+      "sequence": 13,
+      "notes": "direct mapping to Berkano; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-18-beorc",
+      "item": "elder-futhark/berkano",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Beorc byþ bleda leas, bereþ efne swa ðeah\ntanas butan tudder, biþ on telgum wlitig,\nheah on helme hrysted fægere,\ngeloden leafum, lyfte getenge.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 18: Beorc",
+      "sequence": 18,
+      "notes": "direct mapping to Berkano; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-19-eh",
+      "item": "elder-futhark/ehwaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Eh byþ for eorlum æþelinga wyn,\nhors hofum wlanc, ðær him hæleþ ymb[e]\nwelege on wicgum wrixlaþ spræce\nand biþ unstyllum æfre frofur.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 19: Eh",
+      "sequence": 19,
+      "notes": "direct mapping to Ehwaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-14-madr",
+      "item": "elder-futhark/mannaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Maðr er manns gaman\nok moldar auki\nok skipa skreytir.\nhomo mildingr.",
+      "locator": "The Icelandic Rune Poem, stanza 14: Maðr",
+      "sequence": 14,
+      "notes": "direct mapping to Mannaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-14-madr",
+      "item": "elder-futhark/mannaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Maðr er moldar auki;\nmikil er græip á hauki.",
+      "locator": "The Norwegian Rune Poem, stanza 14: Maðr",
+      "sequence": 14,
+      "notes": "direct mapping to Mannaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-20-man",
+      "item": "elder-futhark/mannaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Man byþ on myrgþe his magan leof:\nsceal þeah anra gehwylc oðrum swican,\nforðum drihten wyle dome sine\nþæt earme flæsc eorþan betæcan.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 20: Man",
+      "sequence": 20,
+      "notes": "direct mapping to Mannaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-icelandic-15-logr",
+      "item": "elder-futhark/laguz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Lögr er vellanda vatn\nok viðr ketill\nok glömmungr grund.\nlacus lofðungr.",
+      "locator": "The Icelandic Rune Poem, stanza 15: Lögr",
+      "sequence": 15,
+      "notes": "direct mapping to Laguz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-norwegian-15-logr",
+      "item": "elder-futhark/laguz",
+      "source": "wikisource-rune-poems",
+      "tradition": "younger-futhark",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Lǫgr er, fællr ór fjalle\nfoss; en gull ero nosser.",
+      "locator": "The Norwegian Rune Poem, stanza 15: Lǫgr",
+      "sequence": 15,
+      "notes": "direct mapping to Laguz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-21-lagu",
+      "item": "elder-futhark/laguz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Lagu byþ leodum langsum geþuht,\ngif hi sculun neþan on nacan tealtum\nand hi sæyþa swyþe bregaþ\nand se brimhengest bridles ne gym[eð].",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 21: Lagu",
+      "sequence": 21,
+      "notes": "direct mapping to Laguz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-22-ing",
+      "item": "elder-futhark/ingwaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Ing wæs ærest mid East-Denum\ngesewen secgun, oþ he siððan est\nofer wæg gewat; wæn æfter ran;\nðus Heardingas ðone hæle nemdun.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 22: Ing",
+      "sequence": 22,
+      "notes": "direct mapping to Ingwaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-24-daeg",
+      "item": "elder-futhark/dagaz",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Dæg byþ drihtnes sond, deore mannum,\nmære metodes leoht, myrgþ and tohiht\neadgum and earmum, eallum brice.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 24: Dæg",
+      "sequence": 24,
+      "notes": "direct mapping to Dagaz; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    },
+    {
+      "key": "rune-poem-old-english-23-ethel",
+      "item": "elder-futhark/othala",
+      "source": "wikisource-rune-poems",
+      "tradition": "anglo-saxon-futhorc",
+      "interpretation_type": "rune-poem",
+      "exact_text": "Eþel byþ oferleof æghwylcum men,\ngif he mot ðær rihtes and gerysena on\nbrucan on bolde bleadum oftast.",
+      "locator": "The Anglo-Saxon Rune Poem, stanza 23: Eþel",
+      "sequence": 23,
+      "notes": "direct mapping to Othala; Later-system rune correspondence; the poem remains evidence for its own named system, not an Elder Futhark definition. Exact redistributable English translation is not bundled."
+    }
+  ],
+  "correspondences": [
+    {
+      "key": "elder-futhark-01-reconstructed-name",
+      "item": "elder-futhark/fehu",
+      "type": "reconstructed_name",
+      "value": "fehu",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-01-lexical",
+      "item": "elder-futhark/fehu",
+      "type": "lexical_reconstruction",
+      "value": "cattle, possessions",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-01-sound",
+      "item": "elder-futhark/fehu",
+      "type": "historical_sound_value",
+      "value": "/f/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-01-unicode",
+      "item": "elder-futhark/fehu",
+      "type": "unicode_identity",
+      "value": "U+16A0 — RUNIC LETTER FEHU FEOH FE F",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16A0",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-01-structural-group",
+      "item": "elder-futhark/fehu",
+      "type": "aett_group",
+      "value": "Group 1, position 1",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-01-attestation-kylver-g88",
+      "item": "elder-futhark/fehu",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-01-attestation-vadstena-bracteate",
+      "item": "elder-futhark/fehu",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-01-attestation-grumpan-bracteate",
+      "item": "elder-futhark/fehu",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-02-reconstructed-name",
+      "item": "elder-futhark/uruz",
+      "type": "reconstructed_name",
+      "value": "urūz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-02-lexical",
+      "item": "elder-futhark/uruz",
+      "type": "lexical_reconstruction",
+      "value": "aurochs",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-02-sound",
+      "item": "elder-futhark/uruz",
+      "type": "historical_sound_value",
+      "value": "/u/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-02-unicode",
+      "item": "elder-futhark/uruz",
+      "type": "unicode_identity",
+      "value": "U+16A2 — RUNIC LETTER URUZ UR U",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16A2",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-02-structural-group",
+      "item": "elder-futhark/uruz",
+      "type": "aett_group",
+      "value": "Group 1, position 2",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-02-attestation-kylver-g88",
+      "item": "elder-futhark/uruz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-02-attestation-vadstena-bracteate",
+      "item": "elder-futhark/uruz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-02-attestation-grumpan-bracteate",
+      "item": "elder-futhark/uruz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-03-reconstructed-name",
+      "item": "elder-futhark/thurisaz",
+      "type": "reconstructed_name",
+      "value": "þurisaz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-03-lexical",
+      "item": "elder-futhark/thurisaz",
+      "type": "lexical_reconstruction",
+      "value": "ogre",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-03-sound",
+      "item": "elder-futhark/thurisaz",
+      "type": "historical_sound_value",
+      "value": "/θ/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-03-unicode",
+      "item": "elder-futhark/thurisaz",
+      "type": "unicode_identity",
+      "value": "U+16A6 — RUNIC LETTER THURISAZ THURS THORN",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16A6",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-03-structural-group",
+      "item": "elder-futhark/thurisaz",
+      "type": "aett_group",
+      "value": "Group 1, position 3",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-03-attestation-kylver-g88",
+      "item": "elder-futhark/thurisaz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-03-attestation-vadstena-bracteate",
+      "item": "elder-futhark/thurisaz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-03-attestation-grumpan-bracteate",
+      "item": "elder-futhark/thurisaz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-04-reconstructed-name",
+      "item": "elder-futhark/ansuz",
+      "type": "reconstructed_name",
+      "value": "ansuz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-04-lexical",
+      "item": "elder-futhark/ansuz",
+      "type": "lexical_reconstruction",
+      "value": "god",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-04-sound",
+      "item": "elder-futhark/ansuz",
+      "type": "historical_sound_value",
+      "value": "/a/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-04-unicode",
+      "item": "elder-futhark/ansuz",
+      "type": "unicode_identity",
+      "value": "U+16A8 — RUNIC LETTER ANSUZ A",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16A8",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-04-structural-group",
+      "item": "elder-futhark/ansuz",
+      "type": "aett_group",
+      "value": "Group 1, position 4",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-04-attestation-kylver-g88",
+      "item": "elder-futhark/ansuz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-04-attestation-vadstena-bracteate",
+      "item": "elder-futhark/ansuz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-04-attestation-grumpan-bracteate",
+      "item": "elder-futhark/ansuz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-05-reconstructed-name",
+      "item": "elder-futhark/raidho",
+      "type": "reconstructed_name",
+      "value": "raidō",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-05-lexical",
+      "item": "elder-futhark/raidho",
+      "type": "lexical_reconstruction",
+      "value": "journey, wagon",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-05-sound",
+      "item": "elder-futhark/raidho",
+      "type": "historical_sound_value",
+      "value": "/r/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-05-unicode",
+      "item": "elder-futhark/raidho",
+      "type": "unicode_identity",
+      "value": "U+16B1 — RUNIC LETTER RAIDO RAD REID R",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16B1",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-05-structural-group",
+      "item": "elder-futhark/raidho",
+      "type": "aett_group",
+      "value": "Group 1, position 5",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-05-attestation-kylver-g88",
+      "item": "elder-futhark/raidho",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-05-attestation-vadstena-bracteate",
+      "item": "elder-futhark/raidho",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-05-attestation-grumpan-bracteate",
+      "item": "elder-futhark/raidho",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-06-reconstructed-name",
+      "item": "elder-futhark/kenaz",
+      "type": "reconstructed_name",
+      "value": "kaunan",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "disputed",
+      "locator": "Older Futhark chart",
+      "notes": "The familiar normalized label Kenaz is retained for navigation; UT's Krause-based chart gives kaunan and ‘sickness’. Competing reconstructions make the name/lexeme especially uncertain."
+    },
+    {
+      "key": "elder-futhark-06-lexical",
+      "item": "elder-futhark/kenaz",
+      "type": "lexical_reconstruction",
+      "value": "sickness",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "disputed",
+      "locator": "Older Futhark chart",
+      "notes": "The familiar normalized label Kenaz is retained for navigation; UT's Krause-based chart gives kaunan and ‘sickness’. Competing reconstructions make the name/lexeme especially uncertain."
+    },
+    {
+      "key": "elder-futhark-06-sound",
+      "item": "elder-futhark/kenaz",
+      "type": "historical_sound_value",
+      "value": "/k/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-06-unicode",
+      "item": "elder-futhark/kenaz",
+      "type": "unicode_identity",
+      "value": "U+16B2 — RUNIC LETTER KAUNA",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16B2",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-06-structural-group",
+      "item": "elder-futhark/kenaz",
+      "type": "aett_group",
+      "value": "Group 1, position 6",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-06-attestation-kylver-g88",
+      "item": "elder-futhark/kenaz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-06-attestation-vadstena-bracteate",
+      "item": "elder-futhark/kenaz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-06-attestation-grumpan-bracteate",
+      "item": "elder-futhark/kenaz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-07-reconstructed-name",
+      "item": "elder-futhark/gebo",
+      "type": "reconstructed_name",
+      "value": "gebō",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-07-lexical",
+      "item": "elder-futhark/gebo",
+      "type": "lexical_reconstruction",
+      "value": "gift",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-07-sound",
+      "item": "elder-futhark/gebo",
+      "type": "historical_sound_value",
+      "value": "/g/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-07-unicode",
+      "item": "elder-futhark/gebo",
+      "type": "unicode_identity",
+      "value": "U+16B7 — RUNIC LETTER GEBO GYFU G",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16B7",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-07-structural-group",
+      "item": "elder-futhark/gebo",
+      "type": "aett_group",
+      "value": "Group 1, position 7",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-07-attestation-kylver-g88",
+      "item": "elder-futhark/gebo",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-07-attestation-vadstena-bracteate",
+      "item": "elder-futhark/gebo",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-07-attestation-grumpan-bracteate",
+      "item": "elder-futhark/gebo",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-08-reconstructed-name",
+      "item": "elder-futhark/wunjo",
+      "type": "reconstructed_name",
+      "value": "wunjō",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-08-lexical",
+      "item": "elder-futhark/wunjo",
+      "type": "lexical_reconstruction",
+      "value": "joy",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-08-sound",
+      "item": "elder-futhark/wunjo",
+      "type": "historical_sound_value",
+      "value": "/w/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-08-unicode",
+      "item": "elder-futhark/wunjo",
+      "type": "unicode_identity",
+      "value": "U+16B9 — RUNIC LETTER WUNJO WYNN W",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16B9",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-08-structural-group",
+      "item": "elder-futhark/wunjo",
+      "type": "aett_group",
+      "value": "Group 1, position 8",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-08-attestation-kylver-g88",
+      "item": "elder-futhark/wunjo",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-08-attestation-vadstena-bracteate",
+      "item": "elder-futhark/wunjo",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-08-attestation-grumpan-bracteate",
+      "item": "elder-futhark/wunjo",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-09-reconstructed-name",
+      "item": "elder-futhark/hagalaz",
+      "type": "reconstructed_name",
+      "value": "haglaz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-09-lexical",
+      "item": "elder-futhark/hagalaz",
+      "type": "lexical_reconstruction",
+      "value": "hail",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-09-sound",
+      "item": "elder-futhark/hagalaz",
+      "type": "historical_sound_value",
+      "value": "/h/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-09-unicode",
+      "item": "elder-futhark/hagalaz",
+      "type": "unicode_identity",
+      "value": "U+16BA — RUNIC LETTER HAGLAZ H",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16BA",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-09-structural-group",
+      "item": "elder-futhark/hagalaz",
+      "type": "aett_group",
+      "value": "Group 2, position 1",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-09-attestation-kylver-g88",
+      "item": "elder-futhark/hagalaz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-09-attestation-vadstena-bracteate",
+      "item": "elder-futhark/hagalaz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-09-attestation-grumpan-bracteate",
+      "item": "elder-futhark/hagalaz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-10-reconstructed-name",
+      "item": "elder-futhark/nauthiz",
+      "type": "reconstructed_name",
+      "value": "naudiz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-10-lexical",
+      "item": "elder-futhark/nauthiz",
+      "type": "lexical_reconstruction",
+      "value": "tribulation",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-10-sound",
+      "item": "elder-futhark/nauthiz",
+      "type": "historical_sound_value",
+      "value": "/n/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-10-unicode",
+      "item": "elder-futhark/nauthiz",
+      "type": "unicode_identity",
+      "value": "U+16BE — RUNIC LETTER NAUDIZ NYD NAUD N",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16BE",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-10-structural-group",
+      "item": "elder-futhark/nauthiz",
+      "type": "aett_group",
+      "value": "Group 2, position 2",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-10-attestation-kylver-g88",
+      "item": "elder-futhark/nauthiz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-10-attestation-vadstena-bracteate",
+      "item": "elder-futhark/nauthiz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-10-attestation-grumpan-bracteate",
+      "item": "elder-futhark/nauthiz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-11-reconstructed-name",
+      "item": "elder-futhark/isa",
+      "type": "reconstructed_name",
+      "value": "īsaz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-11-lexical",
+      "item": "elder-futhark/isa",
+      "type": "lexical_reconstruction",
+      "value": "ice",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-11-sound",
+      "item": "elder-futhark/isa",
+      "type": "historical_sound_value",
+      "value": "/iː/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-11-unicode",
+      "item": "elder-futhark/isa",
+      "type": "unicode_identity",
+      "value": "U+16C1 — RUNIC LETTER ISAZ IS ISS I",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16C1",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-11-structural-group",
+      "item": "elder-futhark/isa",
+      "type": "aett_group",
+      "value": "Group 2, position 3",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-11-attestation-kylver-g88",
+      "item": "elder-futhark/isa",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-11-attestation-vadstena-bracteate",
+      "item": "elder-futhark/isa",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-11-attestation-grumpan-bracteate",
+      "item": "elder-futhark/isa",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-12-reconstructed-name",
+      "item": "elder-futhark/jera",
+      "type": "reconstructed_name",
+      "value": "jēran",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-12-lexical",
+      "item": "elder-futhark/jera",
+      "type": "lexical_reconstruction",
+      "value": "(good) year",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-12-sound",
+      "item": "elder-futhark/jera",
+      "type": "historical_sound_value",
+      "value": "/j/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-12-unicode",
+      "item": "elder-futhark/jera",
+      "type": "unicode_identity",
+      "value": "U+16C3 — RUNIC LETTER JERAN J",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16C3",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-12-structural-group",
+      "item": "elder-futhark/jera",
+      "type": "aett_group",
+      "value": "Group 2, position 4",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-12-attestation-kylver-g88",
+      "item": "elder-futhark/jera",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-12-attestation-vadstena-bracteate",
+      "item": "elder-futhark/jera",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-12-attestation-grumpan-bracteate",
+      "item": "elder-futhark/jera",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-13-reconstructed-name",
+      "item": "elder-futhark/eihwaz",
+      "type": "reconstructed_name",
+      "value": "īwaz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "The rune's exact historical phonetic value is uncertain; UT transliterates it æ in the chart."
+    },
+    {
+      "key": "elder-futhark-13-lexical",
+      "item": "elder-futhark/eihwaz",
+      "type": "lexical_reconstruction",
+      "value": "yew tree",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "The rune's exact historical phonetic value is uncertain; UT transliterates it æ in the chart."
+    },
+    {
+      "key": "elder-futhark-13-sound",
+      "item": "elder-futhark/eihwaz",
+      "type": "historical_sound_value",
+      "value": "/iː/ or /ç/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-13-unicode",
+      "item": "elder-futhark/eihwaz",
+      "type": "unicode_identity",
+      "value": "U+16C7 — RUNIC LETTER IWAZ EOH",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16C7",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-13-structural-group",
+      "item": "elder-futhark/eihwaz",
+      "type": "aett_group",
+      "value": "Group 2, position 5",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-13-attestation-kylver-g88",
+      "item": "elder-futhark/eihwaz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-13-attestation-vadstena-bracteate",
+      "item": "elder-futhark/eihwaz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-13-attestation-grumpan-bracteate",
+      "item": "elder-futhark/eihwaz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-14-reconstructed-name",
+      "item": "elder-futhark/perthro",
+      "type": "reconstructed_name",
+      "value": "perþō",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "disputed",
+      "locator": "Older Futhark chart",
+      "notes": "The name and lexical reconstruction are debated. UT's Krause-based chart gives perþō and ‘fruit tree’; the corpus does not present this as settled."
+    },
+    {
+      "key": "elder-futhark-14-lexical",
+      "item": "elder-futhark/perthro",
+      "type": "lexical_reconstruction",
+      "value": "fruit tree",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "disputed",
+      "locator": "Older Futhark chart",
+      "notes": "The name and lexical reconstruction are debated. UT's Krause-based chart gives perþō and ‘fruit tree’; the corpus does not present this as settled."
+    },
+    {
+      "key": "elder-futhark-14-sound",
+      "item": "elder-futhark/perthro",
+      "type": "historical_sound_value",
+      "value": "/p/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-14-unicode",
+      "item": "elder-futhark/perthro",
+      "type": "unicode_identity",
+      "value": "U+16C8 — RUNIC LETTER PERTHO PEORTH P",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16C8",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-14-structural-group",
+      "item": "elder-futhark/perthro",
+      "type": "aett_group",
+      "value": "Group 2, position 6",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-14-attestation-kylver-g88",
+      "item": "elder-futhark/perthro",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-14-attestation-vadstena-bracteate",
+      "item": "elder-futhark/perthro",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-14-attestation-grumpan-bracteate",
+      "item": "elder-futhark/perthro",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-15-reconstructed-name",
+      "item": "elder-futhark/algiz",
+      "type": "reconstructed_name",
+      "value": "algiz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "disputed",
+      "locator": "Older Futhark chart",
+      "notes": "The Elder form and its Old English Eolh-secg and Scandinavian Ýr descendants form a difficult, non-identical relationship; all three poem mappings are marked likely-related."
+    },
+    {
+      "key": "elder-futhark-15-lexical",
+      "item": "elder-futhark/algiz",
+      "type": "lexical_reconstruction",
+      "value": "elk",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "disputed",
+      "locator": "Older Futhark chart",
+      "notes": "The Elder form and its Old English Eolh-secg and Scandinavian Ýr descendants form a difficult, non-identical relationship; all three poem mappings are marked likely-related."
+    },
+    {
+      "key": "elder-futhark-15-sound",
+      "item": "elder-futhark/algiz",
+      "type": "historical_sound_value",
+      "value": "/z/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-15-unicode",
+      "item": "elder-futhark/algiz",
+      "type": "unicode_identity",
+      "value": "U+16C9 — RUNIC LETTER ALGIZ EOLHX",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16C9",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-15-structural-group",
+      "item": "elder-futhark/algiz",
+      "type": "aett_group",
+      "value": "Group 2, position 7",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-15-attestation-kylver-g88",
+      "item": "elder-futhark/algiz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-15-attestation-vadstena-bracteate",
+      "item": "elder-futhark/algiz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-15-attestation-grumpan-bracteate",
+      "item": "elder-futhark/algiz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-16-reconstructed-name",
+      "item": "elder-futhark/sowilo",
+      "type": "reconstructed_name",
+      "value": "sōwilō",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-16-lexical",
+      "item": "elder-futhark/sowilo",
+      "type": "lexical_reconstruction",
+      "value": "sun",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-16-sound",
+      "item": "elder-futhark/sowilo",
+      "type": "historical_sound_value",
+      "value": "/s/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-16-unicode",
+      "item": "elder-futhark/sowilo",
+      "type": "unicode_identity",
+      "value": "U+16CA — RUNIC LETTER SOWILO S",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16CA",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-16-structural-group",
+      "item": "elder-futhark/sowilo",
+      "type": "aett_group",
+      "value": "Group 2, position 8",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-16-attestation-kylver-g88",
+      "item": "elder-futhark/sowilo",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-16-attestation-vadstena-bracteate",
+      "item": "elder-futhark/sowilo",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-16-attestation-grumpan-bracteate",
+      "item": "elder-futhark/sowilo",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-17-reconstructed-name",
+      "item": "elder-futhark/tiwaz",
+      "type": "reconstructed_name",
+      "value": "Tīwaz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-17-lexical",
+      "item": "elder-futhark/tiwaz",
+      "type": "lexical_reconstruction",
+      "value": "a god's name",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-17-sound",
+      "item": "elder-futhark/tiwaz",
+      "type": "historical_sound_value",
+      "value": "/t/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-17-unicode",
+      "item": "elder-futhark/tiwaz",
+      "type": "unicode_identity",
+      "value": "U+16CF — RUNIC LETTER TIWAZ TIR TYR T",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16CF",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-17-structural-group",
+      "item": "elder-futhark/tiwaz",
+      "type": "aett_group",
+      "value": "Group 3, position 1",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-17-attestation-kylver-g88",
+      "item": "elder-futhark/tiwaz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-17-attestation-vadstena-bracteate",
+      "item": "elder-futhark/tiwaz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-17-attestation-grumpan-bracteate",
+      "item": "elder-futhark/tiwaz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-18-reconstructed-name",
+      "item": "elder-futhark/berkano",
+      "type": "reconstructed_name",
+      "value": "berkanan",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-18-lexical",
+      "item": "elder-futhark/berkano",
+      "type": "lexical_reconstruction",
+      "value": "birch twig",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-18-sound",
+      "item": "elder-futhark/berkano",
+      "type": "historical_sound_value",
+      "value": "/b/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-18-unicode",
+      "item": "elder-futhark/berkano",
+      "type": "unicode_identity",
+      "value": "U+16D2 — RUNIC LETTER BERKANAN BEORC BJARKAN B",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16D2",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-18-structural-group",
+      "item": "elder-futhark/berkano",
+      "type": "aett_group",
+      "value": "Group 3, position 2",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-18-attestation-kylver-g88",
+      "item": "elder-futhark/berkano",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-18-attestation-vadstena-bracteate",
+      "item": "elder-futhark/berkano",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-18-attestation-grumpan-bracteate",
+      "item": "elder-futhark/berkano",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-19-reconstructed-name",
+      "item": "elder-futhark/ehwaz",
+      "type": "reconstructed_name",
+      "value": "ehwaz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-19-lexical",
+      "item": "elder-futhark/ehwaz",
+      "type": "lexical_reconstruction",
+      "value": "horse",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-19-sound",
+      "item": "elder-futhark/ehwaz",
+      "type": "historical_sound_value",
+      "value": "/e/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-19-unicode",
+      "item": "elder-futhark/ehwaz",
+      "type": "unicode_identity",
+      "value": "U+16D6 — RUNIC LETTER EHWAZ EH E",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16D6",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-19-structural-group",
+      "item": "elder-futhark/ehwaz",
+      "type": "aett_group",
+      "value": "Group 3, position 3",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-19-attestation-kylver-g88",
+      "item": "elder-futhark/ehwaz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-19-attestation-vadstena-bracteate",
+      "item": "elder-futhark/ehwaz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-19-attestation-grumpan-bracteate",
+      "item": "elder-futhark/ehwaz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-20-reconstructed-name",
+      "item": "elder-futhark/mannaz",
+      "type": "reconstructed_name",
+      "value": "mannaz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-20-lexical",
+      "item": "elder-futhark/mannaz",
+      "type": "lexical_reconstruction",
+      "value": "person",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-20-sound",
+      "item": "elder-futhark/mannaz",
+      "type": "historical_sound_value",
+      "value": "/m/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-20-unicode",
+      "item": "elder-futhark/mannaz",
+      "type": "unicode_identity",
+      "value": "U+16D7 — RUNIC LETTER MANNAZ MAN M",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16D7",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-20-structural-group",
+      "item": "elder-futhark/mannaz",
+      "type": "aett_group",
+      "value": "Group 3, position 4",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-20-attestation-kylver-g88",
+      "item": "elder-futhark/mannaz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-20-attestation-vadstena-bracteate",
+      "item": "elder-futhark/mannaz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-20-attestation-grumpan-bracteate",
+      "item": "elder-futhark/mannaz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-21-reconstructed-name",
+      "item": "elder-futhark/laguz",
+      "type": "reconstructed_name",
+      "value": "laukaz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "disputed",
+      "locator": "Older Futhark chart",
+      "notes": "The normalized label Laguz is conventional; UT's Krause-based reconstruction is laukaz ‘leek’, while later poem descendants have water-related names."
+    },
+    {
+      "key": "elder-futhark-21-lexical",
+      "item": "elder-futhark/laguz",
+      "type": "lexical_reconstruction",
+      "value": "leek",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "disputed",
+      "locator": "Older Futhark chart",
+      "notes": "The normalized label Laguz is conventional; UT's Krause-based reconstruction is laukaz ‘leek’, while later poem descendants have water-related names."
+    },
+    {
+      "key": "elder-futhark-21-sound",
+      "item": "elder-futhark/laguz",
+      "type": "historical_sound_value",
+      "value": "/l/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-21-unicode",
+      "item": "elder-futhark/laguz",
+      "type": "unicode_identity",
+      "value": "U+16DA — RUNIC LETTER LAUKAZ LAGU LOGR L",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16DA",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-21-structural-group",
+      "item": "elder-futhark/laguz",
+      "type": "aett_group",
+      "value": "Group 3, position 5",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-21-attestation-kylver-g88",
+      "item": "elder-futhark/laguz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-21-attestation-vadstena-bracteate",
+      "item": "elder-futhark/laguz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-21-attestation-grumpan-bracteate",
+      "item": "elder-futhark/laguz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-22-reconstructed-name",
+      "item": "elder-futhark/ingwaz",
+      "type": "reconstructed_name",
+      "value": "Ingwaz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-22-lexical",
+      "item": "elder-futhark/ingwaz",
+      "type": "lexical_reconstruction",
+      "value": "a fertility god's name",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-22-sound",
+      "item": "elder-futhark/ingwaz",
+      "type": "historical_sound_value",
+      "value": "/ŋ/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-22-unicode",
+      "item": "elder-futhark/ingwaz",
+      "type": "unicode_identity",
+      "value": "U+16DC — RUNIC LETTER INGWAZ",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16DC",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-22-structural-group",
+      "item": "elder-futhark/ingwaz",
+      "type": "aett_group",
+      "value": "Group 3, position 6",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-22-attestation-kylver-g88",
+      "item": "elder-futhark/ingwaz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-22-attestation-vadstena-bracteate",
+      "item": "elder-futhark/ingwaz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-22-attestation-grumpan-bracteate",
+      "item": "elder-futhark/ingwaz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-23-reconstructed-name",
+      "item": "elder-futhark/dagaz",
+      "type": "reconstructed_name",
+      "value": "dagaz",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-23-lexical",
+      "item": "elder-futhark/dagaz",
+      "type": "lexical_reconstruction",
+      "value": "day",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-23-sound",
+      "item": "elder-futhark/dagaz",
+      "type": "historical_sound_value",
+      "value": "/d/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-23-unicode",
+      "item": "elder-futhark/dagaz",
+      "type": "unicode_identity",
+      "value": "U+16DE — RUNIC LETTER DAGAZ DAEG D",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16DE",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-23-structural-group",
+      "item": "elder-futhark/dagaz",
+      "type": "aett_group",
+      "value": "Group 3, position 7",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-23-attestation-kylver-g88",
+      "item": "elder-futhark/dagaz",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-23-attestation-vadstena-bracteate",
+      "item": "elder-futhark/dagaz",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-23-attestation-grumpan-bracteate",
+      "item": "elder-futhark/dagaz",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-24-reconstructed-name",
+      "item": "elder-futhark/othala",
+      "type": "reconstructed_name",
+      "value": "ōþalan",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-24-lexical",
+      "item": "elder-futhark/othala",
+      "type": "lexical_reconstruction",
+      "value": "inherited property",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": null
+    },
+    {
+      "key": "elder-futhark-24-sound",
+      "item": "elder-futhark/othala",
+      "type": "historical_sound_value",
+      "value": "/o/",
+      "tradition": "proto-germanic-reconstruction",
+      "source": "ut-lrc-old-norse-runes",
+      "status": "reconstructed",
+      "locator": "Older Futhark chart",
+      "notes": "Sound value represented as a scholarly reconstruction."
+    },
+    {
+      "key": "elder-futhark-24-unicode",
+      "item": "elder-futhark/othala",
+      "type": "unicode_identity",
+      "value": "U+16DF — RUNIC LETTER OTHALAN ETHEL O",
+      "tradition": null,
+      "source": "unicode-runic-names-list",
+      "status": "attested",
+      "locator": "U+16DF",
+      "notes": "Modern Unicode character identity; not an ancient rune name witness."
+    },
+    {
+      "key": "elder-futhark-24-structural-group",
+      "item": "elder-futhark/othala",
+      "type": "aett_group",
+      "value": "Group 3, position 8",
+      "tradition": "elder-futhark",
+      "source": "barnes-2012-runes-handbook",
+      "status": "attested",
+      "locator": "Elder Futhark organization",
+      "notes": "Structural group of eight. Later popular deity-based group names are not asserted."
+    },
+    {
+      "key": "elder-futhark-24-attestation-kylver-g88",
+      "item": "elder-futhark/othala",
+      "type": "archaeological_attestation",
+      "value": "Kylver Stone / G 88 · 267753_HST / G 88 · 400–550 CE",
+      "tradition": "elder-futhark",
+      "source": "shm-kylver-g88",
+      "status": "attested",
+      "locator": "267753_HST / G 88",
+      "notes": "Limestone grave-slab context with a complete 24-character Older Futhark row; individual shapes/order include epigraphic variation."
+    },
+    {
+      "key": "elder-futhark-24-attestation-vadstena-bracteate",
+      "item": "elder-futhark/othala",
+      "type": "archaeological_attestation",
+      "value": "Vadstena bracteate · IK 377,1 / KJ2 / Ög 178",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 377,1 / KJ2 / Ög 178",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    },
+    {
+      "key": "elder-futhark-24-attestation-grumpan-bracteate",
+      "item": "elder-futhark/othala",
+      "type": "archaeological_attestation",
+      "value": "Grumpan bracteate · IK 260 / KJ3 / Vg 207",
+      "tradition": "elder-futhark",
+      "source": "runes-database",
+      "status": "attested",
+      "locator": "IK 260 / KJ3 / Vg 207",
+      "notes": "Complete-row witness recorded by RuneS identity; row order/form differs from the normalized application order."
+    }
+  ],
+  "trigrams": [],
+  "hexagrams": [],
+  "hexagram_lines": [],
+  "iching_texts": [],
+  "iching_relationships": [],
+  "iching_methods": []
+}

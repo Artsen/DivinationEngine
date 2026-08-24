@@ -1,0 +1,45 @@
+[
+  {
+    "key": "elder-futhark",
+    "name": "Elder Futhark",
+    "layer": "historical-writing-system",
+    "canonical_count": 24,
+    "source_refs": [
+      "ut-lrc-old-norse-runes",
+      "shm-kylver-g88",
+      "barnes-2012-runes-handbook"
+    ],
+    "notes": "Normalized into three groups of eight for corpus structure; no deity-based group names are asserted."
+  },
+  {
+    "key": "anglo-saxon-futhorc",
+    "name": "Anglo-Saxon Futhorc",
+    "layer": "later-historical-writing-system",
+    "canonical_count": null,
+    "source_refs": [
+      "wikisource-rune-poems",
+      "hickes-1705-thesaurus"
+    ],
+    "notes": "The poem inventory has 29 stanzas; it is not a 24-rune Elder Futhark document."
+  },
+  {
+    "key": "younger-futhark",
+    "name": "Younger Futhark",
+    "layer": "later-historical-writing-system",
+    "canonical_count": 16,
+    "source_refs": [
+      "ut-lrc-old-norse-runes",
+      "wikisource-rune-poems"
+    ]
+  },
+  {
+    "key": "armanen",
+    "name": "Armanen runes",
+    "layer": "later-occult-system",
+    "canonical_count": 18,
+    "source_refs": [
+      "von-list-1908-armanenschaft"
+    ],
+    "notes": "Not part of Elder Futhark."
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "runes": 24,
+  "aett_groups": 3,
+  "reconstructed_names": 24,
+  "caution_records": 4,
+  "old_english_stanzas": 29,
+  "norwegian_stanzas": 16,
+  "icelandic_stanzas": 16,
+  "stanzas": 61,
+  "original_language_bodies": 61,
+  "english_exact_texts": 0,
+  "english_omitted": 61,
+  "poem_mappings": 56,
+  "direct_mappings": 53,
+  "cautious_mappings": 3,
+  "unmapped_expansions": 5,
+  "attestations": 5,
+  "full_row_attestations": 3
+}

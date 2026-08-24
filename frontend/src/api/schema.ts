@@ -611,6 +611,10 @@ export interface components {
             hexagram_count: number;
             /** Iching Method Count */
             iching_method_count: number;
+            /** Runes Ready */
+            runes_ready: boolean;
+            /** Elder Futhark Item Count */
+            elder_futhark_item_count: number;
         };
         /** CorrespondenceCreate */
         CorrespondenceCreate: {
@@ -630,7 +634,7 @@ export interface components {
              * Status
              * @enum {string}
              */
-            status: "attested" | "disputed" | "tradition_specific" | "not_applicable" | "not_attested" | "unknown";
+            status: "attested" | "reconstructed" | "disputed" | "tradition_specific" | "derived" | "not_applicable" | "not_attested" | "unknown";
             /** Locator */
             locator?: string | null;
             /** Notes */
@@ -654,7 +658,7 @@ export interface components {
              * Status
              * @enum {string}
              */
-            status: "attested" | "disputed" | "tradition_specific" | "not_applicable" | "not_attested" | "unknown";
+            status: "attested" | "reconstructed" | "disputed" | "tradition_specific" | "derived" | "not_applicable" | "not_attested" | "unknown";
             /** Locator */
             locator?: string | null;
             /** Notes */

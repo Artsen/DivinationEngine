@@ -1,8 +1,8 @@
 # DivinationEngine
 
 DivinationEngine is a local, provenance-first application for digital divination. Its React
-workspace is a client of a FastAPI backend that performs mechanical Tarot draws and I Ching
-casts, persists exact results, and returns source-backed knowledge. **It does not provide
+workspace is a client of a FastAPI backend that performs mechanical Tarot draws, I Ching
+casts, and Elder Futhark rune draws, persists exact results, and returns source-backed knowledge. **It does not provide
 AI-generated readings or fabricate symbolic meaning.**
 
 ## Architecture
@@ -28,7 +28,8 @@ domain layer has no database dependency. UUID strings are public identifiers.
 ## Install and run the application
 
 Python 3.12+, [uv](https://docs.astral.sh/uv/), and Node.js 22+ are required. The bootstrap
-command applies migrations and idempotently installs the bundled RWS and I Ching corpora. It
+command applies migrations and idempotently installs the bundled RWS, I Ching, and Elder
+Futhark corpora. It
 never deletes existing readings or other user data and is safe to run again.
 
 ```console
@@ -57,7 +58,7 @@ requests to `http://127.0.0.1:8000`; set `VITE_API_PROXY_TARGET` to change that 
 target. A production deployment can set `VITE_API_BASE_URL` at build time without editing
 source. No permissive cross-origin policy is required for the normal proxy setup.
 
-The app reports when the API is unavailable or either corpus is missing. Corpus installation
+The app reports when the API is unavailable or when any individual corpus is missing. Corpus installation
 is never triggered by the browser. Configuration uses environment variables with the
 `DIVINATION_` prefix, notably `DIVINATION_DATABASE_URL`; set it before bootstrap and server
 startup to use a database other than the default `divination.db`.
@@ -69,7 +70,8 @@ Swagger remains available at `http://127.0.0.1:8000/docs` for API development.
 `divination-dev-bootstrap` explicitly performs two operations:
 
 1. upgrades the selected database to the latest Alembic revision;
-2. transactionally upserts `rws-import.json` and `iching-import.json`.
+2. transactionally upserts `rws-import.json`, `iching-import.json`, and
+   `elder-futhark-import.json`.
 
 Its JSON report distinguishes created and updated rows. There is intentionally no implicit or
 destructive reset mode.
@@ -174,6 +176,35 @@ divination-import data/corpus/iching/legge-ctext/build/iching-import.json --dry-
 
 I Ching cast requests accept `{"method":"three-coin"}` or
 `{"method":"yarrow-stalk"}`. Omitting the body preserves the three-coin default.
+
+The Elder Futhark authoring corpus is under `data/corpus/runes/elder-futhark`. It contains
+exactly 24 canonical items and keeps reconstructed Proto-Germanic identities, later rune-poem
+systems, archaeological attestations, historical lot divination, and modern occult history in
+separate layers.
+
+```console
+divination-rune-corpus validate data/corpus/runes/elder-futhark
+divination-rune-corpus build data/corpus/runes/elder-futhark
+divination-import data/corpus/runes/elder-futhark/build/elder-futhark-import.json --dry-run
+```
+
+The canonical collection has three structural groups of eight, no blank rune, and no
+reversals. Familiar names are scholarly reconstructions rather than surviving Elder Futhark
+manuscript labels; uncertainty remains explicit. The Old English poem belongs to Anglo-Saxon
+Futhorc, while the Norwegian and Icelandic poems belong to Younger Futhark. Their texts are
+related historical evidence—not universal ancient meanings.
+
+Tacitus describes marked wooden lots, but does not identify the marks as Elder Futhark or
+runes and does not describe the application's 24-item bag. The finite-bag, draw-without-
+replacement method is therefore documented as derived software behavior. Later systems such
+as Armanen and modern blank-rune/reversal practices can be added as separately sourced
+traditions without rewriting canonical identities.
+
+All 61 historical source-language poem stanzas are present. Exact Dickins English translations
+are intentionally omitted: the 1915 edition is public domain in the United States, but Dickins
+died in 1978, so the project does not make a blanket worldwide-public-domain claim. No modern
+guidebook interpretation prose is bundled. See the corpus README for the exact-text source and
+redistribution audit.
 
 An unknown reference or constraint violation rolls back the entire import, including updates
 performed earlier in that bundle.

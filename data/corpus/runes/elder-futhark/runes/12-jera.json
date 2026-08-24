@@ -1,0 +1,32 @@
+{
+  "key": "runes/elder-futhark/12",
+  "slug": "jera",
+  "normalized_label": "Jera",
+  "row_position": 12,
+  "aett": 2,
+  "position_in_aett": 4,
+  "glyph": "ᛃ",
+  "code_point": "U+16C3",
+  "unicode_name": "RUNIC LETTER JERAN J",
+  "transliteration": "j",
+  "sound_value": "/j/",
+  "proto_germanic_name": "jēran",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "(good) year",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-12-ger",
+    "norwegian-10-ar",
+    "icelandic-10-ar"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

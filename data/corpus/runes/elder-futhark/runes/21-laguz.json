@@ -1,0 +1,32 @@
+{
+  "key": "runes/elder-futhark/21",
+  "slug": "laguz",
+  "normalized_label": "Laguz",
+  "row_position": 21,
+  "aett": 3,
+  "position_in_aett": 5,
+  "glyph": "ᛚ",
+  "code_point": "U+16DA",
+  "unicode_name": "RUNIC LETTER LAUKAZ LAGU LOGR L",
+  "transliteration": "l",
+  "sound_value": "/l/",
+  "proto_germanic_name": "laukaz",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "leek",
+  "name_evidence_status": "disputed",
+  "uncertainty_notes": "The normalized label Laguz is conventional; UT's Krause-based reconstruction is laukaz ‘leek’, while later poem descendants have water-related names.",
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-21-lagu",
+    "norwegian-15-logr",
+    "icelandic-15-logr"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

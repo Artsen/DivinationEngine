@@ -1,0 +1,32 @@
+{
+  "key": "runes/elder-futhark/09",
+  "slug": "hagalaz",
+  "normalized_label": "Hagalaz",
+  "row_position": 9,
+  "aett": 2,
+  "position_in_aett": 1,
+  "glyph": "ᚺ",
+  "code_point": "U+16BA",
+  "unicode_name": "RUNIC LETTER HAGLAZ H",
+  "transliteration": "h",
+  "sound_value": "/h/",
+  "proto_germanic_name": "haglaz",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "hail",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-09-haegl",
+    "norwegian-07-hagall",
+    "icelandic-07-hagall"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

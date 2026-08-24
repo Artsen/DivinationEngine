@@ -1,0 +1,12 @@
+{
+  "format_version": "1",
+  "slug": "elder-futhark",
+  "name": "Elder Futhark",
+  "description": "A provenance-backed canonical 24-rune Elder Futhark collection. Names and lexical values are explicitly scholarly reconstructions; later rune-poem systems remain separate.",
+  "system_type": "runes",
+  "supports_reversals": false,
+  "canonical_count": 24,
+  "groups": 3,
+  "items_per_group": 8,
+  "identity_source": "ut-lrc-old-norse-runes"
+}

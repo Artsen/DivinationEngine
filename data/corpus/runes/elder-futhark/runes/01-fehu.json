@@ -1,0 +1,32 @@
+{
+  "key": "runes/elder-futhark/01",
+  "slug": "fehu",
+  "normalized_label": "Fehu",
+  "row_position": 1,
+  "aett": 1,
+  "position_in_aett": 1,
+  "glyph": "ᚠ",
+  "code_point": "U+16A0",
+  "unicode_name": "RUNIC LETTER FEHU FEOH FE F",
+  "transliteration": "f",
+  "sound_value": "/f/",
+  "proto_germanic_name": "fehu",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "cattle, possessions",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-01-feoh",
+    "norwegian-01-fe",
+    "icelandic-01-fe"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}

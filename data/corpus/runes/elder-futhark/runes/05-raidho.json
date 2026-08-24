@@ -1,0 +1,32 @@
+{
+  "key": "runes/elder-futhark/05",
+  "slug": "raidho",
+  "normalized_label": "Raidho",
+  "row_position": 5,
+  "aett": 1,
+  "position_in_aett": 5,
+  "glyph": "ᚱ",
+  "code_point": "U+16B1",
+  "unicode_name": "RUNIC LETTER RAIDO RAD REID R",
+  "transliteration": "r",
+  "sound_value": "/r/",
+  "proto_germanic_name": "raidō",
+  "reconstruction_status": "reconstructed",
+  "lexical_reconstruction": "journey, wagon",
+  "name_evidence_status": "reconstructed",
+  "uncertainty_notes": null,
+  "source_refs": [
+    "ut-lrc-old-norse-runes",
+    "unicode-runic-names-list"
+  ],
+  "poem_refs": [
+    "old-english-05-rad",
+    "norwegian-05-reid",
+    "icelandic-05-reid"
+  ],
+  "attestation_refs": [
+    "kylver-g88",
+    "vadstena-bracteate",
+    "grumpan-bracteate"
+  ]
+}
