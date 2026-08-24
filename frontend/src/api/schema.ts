@@ -180,6 +180,23 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/rune-poems": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** List Rune Poems */
+        get: operations["list_rune_poems_api_v1_rune_poems_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/correspondences": {
         parameters: {
             query?: never;
@@ -561,6 +578,57 @@ export interface components {
             /** Notes */
             notes: string | null;
         };
+        /** ContextRunePoem */
+        ContextRunePoem: {
+            /** Id */
+            id: string;
+            /** Key */
+            key: string;
+            /** Item Id */
+            item_id: string | null;
+            /** Source Id */
+            source_id: string;
+            /** Tradition Id */
+            tradition_id: string;
+            /** Poem */
+            poem: string;
+            /** Sequence */
+            sequence: number;
+            /** Rune Character */
+            rune_character: string;
+            /** Normalized Name */
+            normalized_name: string;
+            /** Language */
+            language: string;
+            /** Original Text */
+            original_text: string;
+            /** Latin Tag */
+            latin_tag: string | null;
+            /** Locator */
+            locator: string;
+            /** Mapping Status */
+            mapping_status: string;
+            /** Mapping Justification */
+            mapping_justification: string;
+            /** Editorial Translation */
+            editorial_translation: string;
+            /** Editorial Latin Gloss */
+            editorial_latin_gloss: string | null;
+            /** Translation Language */
+            translation_language: string;
+            /** Translation Type */
+            translation_type: string;
+            /** Translation Status */
+            translation_status: string;
+            /** Translator */
+            translator: string;
+            /** Machine Assisted */
+            machine_assisted: boolean;
+            /** Translation Source Ids */
+            translation_source_ids: string[];
+            /** Translation Notes */
+            translation_notes: string | null;
+        };
         /** ContextSource */
         ContextSource: {
             /** Id */
@@ -615,6 +683,8 @@ export interface components {
             runes_ready: boolean;
             /** Elder Futhark Item Count */
             elder_futhark_item_count: number;
+            /** Rune Poem Count */
+            rune_poem_count: number;
         };
         /** CorrespondenceCreate */
         CorrespondenceCreate: {
@@ -1126,6 +1196,8 @@ export interface components {
             other_interpretations: components["schemas"]["ContextInterpretation"][];
             /** Correspondences */
             correspondences: components["schemas"]["ContextCorrespondence"][];
+            /** Rune Poems */
+            rune_poems: components["schemas"]["ContextRunePoem"][];
         };
         /** SourceCreate */
         SourceCreate: {
@@ -1738,6 +1810,37 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["InterpretationOut"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    list_rune_poems_api_v1_rune_poems_get: {
+        parameters: {
+            query?: {
+                item_id?: string | null;
+            };
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ContextRunePoem"][];
                 };
             };
             /** @description Validation Error */

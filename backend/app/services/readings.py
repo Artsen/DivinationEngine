@@ -252,12 +252,29 @@ def context_dict(session: Session, reading: models.Reading) -> dict:
         if item_ids
         else []
     )
+    rune_poems = (
+        session.scalars(
+            select(models.RunePoem)
+            .where(models.RunePoem.item_id.in_(item_ids))
+            .options(
+                selectinload(models.RunePoem.source),
+                selectinload(models.RunePoem.tradition),
+            )
+            .order_by(models.RunePoem.poem, models.RunePoem.sequence)
+        ).all()
+        if item_ids
+        else []
+    )
     interpretations_by_item: dict[str, list[models.Interpretation]] = {}
     correspondences_by_item: dict[str, list[models.Correspondence]] = {}
+    rune_poems_by_item: dict[str, list[models.RunePoem]] = {}
     for interpretation in interpretations:
         interpretations_by_item.setdefault(interpretation.item_id, []).append(interpretation)
     for correspondence in correspondences:
         correspondences_by_item.setdefault(correspondence.item_id, []).append(correspondence)
+    for poem in rune_poems:
+        if poem.item_id:
+            rune_poems_by_item.setdefault(poem.item_id, []).append(poem)
 
     iching_patterns = {
         pattern
@@ -296,6 +313,13 @@ def context_dict(session: Session, reading: models.Reading) -> dict:
     for cast_data, cast in zip(data["casts"], reading.casts, strict=True):
         for result_data, result in zip(cast_data["draw_results"], cast.results, strict=True):
             item_interpretations = interpretations_by_item.get(result.item_id, [])
+            # Rune poems now have a dedicated historical/editorial structure. Old
+            # imports are intentionally not deleted, so suppress those legacy rows
+            # whenever the structured records are available for this item.
+            if rune_poems_by_item.get(result.item_id):
+                item_interpretations = [
+                    row for row in item_interpretations if row.interpretation_type != "rune-poem"
+                ]
             applicable = [
                 interpretation_dict(row)
                 for row in item_interpretations
@@ -312,6 +336,9 @@ def context_dict(session: Session, reading: models.Reading) -> dict:
                 "correspondences": [
                     correspondence_dict(row)
                     for row in correspondences_by_item.get(result.item_id, [])
+                ],
+                "rune_poems": [
+                    rune_poem_dict(row) for row in rune_poems_by_item.get(result.item_id, [])
                 ],
             }
         if cast.cast_type == "iching" and cast_data["iching"] is not None:
@@ -366,6 +393,17 @@ def context_dict(session: Session, reading: models.Reading) -> dict:
         sources[interpretation.source.id] = interpretation.source
         if interpretation.tradition is not None:
             traditions[interpretation.tradition.id] = interpretation.tradition
+    translation_source_ids = {
+        source_id for poem in rune_poems for source_id in poem.translation_source_ids
+    }
+    if translation_source_ids:
+        for source in session.scalars(
+            select(models.Source).where(models.Source.id.in_(translation_source_ids))
+        ):
+            sources[source.id] = source
+    for poem in rune_poems:
+        sources[poem.source.id] = poem.source
+        traditions[poem.tradition.id] = poem.tradition
     for correspondence in correspondences:
         sources[correspondence.source.id] = correspondence.source
         if correspondence.tradition is not None:
@@ -431,6 +469,35 @@ def correspondence_dict(row: models.Correspondence) -> dict:
         "status": row.status,
         "locator": row.locator,
         "notes": row.notes,
+    }
+
+
+def rune_poem_dict(row: models.RunePoem) -> dict:
+    return {
+        "id": row.id,
+        "key": row.key,
+        "item_id": row.item_id,
+        "source_id": row.source_id,
+        "tradition_id": row.tradition_id,
+        "poem": row.poem,
+        "sequence": row.sequence,
+        "rune_character": row.rune_character,
+        "normalized_name": row.normalized_name,
+        "language": row.language,
+        "original_text": row.original_text,
+        "latin_tag": row.latin_tag,
+        "locator": row.locator,
+        "mapping_status": row.mapping_status,
+        "mapping_justification": row.mapping_justification,
+        "editorial_translation": row.editorial_translation,
+        "editorial_latin_gloss": row.editorial_latin_gloss,
+        "translation_language": row.translation_language,
+        "translation_type": row.translation_type,
+        "translation_status": row.translation_status,
+        "translator": row.translator,
+        "machine_assisted": row.machine_assisted,
+        "translation_source_ids": row.translation_source_ids,
+        "translation_notes": row.translation_notes,
     }
 
 

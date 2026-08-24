@@ -29,6 +29,10 @@ def test_corpus_has_exact_historical_layers_and_counts() -> None:
         "original_language_bodies": 61,
         "english_exact_texts": 0,
         "english_omitted": 61,
+        "editorial_translations": 61,
+        "machine_assisted_editorial_translations": 61,
+        "editorial_translation_missing": 0,
+        "editorial_translation_caution_notes": 30,
         "poem_mappings": 56,
         "direct_mappings": 53,
         "cautious_mappings": 3,
@@ -121,11 +125,63 @@ def test_build_is_deterministic_and_uses_generic_collection_engine() -> None:
     assert collection.system_type == "runes"
     assert collection.supports_reversals is False
     assert len(collection.items) == 24
-    assert len(bundle.interpretations) == 56
-    assert all(row.interpretation_type == "rune-poem" for row in bundle.interpretations)
+    assert bundle.interpretations == []
+    assert len(bundle.rune_poems) == 61
+    assert all(row.translation_type == "project-editorial" for row in bundle.rune_poems)
+    assert all(row.translation_status == "derived" for row in bundle.rune_poems)
+    assert all(row.machine_assisted is True for row in bundle.rune_poems)
+    assert all(len(row.translation_sources) >= 2 for row in bundle.rune_poems)
+
+
+def test_editorial_poems_preserve_originals_and_cautious_mappings() -> None:
+    corpus = load_corpus(ROOT)
+    bundle = build_bundle(corpus)
+    poem_by_key = {row.key: row for row in bundle.rune_poems}
+    assert {key: poem_by_key[key].original_text for key in poem_by_key} == {
+        row.key: row.original_text for row in corpus.poems
+    }
+    assert sum(row.editorial_latin_gloss is not None for row in bundle.rune_poems) == 16
     assert all(
-        row.interpretation_type not in {"upright", "reversed"} for row in bundle.interpretations
+        "dickins" not in " ".join([row.translator, *row.translation_sources]).lower()
+        for row in bundle.rune_poems
     )
+
+    fehu = [row for row in bundle.rune_poems if row.item == "elder-futhark/fehu"]
+    assert len(fehu) == 3
+    assert {row.poem for row in fehu} == {"old-english", "norwegian", "icelandic"}
+    assert all(row.mapping_status == "direct" for row in fehu)
+    assert "bosworth-toller-1898" in poem_by_key["old-english-01-feoh"].translation_sources
+
+    algiz = [row for row in bundle.rune_poems if row.item == "elder-futhark/algiz"]
+    assert len(algiz) == 3
+    assert all(row.mapping_status == "likely-related" for row in algiz)
+    expansions = [row for row in bundle.rune_poems if row.mapping_status == "not-applicable"]
+    assert len(expansions) == 5
+    assert all(row.item is None for row in expansions)
+
+
+def test_validator_rejects_missing_or_misattributed_editorial_translations() -> None:
+    corpus = load_corpus(ROOT)
+    with pytest.raises(ValueError, match="missing editorial translations"):
+        validate_corpus(
+            corpus.model_copy(update={"editorial_translations": corpus.editorial_translations[:-1]})
+        )
+
+    first = corpus.editorial_translations[0]
+    misattributed = first.model_copy(
+        update={"translator": "Bruce Dickins", "source_refs": [*first.source_refs, "dickins-1915"]}
+    )
+    with pytest.raises(ValueError, match="cannot claim Dickins provenance"):
+        validate_corpus(
+            corpus.model_copy(
+                update={
+                    "editorial_translations": [
+                        misattributed,
+                        *corpus.editorial_translations[1:],
+                    ]
+                }
+            )
+        )
 
 
 @pytest.mark.parametrize(
@@ -231,7 +287,7 @@ def test_import_is_idempotent_and_rolls_back_bad_reference(
 
         broken = copy.deepcopy(raw)
         broken["sources"][0]["title"] = "must roll back"
-        broken["interpretations"][0]["source"] = "missing-source"
+        broken["rune_poems"][0]["source"] = "missing-source"
         with pytest.raises(ValueError, match="unknown source"):
             import_bundle(session, ImportBundle.model_validate(broken))
         assert (
@@ -300,13 +356,22 @@ def test_rune_draw_context_sessions_exhaustion_and_persistence(
     )
     assert fehu["item"]["symbol"] == "ᚠ"
     assert fehu["item"]["metadata"]["reconstruction_status"] == "reconstructed"
-    poems = fehu["knowledge"]["other_interpretations"]
+    poems = fehu["knowledge"]["rune_poems"]
     assert len(poems) == 3
     assert {before["traditions"][row["tradition_id"]]["name"] for row in poems} == {
         "Anglo-Saxon Futhorc",
         "Younger Futhark",
     }
     assert all(row["source_id"] in before["sources"] for row in poems)
+    assert all(row["translation_type"] == "project-editorial" for row in poems)
+    assert all(row["translation_status"] == "derived" for row in poems)
+    assert all(row["machine_assisted"] is True for row in poems)
+    assert all(
+        source_id in before["sources"]
+        for row in poems
+        for source_id in row["translation_source_ids"]
+    )
+    assert fehu["knowledge"]["other_interpretations"] == []
     assert "attestation_refs" not in fehu["item"]["metadata"]
     assert all(
         "rune_evidence_status" in row for row in fehu["item"]["metadata"]["attestation_evidence"]
@@ -336,3 +401,8 @@ def test_rune_draw_context_sessions_exhaustion_and_persistence(
     status = client.get("/api/v1/corpus-status").json()
     assert status["runes_ready"] is True
     assert status["elder_futhark_item_count"] == 24
+    assert status["rune_poem_count"] == 61
+    all_poems = client.get("/api/v1/rune-poems")
+    assert all_poems.status_code == 200
+    assert len(all_poems.json()) == 61
+    assert sum(row["item_id"] is None for row in all_poems.json()) == 5

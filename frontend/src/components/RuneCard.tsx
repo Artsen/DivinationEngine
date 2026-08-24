@@ -20,12 +20,20 @@ interface RuneMetadata {
   uncertainty_notes?: string | null
 }
 
+const poemLabels: Record<string, string> = {
+  'old-english': 'Old English',
+  norwegian: 'Norwegian',
+  icelandic: 'Icelandic',
+}
+
+const languageLabels: Record<string, string> = {
+  ang: 'Old English',
+  non: 'Old Norse',
+}
+
 export function RuneCard({ result, sources, traditions }: Props) {
   const metadata = result.item.metadata as RuneMetadata
-  const poems = [
-    ...result.knowledge.applicable_interpretations,
-    ...result.knowledge.other_interpretations,
-  ].filter((fact) => fact.interpretation_type === 'rune-poem')
+  const poems = result.knowledge.rune_poems ?? []
   const reconstruction = result.knowledge.correspondences.filter((fact) =>
     ['reconstructed_name', 'lexical_reconstruction', 'historical_sound_value'].includes(fact.type),
   )
@@ -59,14 +67,27 @@ export function RuneCard({ result, sources, traditions }: Props) {
         </details>
         <details className="fact" open>
           <summary>Rune poems</summary>
-          {poems.map((fact) => {
-            const tradition = fact.tradition_id ? traditions[fact.tradition_id] : undefined
-            return <section key={fact.id} className="nested-fact rune-poem">
-              <h5>{sources[fact.source_id]?.title} · {tradition?.name}</h5>
-              <p className="source-text">{fact.exact_text}</p>
-              <p className="translation-notice">Exact redistributable English translation is not bundled.</p>
-              {fact.notes?.startsWith('likely-related') && <p className="rune-caution">Cautious mapping: these later-system forms are related but not identical Elder Futhark evidence.</p>}
-              <Provenance source={sources[fact.source_id]} tradition={tradition} locator={fact.locator} />
+          {poems.map((poem) => {
+            const tradition = traditions[poem.tradition_id]
+            return <section key={poem.id} className="nested-fact rune-poem">
+              <h5>{poemLabels[poem.poem] || taxonomyLabel(poem.poem)} · {tradition?.name}</h5>
+              <p className="poem-layer-label">Modern English</p>
+              <p className="translation-text">{poem.editorial_translation}</p>
+              {poem.editorial_latin_gloss && <p><strong>Latin tag, translated:</strong> {poem.editorial_latin_gloss}</p>}
+              <p className="translation-notice">DivinationEngine editorial translation · modern, derived, machine-assisted. It is not historical source text or divinatory meaning.</p>
+              {poem.translation_notes && <p className="rune-caution"><strong>Translation note:</strong> {poem.translation_notes}</p>}
+              <p className="poem-layer-label">Historical original · {languageLabels[poem.language] || taxonomyLabel(poem.language)}</p>
+              <p className="source-text">{poem.original_text}</p>
+              {poem.latin_tag && <p className="source-text"><strong>Historical Latin tag:</strong> {poem.latin_tag}</p>}
+              {poem.mapping_status !== 'direct' && <p className="rune-caution"><strong>Cautious mapping:</strong> {poem.mapping_justification}</p>}
+              <Provenance source={sources[poem.source_id]} tradition={tradition} locator={poem.locator} />
+              <details className="translation-sources">
+                <summary>Translation references</summary>
+                {poem.translation_source_ids.map((sourceId) => {
+                  const source = sources[sourceId]
+                  return source && <Provenance key={sourceId} source={source} />
+                })}
+              </details>
             </section>
           })}
         </details>

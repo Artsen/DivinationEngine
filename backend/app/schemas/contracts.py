@@ -16,6 +16,7 @@ class CorpusStatus(BaseModel):
     iching_method_count: int
     runes_ready: bool
     elder_futhark_item_count: int
+    rune_poem_count: int
 
 
 class CollectionCreate(BaseModel):

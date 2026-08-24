@@ -13,6 +13,7 @@ const result = {
     applicable_interpretations: [{ id: 'meaning', key: 'meaning', item_id: 'fool', source_id: 'waite', tradition_id: null, interpretation_type: 'reversed', exact_text: 'Negligence and carelessness.', locator: 'The Fool', sequence: 1, notes: null }],
     other_interpretations: [],
     correspondences: [{ id: 'air', key: 'air', item_id: 'fool', source_id: 'waite', tradition_id: 'gd', type: 'golden_dawn_attribution', value: 'Air', status: 'tradition_specific', locator: 'Book T', notes: null }],
+    rune_poems: [],
   },
 } as ContextDrawResult
 

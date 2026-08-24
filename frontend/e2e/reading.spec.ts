@@ -61,10 +61,15 @@ test('Elder Futhark draws three unique persisted runes with historical layers', 
   await expect(cards.first().getByText('Historical evidence')).toBeVisible()
   await expect(cards.first().getByText('Reconstruction', { exact: true })).toBeVisible()
   await expect(cards.first().getByText(/Anglo-Saxon Futhorc|Younger Futhark/).first()).toBeVisible()
-  await expect(cards.first().getByText('Exact redistributable English translation is not bundled.').first()).toBeVisible()
+  await expect(cards.first().getByText('Modern English').first()).toBeVisible()
+  await expect(cards.first().locator('.translation-text').first()).not.toHaveText('')
+  await expect(cards.first().getByText(/modern, derived, machine-assisted/i).first()).toBeVisible()
+  await expect(cards.first().getByText(/Historical original/i).first()).toBeVisible()
+  const firstTranslation = await cards.first().locator('.translation-text').first().textContent()
   await page.reload()
   await expect(page.locator('.rune-card')).toHaveCount(3)
   expect(await page.locator('.rune-card__identity h4').allTextContents()).toEqual(identities)
+  await expect(page.locator('.rune-card').first().locator('.translation-text').first()).toHaveText(firstTranslation || '')
 })
 
 test('reading history remains usable at a mobile viewport', async ({ page }) => {

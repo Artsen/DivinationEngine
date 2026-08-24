@@ -100,7 +100,7 @@ fieldset { min-width: 0; padding: .8rem 0; border: 0; }
 .knowledge-stack { display: grid; gap: .6rem; margin-top: 1rem; }
 .fact, .casting-details, .provenance { border-top: 1px solid var(--line); padding-top: .65rem; }
 summary { cursor: pointer; color: #ddd5ca; font-weight: 500; }
-.source-text, .iching-text p { white-space: pre-line; line-height: 1.65; color: #c9c1b6; font-family: Georgia, 'Times New Roman', serif; font-size: 1.05rem; }
+.source-text, .translation-text, .iching-text p { white-space: pre-line; line-height: 1.65; color: #c9c1b6; font-family: Georgia, 'Times New Roman', serif; font-size: 1.05rem; }
 .nested-fact { padding: 1rem 0; border-bottom: 1px solid #2c2925; }
 .nested-fact h5, .iching-text h5 { margin: 0 0 .5rem; color: var(--gold); text-transform: uppercase; letter-spacing: .08em; font-size: .7rem; }
 .provenance { margin-top: .7rem; color: var(--muted); font-size: .78rem; }
@@ -119,6 +119,10 @@ summary { cursor: pointer; color: #ddd5ca; font-weight: 500; }
 .rune-facts dd { margin: 0; }
 .rune-caution { padding: .75rem; border-left: 2px solid var(--gold-deep); background: #211b13; color: #ddc498; font-size: .8rem; line-height: 1.45; }
 .rune-poem h5 { line-height: 1.4; }
+.poem-layer-label { margin-bottom: .25rem; color: var(--muted); font-size: .74rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.translation-text { margin-top: 0; color: var(--text); }
+.translation-sources { margin-top: .75rem; }
+.translation-sources > summary { color: var(--muted); font-size: .78rem; }
 .cast-controls, .notes-panel { padding: 1.25rem; border: 1px solid var(--line); border-radius: .7rem; background: var(--surface); }
 .cast-controls h2, .notes-panel h2 { margin-bottom: 1rem; font-size: 2rem; }
 .segmented { display: grid; grid-template-columns: repeat(3, 1fr); margin-bottom: 1rem; }

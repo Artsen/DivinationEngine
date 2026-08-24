@@ -13,6 +13,11 @@ that workflow is explicitly `derived` software behavior.
 - `rune-poems.json` holds 29 Old English, 16 Norwegian, and 16 Icelandic source-language
   stanzas. The Old English poem belongs to Anglo-Saxon Futhorc; the Scandinavian poems belong
   to Younger Futhark. They are relationships to Elder Futhark items, not definitions of them.
+- `editorial-translations.json` holds 61 newly written modern-English renderings. These are
+  explicitly derived, machine-assisted project editorial text, not historical exact text and
+  not divinatory meaning. Originals, translations, translation notes, and lexical sources have
+  separate fields in authoring data, persistence, API context, and the UI. See
+  [TRANSLATION_NOTES.md](TRANSLATION_NOTES.md) for method and difficult readings.
 - Ac, Æsc, Yr, Iar, and Ear remain legitimate unmapped Futhorc records. They never become
   canonical Elder Futhark items.
 - `attestations.json` distinguishes complete rows, recognized 24-rune rows whose surviving
@@ -43,10 +48,11 @@ not historical text.
 
 Bruce Dickins's 1915 edition is retained as bibliography and a locator only. Wikisource marks
 the edition public domain in the United States, but Dickins died in 1978, so the corpus does
-not claim worldwide public-domain status and bundles zero exact English translations. The UI
-must still show each original stanza and explain that an exact redistributable English
-translation is unavailable. No text from Ralph Blum, modern guidebooks, modern website
-translations, copyrighted scholarship, or Guido von List is reproduced.
+not claim worldwide public-domain status and bundles zero Dickins translations. The bundled
+English is new DivinationEngine editorial text, prepared from the originals with registered
+public-domain Bosworth-Toller, Cleasby-Vigfusson, and Zoëga lexical aids. Dickins was used only
+after drafting for a source-likeness sanity check. No text from Ralph Blum, modern guidebooks,
+modern website translations, copyrighted scholarship, or Guido von List is reproduced.
 
 ## Validate, build, and import
 

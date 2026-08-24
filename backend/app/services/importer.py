@@ -41,6 +41,34 @@ class ImportInterpretation(BaseModel):
     notes: str | None = None
 
 
+class ImportRunePoem(BaseModel):
+    key: str = Field(min_length=1, max_length=200, pattern=KEY_PATTERN)
+    item: str | None = Field(default=None, description="optional collection-slug/item-slug")
+    source: str = Field(description="historical witness source key")
+    tradition: str = Field(description="historical writing-system tradition slug")
+    poem: Literal["old-english", "norwegian", "icelandic"]
+    sequence: int = Field(ge=1)
+    rune_character: str
+    normalized_name: str
+    language: str
+    original_text: str = Field(min_length=1)
+    latin_tag: str | None = None
+    locator: str = Field(min_length=1, max_length=500)
+    mapping_status: Literal["direct", "likely-related", "not-applicable"]
+    mapping_justification: str
+    editorial_translation: str = Field(min_length=1)
+    editorial_latin_gloss: str | None = None
+    translation_language: Literal["en"] = "en"
+    translation_type: Literal["project-editorial"] = "project-editorial"
+    translation_status: Literal["derived"] = "derived"
+    translator: Literal["DivinationEngine editorial translation"] = (
+        "DivinationEngine editorial translation"
+    )
+    machine_assisted: Literal[True] = True
+    translation_sources: list[str] = Field(min_length=2)
+    translation_notes: str | None = None
+
+
 class ImportCorrespondence(BaseModel):
     key: str = Field(min_length=1, max_length=200, pattern=KEY_PATTERN)
     item: str
@@ -120,6 +148,7 @@ class ImportBundle(BaseModel):
     sources: list[ImportSource] = Field(default_factory=list)
     traditions: list[TraditionCreate] = Field(default_factory=list)
     interpretations: list[ImportInterpretation] = Field(default_factory=list)
+    rune_poems: list[ImportRunePoem] = Field(default_factory=list)
     correspondences: list[ImportCorrespondence] = Field(default_factory=list)
     trigrams: list[ImportTrigram] = Field(default_factory=list)
     hexagrams: list[ImportHexagram] = Field(default_factory=list)
@@ -134,6 +163,7 @@ class ImportBundle(BaseModel):
         _require_unique([row.key for row in self.sources], "source key")
         _require_unique([row.slug for row in self.traditions], "tradition slug")
         _require_unique([row.key for row in self.interpretations], "interpretation key")
+        _require_unique([row.key for row in self.rune_poems], "rune poem key")
         _require_unique([row.key for row in self.correspondences], "correspondence key")
         _require_unique([row.key for row in self.trigrams], "trigram key")
         _require_unique([row.key for row in self.hexagrams], "hexagram key")
@@ -256,6 +286,34 @@ def import_bundle(
                 created += 1
             else:
                 _assign(interpretation_row, interpretation_values)
+                updated += 1
+            session.flush()
+
+        for poem_data in bundle.rune_poems:
+            item = _resolve_item(session, poem_data.item) if poem_data.item else None
+            source = _resolve_source(session, poem_data.source)
+            tradition = _resolve_tradition(session, poem_data.tradition)
+            if tradition is None:  # pragma: no cover - required by ImportRunePoem
+                raise ValueError(f"unknown tradition reference: {poem_data.tradition}")
+            translation_sources = [
+                _resolve_source(session, key) for key in poem_data.translation_sources
+            ]
+            poem_row = session.scalar(
+                select(models.RunePoem).where(models.RunePoem.key == poem_data.key)
+            )
+            poem_values = poem_data.model_dump(
+                exclude={"item", "source", "tradition", "translation_sources"}
+            ) | {
+                "item_id": item.id if item else None,
+                "source_id": source.id,
+                "tradition_id": tradition.id,
+                "translation_source_ids": [row.id for row in translation_sources],
+            }
+            if poem_row is None:
+                session.add(models.RunePoem(**poem_values))
+                created += 1
+            else:
+                _assign(poem_row, poem_values)
                 updated += 1
             session.flush()
 
@@ -408,6 +466,7 @@ def import_bundle(
             "sources": len(bundle.sources),
             "traditions": len(bundle.traditions),
             "interpretations": len(bundle.interpretations),
+            "rune_poems": len(bundle.rune_poems),
             "correspondences": len(bundle.correspondences),
             "trigrams": len(bundle.trigrams),
             "hexagrams": len(bundle.hexagrams),

@@ -13,7 +13,7 @@ from app.services.importer import (
     ImportBundle,
     ImportCollection,
     ImportCorrespondence,
-    ImportInterpretation,
+    ImportRunePoem,
     ImportSource,
 )
 
@@ -81,6 +81,21 @@ class RunePoemStanza(BaseModel):
     mapping_justification: str
 
 
+class EditorialTranslation(BaseModel):
+    poem_key: str
+    language: Literal["en"] = "en"
+    text: str = Field(min_length=1)
+    latin_gloss: str | None = None
+    translation_type: Literal["project-editorial"] = "project-editorial"
+    status: Literal["derived"] = "derived"
+    translator: Literal["DivinationEngine editorial translation"] = (
+        "DivinationEngine editorial translation"
+    )
+    machine_assisted: Literal[True] = True
+    source_refs: list[str] = Field(min_length=2)
+    notes: str | None = None
+
+
 class Attestation(BaseModel):
     key: str
     name: str
@@ -119,6 +134,7 @@ class LoadedRuneCorpus(BaseModel):
     systems: list[RuneSystem]
     runes: list[RuneRecord]
     poems: list[RunePoemStanza]
+    editorial_translations: list[EditorialTranslation]
     attestations: list[Attestation]
     divination_methods: list[dict[str, Any]]
     modern_traditions: list[dict[str, Any]]
@@ -140,6 +156,10 @@ def load_corpus(root: Path) -> LoadedRuneCorpus:
             for path in sorted((root / "runes").glob("*.json"))
         ],
         poems=[RunePoemStanza.model_validate(row) for row in _read_json(root / "rune-poems.json")],
+        editorial_translations=[
+            EditorialTranslation.model_validate(row)
+            for row in _read_json(root / "editorial-translations.json")
+        ],
         attestations=[
             Attestation.model_validate(row) for row in _read_json(root / "attestations.json")
         ],
@@ -161,6 +181,7 @@ def validate_corpus(corpus: LoadedRuneCorpus) -> dict[str, int]:
     system_keys = {row.key for row in corpus.systems}
     rune_keys = {row.key for row in runes}
     poem_keys = {row.key for row in poems}
+    translation_keys = {row.poem_key for row in corpus.editorial_translations}
     attestation_keys = {row.key for row in corpus.attestations}
 
     if corpus.manifest.supports_reversals:
@@ -183,6 +204,10 @@ def validate_corpus(corpus: LoadedRuneCorpus) -> dict[str, int]:
         ("rune glyph", [row.glyph for row in runes]),
         ("rune code point", [row.code_point for row in runes]),
         ("poem key", [row.key for row in poems]),
+        (
+            "editorial translation poem key",
+            [row.poem_key for row in corpus.editorial_translations],
+        ),
         ("source key", [row.key for row in corpus.sources]),
         ("system key", [row.key for row in corpus.systems]),
         ("attestation key", [row.key for row in corpus.attestations]),
@@ -306,6 +331,14 @@ def validate_corpus(corpus: LoadedRuneCorpus) -> dict[str, int]:
         errors.append("poem mapping references an unknown Elder Futhark item")
     if any(row.mapping_status == "not-applicable" and row.elder_futhark_item for row in poems):
         errors.append("not-applicable poem records cannot map to Elder Futhark items")
+    if translation_keys != poem_keys:
+        missing = sorted(poem_keys - translation_keys)
+        unrelated = sorted(translation_keys - poem_keys)
+        if missing:
+            errors.append(f"missing editorial translations: {', '.join(missing)}")
+        if unrelated:
+            errors.append(f"translations reference unknown poems: {', '.join(unrelated)}")
+    translations_by_poem = {row.poem_key: row for row in corpus.editorial_translations}
     for poem in poems:
         if poem.source not in source_keys:
             errors.append(f"{poem.key}: unknown source {poem.source}")
@@ -313,6 +346,28 @@ def validate_corpus(corpus: LoadedRuneCorpus) -> dict[str, int]:
             errors.append(f"{poem.key}: unknown tradition {poem.system}")
         if not poem.original_text.strip():
             errors.append(f"{poem.key}: missing original-language stanza")
+        translation = translations_by_poem.get(poem.key)
+        if translation is None:
+            continue
+        if poem.source not in translation.source_refs:
+            errors.append(f"{poem.key}: editorial translation must cite its historical witness")
+        required_lexical_source = (
+            "bosworth-toller-1898" if poem.poem == "old-english" else "cleasby-vigfusson-1874"
+        )
+        if required_lexical_source not in translation.source_refs:
+            errors.append(
+                f"{poem.key}: editorial translation lacks required lexical source "
+                f"{required_lexical_source}"
+            )
+        for source_ref in translation.source_refs:
+            if source_ref not in source_keys:
+                errors.append(f"{poem.key}: unknown translation source {source_ref}")
+        if "dickins" in translation.translator.lower() or any(
+            "dickins" in source_ref for source_ref in translation.source_refs
+        ):
+            errors.append(f"{poem.key}: project translation cannot claim Dickins provenance")
+        if poem.latin_tag and not translation.latin_gloss:
+            errors.append(f"{poem.key}: Latin tag requires a separate editorial gloss")
 
     canonical_blob = json.dumps([row.model_dump() for row in runes], ensure_ascii=False).lower()
     suspicious = [
@@ -350,6 +405,14 @@ def validate_corpus(corpus: LoadedRuneCorpus) -> dict[str, int]:
         "original_language_bodies": sum(bool(row.original_text.strip()) for row in poems),
         "english_exact_texts": sum(row.english_exact_text is not None for row in poems),
         "english_omitted": sum(row.english_exact_text is None for row in poems),
+        "editorial_translations": len(corpus.editorial_translations),
+        "machine_assisted_editorial_translations": sum(
+            row.machine_assisted for row in corpus.editorial_translations
+        ),
+        "editorial_translation_missing": len(poem_keys - translation_keys),
+        "editorial_translation_caution_notes": sum(
+            row.notes is not None for row in corpus.editorial_translations
+        ),
         "poem_mappings": len(mapped),
         "direct_mappings": sum(row.mapping_status == "direct" for row in poems),
         "cautious_mappings": sum(row.mapping_status == "likely-related" for row in poems),
@@ -368,13 +431,9 @@ def validate_corpus(corpus: LoadedRuneCorpus) -> dict[str, int]:
 def build_bundle(corpus: LoadedRuneCorpus) -> ImportBundle:
     validate_corpus(corpus)
     items = []
-    interpretations: list[ImportInterpretation] = []
+    rune_poems: list[ImportRunePoem] = []
     correspondences: list[ImportCorrespondence] = []
-    poems_by_item: dict[str, list[RunePoemStanza]] = {}
     attestations_by_key = {row.key: row for row in corpus.attestations}
-    for poem in corpus.poems:
-        if poem.elder_futhark_item:
-            poems_by_item.setdefault(poem.elder_futhark_item, []).append(poem)
 
     for rune in sorted(corpus.runes, key=lambda row: row.row_position):
         item_ref = f"elder-futhark/{rune.slug}"
@@ -517,28 +576,37 @@ def build_bundle(corpus: LoadedRuneCorpus) -> ImportBundle:
                     ),
                 )
             )
-        for poem in sorted(poems_by_item.get(rune.key, []), key=lambda row: row.key):
-            interpretations.append(
-                ImportInterpretation(
-                    key=f"rune-poem-{poem.key}",
-                    item=item_ref,
-                    source=poem.source,
-                    tradition=poem.system,
-                    interpretation_type="rune-poem",
-                    exact_text=(
-                        poem.original_text
-                        if poem.latin_tag is None
-                        else f"{poem.original_text}\n{poem.latin_tag}"
-                    ),
-                    locator=poem.locator,
-                    sequence=poem.sequence,
-                    notes=(
-                        f"{poem.mapping_status} mapping to {rune.normalized_label}; "
-                        f"{poem.mapping_justification} Exact redistributable English translation "
-                        "is not bundled."
-                    ),
-                )
+    rune_item_refs = {rune.key: f"elder-futhark/{rune.slug}" for rune in corpus.runes}
+    translations_by_poem = {row.poem_key: row for row in corpus.editorial_translations}
+    for poem in sorted(corpus.poems, key=lambda row: (row.poem, row.sequence)):
+        translation = translations_by_poem[poem.key]
+        rune_poems.append(
+            ImportRunePoem(
+                key=poem.key,
+                item=(rune_item_refs[poem.elder_futhark_item] if poem.elder_futhark_item else None),
+                source=poem.source,
+                tradition=poem.system,
+                poem=poem.poem,
+                sequence=poem.sequence,
+                rune_character=poem.rune_character,
+                normalized_name=poem.normalized_name,
+                language=poem.language,
+                original_text=poem.original_text,
+                latin_tag=poem.latin_tag,
+                locator=poem.locator,
+                mapping_status=poem.mapping_status,
+                mapping_justification=poem.mapping_justification,
+                editorial_translation=translation.text,
+                editorial_latin_gloss=translation.latin_gloss,
+                translation_language=translation.language,
+                translation_type=translation.translation_type,
+                translation_status=translation.status,
+                translator=translation.translator,
+                machine_assisted=translation.machine_assisted,
+                translation_sources=translation.source_refs,
+                translation_notes=translation.notes,
             )
+        )
 
     bundle = ImportBundle(
         collections=[
@@ -560,7 +628,7 @@ def build_bundle(corpus: LoadedRuneCorpus) -> ImportBundle:
         ],
         sources=corpus.sources,
         traditions=corpus.traditions,
-        interpretations=interpretations,
+        rune_poems=rune_poems,
         correspondences=correspondences,
     )
     output = corpus.root / "build" / "elder-futhark-import.json"
@@ -585,6 +653,7 @@ def main() -> None:
             bundle = build_bundle(corpus)
             result["import_items"] = sum(len(row.items) for row in bundle.collections)
             result["import_interpretations"] = len(bundle.interpretations)
+            result["import_rune_poems"] = len(bundle.rune_poems)
             result["import_correspondences"] = len(bundle.correspondences)
     except (OSError, ValidationError, ValueError) as exc:
         parser.exit(1, f"{exc}\n")

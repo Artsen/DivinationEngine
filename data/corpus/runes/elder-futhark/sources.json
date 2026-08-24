@@ -51,6 +51,39 @@
     "notes": "Bibliography and locators only. Exact English translations are intentionally not bundled because worldwide redistribution status is not uniform; Dickins died in 1978."
   },
   {
+    "key": "bosworth-toller-1898",
+    "title": "An Anglo-Saxon Dictionary, Based on the Manuscript Collections of the Late Joseph Bosworth",
+    "author": "Joseph Bosworth; edited and enlarged by T. Northcote Toller",
+    "publisher": "Clarendon Press, Oxford",
+    "publication_year": 1898,
+    "language": "Old English and English",
+    "source_url": "https://lrc.la.utexas.edu/books/asd/index-introduction",
+    "rights_status": "public_domain_dictionary_entries_us",
+    "notes": "Public-domain dictionary entries used as lexical evidence for the project editorial Old English translations. The University of Texas LRC index and page design are separate copyrighted editorial matter and are not reproduced."
+  },
+  {
+    "key": "cleasby-vigfusson-1874",
+    "title": "An Icelandic-English Dictionary",
+    "author": "Richard Cleasby and Guðbrandur Vigfússon",
+    "publisher": "Clarendon Press, Oxford",
+    "publication_year": 1874,
+    "language": "Old Icelandic and English",
+    "source_url": "https://archive.org/details/icelandicenglish00cleauoft",
+    "rights_status": "public_domain",
+    "notes": "Public-domain scan used as the principal lexical and grammatical reference for the Norwegian and Icelandic project editorial translations. No dictionary prose is bundled."
+  },
+  {
+    "key": "zoega-1910",
+    "title": "A Concise Dictionary of Old Icelandic",
+    "author": "Geir T. Zoëga",
+    "publisher": "Clarendon Press, Oxford",
+    "publication_year": 1910,
+    "language": "Old Icelandic and English",
+    "source_url": "https://archive.org/details/concisedictionar001857",
+    "rights_status": "public_domain",
+    "notes": "Public-domain scan used as a secondary lexical check for the Norwegian and Icelandic project editorial translations. No dictionary prose is bundled."
+  },
+  {
     "key": "shm-kylver-g88",
     "title": "Kylverstenen",
     "publisher": "Swedish History Museum",

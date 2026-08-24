@@ -200,11 +200,13 @@ replacement method is therefore documented as derived software behavior. Later s
 as Armanen and modern blank-rune/reversal practices can be added as separately sourced
 traditions without rewriting canonical identities.
 
-All 61 historical source-language poem stanzas are present. Exact Dickins English translations
-are intentionally omitted: the 1915 edition is public domain in the United States, but Dickins
-died in 1978, so the project does not make a blanket worldwide-public-domain claim. No modern
-guidebook interpretation prose is bundled. See the corpus README for the exact-text source and
-redistribution audit.
+All 61 historical source-language poem stanzas are present alongside distinct, newly written
+DivinationEngine editorial translations. The UI labels the modern English as derived and
+machine-assisted and keeps it separate from both historical exact text and divinatory meaning.
+Exact Dickins English translations remain omitted: the project does not make a blanket
+worldwide-public-domain claim. No modern guidebook interpretation prose is bundled. See the
+corpus README and translation notes for the exact-text, lexical-source, and redistribution
+audits.
 
 An unknown reference or constraint violation rolls back the entire import, including updates
 performed earlier in that bundle.

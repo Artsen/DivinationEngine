@@ -15,6 +15,7 @@ def test_corpus_status_reports_missing_data_on_empty_database(client: TestClient
         "iching_method_count": 0,
         "runes_ready": False,
         "elder_futhark_item_count": 0,
+        "rune_poem_count": 0,
     }
 
 
