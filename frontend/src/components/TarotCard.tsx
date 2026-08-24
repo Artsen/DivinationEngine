@@ -16,6 +16,11 @@ interface Props {
 export function TarotCard({ result, sources, traditions }: Props) {
   const name = result.item.display_name || result.item.name
   const orientation = result.orientation === 'reversed' ? 'reversed' : 'upright'
+  const waiteFacts = result.knowledge.applicable_interpretations.filter((fact) => {
+    const source = sources[fact.source_id]
+    return fact.interpretation_type === orientation && (source?.author?.includes('Waite') || source?.title.includes('Pictorial Key'))
+  })
+  const secondaryFacts = result.knowledge.applicable_interpretations.filter((fact) => !waiteFacts.includes(fact))
   return (
     <article className="tarot-card">
       <div className={`tarot-card__image-frame tarot-card__image-frame--${orientation}`}>
@@ -30,20 +35,11 @@ export function TarotCard({ result, sources, traditions }: Props) {
         <p className="placement">Placement: {result.placement.label || `(${result.placement.x}, ${result.placement.y})`}</p>
       )}
       <div className="knowledge-stack">
-        {result.knowledge.applicable_interpretations.map((fact) => (
-          <details key={fact.id} className="fact" open={fact.interpretation_type === orientation}>
-            <summary>{taxonomyLabel(fact.interpretation_type)}</summary>
-            <p className="source-text">{fact.exact_text}</p>
-            <Provenance
-              source={sources[fact.source_id]}
-              tradition={fact.tradition_id ? traditions[fact.tradition_id] : undefined}
-              locator={fact.locator}
-            />
-          </details>
-        ))}
+        {waiteFacts.length > 0 && <section className="primary-meaning" aria-label="Primary Waite text"><p className="meaning-label">Waite · {taxonomyLabel(orientation)}</p>{waiteFacts.map((fact) => <div key={fact.id} className="primary-meaning__text"><p className="source-text">{fact.exact_text}</p>{fact.locator && <small>{fact.locator}</small>}</div>)}<details className="provenance-disclosure"><summary>Source</summary><Provenance source={sources[waiteFacts[0].source_id]} tradition={waiteFacts[0].tradition_id ? traditions[waiteFacts[0].tradition_id] : undefined} /></details></section>}
+        {secondaryFacts.length > 0 && <details className="fact"><summary>Symbolism and description</summary>{secondaryFacts.map((fact) => <section key={fact.id} className="nested-fact"><h5>{taxonomyLabel(fact.interpretation_type)}</h5><p className="source-text">{fact.exact_text}</p><Provenance source={sources[fact.source_id]} tradition={fact.tradition_id ? traditions[fact.tradition_id] : undefined} locator={fact.locator} /></section>)}</details>}
         {result.knowledge.other_interpretations.length > 0 && (
           <details className="fact">
-            <summary>Other source text</summary>
+            <summary>Other source traditions</summary>
             {result.knowledge.other_interpretations.map((fact) => (
               <section key={fact.id} className="nested-fact">
                 <h5>{taxonomyLabel(fact.interpretation_type)}</h5>
@@ -59,7 +55,7 @@ export function TarotCard({ result, sources, traditions }: Props) {
         )}
         {result.knowledge.correspondences.length > 0 && (
           <details className="fact correspondence-group">
-            <summary>Correspondences</summary>
+            <summary>Tradition-specific correspondences</summary>
             {result.knowledge.correspondences.map((fact) => (
               <section key={fact.id} className="nested-fact">
                 <h5>{fact.tradition_id && traditions[fact.tradition_id] ? `${traditions[fact.tradition_id].name} · ` : ''}{taxonomyLabel(fact.type)}</h5>

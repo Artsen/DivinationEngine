@@ -33,6 +33,7 @@ it('renders deduplicated system markers and independently collapsed poem witness
   expect(screen.getByText('ᚠ')).toBeVisible()
   expect(screen.getByText(/Elder Futhark #1/)).toBeVisible()
   expect(screen.getByText('cattle, possessions')).toBeVisible()
+  await user.click(screen.getByText('Related historical systems'))
   const connections = screen.getByRole('region', { name: 'Tradition connections' })
   expect(within(connections).getAllByText('Elder Futhark')).toHaveLength(1)
   expect(within(connections).getAllByText('Anglo-Saxon Futhorc')).toHaveLength(1)
@@ -41,6 +42,7 @@ it('renders deduplicated system markers and independently collapsed poem witness
   expect(within(connections).getAllByText('Related historical system')).toHaveLength(2)
 
   const witnessLabels = ['Old English Rune Poem', 'Norwegian Rune Poem', 'Icelandic Rune Poem']
+  await user.click(screen.getAllByText('Rune poems').find((element) => element.tagName === 'SUMMARY')!)
   const witnesses = witnessLabels.map((label) => screen.getByText(label).closest('details'))
   expect(witnesses).toHaveLength(3)
   witnesses.forEach((witness) => expect(witness).not.toHaveAttribute('open'))
@@ -75,7 +77,9 @@ it('exposes cautious related-system and poem mappings as readable text', () => {
     },
   } as ContextDrawResult
   render(<RuneCard result={cautiousResult} sources={{ 'poem-source': source, bosworth: dictionarySource, ut: reconstructionSource }} traditions={traditions} />)
+  screen.getByText('Related historical systems').click()
   const connections = screen.getByRole('region', { name: 'Tradition connections' })
   expect(within(connections).getAllByText('Related system · cautious relationship')).toHaveLength(2)
+  screen.getAllByText('Rune poems').find((element) => element.tagName === 'SUMMARY')!.click()
   expect(screen.getAllByText(/Related with caution/)).toHaveLength(3)
 })

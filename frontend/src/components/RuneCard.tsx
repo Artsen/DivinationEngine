@@ -77,7 +77,9 @@ export function RuneCard({ result, sources, traditions }: Props) {
           <p className="rune-transliteration">Transliteration {metadata.transliteration}</p>
         </div>
       </header>
-      <section className="tradition-connections" aria-label="Tradition connections">
+      <details className="tradition-connections fact">
+        <summary>Related historical systems</summary>
+        <section aria-label="Tradition connections">
         <h5>Tradition connections</h5>
         <ul className="tradition-chips">
           <li className="tradition-chip tradition-chip--core">
@@ -89,13 +91,14 @@ export function RuneCard({ result, sources, traditions }: Props) {
             <span><strong>{system.name}</strong><small>{system.cautious ? 'Related system · cautious relationship' : 'Related historical system'}</small></span>
           </li>)}
         </ul>
-      </section>
+        </section>
+      </details>
       <dl className="rune-facts">
         <dt>Reconstructed name</dt>
         <dd>{metadata.proto_germanic_name} <span className="status-tag">{taxonomyLabel(metadata.reconstruction_status || 'unknown')}</span></dd>
         <dt>Lexical reconstruction</dt><dd>{metadata.lexical_reconstruction || 'Unknown'}</dd>
         <dt>Sound value</dt><dd>{metadata.sound_value || 'Unknown'}</dd>
-        <dt>Group</dt><dd>Ætt {metadata.aett}, position {metadata.position_in_aett}</dd>
+        <dt>Position</dt><dd>Row {metadata.row_position} · Ætt {metadata.aett}, position {metadata.position_in_aett}</dd>
       </dl>
       {metadata.uncertainty_notes && <p className="rune-caution"><strong>Evidence caution:</strong> {metadata.uncertainty_notes}</p>}
       <div className="knowledge-stack">
@@ -104,7 +107,7 @@ export function RuneCard({ result, sources, traditions }: Props) {
           <p className="muted">Canonical identity is separated from later poems and modern divination. Archaeological row records and limitations are documented in the corpus source registry.</p>
           {historicalEvidence.map((fact) => <section key={fact.id} className="nested-fact"><h5>{taxonomyLabel(fact.type)}</h5><p>{fact.value} <span className="status-tag">{taxonomyLabel(fact.status)}</span></p>{fact.notes && <p className="rune-caution">{fact.notes}</p>}<Provenance source={sources[fact.source_id]} tradition={fact.tradition_id ? traditions[fact.tradition_id] : undefined} locator={fact.locator} /></section>)}
         </details>
-        <details className="fact" open>
+        <details className="fact">
           <summary>Rune poems</summary>
           {poems.map((poem) => {
             const tradition = traditions[poem.tradition_id]
