@@ -317,6 +317,14 @@ class Reading(Base, TimestampMixin):
         back_populates="reading", cascade="all, delete-orphan"
     )
 
+    @property
+    def cast_count(self) -> int:
+        return len(self.casts)
+
+    @property
+    def cast_types(self) -> list[str]:
+        return list(dict.fromkeys(cast.cast_type for cast in self.casts))
+
 
 class DeckSession(Base):
     __tablename__ = "deck_sessions"

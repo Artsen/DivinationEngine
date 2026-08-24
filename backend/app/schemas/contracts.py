@@ -8,6 +8,14 @@ class ORMModel(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
 
+class CorpusStatus(BaseModel):
+    rws_ready: bool
+    rws_item_count: int
+    iching_ready: bool
+    hexagram_count: int
+    iching_method_count: int
+
+
 class CollectionCreate(BaseModel):
     slug: str = Field(min_length=1, max_length=120, pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
     name: str = Field(min_length=1, max_length=200)
@@ -187,6 +195,8 @@ class ReadingPatch(BaseModel):
 
 class ReadingSummary(ReadingCreate):
     id: str
+    cast_count: int
+    cast_types: list[Literal["collection", "iching"]]
     created_at: datetime
     updated_at: datetime
 
