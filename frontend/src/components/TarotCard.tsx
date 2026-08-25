@@ -23,6 +23,7 @@ export function TarotCard({ result, sources, traditions }: Props) {
   const secondaryFacts = result.knowledge.applicable_interpretations.filter((fact) => !waiteFacts.includes(fact))
   return (
     <article className="tarot-card">
+      {result.placement?.position_label && <header className="placement-heading"><p className="eyebrow">Position {result.placement.sequence}</p><h4>{result.placement.position_label}</h4>{result.placement.position_description && <p>{result.placement.position_description}</p>}</header>}
       <div className={`tarot-card__image-frame tarot-card__image-frame--${orientation}`}>
         <img src={imageUrl(result.item.id)} alt={`${name} — ${orientation}`} />
       </div>
@@ -31,9 +32,6 @@ export function TarotCard({ result, sources, traditions }: Props) {
         <h4>{name}</h4>
         <span className={`orientation orientation--${orientation}`}>{taxonomyLabel(orientation)}</span>
       </header>
-      {result.placement && (
-        <p className="placement">Placement: {result.placement.label || `(${result.placement.x}, ${result.placement.y})`}</p>
-      )}
       <div className="knowledge-stack">
         {waiteFacts.length > 0 && <section className="primary-meaning" aria-label="Primary Waite text"><p className="meaning-label">Waite · {taxonomyLabel(orientation)}</p>{waiteFacts.map((fact) => <div key={fact.id} className="primary-meaning__text"><p className="source-text">{fact.exact_text}</p>{fact.locator && <small>{fact.locator}</small>}</div>)}<details className="provenance-disclosure"><summary>Source</summary><Provenance source={sources[waiteFacts[0].source_id]} tradition={waiteFacts[0].tradition_id ? traditions[waiteFacts[0].tradition_id] : undefined} /></details></section>}
         {secondaryFacts.length > 0 && <details className="fact"><summary>Symbolism and description</summary>{secondaryFacts.map((fact) => <section key={fact.id} className="nested-fact"><h5>{taxonomyLabel(fact.interpretation_type)}</h5><p className="source-text">{fact.exact_text}</p><Provenance source={sources[fact.source_id]} tradition={fact.tradition_id ? traditions[fact.tradition_id] : undefined} locator={fact.locator} /></section>)}</details>}

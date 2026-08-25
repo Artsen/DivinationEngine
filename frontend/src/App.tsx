@@ -20,7 +20,7 @@ export function App() {
       <a className="skip-link" href="#main-content">Skip to content</a>
       <header className="site-header">
         <Link to="/" className="brand"><span className="brand-mark" aria-hidden="true">DE</span><span>DivinationEngine<small>Source-backed readings</small></span></Link>
-        <nav aria-label="Primary">{corpus.data?.rws_ready && corpus.data.iching_ready && <span className="system-ready" title="API, database, RWS, and I Ching corpora are ready">Ready</span>}<NavLink to="/readings">Readings</NavLink><NavLink className="new-reading-link" to="/readings/new">New reading</NavLink></nav>
+        <nav aria-label="Primary">{corpus.data?.rws_ready && corpus.data.iching_ready && <span className="system-ready" title="API, database, RWS, and I Ching corpora are ready">Ready</span>}<NavLink to="/readings">Readings</NavLink><NavLink to="/spreads">Spreads</NavLink><NavLink className="new-reading-link" to="/readings/new">New reading</NavLink></nav>
       </header>
       {health.isPending ? <div className="health-line" role="status">Connecting to the API…</div> : <>
         {corpus.data && (!corpus.data.rws_ready || !corpus.data.iching_ready) && <div className="setup-banner" role="status"><strong>Corpus setup is incomplete.</strong> Run <code>divination-dev-bootstrap</code> in the backend terminal.</div>}

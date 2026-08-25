@@ -14,6 +14,20 @@ class PlacementOut(BaseModel):
     y: float | None
     rotation: float | None
     label: str | None
+    spread_key: str | None
+    spread_name: str | None
+    spread_classification: str | None
+    position_key: str | None
+    position_label: str | None
+    position_description: str | None
+    sequence: int | None
+
+
+class CastSpreadOut(BaseModel):
+    id: str
+    key: str
+    name: str
+    classification: str
 
 
 class DrawItemOut(BaseModel):
@@ -99,6 +113,7 @@ class CastOut(BaseModel):
     created_at: datetime
     draw_results: list[DrawResultOut]
     iching: IChingOut | None
+    spread: CastSpreadOut | None
 
 
 class ReadingDetail(BaseModel):
@@ -185,6 +200,7 @@ class ContextCast(BaseModel):
     created_at: datetime
     draw_results: list[ContextDrawResult]
     iching: IChingOut | None
+    spread: CastSpreadOut | None
 
 
 class ContextSource(BaseModel):

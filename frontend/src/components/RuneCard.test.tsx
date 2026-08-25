@@ -83,3 +83,11 @@ it('exposes cautious related-system and poem mappings as readable text', () => {
   screen.getAllByText('Rune poems').find((element) => element.tagName === 'SUMMARY')!.click()
   expect(screen.getAllByText(/Related with caution/)).toHaveLength(3)
 })
+
+it('presents placement meaning before rune identity', () => {
+  const placed = { ...result, placement: { id: 'placement', spread_id: 'spread', spread_position_id: 'position', x: 0.5, y: 0.5, rotation: 0, label: 'Advice', spread_key: 'situation-challenge-advice', spread_name: 'Situation / Challenge / Advice', spread_classification: 'modern-editorial-layout', position_key: 'advice', position_label: 'Advice', position_description: 'A constructive response.', sequence: 3 } } as ContextDrawResult
+  render(<RuneCard result={placed} sources={{ 'poem-source': source, bosworth: dictionarySource, ut: reconstructionSource }} traditions={traditions} />)
+  const headings = screen.getAllByRole('heading')
+  expect(headings[0]).toHaveTextContent('Advice')
+  expect(screen.getByText('A constructive response.')).toBeVisible()
+})

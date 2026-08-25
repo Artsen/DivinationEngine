@@ -211,9 +211,10 @@ def test_spread_and_placements_survive_persistence(
         json={
             "slug": "crossing-demo",
             "name": "Crossing Demo",
+            "system_types": ["oracle"],
             "positions": [
-                {"label": "Center", "x": 2.5, "y": -1, "rotation": 0, "order": 1},
-                {"label": "Crossing", "x": 2.5, "y": -1, "rotation": 90, "order": 2},
+                {"label": "Center", "x": 0.5, "y": 0.5, "rotation": 0, "order": 1},
+                {"label": "Crossing", "x": 0.5, "y": 0.5, "rotation": 90, "order": 2},
             ],
         },
     )
@@ -221,7 +222,7 @@ def test_spread_and_placements_survive_persistence(
     spread = spread_response.json()
     loaded_spread = client.get(f"/api/v1/spreads/{spread['id']}").json()
     assert loaded_spread["positions"][1]["rotation"] == 90
-    assert loaded_spread["positions"][0]["x"] == 2.5
+    assert loaded_spread["positions"][0]["x"] == 0.5
 
     cast = client.post(
         f"/api/v1/readings/{reading['id']}/casts/draw",
@@ -248,6 +249,7 @@ def test_invalid_spread_positions_are_rejected(client: TestClient) -> None:
         json={
             "slug": "bad",
             "name": "Bad",
+            "system_types": ["tarot"],
             "positions": [
                 {"label": "A", "x": 0, "y": 0, "order": 1},
                 {"label": "B", "x": 1, "y": 0, "order": 1},

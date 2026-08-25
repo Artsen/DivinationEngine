@@ -12,6 +12,7 @@ from sqlalchemy.exc import IntegrityError
 from alembic import command
 from app.db.session import SessionLocal
 from app.services.importer import ImportBundle, import_bundle
+from app.services.spreads import install_builtin_spreads
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[3]
 CORPORA = (
@@ -44,6 +45,11 @@ def install_corpora() -> list[dict[str, Any]]:
     return results
 
 
+def install_spreads() -> dict[str, int]:
+    with SessionLocal() as session:
+        return install_builtin_spreads(session)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Migrate a development database and idempotently install bundled corpora."
@@ -51,7 +57,11 @@ def main() -> None:
     parser.parse_args()
     try:
         migrate()
-        result = {"migrations": "at head", "corpora": install_corpora()}
+        result = {
+            "migrations": "at head",
+            "corpora": install_corpora(),
+            "spreads": install_spreads(),
+        }
     except (OSError, ValidationError, ValueError, IntegrityError) as exc:
         parser.exit(1, f"Development bootstrap failed: {exc}\n")
     print(json.dumps(result, indent=2))

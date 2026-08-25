@@ -421,6 +421,18 @@ export interface components {
             /** Draw Results */
             draw_results: components["schemas"]["DrawResultOut"][];
             iching: components["schemas"]["IChingOut"] | null;
+            spread: components["schemas"]["CastSpreadOut"] | null;
+        };
+        /** CastSpreadOut */
+        CastSpreadOut: {
+            /** Id */
+            id: string;
+            /** Key */
+            key: string;
+            /** Name */
+            name: string;
+            /** Classification */
+            classification: string;
         };
         /** CollectionCreate */
         CollectionCreate: {
@@ -516,6 +528,7 @@ export interface components {
             /** Draw Results */
             draw_results: components["schemas"]["ContextDrawResult"][];
             iching: components["schemas"]["IChingOut"] | null;
+            spread: components["schemas"]["CastSpreadOut"] | null;
         };
         /** ContextCorrespondence */
         ContextCorrespondence: {
@@ -780,6 +793,8 @@ export interface components {
             reversals_enabled: boolean;
             /** Deck Session Id */
             deck_session_id?: string | null;
+            /** Spread Id */
+            spread_id?: string | null;
         };
         /** DrawResultOut */
         DrawResultOut: {
@@ -1056,17 +1071,33 @@ export interface components {
             rotation: number | null;
             /** Label */
             label: string | null;
+            /** Spread Key */
+            spread_key: string | null;
+            /** Spread Name */
+            spread_name: string | null;
+            /** Spread Classification */
+            spread_classification: string | null;
+            /** Position Key */
+            position_key: string | null;
+            /** Position Label */
+            position_label: string | null;
+            /** Position Description */
+            position_description: string | null;
+            /** Sequence */
+            sequence: number | null;
         };
         /** PositionCreate */
         PositionCreate: {
+            /** Key */
+            key?: string | null;
             /** Label */
             label: string;
             /** Description */
             description?: string | null;
             /** X */
-            x: number;
+            x?: number | null;
             /** Y */
-            y: number;
+            y?: number | null;
             /**
              * Rotation
              * @default 0
@@ -1077,23 +1108,22 @@ export interface components {
         };
         /** PositionOut */
         PositionOut: {
+            /** Id */
+            id: string;
+            /** Key */
+            key: string;
             /** Label */
             label: string;
             /** Description */
-            description?: string | null;
+            description: string | null;
             /** X */
             x: number;
             /** Y */
             y: number;
-            /**
-             * Rotation
-             * @default 0
-             */
+            /** Rotation */
             rotation: number;
             /** Order */
             order: number;
-            /** Id */
-            id: string;
         };
         /** ReadingContext */
         ReadingContext: {
@@ -1264,11 +1294,13 @@ export interface components {
         /** SpreadCreate */
         SpreadCreate: {
             /** Slug */
-            slug: string;
+            slug?: string | null;
             /** Name */
             name: string;
             /** Description */
             description?: string | null;
+            /** System Types */
+            system_types: string[];
             /** Positions */
             positions: components["schemas"]["PositionCreate"][];
         };
@@ -1282,6 +1314,17 @@ export interface components {
             name: string;
             /** Description */
             description: string | null;
+            /**
+             * Origin
+             * @enum {string}
+             */
+            origin: "builtin" | "custom" | "legacy";
+            /** Classification */
+            classification: string;
+            /** System Types */
+            system_types: string[];
+            /** Source Label */
+            source_label: string | null;
             /** Positions */
             positions: components["schemas"]["PositionOut"][];
             /**

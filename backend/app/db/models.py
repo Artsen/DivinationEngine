@@ -306,10 +306,18 @@ class HexagramText(Base, TimestampMixin):
 
 class SpreadDefinition(Base, TimestampMixin):
     __tablename__ = "spreads"
+    __table_args__ = (
+        CheckConstraint("origin IN ('builtin','custom','legacy')", name="ck_spread_origin"),
+        CheckConstraint("length(trim(name)) > 0", name="ck_spread_name_nonempty"),
+    )
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
     slug: Mapped[str] = mapped_column(String(120), unique=True)
     name: Mapped[str] = mapped_column(String(200))
     description: Mapped[str | None] = mapped_column(Text)
+    origin: Mapped[str] = mapped_column(String(20), default="custom")
+    classification: Mapped[str] = mapped_column(String(80), default="modern-editorial-layout")
+    system_types: Mapped[list] = mapped_column(JSON, default=list)
+    source_label: Mapped[str | None] = mapped_column(String(200))
     positions: Mapped[list["SpreadPosition"]] = relationship(
         back_populates="spread", cascade="all, delete-orphan", order_by="SpreadPosition.order"
     )
@@ -319,11 +327,14 @@ class SpreadPosition(Base):
     __tablename__ = "spread_positions"
     __table_args__ = (
         UniqueConstraint("spread_id", "order", name="uq_spread_position_order"),
+        UniqueConstraint("spread_id", "key", name="uq_spread_position_key"),
         UniqueConstraint("id", "spread_id", name="uq_spread_position_identity"),
         CheckConstraint('"order" >= 1', name="ck_spread_position_order"),
+        CheckConstraint("length(trim(label)) > 0", name="ck_spread_position_label_nonempty"),
     )
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=uuid4_str)
     spread_id: Mapped[str] = mapped_column(ForeignKey("spreads.id", ondelete="CASCADE"))
+    key: Mapped[str] = mapped_column(String(120))
     label: Mapped[str] = mapped_column(String(160))
     description: Mapped[str | None] = mapped_column(Text)
     x: Mapped[float] = mapped_column(Float)
@@ -411,6 +422,12 @@ class ReadingCast(Base):
     primary_pattern: Mapped[str | None] = mapped_column(String(6))
     relating_pattern: Mapped[str | None] = mapped_column(String(6))
     changing_lines: Mapped[list] = mapped_column(JSON, default=list)
+    spread_id: Mapped[str | None] = mapped_column(
+        ForeignKey("spreads.id", ondelete="RESTRICT", name="fk_cast_spread")
+    )
+    spread_key_snapshot: Mapped[str | None] = mapped_column(String(120))
+    spread_name_snapshot: Mapped[str | None] = mapped_column(String(200))
+    spread_classification_snapshot: Mapped[str | None] = mapped_column(String(80))
     reading: Mapped[Reading] = relationship(back_populates="casts")
     results: Mapped[list["DrawResult"]] = relationship(
         back_populates="cast",
@@ -485,6 +502,13 @@ class Placement(Base):
     x: Mapped[float | None] = mapped_column(Float)
     y: Mapped[float | None] = mapped_column(Float)
     rotation: Mapped[float | None] = mapped_column(Float)
+    position_key_snapshot: Mapped[str | None] = mapped_column(String(120))
+    position_label_snapshot: Mapped[str | None] = mapped_column(String(160))
+    position_description_snapshot: Mapped[str | None] = mapped_column(Text)
+    position_sequence_snapshot: Mapped[int | None] = mapped_column(Integer)
+    x_snapshot: Mapped[float | None] = mapped_column(Float)
+    y_snapshot: Mapped[float | None] = mapped_column(Float)
+    rotation_snapshot: Mapped[float | None] = mapped_column(Float)
     draw_result: Mapped[DrawResult] = relationship(
         back_populates="placement", foreign_keys=[draw_result_id]
     )

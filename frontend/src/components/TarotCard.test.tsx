@@ -27,3 +27,11 @@ it('renders a reversed visual card with text, accessibility, and distinct proven
   expect(screen.getByText('Golden Dawn · Golden Dawn attribution')).toBeVisible()
   expect(screen.getAllByText('The Pictorial Key to the Tarot').length).toBeGreaterThan(0)
 })
+
+it('renders a snapshotted semantic position before card identity', () => {
+  const placed = { ...result, placement: { id: 'placement', spread_id: 'spread', spread_position_id: 'position', x: 0, y: 0.5, rotation: 0, label: 'Past', spread_key: 'past-present-future', spread_name: 'Past / Present / Future', spread_classification: 'modern-editorial-layout', position_key: 'past', position_label: 'Past', position_description: 'Prior influences.', sequence: 1 } } as ContextDrawResult
+  render(<TarotCard result={placed} sources={{ waite: source }} traditions={{ gd: tradition }} />)
+  const headings = screen.getAllByRole('heading')
+  expect(headings[0]).toHaveTextContent('Past')
+  expect(screen.getByText('Prior influences.')).toBeVisible()
+})

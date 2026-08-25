@@ -9,7 +9,7 @@ const text = (key: string, unit_type: string, language: string, exact_text: stri
 const primary: Hexagram = { key: 'hexagram-01', canonical_number: 1, binary_pattern: '111111', chinese_name: '乾', pinyin: 'Qián', legge_title: 'The Khien Hexagram', glyph: '䷀', texts: [text('gua-zh', 'gua-ci', 'zh-Hant', '元亨利貞。'), text('gua-en', 'gua-ci', 'en', 'Khien represents what is great.'), text('line-en', 'yao-ci', 'en', 'The dragon appears.', 3)] }
 const relating: Hexagram = { ...primary, key: 'hexagram-02', canonical_number: 2, binary_pattern: '000000', chinese_name: '坤', pinyin: 'Kūn', legge_title: 'The Khwăn Hexagram', glyph: '䷁', texts: [text('kun-en', 'gua-ci', 'en', 'Khwăn represents what is receptive.')] }
 const baseCast = {
-  id: 'cast', cast_type: 'iching', collection_id: null, deck_session_id: null, cast_order: 1, configuration: {}, created_at: '2026-08-23T18:00:00Z', draw_results: [],
+  id: 'cast', cast_type: 'iching', collection_id: null, deck_session_id: null, cast_order: 1, configuration: {}, created_at: '2026-08-23T18:00:00Z', draw_results: [], spread: null,
   iching: { method: 'three-coin', pattern_order: 'bottom_to_top', primary_pattern: '111111', changing_lines: [3], relating_pattern: '000000', throws: [1,2,3,4,5,6].map((line_number) => ({ line_number, coins: [3,3,3], line_value: line_number === 3 ? 9 : 7, procedure: null })), knowledge: { primary, relating, changing_lines: [3], selection_notice: 'No interpretive-school rule is applied.' } },
 } as ContextCast
 
