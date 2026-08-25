@@ -44,7 +44,7 @@ def test_existing_milestone_database_migrates_with_data(
             INSERT INTO spreads (id, slug, name, created_at, updated_at)
               VALUES ('spread', 'one', 'One', '2026-01-01', '2026-01-01');
             INSERT INTO spread_positions (id, spread_id, label, x, y, rotation, "order")
-              VALUES ('position', 'spread', 'Only', 0, 0, 0, 1);
+              VALUES ('position', 'spread', 'Only', 200, 100, 0, 1);
             INSERT INTO placements
               (id, cast_id, draw_result_id, spread_id, spread_position_id)
               VALUES ('placement', 'cast', 'result', 'spread', 'position');
@@ -73,4 +73,14 @@ def test_existing_milestone_database_migrates_with_data(
             "machine_assisted",
             "translation_source_ids",
         } <= rune_poem_columns
+        assert connection.execute(
+            "SELECT origin, classification, system_types FROM spreads WHERE id = 'spread'"
+        ).fetchone() == ("legacy", "legacy-unspecified", "[]")
+        assert connection.execute(
+            "SELECT spread_name_snapshot FROM reading_casts WHERE id = 'cast'"
+        ).fetchone() == ("One",)
+        assert connection.execute(
+            "SELECT position_key_snapshot, position_label_snapshot, x_snapshot, y_snapshot "
+            "FROM placements WHERE id = 'placement'"
+        ).fetchone() == ("legacy-position-1", "Only", 200.0, 100.0)
     get_settings.cache_clear()

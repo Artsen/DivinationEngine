@@ -25,6 +25,7 @@ def create_draw_cast(
     reversals_enabled: bool,
     deck_session_id: str | None,
     randomness: RandomSource,
+    spread: models.SpreadDefinition | None = None,
 ) -> models.ReadingCast:
     deck_session: models.DeckSession
     if deck_session_id is None:
@@ -52,6 +53,7 @@ def create_draw_cast(
         available_items, count, collection.supports_reversals, reversals_enabled, randomness
     )
     cast = models.ReadingCast(
+        id=models.uuid4_str(),
         reading_id=reading.id,
         cast_type="collection",
         collection_id=collection.id,
@@ -62,16 +64,37 @@ def create_draw_cast(
             "reversals_enabled": reversals_enabled,
             "deck_session_mode": "fresh" if deck_session_id is None else "continue",
         },
+        spread_id=spread.id if spread else None,
+        spread_key_snapshot=spread.slug if spread else None,
+        spread_name_snapshot=spread.name if spread else None,
+        spread_classification_snapshot=spread.classification if spread else None,
     )
+    positions = sorted(spread.positions, key=lambda position: position.order) if spread else []
     for order, result in enumerate(drawn, 1):
-        cast.results.append(
-            models.DrawResult(
-                item_id=result.item.id,
-                draw_order=order,
-                orientation=result.orientation.value,
-                deck_session_id=deck_session.id,
-            )
+        draw_result = models.DrawResult(
+            id=models.uuid4_str(),
+            cast_id=cast.id,
+            item_id=result.item.id,
+            draw_order=order,
+            orientation=result.orientation.value,
+            deck_session_id=deck_session.id,
         )
+        cast.results.append(draw_result)
+        if spread:
+            position = positions[order - 1]
+            draw_result.placement = models.Placement(
+                cast_id=cast.id,
+                draw_result_id=draw_result.id,
+                spread_id=spread.id,
+                spread_position_id=position.id,
+                position_key_snapshot=position.key,
+                position_label_snapshot=position.label,
+                position_description_snapshot=position.description,
+                position_sequence_snapshot=position.order,
+                x_snapshot=position.x,
+                y_snapshot=position.y,
+                rotation_snapshot=position.rotation,
+            )
     session.add(cast)
     session.commit()
     return cast
@@ -186,21 +209,46 @@ def cast_dict(cast: models.ReadingCast) -> dict:
             if cast.cast_type == "iching"
             else None
         ),
+        "spread": (
+            {
+                "id": cast.spread_id,
+                "key": cast.spread_key_snapshot,
+                "name": cast.spread_name_snapshot,
+                "classification": cast.spread_classification_snapshot,
+            }
+            if cast.spread_id
+            else None
+        ),
     }
 
 
 def placement_dict(placement: models.Placement) -> dict:
     position = placement.spread_position
+    cast = placement.draw_result.cast
     return {
         "id": placement.id,
         "spread_id": placement.spread_id,
         "spread_position_id": placement.spread_position_id,
-        "x": position.x if position and placement.x is None else placement.x,
-        "y": position.y if position and placement.y is None else placement.y,
-        "rotation": position.rotation
-        if position and placement.rotation is None
-        else placement.rotation,
-        "label": position.label if position else None,
+        "x": placement.x_snapshot
+        if placement.x_snapshot is not None
+        else (position.x if position and placement.x is None else placement.x),
+        "y": placement.y_snapshot
+        if placement.y_snapshot is not None
+        else (position.y if position and placement.y is None else placement.y),
+        "rotation": placement.rotation_snapshot
+        if placement.rotation_snapshot is not None
+        else (position.rotation if position and placement.rotation is None else placement.rotation),
+        "label": placement.position_label_snapshot or (position.label if position else None),
+        "spread_key": cast.spread_key_snapshot,
+        "spread_name": cast.spread_name_snapshot,
+        "spread_classification": cast.spread_classification_snapshot,
+        "position_key": placement.position_key_snapshot or (position.key if position else None),
+        "position_label": placement.position_label_snapshot
+        or (position.label if position else None),
+        "position_description": placement.position_description_snapshot
+        if placement.position_key_snapshot
+        else (position.description if position else None),
+        "sequence": placement.position_sequence_snapshot or (position.order if position else None),
     }
 
 

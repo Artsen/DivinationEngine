@@ -17,10 +17,23 @@ AI-generated readings or fabricate symbolic meaning.**
 
 A Reading owns any number of immutable collection or I Ching casts. A collection cast owns
 unique draw results and belongs to a persisted deck session; orientation is recorded on each
-result. Placement is separate and may
-reference a persisted spread position or custom coordinates. Knowledge records reference a
+result. Placement is separate and may reference a persisted spread position or custom
+coordinates. Spreads are generic reusable templates with explicit system applicability; each new
+position has a stable key, sequence, semantic label and description, and normalized `0..1`
+coordinates. When a spread is used, its identity and every position's semantics and geometry are
+snapshotted onto the cast and placements. Later template edits therefore cannot rewrite an old
+reading. An unstructured draw remains valid and has no invented placement. Knowledge records reference a
 Source and may reference a Tradition. Correspondence types are open strings rather than
 columns, so new systems do not require schema changes.
+
+Legacy templates and placements are retained exactly during migration, including any coordinates
+created before normalized bounds were introduced; the API enforces `0..1` for all new geometry.
+
+Bundled spreads are idempotently installed by the development bootstrap and classified as
+`modern-editorial-layout` with the project itself named as their source label. That label describes
+layout authorship, not historical or divinatory evidence. Custom spreads are classified as
+`custom-user-layout`. The same placement engine serves Tarot and runes; I Ching retains its own
+primary/changing/relating structure.
 
 SQLite is the default. PostgreSQL can replace it by setting `DIVINATION_DATABASE_URL`; the
 domain layer has no database dependency. UUID strings are public identifiers.
@@ -217,7 +230,11 @@ Exact source language must remain in `exact_text`, distinct from locators and cu
 ## Reading context and provenance
 
 `GET /api/v1/readings/{id}/context` returns facts grouped under each actual draw result. Each
-result contains `applicable_interpretations`, `other_interpretations`, and correspondences.
+result contains `applicable_interpretations`, `other_interpretations`, correspondences, and an
+optional structured `placement`. Placement exposes snapshotted spread key/name/classification,
+position key/label/description/sequence, and normalized geometry. The cast also exposes its
+snapshotted spread summary. These fields let clients recover semantic structure without inferring
+it from draw order or screen position.
 Sources and traditions are complete, deduplicated lookup maps at the response root, so every
 provenance identifier can be resolved without another request. The endpoint never generates an
 interpretation.

@@ -1403,6 +1403,16 @@
                 "type": "null"
               }
             ]
+          },
+          "spread": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/CastSpreadOut"
+              },
+              {
+                "type": "null"
+              }
+            ]
           }
         },
         "type": "object",
@@ -1415,9 +1425,38 @@
           "configuration",
           "created_at",
           "draw_results",
-          "iching"
+          "iching",
+          "spread"
         ],
         "title": "CastOut"
+      },
+      "CastSpreadOut": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "key": {
+            "type": "string",
+            "title": "Key"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "classification": {
+            "type": "string",
+            "title": "Classification"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "key",
+          "name",
+          "classification"
+        ],
+        "title": "CastSpreadOut"
       },
       "CollectionCreate": {
         "properties": {
@@ -1664,6 +1703,16 @@
                 "type": "null"
               }
             ]
+          },
+          "spread": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/CastSpreadOut"
+              },
+              {
+                "type": "null"
+              }
+            ]
           }
         },
         "type": "object",
@@ -1676,7 +1725,8 @@
           "configuration",
           "created_at",
           "draw_results",
-          "iching"
+          "iching",
+          "spread"
         ],
         "title": "ContextCast"
       },
@@ -2588,6 +2638,17 @@
               }
             ],
             "title": "Deck Session Id"
+          },
+          "spread_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Spread Id"
           }
         },
         "type": "object",
@@ -3408,7 +3469,9 @@
           "x": {
             "anyOf": [
               {
-                "type": "number"
+                "type": "number",
+                "maximum": 1.0,
+                "minimum": 0.0
               },
               {
                 "type": "null"
@@ -3419,7 +3482,9 @@
           "y": {
             "anyOf": [
               {
-                "type": "number"
+                "type": "number",
+                "maximum": 1.0,
+                "minimum": 0.0
               },
               {
                 "type": "null"
@@ -3518,6 +3583,83 @@
               }
             ],
             "title": "Label"
+          },
+          "spread_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Spread Key"
+          },
+          "spread_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Spread Name"
+          },
+          "spread_classification": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Spread Classification"
+          },
+          "position_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Position Key"
+          },
+          "position_label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Position Label"
+          },
+          "position_description": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Position Description"
+          },
+          "sequence": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sequence"
           }
         },
         "type": "object",
@@ -3528,12 +3670,31 @@
           "x",
           "y",
           "rotation",
-          "label"
+          "label",
+          "spread_key",
+          "spread_name",
+          "spread_classification",
+          "position_key",
+          "position_label",
+          "position_description",
+          "sequence"
         ],
         "title": "PlacementOut"
       },
       "PositionCreate": {
         "properties": {
+          "key": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Key"
+          },
           "label": {
             "type": "string",
             "minLength": 1,
@@ -3551,11 +3712,29 @@
             "title": "Description"
           },
           "x": {
-            "type": "number",
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 1.0,
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
             "title": "X"
           },
           "y": {
-            "type": "number",
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 1.0,
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
             "title": "Y"
           },
           "rotation": {
@@ -3574,17 +3753,22 @@
         "type": "object",
         "required": [
           "label",
-          "x",
-          "y",
           "order"
         ],
         "title": "PositionCreate"
       },
       "PositionOut": {
         "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "key": {
+            "type": "string",
+            "title": "Key"
+          },
           "label": {
             "type": "string",
-            "minLength": 1,
             "title": "Label"
           },
           "description": {
@@ -3608,28 +3792,23 @@
           },
           "rotation": {
             "type": "number",
-            "maximum": 360.0,
-            "minimum": -360.0,
-            "title": "Rotation",
-            "default": 0
+            "title": "Rotation"
           },
           "order": {
             "type": "integer",
-            "minimum": 1.0,
             "title": "Order"
-          },
-          "id": {
-            "type": "string",
-            "title": "Id"
           }
         },
         "type": "object",
         "required": [
+          "id",
+          "key",
           "label",
+          "description",
           "x",
           "y",
-          "order",
-          "id"
+          "rotation",
+          "order"
         ],
         "title": "PositionOut"
       },
@@ -4198,8 +4377,15 @@
       "SpreadCreate": {
         "properties": {
           "slug": {
-            "type": "string",
-            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
             "title": "Slug"
           },
           "name": {
@@ -4218,6 +4404,14 @@
             ],
             "title": "Description"
           },
+          "system_types": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "minItems": 1,
+            "title": "System Types"
+          },
           "positions": {
             "items": {
               "$ref": "#/components/schemas/PositionCreate"
@@ -4229,8 +4423,8 @@
         },
         "type": "object",
         "required": [
-          "slug",
           "name",
+          "system_types",
           "positions"
         ],
         "title": "SpreadCreate"
@@ -4260,6 +4454,37 @@
             ],
             "title": "Description"
           },
+          "origin": {
+            "type": "string",
+            "enum": [
+              "builtin",
+              "custom",
+              "legacy"
+            ],
+            "title": "Origin"
+          },
+          "classification": {
+            "type": "string",
+            "title": "Classification"
+          },
+          "system_types": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "System Types"
+          },
+          "source_label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source Label"
+          },
           "positions": {
             "items": {
               "$ref": "#/components/schemas/PositionOut"
@@ -4284,6 +4509,10 @@
           "slug",
           "name",
           "description",
+          "origin",
+          "classification",
+          "system_types",
+          "source_label",
           "positions",
           "created_at",
           "updated_at"

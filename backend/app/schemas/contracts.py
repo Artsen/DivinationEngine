@@ -1,3 +1,4 @@
+import re
 from datetime import datetime
 from typing import Any, Literal
 
@@ -144,42 +145,66 @@ class CorrespondenceOut(CorrespondenceCreate):
 
 
 class PositionCreate(BaseModel):
+    model_config = ConfigDict(str_strip_whitespace=True)
+
+    key: str | None = Field(default=None, pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
     label: str = Field(min_length=1)
     description: str | None = None
-    x: float
-    y: float
+    x: float | None = Field(default=None, ge=0, le=1)
+    y: float | None = Field(default=None, ge=0, le=1)
     rotation: float = Field(default=0, ge=-360, le=360)
     order: int = Field(ge=1)
 
 
-class PositionOut(PositionCreate):
+class PositionOut(BaseModel):
     id: str
+    key: str
+    label: str
+    description: str | None
+    x: float
+    y: float
+    rotation: float
+    order: int
 
 
 class SpreadCreate(BaseModel):
-    slug: str = Field(pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+    model_config = ConfigDict(str_strip_whitespace=True)
+
+    slug: str | None = Field(default=None, pattern=r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
     name: str = Field(min_length=1)
     description: str | None = None
+    system_types: list[str] = Field(min_length=1)
     positions: list[PositionCreate] = Field(min_length=1)
 
     @model_validator(mode="after")
-    def unique_orders(self) -> "SpreadCreate":
+    def validate_positions(self) -> "SpreadCreate":
         if len({p.order for p in self.positions}) != len(self.positions):
             raise ValueError("spread position order values must be unique")
+        keys = [p.key for p in self.positions if p.key is not None]
+        if len(set(keys)) != len(keys):
+            raise ValueError("spread position keys must be unique")
+        if any(not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", value) for value in self.system_types):
+            raise ValueError("system types must be slug-like values")
         return self
 
 
 class SpreadPatch(BaseModel):
+    model_config = ConfigDict(str_strip_whitespace=True)
+
     name: str | None = Field(default=None, min_length=1)
     description: str | None = None
     positions: list[PositionCreate] | None = None
 
     @model_validator(mode="after")
-    def unique_orders(self) -> "SpreadPatch":
+    def validate_positions(self) -> "SpreadPatch":
         if self.positions is not None and len({p.order for p in self.positions}) != len(
             self.positions
         ):
             raise ValueError("spread position order values must be unique")
+        if self.positions is not None:
+            keys = [p.key for p in self.positions if p.key is not None]
+            if len(set(keys)) != len(keys):
+                raise ValueError("spread position keys must be unique")
         return self
 
 
@@ -188,6 +213,10 @@ class SpreadOut(BaseModel):
     slug: str
     name: str
     description: str | None
+    origin: Literal["builtin", "custom", "legacy"]
+    classification: str
+    system_types: list[str]
+    source_label: str | None
     positions: list[PositionOut]
     created_at: datetime
     updated_at: datetime
@@ -216,14 +245,15 @@ class DrawRequest(BaseModel):
     count: int = Field(ge=1)
     reversals_enabled: bool = False
     deck_session_id: str | None = None
+    spread_id: str | None = None
 
 
 class PlacementCreate(BaseModel):
     draw_result_id: str
     spread_id: str | None = None
     spread_position_id: str | None = None
-    x: float | None = None
-    y: float | None = None
+    x: float | None = Field(default=None, ge=0, le=1)
+    y: float | None = Field(default=None, ge=0, le=1)
     rotation: float | None = Field(default=None, ge=-360, le=360)
 
     @model_validator(mode="after")

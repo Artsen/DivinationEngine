@@ -69,6 +69,7 @@ export function RuneCard({ result, sources, traditions }: Props) {
 
   return (
     <article className="rune-card">
+      {result.placement?.position_label && <header className="placement-heading"><p className="eyebrow">Position {result.placement.sequence}</p><h4>{result.placement.position_label}</h4>{result.placement.position_description && <p>{result.placement.position_description}</p>}</header>}
       <header className="rune-card__identity">
         <span className="rune-glyph" aria-hidden="true">{result.item.symbol}</span>
         <div>

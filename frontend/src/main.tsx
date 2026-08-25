@@ -6,6 +6,7 @@ import { App } from './App'
 import { NewReadingPage } from './pages/NewReadingPage'
 import { ReadingPage } from './pages/ReadingPage'
 import { ReadingsPage } from './pages/ReadingsPage'
+import { SpreadsPage } from './pages/SpreadsPage'
 import './styles.css'
 
 const queryClient = new QueryClient({
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: 'readings', element: <ReadingsPage /> },
       { path: 'readings/new', element: <NewReadingPage /> },
       { path: 'readings/:id', element: <ReadingPage /> },
+      { path: 'spreads', element: <SpreadsPage /> },
       { path: '*', element: <main className="page"><h1>Page not found</h1><Link to="/readings">Return to readings</Link></main> },
     ],
   },

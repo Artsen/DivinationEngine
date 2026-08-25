@@ -53,6 +53,7 @@ from app.services.readings import (
     placement_dict,
     reading_dict,
 )
+from app.services.spreads import resolved_position_values
 
 router = APIRouter(prefix="/api/v1")
 DB = Annotated[Session, Depends(get_session)]
@@ -110,9 +111,14 @@ def spread_out(row: models.SpreadDefinition) -> dict:
         "slug": row.slug,
         "name": row.name,
         "description": row.description,
+        "origin": row.origin,
+        "classification": row.classification,
+        "system_types": row.system_types,
+        "source_label": row.source_label,
         "positions": [
             {
                 "id": p.id,
+                "key": p.key,
                 "label": p.label,
                 "description": p.description,
                 "x": p.x,
@@ -120,7 +126,7 @@ def spread_out(row: models.SpreadDefinition) -> dict:
                 "rotation": p.rotation,
                 "order": p.order,
             }
-            for p in row.positions
+            for p in sorted(row.positions, key=lambda position: position.order)
         ],
         "created_at": row.created_at,
         "updated_at": row.updated_at,
@@ -347,15 +353,30 @@ def _validate_knowledge_refs(
 @router.get("/spreads", response_model=list[SpreadOut])
 def list_spreads(db: DB) -> list[dict]:
     rows = db.scalars(
-        select(models.SpreadDefinition).options(selectinload(models.SpreadDefinition.positions))
+        select(models.SpreadDefinition)
+        .options(selectinload(models.SpreadDefinition.positions))
+        .order_by(models.SpreadDefinition.origin, models.SpreadDefinition.name)
     ).all()
     return [spread_out(row) for row in rows]
 
 
 @router.post("/spreads", response_model=SpreadOut, status_code=201)
 def create_spread(body: SpreadCreate, db: DB) -> dict:
-    row = models.SpreadDefinition(slug=body.slug, name=body.name, description=body.description)
-    row.positions = [models.SpreadPosition(**p.model_dump()) for p in body.positions]
+    spread_id = models.uuid4_str()
+    row = models.SpreadDefinition(
+        id=spread_id,
+        slug=body.slug or f"custom-{spread_id}",
+        name=body.name.strip(),
+        description=body.description,
+        origin="custom",
+        classification="custom-user-layout",
+        system_types=list(dict.fromkeys(body.system_types)),
+        source_label=None,
+    )
+    row.positions = [
+        models.SpreadPosition(**values)
+        for values in resolved_position_values(body.positions, spread_id=spread_id)
+    ]
     db.add(row)
     commit(db, "spread slug or position order already exists")
     return spread_out(row)
@@ -375,14 +396,41 @@ def get_spread(spread_id: str, db: DB) -> dict:
 
 @router.patch("/spreads/{spread_id}", response_model=SpreadOut)
 def patch_spread(spread_id: str, body: SpreadPatch, db: DB) -> dict:
-    row = db.get(models.SpreadDefinition, spread_id)
+    row = db.scalar(
+        select(models.SpreadDefinition)
+        .where(models.SpreadDefinition.id == spread_id)
+        .options(selectinload(models.SpreadDefinition.positions))
+    )
     if row is None:
         raise not_found("spread")
+    if row.origin != "custom":
+        raise HTTPException(status_code=422, detail="built-in spreads cannot be edited")
     changes = body.model_dump(exclude_unset=True, exclude={"positions"})
     for key, value in changes.items():
         setattr(row, key, value)
     if body.positions is not None:
-        row.positions = [models.SpreadPosition(**p.model_dump()) for p in body.positions]
+        if len(body.positions) != len(row.positions):
+            raise HTTPException(
+                status_code=422,
+                detail="editing a saved spread cannot change its position count",
+            )
+        resolved = resolved_position_values(body.positions, spread_id=row.id)
+        existing = sorted(row.positions, key=lambda position: position.order)
+        existing_by_key = {position.key: position for position in existing}
+        assigned: set[str] = set()
+        for index, position in enumerate(existing, 1):
+            position.order = 10_000 + index
+            position.key = f"temporary-{position.id}"
+        db.flush()
+        for values in resolved:
+            matched_position = existing_by_key.get(values["key"])
+            if matched_position is None or matched_position.id in assigned:
+                matched_position = next(
+                    candidate for candidate in existing if candidate.id not in assigned
+                )
+            assigned.add(matched_position.id)
+            for key in ("key", "label", "description", "x", "y", "rotation", "order"):
+                setattr(matched_position, key, values[key])
     commit(db, "invalid or duplicate spread position")
     return spread_out(row)
 
@@ -442,6 +490,19 @@ def draw_cast(
     )
     if collection is None:
         raise not_found("collection")
+    spread = None
+    if body.spread_id:
+        spread = db.scalar(
+            select(models.SpreadDefinition)
+            .where(models.SpreadDefinition.id == body.spread_id)
+            .options(selectinload(models.SpreadDefinition.positions))
+        )
+        if spread is None:
+            raise not_found("spread")
+        if spread.system_types and collection.system_type not in spread.system_types:
+            raise HTTPException(status_code=422, detail="spread is not available for this system")
+        if body.count != len(spread.positions):
+            raise HTTPException(status_code=422, detail="draw count must match spread positions")
     try:
         cast = create_draw_cast(
             db,
@@ -451,6 +512,7 @@ def draw_cast(
             body.reversals_enabled,
             body.deck_session_id,
             randomness,
+            spread,
         )
     except IntegrityError as exc:
         db.rollback()
@@ -494,7 +556,29 @@ def create_placement(reading_id: str, cast_id: str, body: PlacementCreate, db: D
         position = db.get(models.SpreadPosition, body.spread_position_id)
         if spread is None or position is None or position.spread_id != spread.id:
             raise HTTPException(status_code=422, detail="position does not belong to the spread")
-    row = models.Placement(cast_id=cast_id, **body.model_dump())
+        collection = db.get(models.Collection, cast.collection_id)
+        if collection is None or (
+            spread.system_types and collection.system_type not in spread.system_types
+        ):
+            raise HTTPException(status_code=422, detail="spread is not available for this system")
+        if cast.spread_id and cast.spread_id != spread.id:
+            raise HTTPException(status_code=422, detail="cast already uses a different spread")
+        if cast.spread_id is None:
+            cast.spread_id = spread.id
+            cast.spread_key_snapshot = spread.slug
+            cast.spread_name_snapshot = spread.name
+            cast.spread_classification_snapshot = spread.classification
+    row = models.Placement(
+        cast_id=cast_id,
+        **body.model_dump(),
+        position_key_snapshot=position.key if position else None,
+        position_label_snapshot=position.label if position else None,
+        position_description_snapshot=position.description if position else None,
+        position_sequence_snapshot=position.order if position else None,
+        x_snapshot=position.x if position else body.x,
+        y_snapshot=position.y if position else body.y,
+        rotation_snapshot=position.rotation if position else body.rotation,
+    )
     db.add(row)
     commit(db, "draw result or spread position is already placed")
     row.spread_position = position

@@ -225,6 +225,33 @@ summary { cursor: pointer; color: #ddd5ca; font-weight: 500; }
 .selection-summary strong { color: var(--text); }
 .advanced-options { padding: .9rem; border: 1px solid var(--line); border-radius: .4rem; }
 .advanced-options label { display: block; margin: 1rem 0 .4rem; }
+.layout-selector { display: grid; gap: .65rem; }
+.layout-selector select { width: 100%; }
+.layout-summary { padding: 1rem; border-left: 2px solid var(--gold-deep); background: #131210; }
+.layout-summary p { margin: .35rem 0; color: var(--muted); }
+.layout-summary ol, .spread-card ol { display: grid; gap: .5rem; padding-left: 1.4rem; }
+.layout-summary li span, .spread-card li span { display: block; color: var(--muted); font-size: .76rem; }
+.layout-summary small, .spread-card > small, .layout-disclaimer { color: #d4b77f; font-size: .72rem; }
+.placement-heading { min-height: 88px; padding: .85rem 1rem; margin: -1rem -1rem 1rem; border-bottom: 1px solid var(--gold-deep); background: #211b12; }
+.placement-heading h4 { margin: .15rem 0; color: var(--gold); font-size: 1.25rem; }
+.placement-heading p:last-child { margin: .25rem 0 0; color: var(--muted); font-size: .78rem; }
+.spread-result-layout { grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.spreads-page .page-heading { max-width: 760px; }
+.spread-workspace { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(320px, .8fr); gap: clamp(1.5rem, 4vw, 3rem); align-items: start; }
+.spread-library { display: grid; gap: 1.2rem; }
+.spread-card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 1rem; }
+.spread-card { padding: 1.15rem; border: 1px solid var(--line); border-radius: .55rem; background: var(--surface); }
+.spread-card header { display: flex; justify-content: space-between; gap: 1rem; align-items: start; }
+.spread-card h3 { margin: .2rem 0; }
+.system-tags { display: flex; gap: .35rem; }
+.system-tags span { padding: .2rem .45rem; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: .68rem; text-transform: capitalize; }
+.spread-editor { position: sticky; top: 6rem; padding: clamp(1rem, 3vw, 1.6rem); border: 1px solid var(--gold-deep); border-radius: .6rem; background: var(--surface); }
+.spread-editor form, .position-editor { display: grid; gap: .8rem; }
+.position-editor__row { display: grid; grid-template-columns: 2rem minmax(0, 1fr) auto; gap: .7rem; padding: .8rem 0; border-top: 1px solid var(--line); }
+.position-editor__row > div:nth-child(2) { display: grid; gap: .35rem; }
+.position-number { display: grid; place-items: center; width: 2rem; height: 2rem; border: 1px solid var(--gold-deep); border-radius: 50%; color: var(--gold); }
+.position-actions { display: flex; flex-direction: column; align-items: stretch; }
+.form-actions { display: flex; flex-wrap: wrap; gap: .65rem; }
 .offline-page { min-height: 100vh; max-width: 680px; display: grid; align-content: center; justify-items: start; margin: auto; padding: 2rem; }
 .offline-page h1 { font-size: clamp(2.5rem, 8vw, 5rem); }
 .health-line { padding: 1rem; text-align: center; color: var(--muted); }
@@ -236,6 +263,8 @@ summary { cursor: pointer; color: #ddd5ca; font-weight: 500; }
   .reading-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .hexagram-pair.has-relating { grid-template-columns: 1fr; }
   .relating-arrow { transform: rotate(90deg); justify-self: center; }
+  .spread-workspace { grid-template-columns: 1fr; }
+  .spread-editor { position: static; }
 }
 
 @media (max-width: 680px) {
@@ -245,6 +274,8 @@ summary { cursor: pointer; color: #ddd5ca; font-weight: 500; }
   .hero, .reading-header { grid-template-columns: 1fr; display: grid; align-items: start; }
   .reading-grid, .workspace-sidebar { grid-template-columns: 1fr; }
   .tarot-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 1rem; }
+  .spread-result-layout.tarot-grid { display: grid; overflow: visible; padding-bottom: 0; }
+  .spread-result-layout .tarot-card { width: auto; }
   .tarot-card { flex: 0 0 min(84vw, 310px); scroll-snap-align: start; }
   .fact-notice { white-space: normal; }
   .cast-heading { display: grid; }
