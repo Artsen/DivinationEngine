@@ -1,9 +1,9 @@
 import { screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { expect, it } from 'vitest'
+import { afterEach, expect, it, vi } from 'vitest'
 import type { Collection } from '../api/types'
-import { renderApp } from '../test/render'
-import { CastControls } from './CastControls'
+import { jsonResponse, renderApp } from '../test/render'
+import { AddCastFlow } from './AddCastFlow'
 
 const base = { description: null, metadata: {}, created_at: '2026-01-01T00:00:00Z', updated_at: '2026-01-01T00:00:00Z' }
 const collections = [
@@ -11,19 +11,51 @@ const collections = [
   { ...base, id: 'runes', slug: 'elder-futhark', name: 'Elder Futhark', system_type: 'runes', supports_reversals: false, item_count: 24 },
 ] as Collection[]
 
+afterEach(() => vi.unstubAllGlobals())
+
 it('offers runes only when ready and exposes no blank or reversal controls', async () => {
-  renderApp(<CastControls readingId="reading" collections={collections} casts={[]} ichingReady runesReady />)
+  renderApp(<AddCastFlow readingId="reading" collections={collections} casts={[]} ichingReady runesReady />)
+  await userEvent.click(screen.getByRole('button', { name: /Add a cast/ }))
   await userEvent.click(screen.getByRole('button', { name: 'Runes' }))
   expect(screen.getByRole('button', { name: 'Draw runes' })).toBeVisible()
-  expect(screen.getByRole('option', { name: 'Fresh rune bag' })).toBeVisible()
-  expect(screen.getByText(/finite 24-rune set without replacement/)).toBeVisible()
+  expect(screen.getByText(/finite set without replacement/)).toBeVisible()
+  expect(screen.queryByText('Advanced options')).not.toBeInTheDocument()
   expect(screen.queryByLabelText(/reversed/i)).not.toBeInTheDocument()
   expect(screen.queryByLabelText(/blank/i)).not.toBeInTheDocument()
 })
 
 it('reports an independently missing rune corpus', async () => {
-  renderApp(<CastControls readingId="reading" collections={collections.slice(0, 1)} casts={[]} ichingReady runesReady={false} />)
-  await userEvent.click(screen.getByRole('button', { name: 'Runes' }))
-  expect(screen.getByText('Elder Futhark corpus is not installed.')).toBeVisible()
-  expect(screen.getByRole('button', { name: 'Draw runes' })).toBeDisabled()
+  renderApp(<AddCastFlow readingId="reading" collections={collections.slice(0, 1)} casts={[]} ichingReady runesReady={false} />)
+  await userEvent.click(screen.getByRole('button', { name: /Add a cast/ }))
+  expect(screen.getByRole('button', { name: 'Runes' })).toBeDisabled()
+  expect(screen.getAllByText('Not installed')).toHaveLength(1)
+  expect(screen.getByText(/Unavailable systems can be installed/)).toBeVisible()
+})
+
+it('reveals system-specific choices only after explicit selection and keeps sessions advanced', async () => {
+  const cast = { id: 'cast', cast_type: 'collection', collection_id: 'rws', deck_session_id: 'opaque-id', cast_order: 2, configuration: {}, created_at: '2026-01-01T00:00:00Z', draw_results: [], iching: null } as never
+  renderApp(<AddCastFlow readingId="reading" collections={collections} casts={[cast]} ichingReady runesReady />)
+  const user = userEvent.setup()
+  await user.click(screen.getByRole('button', { name: /Add a cast/ }))
+  expect(screen.queryByLabelText('How many cards?')).not.toBeInTheDocument()
+  await user.click(screen.getByRole('button', { name: 'Tarot' }))
+  expect(screen.getByText('Advanced options')).toBeVisible()
+  expect(screen.getByLabelText(/Continue a previous deck/)).not.toBeVisible()
+  await user.click(screen.getByText('Advanced options'))
+  expect(screen.getByLabelText(/Continue a previous deck/)).toBeVisible()
+  expect(screen.queryByText('opaque-id')).not.toBeInTheDocument()
+})
+
+it('supports keyboard entry and resets the flow after an explicit successful submit', async () => {
+  const fetchMock = vi.fn<typeof fetch>().mockImplementation(() => jsonResponse({ id: 'cast' }))
+  vi.stubGlobal('fetch', fetchMock)
+  renderApp(<AddCastFlow readingId="reading" collections={collections} casts={[]} ichingReady runesReady />)
+  const user = userEvent.setup()
+  await user.tab()
+  expect(screen.getByRole('button', { name: /Add a cast/ })).toHaveFocus()
+  await user.keyboard('{Enter}')
+  await user.click(screen.getByRole('button', { name: 'Tarot' }))
+  await user.click(screen.getByRole('button', { name: 'Draw cards' }))
+  expect(fetchMock).toHaveBeenCalledTimes(1)
+  expect(await screen.findByRole('button', { name: /Add a cast/ })).toHaveFocus()
 })

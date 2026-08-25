@@ -1,4 +1,5 @@
 import { render, screen, within } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import { expect, it } from 'vitest'
 import type { ContextCast, Hexagram } from '../api/types'
 import { HexagramDiagram } from './HexagramDiagram'
@@ -20,13 +21,16 @@ it('displays bottom-to-top API lines in conventional top-to-bottom visual order'
   expect(within(lines[0] as HTMLElement).getByText('Changing · 9')).toBeVisible()
 })
 
-it('renders primary, relating, changing lines, original Chinese, and source details', () => {
+it('renders primary, relating, changing lines, original Chinese, and source details', async () => {
   render(<IChingCast cast={baseCast} sources={{ legge: { id: 'legge', key: 'legge', title: 'The Yî King', author: 'James Legge', edition: null, publisher: null, publication_year: 1882, language: 'en', citation: null, source_url: null, rights_status: 'public_domain', notes: null } }} traditions={{ received: { id: 'received', slug: 'received-yijing', name: 'Received Yijing', description: null } }} />)
   expect(screen.getByText('Primary hexagram')).toBeVisible()
   expect(screen.getByText('Relating hexagram')).toBeVisible()
+  expect(screen.getByText('元亨利貞。')).not.toBeVisible()
+  await userEvent.click(screen.getAllByText('Traditional Chinese text')[0])
   expect(screen.getByText('元亨利貞。')).toBeVisible()
   expect(screen.getAllByText('Changing · 9').length).toBeGreaterThan(0)
   expect(screen.getAllByText('The Yî King').length).toBeGreaterThan(0)
+  expect(screen.getByText('How this cast was generated')).toBeVisible()
 })
 
 it('does not fabricate a relating panel when no lines change', () => {
